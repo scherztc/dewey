@@ -1,8 +1,117 @@
 DEWEY is a Machine Learning tool used to classify Subject terms from a FUll-TEXT document.
 
-DEWEY is a Classifier using Supervised Machine Learning and Natural Language Processing to complete the tasks of a human cataloger.
+1. Import a File (PDF/DOC/JPG)
+1. Text(filename_input) is extracted from each digitized document after scanning by means of Optical Character Recognition (OCR),
+1. Test(filename_input) will be Pre-Processed. Preprocessing allows us to clean unstructured text
+11.   Remove OCR noise 
+        words that appear frequently, such as definite or indefinite articles.
+11.   tokenization, 
+ 
+       sequence of characters and breaking them
+       up into tokens—typically words or phrases—by using common boundaries,
+       like punctuation, which is then usually discarded during this step,
+
+111.  Create stopwords.txt
+       Filtering may be done next to
+       remove stop-words, or words that often appear in a text, but may have little
+       semantic value. This includes prepositions, articles, and conjunctions,
+       like “a,” “an,” “the,” “but,” and so on. A stop-word list might also contain
+       other words that appear frequently or words that appear infrequently,
+       depending on the task
+11.   filtering, Token.filter
+11.   lemmatization, and Token.lemma
+
+      involves further morphological analysis, grouping like words together, such
+      as mapping verb forms to their infinite tense.
+      11.   stemming: Porter Stemmer for English
+      The next step is Class Token method stem  Token.stem
+      often to stem the remaining tokens, which reduces inflected words to their
+      base or root form. For example, “cataloging” and “cataloged” might be
+      reduced to the morphological root “catalog.”
+ 
+1. run ruby classify_dewey filename_input filename_output stopwords.txt
+1. run ruby train_dewey filename_input
+1. Add new fields to model
+1. run ruby scholar_dewey
+
+DEWEY is a LCSH Classifier using Supervised Machine Learning and Natural Language Processing to complete the tasks of a human cataloger by automating Metadata
+
+includes an overview of 
+
+preprocessing, feature extraction, modeling, and evaluation.
+
+Title, Author, Advisor, Date (MS Power Automate)
+
+
+
+Genre (Type) (Python Sci-kit, TF-IDF)
+
+classification, 
+   Does it have a table of contents or introductions?
+   Proper Nouns 
+   genre and tries to identify geographic settings, characters, and topics.
+   Subject Guidelines
+   Subject Access
+   Are there external sources?
+       Dust jackets, 
+       prefaces, 
+       publisher
+       statements, 
+       author interviews, and 
+       reviews
+keyword extraction, 
+       from the description field
+named-entity recognition : such as people, places, and things, and then classifying those entities into categories, such as “person” or “corporate body.” 
+
+encoding : convert the text to structured data\
+
+feature selection : TF-IDF, or term frequency-inverse document frequency
+    term frequency is calculated based on how often the word
+    appears in the text, expressed as a ratio of word occurrence over total number
+    of words, while inverse document frequency is represented as the ratio of documents that contain the word.
+
+    scikit-learn in Python
+design a model : Text Mining Method 
+    Supervised : 
+       classification; 
+       information extraction, 
+           including keyword extraction and named-entity recognition; and 
+    UnSupervised : 
+        Clustering
+	Topic Modeling
+Output : Type/Genre predictive accuracy of >70% is respectable, 
+         Keyword Extractions
+
+Subject Terms (Keyword)
+
+    Rapid Automatic Keyword Extraction (RAKE)
+    Python using RAKE and the Natural Language Toolkit (NLTK)
+    module, with a character minimum of 5, a phrase maximum of 3 words,
+    and a minimum word frequency of 4 words. Matthew Jocker’s stop-word 
+    list was not used in this case, because names are one of the aspects of the
+    text that we are most interested in when doing keyword extraction (more
+    on this below); the SMART stop list was used instead, which contains 571
+    words.
+    DBPedia Spotlight22 / Aho-Corasick algorithm
+clustering
+    Weka to test Simple k-Means, one of the
+    most popular clustering algorithms. k-Means partitions a set of documents
+    into k clusters where each document belongs to the cluster with the nearest
+    mean. To start, the algorithm will randomly choose “centroids” for
+    each cluster, then iteratively recalculate the position of those centroids
+    until either there is no change in position or some set number of iterations
+    has been reached. Identifying meaningful relationships is a matter of
+    trial and error, adjusting the value of k and then reviewing the composition
+    of each cluster.
+
+    MAchine Learning for LanguagE Toolkit, or MALLET, is a Java application
+    for classification, information extraction, and topic modeling, and like
+    Weka, is free and easy to use.24 MALLET uses an implementation of Latent
+    Dirichlet Allocation (LDA)25
+
 
 Other types of Machine Learning Cases :
+
 
 How much / How many? - Regression - Supervised Learning
 Which class does this belong to? Classification - Supervised Learning
@@ -13,31 +122,106 @@ Which option should I choose? Recommendation - UnSupervised Learning
 DEWEY may use other AI Machines in Production :
 
 Chat GPT (OpenAI)
+   Explore : https://github.com/openai/openai-cookbook
+   Uses the openai-client: https://github.com/itikhonenko/openai-client
+      API KEY
+      ORGANIZATION_ID
+   Spell Checker
+   Image Creator
+
 Watson (IBM
-Bard (Google)
+   Chess
+Bert (Google)
+  Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
 Aladin (BlackRock)
 Mindjourney
 Kaaros
 Tensor Flow (Google)
+ANNIF
+   Install :
+   Tutorial :
+
+   Steps in ANNIF Subject tagging process
+      Install
+      TFIDF
+      Web UI
+         Evaluate
+             MLLM
+             OmiKuji
+         REST API
+      
 
 
-Types of Processing models
+Microsoft PowerAutomation
+   powerautomate.com
+   Models    
+     Potential Fields
+     PowerBuilder to build and train your model. 
+	Structured or Unstructured
+     Test
+    Flows 
+     Triggers
+     AI Credits
+     Feedback Flows
+    Use Cases
+         ETD/Student Works : Extract fields from PDF (Title, Author, Advisor, Date, Geo_Subject, Subject) 
 
-Decision Tree mathematically produced else
-Neural Network
-Natural Language Processing
+Types of Machine Learning  models (use of a computer to follow a pattern)
+
+Programming : Algorithm + Input => Answers
+Supervised Learning :  Answer + Input = > Algorithm
+Feedback Loop : Re-perturbed feeds classification and classification feed perturbed
+Decision Tree : mathematically produced else
+Neural Network : binary tree diagrams
+Natural Language Processing (NLP_ :  the identification of patterns in spoken or written text.
     Read Understand Derive meaning from Human Languages
     Lanaguage Structures
     INteract Transfer Data
-data - > model
+    Feed Document -> encode -> segmentation into sentences by punctuations.  words in the sentences into constiutainet words into tokens.  tokenize.   remove no$
+    ALgorithm
 
-Process
+    Explain (skip, skipping skipped _ same stemming.
+    limitization lemmatizaition
+    verbs particle - speech tagging
+    Pop culture references movies places news locations- named entitity tagging
+
+    base words tags
+
+    Soccer was invented in Germany.   - >  naive bayes - > Sentiment and Speech
+
+    Segmentation into sentences and store them.
+    Tokenizing into words and store them.
+    Remove Stop Words (Non Essential Words.)  like are, and, the from sentence segments.
+    Stemming treats skip, skipping, skipped as the same words.
+    Lemmetization Am Are Is for all genders ich bin, du bist, er/sie/es ist base word (lemma)= be
+    Named Entity Tagging of Proper Nouns
+    Sentiment and Speech with naive bayes
+
+Reinforcment Learning : data - > model
+Cumulative Selection : Building off the last step.  Not starting over everyt ime
+Semi-Supervisied Machine Learning : Supervised means there is some human involvement in setting up the tool,
+Inductive Reasoning
+    The corpus-based approach using a training set, as described above, uses the process of inductive reasoning. This is the kind of thinking that states ‘the sun rose yesterday, the sun rose today, so the chances are the sun will rise tomorrow’. Now, philosophers will argue that inductive reasoning is not scientific. Just because the sun rose yesterday does not mean the sun will rise tomorrow. 
+
+
+AI Tools
+   A Corpus : All text documents in Scholar
+   A Training Set :  is a subset of the corpus, which has been tagged in some way to identify the characteristic you are looking for
+   A Test Set : collection of documents to be used for trialling the algorithm, to see how successfully it carries out the operation.
+       Example : Modified National Institute of Standards and Technology (MNIST) database of handwritten numbers,10
+   An Algorithm : The ‘algorithm’ is simply the tool that looks at each item in the corpus and enables a decision to be made. An algorithm may be as simple (and frequently is as simple) as matching a pattern. selecting and applying an algorithm or method
+
+Process Cycle
    Identify
-   Explore / Analyze / Encode
+   Explore / Analyze / Encode (Change Everything into a number)
    Model
    Predict
+     Clarity (Makes Sense)
+     Original (Novelty)
+     Useful
 
-Encode = Change everything into a number
+
+
 
 
 Tennis dataset
@@ -117,7 +301,6 @@ Sentiment and Speech with naive bayes
 
 
 
-Microsoft AI Builder to Extract Data from PDF
 powerapps.microsoft.com
 AI Builder
 Power Apps
