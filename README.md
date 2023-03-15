@@ -1,5 +1,13 @@
 DEWEY is a Machine Learning tool used to classify Subject terms from a FUll-TEXT document.
+GOing to NEED
+   SUBJECT_FILE (TSV SKOS/RDF)
+   TRAINING_DATA
+   VOCAB_ID
+   PROJECT_ID
 
+1. Create dewey.toml or dewey.cfg for ANNIF
+1.  Start ANNIF Service   :  annif run 
+1.  Load  ANNIF Vocabulary : annif load-vocab VOCAB_ID /Users/scherztc/Workspaces/Annif-tutorial/data-sets/stw-zbw)
 1. Import a File (PDF/DOC/JPG)
 1. Text(filename_input) is extracted from each digitized document after scanning by means of Optical Character Recognition (OCR),
 1. Test(filename_input) will be Pre-Processed. Preprocessing allows us to clean unstructured text
@@ -121,39 +129,114 @@ Which option should I choose? Recommendation - UnSupervised Learning
 
 DEWEY may use other AI Machines in Production :
 
-Chat GPT (OpenAI)
+Chat GPT (OpenAI) : https://openai.com/blog/chatgpt
+   Github : https://github.com/openai
    Explore : https://github.com/openai/openai-cookbook
    Uses the openai-client: https://github.com/itikhonenko/openai-client
       API KEY
       ORGANIZATION_ID
    Spell Checker
+ 
+   request_body = {
+     model: 'text-davinci-edit-001',
+     input: 'What day of the wek is it?',
+     instruction: 'Fix the spelling mistakes'
+   }
+   Openai::Client.edits.create(request_body)
+
    Image Creator
 
-Watson (IBM
+   request_body = {
+     prompt: 'A cute baby sea otter',
+     n: 1,                  # between 1 and 10
+     size: '1024x1024',     # 256x256, 512x512, or 1024x1024
+     response_format: 'url' # url or b64_json
+   }
+      
+   response = Openai::Client.images.create(request_body)
+
+   Connect in Ruby
+
+   require 'openai-client'
+
+   Openai::Client.configure do |c|
+     c.access_token    = 'access_token'
+     c.organization_id = 'organization_id' # optional
+   end
+
+   Find Engine
+
+   Openai::Client.models.find(‘babbage’)
+   Openai::Client.models.find(‘davinci’)
+
+   Build Request Body
+
+   request_body = {
+     prompt: 'high swim banquet',
+     n: 1,                  # between 1 and 10
+     size: '1024x1024',     # 256x256, 512x512, or 1024x1024
+     response_format: 'url' # url or b64_json
+   }
+
+
+  
+Dall-E (OpenAI) : https://openai.com/product/dall-e-2
+Stable Diffusion (Stability) : https://stablediffusionweb.com/
+Watson (IBM) : https://www.ibm.com/products/watson-explorer 
    Chess
+   Content Hub. IBM Watson can propose relevant tags based on content.
 Bert (Google)
   Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
 Aladin (BlackRock)
-Mindjourney
+Mindjourney (MindJourney) : https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
 Kaaros
 Tensor Flow (Google)
-ANNIF
+ANNIF : https://annif.org/
+   Command Line Interface, Web Interface, REST API Service Interface
    Install :
    Tutorial :
-
+   Use Case : https://liberquarterly.eu/article/view/10732
    Steps in ANNIF Subject tagging process
       Install
       TFIDF
       Web UI
          Evaluate
              MLLM
+                 Hogwarts/FastText
+                 Languages / FIltering
+	         Ensemble
+			NNEnsemble
+			Custom
+			DVC
              OmiKuji
          REST API
-      
 
+   Project project.toml or project.cfg  ANNIF_PROJECT --projects
+    Choose a Subject Vocabulary
+            yso-nlf     stw-zbw * (URI)
+ 	Prepare a Corpus from Training Data
+             Load the Vocabulary and Train a Model
+                    Suggest subjects for new documents
+    PROJECT (VOCABULARY AND LANGUAGE).
+	•	YSO NN ensemble English
+	•	YSO MLM English
+	•	YSO Omikuji Bonsai English
+	•	YSO fasttext English
+    
+IRIS : https://iris.ai/      
+PubMED : https://pubmed.ncbi.nlm.nih.gov/30153250/
+Other :https://www.aiforlibrarians.com/ai-cases/
+Science Direct : Weed Collections : https://www.sciencedirect.com/science/article/pii/S0099133317304160?via%3Dihub
+Apache Mahout : https://mahout.apache.org//
+Spark MLlib Apache : https://spark.apache.org/mllib/
+Stanford : https://library.stanford.edu/blogs/stanford-libraries-blog/2022/07/working-students-library-collections-data
+M-Files. Smart subjects provide tag suggestions based on document content
+Magellan's AI capabilities include speech and text analytics from contextual hypothesis and meaning deduction.
+AWS Innovate: Data and AI/ML Edition
 
 Microsoft PowerAutomation
-   powerautomate.com
+   How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learning-and-managed-metadata
+   Application : powerautomate.com
    Models    
      Potential Fields
      PowerBuilder to build and train your model. 
@@ -330,6 +413,8 @@ What information do I want to extract
 
   Orders in PDF
      Crosswalk data from from PDF into another system.
+
+Copyright of AI
 
 
 https://www.youtube.com/watch?v=J3d6bx3i4l0
