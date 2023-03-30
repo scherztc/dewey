@@ -9,19 +9,21 @@ The real skill in Machine Learning is determining which questions can be answere
 1. Which option should I choose? Recommendation - UnSupervised Learning
 
 
-# DEWEY is a Machine Learning tool used to classify Subject terms from a FUll-TEXT document using ANNIF.
+# DEWEY can leverage ANNIF to classify subject terms from a FUll-TEXT document using ANNIF.
 
 ## URLS
    https://liberquarterly.eu/article/view/10732
 
 ## Interfaces
-   CLI, GUI, API
+-   CLI 
+-   GUI
+-   API
 
 ## Prerequisites
-   SUBJECT_FILE (TSV SKOS/RDF)
-   TRAINING_DATA
-   VOCAB_ID
-   PROJECT_ID
+-   SUBJECT_FILE (TSV SKOS/RDF)
+-   TRAINING_DATA
+-   VOCAB_ID
+-   PROJECT_ID
 
 ## ANNIF Instructions
 
@@ -59,26 +61,26 @@ Other Models to consider MLLM, Hogwarts/Fast, Languages, NNEnsemble, Custom, DVC
 annif run
 
 1. Preprocessing allows us to clean unstructured text
-11.  Remove OCR noise (works that appear frequently, such as definite and indefinite articles.
-11.  Tokenization (sequencing characters and breaking them up into words, phrases, sentences)
-11.  Create stopwords.txt (This includes prepositions, articles, and conjunctions, like “a,” “an,” “the,” “but,” and so on.) 
-11.  Filtering (Token.filter)
-11.  Lemmatization (Token.lemma : morphological analysis and grouping like words together i.e. verb tenses)     
-11.  Stemming (Token.stem : Reduces inflected words to their base or root form)
+  1.  Remove OCR noise (works that appear frequently, such as definite and indefinite articles.
+  2.  Tokenization (sequencing characters and breaking them up into words, phrases, sentences)
+  3.  Create stopwords.txt (This includes prepositions, articles, and conjunctions, like “a,” “an,” “the,” “but,” and so on.) 
+  4.  Filtering (Token.filter)
+  5.  Lemmatization (Token.lemma : morphological analysis and grouping like words together i.e. verb tenses)     
+  6.  Stemming (Token.stem : Reduces inflected words to their base or root form)
 
 1. Test Document (GUI)
-Visit localhost:5000
-Copy/Paste Text
-Select TF-IDF English
-Run
+- Visit localhost:5000
+- Copy/Paste Text
+- Select TF-IDF English
+- Run
 
-or CLI
+1. or CLI
 
-cat document.txt | annif suggest tfidf-en
+- cat document.txt | annif suggest tfidf-en
 
-or CLI with folder of documents
+1. or CLI with folder of documents
 
-annif eval tfidf-en /path/to/documents/
+- annif eval tfidf-en /path/to/documents/
 
 1. Explore API
 The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
@@ -87,34 +89,35 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 # DEWEY can leverage PowerAutomation from Microsoft to determine the Title, Author, and Date of works submitted
 
 1. Power Automate (https://powerautomate.microsoft.com/)
-1.1.  AI Builder
-1.1.1.  Models
-1.1.1.1.  Training Document
-1.1.1.1.  Information to Extract
-1.1.  My Flows
-1.1.1.  Cloud Flows
-1.1.1.1.  Use form processing to extract data from documents triggered manually.
-1.1.1.1.1.   Flow Checker Feedback Flows and Run
+   1.  AI Builder
+     1.  Models
+     1.  Training Document
+     1.  Information to Extract
+   1. My Flows
+     1.  Cloud Flows
+         1.  Use form processing to extract data from documents triggered manually.
+         1.  Flow Checker Feedback Flows and Run
 
-How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learning-and-managed-metadata
+   1. How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learning-and-managed-metadata
 
 # DEWEY can leverage Python, Sci-kit, and TF-IDF to build a model from scratch for determine the Genre (Type) of document is being submitted.
 
 1. Classification, 
-   Does it have a table of contents or introductions?
-   Proper Nouns 
-   genre and tries to identify geographic settings, characters, and topics.
-   Subject Guidelines
-   Subject Access
-   Are there external sources?
-       Dust jackets, 
-       prefaces, 
-       publisher
-       statements, 
-       author interviews, and 
-       reviews
+   -  Does it have a table of contents or introductions?
+   -  Proper Nouns 
+   -  genre and tries to identify geographic settings, characters, and topics.
+   -  Subject Guidelines
+   -  Subject Access
+   -  Are there external sources?
+       -  Dust jackets, 
+       -  prefaces, 
+       -  publisher
+       -  statements, 
+       -  author interviews, and 
+       -  reviews
 1. Keyword extraction, 
-       from the description field
+   -  From the description field
+
 1. Named-entity recognition : such as people, places, and things, and then classifying those entities into categories, such as “person” or “corporate body.” 
 
 1. Encoding : convert the text to structured data\
@@ -124,55 +127,56 @@ How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learn
     appears in the text, expressed as a ratio of word occurrence over total number
     of words, while inverse document frequency is represented as the ratio of documents that contain the word.
 
-1. Design a model : Text Mining Method 
-    Supervised : 
-       classification; 
-       information extraction, 
-           including keyword extraction and named-entity recognition; and 
-    UnSupervised : 
-        Clustering
-	Topic Modeling
+1. Design a model : Text Mining Method  
+   -    Supervised : 
+   -    classification; 
+   -    information extraction, 
+        -   including keyword extraction and named-entity recognition; and 
+   -    UnSupervised : 
+        -  Clustering
+	-  Topic Modeling
 
-    Output : Type/Genre predictive accuracy of >70% is respectable, 
-         Keyword Extractions
+   -  Output : Type/Genre predictive accuracy of >70% is respectable, 
+        -  Keyword Extractions
 
 1.  Subject Terms (Keyword)
 
-    Rapid Automatic Keyword Extraction (RAKE)
-    Python using RAKE and the Natural Language Toolkit (NLTK)
+    -  Rapid Automatic Keyword Extraction (RAKE)
+    -  Python using RAKE and the Natural Language Toolkit (NLTK)
     module, with a character minimum of 5, a phrase maximum of 3 words,
-    and a minimum word frequency of 4 words. Matthew Jocker’s stop-word 
-    list was not used in this case, because names are one of the aspects of the
-    text that we are most interested in when doing keyword extraction (more
-    on this below); the SMART stop list was used instead, which contains 571
-    words. DBPedia Spotlight22 / Aho-Corasick algorithm
+    and a minimum word frequency of 4 words. The SMART stop list was used instead, which contains 571
+    words. 
+    -  DBPedia Spotlight22 / Aho-Corasick algorithm
 
 1.  Clustering
-    Weka to test Simple k-Means, one of the
+    -  Weka to test Simple k-Means, one of the
     most popular clustering algorithms. k-Means partitions a set of documents
     into k clusters where each document belongs to the cluster with the nearest
-    mean. To start, the algorithm will randomly choose “centroids” for
+    mean. 
+    -  To start, the algorithm will randomly choose “centroids” for
     each cluster, then iteratively recalculate the position of those centroids
     until either there is no change in position or some set number of iterations
-    has been reached. Identifying meaningful relationships is a matter of
+    has been reached. 
+    -  Identifying meaningful relationships is a matter of
     trial and error, adjusting the value of k and then reviewing the composition
     of each cluster.
 
 # DEWEY can leverage MALLET for classifying documents.
-    Machine Learning for LanguagE Toolkit, or MALLET, is a Java application
+    -  Machine Learning for LanguagE Toolkit, or MALLET, is a Java application
     for classification, information extraction, and topic modeling, and like
-    Weka, is free and easy to use.24 MALLET uses an implementation of Latent
-    Dirichlet Allocation (LDA)25
+    Weka, is free and easy to use.24 
+    -  MALLET uses an implementation of Latent
+    -  Dirichlet Allocation (LDA)25
 
 # DEWEY can leverage Chat GPT as a spell checker, voice response, or Image Creator :
 
-1. Chat GPT (OpenAI) : https://openai.com/blog/chatgpt
-   Github : https://github.com/openai
-   Explore : https://github.com/openai/openai-cookbook
-   Uses the openai-client: https://github.com/itikhonenko/openai-client
-      API KEY
-      ORGANIZATION_ID
-   1.1.  Spell Checker
+1.   Chat GPT (OpenAI) : https://openai.com/blog/chatgpt
+   -  Github : https://github.com/openai
+   -  Explore : https://github.com/openai/openai-cookbook
+   -  Uses the openai-client: https://github.com/itikhonenko/openai-client
+      -  API KEY
+      -  ORGANIZATION_ID
+   1.  Spell Checker
  
          request_body = {
             model: 'text-davinci-edit-001',
@@ -181,7 +185,7 @@ How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learn
          }
          Openai::Client.edits.create(request_body)
 
-   1.1.  Image Creator
+   1.  Image Creator
 
          request_body = {
             prompt: 'A cute baby sea otter',
@@ -192,7 +196,7 @@ How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learn
       
         response = Openai::Client.images.create(request_body)
 
-   1.1. Connect in Ruby
+   1. Connect in Ruby
 
         require 'openai-client'
 
@@ -201,12 +205,12 @@ How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learn
           c.organization_id = 'organization_id' # optional
         end
 
-   1.1. Find Engine
+   1. Find Engine
 
         Openai::Client.models.find(‘babbage’)
         Openai::Client.models.find(‘davinci’)
 
-   1.1. Build Request Body
+   1. Build Request Body
 
         request_body = {
            prompt: 'high swim banquet',
@@ -220,10 +224,10 @@ How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learn
 1.  Dall-E (OpenAI) : https://openai.com/product/dall-e-2
 1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/
 1.  Watson (IBM) : https://www.ibm.com/products/watson-explorer 
-   1.1. Chess
-   1.1. Content Hub. IBM Watson can propose relevant tags based on content.
+   1. Chess
+   1. Content Hub. IBM Watson can propose relevant tags based on content.
 1.  Bard (Google)
-   1.1. Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
+   1. Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
 1.  Aladin (BlackRock)
 1.  Mindjourney (MindJourney) : https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
 1.  Kaaros
@@ -245,170 +249,101 @@ How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learn
 
 # AI Feedback Loop
 
-Programming : Algorithm + Input => Answers
-Supervised Learning :  Answer + Input = > Algorithm
-Feedback Loop : Re-perturbed feeds classification and classification feed perturbed
-Decision Tree : mathematically produced else
-Neural Network : binary tree diagrams
-Natural Language Processing (NLP_ :  the identification of patterns in spoken or written text.
-    Read Understand Derive meaning from Human Languages
-    Lanaguage Structures
-    INteract Transfer Data
-    Feed Document -> encode -> segmentation into sentences by punctuations.  words in the sentences into constiutainet words into tokens.  tokenize.   remove no$
-    ALgorithm
+-  Programming : Algorithm + Input => Answers
+-  Supervised Learning :  Answer + Input = > Algorithm
+-  Feedback Loop : Re-perturbed feeds classification and classification feed perturbed
+-  Decision Tree : mathematically produced else
+-  Neural Network : binary tree diagrams
+-  Natural Language Processing (NLP_ :  the identification of patterns in spoken or written text.
+    -  Read Understand Derive meaning from Human Languages
+    -  Lanaguage Structures
+    -  INteract Transfer Data
+    -  Feed Document -> encode -> segmentation into sentences by punctuations.  words in the sentences into constiutainet words into tokens.  tokenize.   remove no$
+    -  ALgorithm
+    -  Explain (skip, skipping skipped _ same stemming.
+    -  limitization lemmatizaition
+    -  verbs particle - speech tagging
+    -  Pop culture references movies places news locations- named entitity tagging
 
-    Explain (skip, skipping skipped _ same stemming.
-    limitization lemmatizaition
-    verbs particle - speech tagging
-    Pop culture references movies places news locations- named entitity tagging
+>    Segmentation into sentences and store them.
+>    Tokenizing into words and store them.
+>    Remove Stop Words (Non Essential Words.)  like are, and, the from sentence segments.
+>    Stemming treats skip, skipping, skipped as the same words.
+>    Lemmetization Am Are Is for all genders ich bin, du bist, er/sie/es ist base word (lemma)= be
+>    Named Entity Tagging of Proper Nouns
+>    Sentiment and Speech with naive bayes
 
-    base words tags
+-  Reinforcment Learning : data - > model
+-  Cumulative Selection : Building off the last step.  Not starting over everyt ime
+-  Semi-Supervisied Machine Learning : Supervised means there is some human involvement in setting up the tool,
+-  Inductive Reasoning
+   -   The corpus-based approach using a training set, as described above, uses the process of inductive reasoning. This is the kind of thinking that states ‘the sun rose yesterday, the sun rose today, so the chances are the sun will rise tomorrow’. Now, philosophers will argue that inductive reasoning is not scientific. Just because the sun rose yesterday does not mean the sun will rise tomorrow. 
 
-    Soccer was invented in Germany.   - >  naive bayes - > Sentiment and Speech
+# AI Terms
+   - A Corpus : All text documents in Scholar
+   - A Training Set :  is a subset of the corpus, which has been tagged in some way to identify the characteristic you are looking for
+   - A Test Set : collection of documents to be used for trialling the algorithm, to see how successfully it carries out the operation.
+       - Example : Modified National Institute of Standards and Technology (MNIST) database of handwritten numbers,10
+   - An Algorithm : The ‘algorithm’ is simply the tool that looks at each item in the corpus and enables a decision to be made. An algorithm may be as simple (and frequently is as simple) as matching a pattern. selecting and applying an algorithm or method
 
-    Segmentation into sentences and store them.
-    Tokenizing into words and store them.
-    Remove Stop Words (Non Essential Words.)  like are, and, the from sentence segments.
-    Stemming treats skip, skipping, skipped as the same words.
-    Lemmetization Am Are Is for all genders ich bin, du bist, er/sie/es ist base word (lemma)= be
-    Named Entity Tagging of Proper Nouns
-    Sentiment and Speech with naive bayes
-
-Reinforcment Learning : data - > model
-Cumulative Selection : Building off the last step.  Not starting over everyt ime
-Semi-Supervisied Machine Learning : Supervised means there is some human involvement in setting up the tool,
-Inductive Reasoning
-    The corpus-based approach using a training set, as described above, uses the process of inductive reasoning. This is the kind of thinking that states ‘the sun rose yesterday, the sun rose today, so the chances are the sun will rise tomorrow’. Now, philosophers will argue that inductive reasoning is not scientific. Just because the sun rose yesterday does not mean the sun will rise tomorrow. 
-
-AI Tools
-   A Corpus : All text documents in Scholar
-   A Training Set :  is a subset of the corpus, which has been tagged in some way to identify the characteristic you are looking for
-   A Test Set : collection of documents to be used for trialling the algorithm, to see how successfully it carries out the operation.
-       Example : Modified National Institute of Standards and Technology (MNIST) database of handwritten numbers,10
-   An Algorithm : The ‘algorithm’ is simply the tool that looks at each item in the corpus and enables a decision to be made. An algorithm may be as simple (and frequently is as simple) as matching a pattern. selecting and applying an algorithm or method
-
-Process Cycle
-   Identify
-   Explore / Analyze / Encode (Change Everything into a number)
-   Model
-   Predict
-     Clarity (Makes Sense)
-     Original (Novelty)
-     Useful
+# AI Process Cycle
+   1. Identify
+   1. Explore / Analyze / Encode (Change Everything into a number)
+   1. Model
+   1. Predict
+       1. Clarity (Makes Sense)
+       1. Original (Novelty)
+       1. Useful
+   1. Feedback
 
 
+# Tennis dataset (Machine Learning)
 
-
-
-Tennis dataset (Machine Learning)
+This is a famous dataset used to demonstrate how Machine Learning and Decision Making work.
 
 When do you play tennis? (Class, Outlook, Temp, Windy)
 
-label (y) = things you want to predict
-    play / no play
+- label (y) = things you want to predict
+    - play / no play
 
-features = 
-    outlook, temp, windy
+- features = 
+    - outlook, temp, windy
 
-values (x) = { Sunny, Low, Yes }
+- values (x) = { Sunny, Low, Yes }
 
-yak shaving (Remove Turtle Cloud, Kindof, 28%)
+- yak shaving (Remove Turtle Cloud, Kindof, 28%)
 
-Model  
+## Model  
 
-                 Outlook
-             Sunny  Overcast   Rainy
-           Temp    True          Windy
-         low high             False  True
-        True  False
+>                 Outlook
+>             Sunny  Overcast   Rainy
+>           Temp    True          Windy
+>         low high             False  True
+>        True  False
 
 How do you know how well it is doing?
 
-Train        - > Test
-Use ~ 80%        Use ~ 20%
+> Train        - > Test
+> Use ~ 80%        Use ~ 20%
 
 
-Train    -> Dev   -> Test
-Use ~ 80    Use ~10   Use~10
+> Train    -> Dev   -> Test
+> Use ~ 80    Use ~10   Use~10
 
 
-The Confusion Matrix
+## The Confusion Matrix
 
-valeus (x) = Truth {true, false}
-values (y) = Guess {positive, negative}
+-  values (x) = Truth {true, false}
+-  values (y) = Guess {positive, negative}
 
-true positive      false positive
+>  true positive      false positive
 
-false negative     true negative
+>  false negative     true negative
 
-precision  = tp / tp + tp
-accuracy = tp + tn / tp + tn + fp + fn
-recall  = tp / tp + fn
+-  precision  = tp / tp + tp
+-  accuracy = tp + tn / tp + tn + fp + fn
+-  recall  = tp / tp + fn
 
 
 Resources
 https://www.youtube.com/watch?v=awGJkRe9m50
-
-
-
-NLP:
-
-Feed Document -> encode -> segmentation into sentences by punctuations.  words in the sentences into constiutainet words into tokens.  tokenize.   remove non essential words 9are and the,  stop words
-ALgorithm
-
-Explain (skip, skipping skipped _ same stemming.
-limitization lemmatizaition
-verbs particle - speech tagging
-Pop culture references movies places news locations- named entitity tagging
-
-base words tags
-
-Soccer was invented in Germany.   - >  naive bayes - > Sentiment and Speech
-
-Segmentation into sentences and store them.
-Tokenizing into words and store them.
-Remove Stop Words (Non Essential Words.)  like are, and, the from sentence segments.
-Stemming treats skip, skipping, skipped as the same words.
-Lemmetization Am Are Is for all genders ich bin, du bist, er/sie/es ist base word (lemma)= be
-Named Entity Tagging of Proper Nouns
-Sentiment and Speech with naive bayes 
-
-
-
-
-
-powerapps.microsoft.com
-AI Builder
-Power Apps
-Power Automate.  Do we have this?  All Apps?
-Form Processing Model
-Choose Model
-What information do I want to extract
-  Fields
-  Tables
-  Tables taht span
-  Checkboxes
-
-  Order Number. OK
-  Customer Name. OK
-  Fields. OK
-
-  Collection Share similar layout
-
-  Document tagging.
-
-  Model Summary is a simple algorithms that understands the data in your document
-
-  Train Model
-
-  Start Flow by selecting first option
-
-
-  Orders in PDF
-     Crosswalk data from from PDF into another system.
-
-Copyright of AI
-
-
-https://www.youtube.com/watch?v=J3d6bx3i4l0
-
