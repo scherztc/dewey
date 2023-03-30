@@ -1,60 +1,106 @@
-DEWEY is a Machine Learning tool used to classify Subject terms from a FUll-TEXT document.
-GOing to NEED
+# Theory : Other types of Machine Learning Cases :
+
+The real skill in Machine Learning is determining which questions can be answered by Machine Learning.
+
+1. How much / How many? - Regression - Supervised Learning
+1. Which class does this belong to? Classification - Supervised Learning
+1. Are there different groups?  Which one does this belong to? Clustering - UnSupervised Learning
+1. Is this weird? Anomaly Detection - UnSupervised Learning
+1. Which option should I choose? Recommendation - UnSupervised Learning
+
+
+# DEWEY is a Machine Learning tool used to classify Subject terms from a FUll-TEXT document using ANNIF.
+
+## URLS
+   https://liberquarterly.eu/article/view/10732
+
+## Interfaces
+   CLI, GUI, API
+
+## Prerequisites
    SUBJECT_FILE (TSV SKOS/RDF)
    TRAINING_DATA
    VOCAB_ID
    PROJECT_ID
 
-1. Create dewey.toml or dewey.cfg for ANNIF
-1.  Start ANNIF Service   :  annif run 
-1.  Load  ANNIF Vocabulary : annif load-vocab VOCAB_ID /Users/scherztc/Workspaces/Annif-tutorial/data-sets/stw-zbw)
-1. Import a File (PDF/DOC/JPG)
-1. Text(filename_input) is extracted from each digitized document after scanning by means of Optical Character Recognition (OCR),
-1. Test(filename_input) will be Pre-Processed. Preprocessing allows us to clean unstructured text
-11.   Remove OCR noise 
-        words that appear frequently, such as definite or indefinite articles.
-11.   tokenization, 
- 
-       sequence of characters and breaking them
-       up into tokens—typically words or phrases—by using common boundaries,
-       like punctuation, which is then usually discarded during this step,
+## ANNIF Instructions
 
-111.  Create stopwords.txt
-       Filtering may be done next to
-       remove stop-words, or words that often appear in a text, but may have little
-       semantic value. This includes prepositions, articles, and conjunctions,
-       like “a,” “an,” “the,” “but,” and so on. A stop-word list might also contain
-       other words that appear frequently or words that appear infrequently,
-       depending on the task
-11.   filtering, Token.filter
-11.   lemmatization, and Token.lemma
+1. Git Clone : git@github.com:NatLibFi/Annif.git
 
-      involves further morphological analysis, grouping like words together, such
-      as mapping verb forms to their infinite tense.
-      11.   stemming: Porter Stemmer for English
-      The next step is Class Token method stem  Token.stem
-      often to stem the remaining tokens, which reduces inflected words to their
-      base or root form. For example, “cataloging” and “cataloged” might be
-      reduced to the morphological root “catalog.”
- 
-1. run ruby classify_dewey filename_input filename_output stopwords.txt
-1. run ruby train_dewey filename_input
-1. Add new fields to model
-1. run ruby scholar_dewey
+Install pipx and Poetry if you don't have them. First pipx:
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
 
-DEWEY is a LCSH Classifier using Supervised Machine Learning and Natural Language Processing to complete the tasks of a human cataloger by automating Metadata
+1. Open a new shell, and then install Poetry:
+pipx install poetry
 
-includes an overview of 
+1. Create a virtual environment and install dependencies:
+poetry install --all-extras
 
-preprocessing, feature extraction, modeling, and evaluation.
+1. Enter the virtual environment:
+poetry shell
 
-Title, Author, Advisor, Date (MS Power Automate)
+1. You will also need NLTK data files:
+python -m nltk.downloader punkt
+
+1. Copy projects.cfg.dist to projects.cfg
+
+1. Load Subject Vocabulary
+
+1. git clone : git@github.com:NatLibFi/Annif-corpora.git
+annif load-vocab yso /path/to/Annif-corpora/vocab/yso-skos.ttl
+
+1. We will train the model using the the English language training data generated from Finna.fi metadata:
+annif train tfidf-en /path/to/Annif-corpora/training/yso-finna-en.tsv.gz
+
+Other Models to consider MLLM, Hogwarts/Fast, Languages, NNEnsemble, Custom, DVC, OmiKuji
+
+1. Start up the application:
+annif run
+
+1. Preprocessing allows us to clean unstructured text
+11.  Remove OCR noise (works that appear frequently, such as definite and indefinite articles.
+11.  Tokenization (sequencing characters and breaking them up into words, phrases, sentences)
+11.  Create stopwords.txt (This includes prepositions, articles, and conjunctions, like “a,” “an,” “the,” “but,” and so on.) 
+11.  Filtering (Token.filter)
+11.  Lemmatization (Token.lemma : morphological analysis and grouping like words together i.e. verb tenses)     
+11.  Stemming (Token.stem : Reduces inflected words to their base or root form)
+
+1. Test Document (GUI)
+Visit localhost:5000
+Copy/Paste Text
+Select TF-IDF English
+Run
+
+or CLI
+
+cat document.txt | annif suggest tfidf-en
+
+or CLI with folder of documents
+
+annif eval tfidf-en /path/to/documents/
+
+1. Explore API
+The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 
 
+# DEWEY can leverage PowerAutomation from Microsoft to determine the Title, Author, and Date of works submitted
 
-Genre (Type) (Python Sci-kit, TF-IDF)
+1. Power Automate (https://powerautomate.microsoft.com/)
+1.1.  AI Builder
+1.1.1.  Models
+1.1.1.1.  Training Document
+1.1.1.1.  Information to Extract
+1.1.  My Flows
+1.1.1.  Cloud Flows
+1.1.1.1.  Use form processing to extract data from documents triggered manually.
+1.1.1.1.1.   Flow Checker Feedback Flows and Run
 
-classification, 
+How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learning-and-managed-metadata
+
+# DEWEY can leverage Python, Sci-kit, and TF-IDF to build a model from scratch for determine the Genre (Type) of document is being submitted.
+
+1. Classification, 
    Does it have a table of contents or introductions?
    Proper Nouns 
    genre and tries to identify geographic settings, characters, and topics.
@@ -67,19 +113,18 @@ classification,
        statements, 
        author interviews, and 
        reviews
-keyword extraction, 
+1. Keyword extraction, 
        from the description field
-named-entity recognition : such as people, places, and things, and then classifying those entities into categories, such as “person” or “corporate body.” 
+1. Named-entity recognition : such as people, places, and things, and then classifying those entities into categories, such as “person” or “corporate body.” 
 
-encoding : convert the text to structured data\
+1. Encoding : convert the text to structured data\
 
-feature selection : TF-IDF, or term frequency-inverse document frequency
+1. Feature selection : TF-IDF, or term frequency-inverse document frequency
     term frequency is calculated based on how often the word
     appears in the text, expressed as a ratio of word occurrence over total number
     of words, while inverse document frequency is represented as the ratio of documents that contain the word.
 
-    scikit-learn in Python
-design a model : Text Mining Method 
+1. Design a model : Text Mining Method 
     Supervised : 
        classification; 
        information extraction, 
@@ -87,10 +132,11 @@ design a model : Text Mining Method
     UnSupervised : 
         Clustering
 	Topic Modeling
-Output : Type/Genre predictive accuracy of >70% is respectable, 
+
+    Output : Type/Genre predictive accuracy of >70% is respectable, 
          Keyword Extractions
 
-Subject Terms (Keyword)
+1.  Subject Terms (Keyword)
 
     Rapid Automatic Keyword Extraction (RAKE)
     Python using RAKE and the Natural Language Toolkit (NLTK)
@@ -99,9 +145,9 @@ Subject Terms (Keyword)
     list was not used in this case, because names are one of the aspects of the
     text that we are most interested in when doing keyword extraction (more
     on this below); the SMART stop list was used instead, which contains 571
-    words.
-    DBPedia Spotlight22 / Aho-Corasick algorithm
-clustering
+    words. DBPedia Spotlight22 / Aho-Corasick algorithm
+
+1.  Clustering
     Weka to test Simple k-Means, one of the
     most popular clustering algorithms. k-Means partitions a set of documents
     into k clusters where each document belongs to the cluster with the nearest
@@ -112,144 +158,92 @@ clustering
     trial and error, adjusting the value of k and then reviewing the composition
     of each cluster.
 
-    MAchine Learning for LanguagE Toolkit, or MALLET, is a Java application
+# DEWEY can leverage MALLET for classifying documents.
+    Machine Learning for LanguagE Toolkit, or MALLET, is a Java application
     for classification, information extraction, and topic modeling, and like
     Weka, is free and easy to use.24 MALLET uses an implementation of Latent
     Dirichlet Allocation (LDA)25
 
+# DEWEY can leverage Chat GPT as a spell checker, voice response, or Image Creator :
 
-Other types of Machine Learning Cases :
-
-
-How much / How many? - Regression - Supervised Learning
-Which class does this belong to? Classification - Supervised Learning
-Are there different groups?  Which one does this belong to? Clustering - UnSupervised Learning
-Is this weird? Anomaly Detection - UnSupervised Learning
-Which option should I choose? Recommendation - UnSupervised Learning
-
-DEWEY may use other AI Machines in Production :
-
-Chat GPT (OpenAI) : https://openai.com/blog/chatgpt
+1. Chat GPT (OpenAI) : https://openai.com/blog/chatgpt
    Github : https://github.com/openai
    Explore : https://github.com/openai/openai-cookbook
    Uses the openai-client: https://github.com/itikhonenko/openai-client
       API KEY
       ORGANIZATION_ID
-   Spell Checker
+   1.1.  Spell Checker
  
-   request_body = {
-     model: 'text-davinci-edit-001',
-     input: 'What day of the wek is it?',
-     instruction: 'Fix the spelling mistakes'
-   }
-   Openai::Client.edits.create(request_body)
+         request_body = {
+            model: 'text-davinci-edit-001',
+            input: 'What day of the wek is it?',
+         instruction: 'Fix the spelling mistakes'
+         }
+         Openai::Client.edits.create(request_body)
 
-   Image Creator
+   1.1.  Image Creator
 
-   request_body = {
-     prompt: 'A cute baby sea otter',
-     n: 1,                  # between 1 and 10
-     size: '1024x1024',     # 256x256, 512x512, or 1024x1024
-     response_format: 'url' # url or b64_json
-   }
+         request_body = {
+            prompt: 'A cute baby sea otter',
+            n: 1,                  # between 1 and 10
+            size: '1024x1024',     # 256x256, 512x512, or 1024x1024
+            response_format: 'url' # url or b64_json
+         }
       
-   response = Openai::Client.images.create(request_body)
+        response = Openai::Client.images.create(request_body)
 
-   Connect in Ruby
+   1.1. Connect in Ruby
 
-   require 'openai-client'
+        require 'openai-client'
 
-   Openai::Client.configure do |c|
-     c.access_token    = 'access_token'
-     c.organization_id = 'organization_id' # optional
-   end
+        Openai::Client.configure do |c|
+          c.access_token    = 'access_token'
+          c.organization_id = 'organization_id' # optional
+        end
 
-   Find Engine
+   1.1. Find Engine
 
-   Openai::Client.models.find(‘babbage’)
-   Openai::Client.models.find(‘davinci’)
+        Openai::Client.models.find(‘babbage’)
+        Openai::Client.models.find(‘davinci’)
 
-   Build Request Body
+   1.1. Build Request Body
 
-   request_body = {
-     prompt: 'high swim banquet',
-     n: 1,                  # between 1 and 10
-     size: '1024x1024',     # 256x256, 512x512, or 1024x1024
-     response_format: 'url' # url or b64_json
-   }
+        request_body = {
+           prompt: 'high swim banquet',
+           n: 1,                  # between 1 and 10
+           size: '1024x1024',     # 256x256, 512x512, or 1024x1024
+           response_format: 'url' # url or b64_json
+        }
 
-
+#  Other AI Engines to Explore
   
-Dall-E (OpenAI) : https://openai.com/product/dall-e-2
-Stable Diffusion (Stability) : https://stablediffusionweb.com/
-Watson (IBM) : https://www.ibm.com/products/watson-explorer 
-   Chess
-   Content Hub. IBM Watson can propose relevant tags based on content.
-Bert (Google)
-  Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
-Aladin (BlackRock)
-Mindjourney (MindJourney) : https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
-Kaaros
-Tensor Flow (Google)
-ANNIF : https://annif.org/
-   Command Line Interface, Web Interface, REST API Service Interface
-   Install :
-   Tutorial :
-   Use Case : https://liberquarterly.eu/article/view/10732
-   Steps in ANNIF Subject tagging process
-      Install
-      TFIDF
-      Web UI
-         Evaluate
-             MLLM
-                 Hogwarts/FastText
-                 Languages / FIltering
-	         Ensemble
-			NNEnsemble
-			Custom
-			DVC
-             OmiKuji
-         REST API
+1.  Dall-E (OpenAI) : https://openai.com/product/dall-e-2
+1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/
+1.  Watson (IBM) : https://www.ibm.com/products/watson-explorer 
+   1.1. Chess
+   1.1. Content Hub. IBM Watson can propose relevant tags based on content.
+1.  Bard (Google)
+   1.1. Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
+1.  Aladin (BlackRock)
+1.  Mindjourney (MindJourney) : https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
+1.  Kaaros
+1.  Tensor Flow (Google)
+1.  IRIS : https://iris.ai/      
 
-   Project project.toml or project.cfg  ANNIF_PROJECT --projects
-    Choose a Subject Vocabulary
-            yso-nlf     stw-zbw * (URI)
- 	Prepare a Corpus from Training Data
-             Load the Vocabulary and Train a Model
-                    Suggest subjects for new documents
-    PROJECT (VOCABULARY AND LANGUAGE).
-	•	YSO NN ensemble English
-	•	YSO MLM English
-	•	YSO Omikuji Bonsai English
-	•	YSO fasttext English
-    
-IRIS : https://iris.ai/      
-PubMED : https://pubmed.ncbi.nlm.nih.gov/30153250/
-Other :https://www.aiforlibrarians.com/ai-cases/
-Science Direct : Weed Collections : https://www.sciencedirect.com/science/article/pii/S0099133317304160?via%3Dihub
-Apache Mahout : https://mahout.apache.org//
-Spark MLlib Apache : https://spark.apache.org/mllib/
-Stanford : https://library.stanford.edu/blogs/stanford-libraries-blog/2022/07/working-students-library-collections-data
-M-Files. Smart subjects provide tag suggestions based on document content
-Magellan's AI capabilities include speech and text analytics from contextual hypothesis and meaning deduction.
-AWS Innovate: Data and AI/ML Edition
+# References
 
-Microsoft PowerAutomation
-   How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learning-and-managed-metadata
-   Application : powerautomate.com
-   Models    
-     Potential Fields
-     PowerBuilder to build and train your model. 
-	Structured or Unstructured
-     Test
-    Flows 
-     Triggers
-     AI Credits
-     Feedback Flows
-    Use Cases
-         ETD/Student Works : Extract fields from PDF (Title, Author, Advisor, Date, Geo_Subject, Subject) 
+1.  PubMED : https://pubmed.ncbi.nlm.nih.gov/30153250/
+1.  Other :https://www.aiforlibrarians.com/ai-cases/
+1.  Science Direct : Weed Collections : https://www.sciencedirect.com/science/article/pii/S0099133317304160?via%3Dihub
+1.  Apache Mahout : https://mahout.apache.org//
+1.  Spark MLlib Apache : https://spark.apache.org/mllib/
+1.  Stanford : https://library.stanford.edu/blogs/stanford-libraries-blog/2022/07/working-students-library-collections-data
+1.  M-Files. Smart subjects provide tag suggestions based on document content
+1.  Magellan's AI capabilities include speech and text analytics from contextual hypothesis and meaning deduction.
+1.  AWS Innovate: Data and AI/ML Edition
 
-Types of Machine Learning  models (use of a computer to follow a pattern)
+
+# AI Feedback Loop
 
 Programming : Algorithm + Input => Answers
 Supervised Learning :  Answer + Input = > Algorithm
@@ -286,7 +280,6 @@ Semi-Supervisied Machine Learning : Supervised means there is some human involve
 Inductive Reasoning
     The corpus-based approach using a training set, as described above, uses the process of inductive reasoning. This is the kind of thinking that states ‘the sun rose yesterday, the sun rose today, so the chances are the sun will rise tomorrow’. Now, philosophers will argue that inductive reasoning is not scientific. Just because the sun rose yesterday does not mean the sun will rise tomorrow. 
 
-
 AI Tools
    A Corpus : All text documents in Scholar
    A Training Set :  is a subset of the corpus, which has been tagged in some way to identify the characteristic you are looking for
@@ -307,7 +300,7 @@ Process Cycle
 
 
 
-Tennis dataset
+Tennis dataset (Machine Learning)
 
 When do you play tennis? (Class, Outlook, Temp, Windy)
 
