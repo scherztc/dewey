@@ -1,0 +1,1707 @@
+Characterizing the Mechanoreception of Water Waves in the Leech Hirudo verbana
+
+A thesis submitted to the
+Graduate School
+of the University of Cincinnati
+in partial fulfillment of the
+requirements for the degree of
+
+Master of Arts
+
+in the Department of Psychology
+of the College of Arts and Sciences
+by
+
+Andrew M. Lehmkuhl II
+
+B.S. University of Cincinnati
+July 2016
+
+Committee Chair: Michael Riley, Ph.D.
+
+Abstract
+Water movement provides useful information about the environment of an aquatic organism.
+Sensitivity to water movement effectively guides prey location in aquatic predators. The
+behavioral response to visual and mechanical cues provided by water waves has been generally
+characterized in the leech Hirudo verbana. This study begins to quantitatively investigate the
+neural response patterns of the mechanoreceptive system in the leech. Central to this study’s data
+collection is the activity of the S cell, an interneuron that forms a connective network in the leech
+sensory system. The S cell readily fired in response to mechanically presented water waves in the
+absence of visual cues. Leeches readily orient themselves before approaching a source of water
+waves, indicating the ability to detect the direction of water waves. Here, the strength of S-cell
+response did not depend on the direction of waves relative to the leech orientation as the number
+of action potentials recorded did not differ between waves presented towards the head, towards
+the tail and laterally. However, the direction of action potential propagation along the ventral
+nerve cord did depend on wave direction. Removing input from the head and tail brains did not
+alter response or propagation direction. The majority of action potentials propagated anteriorly
+regardless of wave direction, but when waves presented towards the head, an initial burst of
+action potentials travelled head-to-tail. In terms of wave frequency, multiple peaks emerged in
+the sensitivity profile, with maximal responses to 12 and 14 Hz waves. Hunger level has been
+associated with the leech’s response to water waves. Recently fed leeches do not behaviorally
+respond as readily to wave stimuli as hungry leeches. In this study, leeches tested four weeks
+after feeding displayed a stronger S-cell response to water waves than leeches tested immediately
+after feeding or two weeks after feeding.
+
+	  
+
+ii	  
+
+	  
+
+iii	  
+
+Table of Contents
+Behavioral response to water waves in aquatic and semi-aquatic species
+
+2
+
+The nervous system of the leech
+
+4
+
+Water waves and the leech sensory system
+
+5
+
+Satiety level and sensitivity to water movement
+
+5
+
+Wave production
+
+6
+
+Experimental aquarium
+
+7
+
+Waveform
+
+7
+
+Wave generation
+
+7
+
+Wavelength
+
+8
+
+Wave amplitude
+
+9
+
+General methods
+
+13
+
+Animals
+
+13
+
+Electrophysiology
+
+13
+
+General preparation protocol
+
+14
+
+General experimental procedures
+
+14
+
+Data analysis
+
+15
+
+Vibration response
+
+15
+
+Procedure
+
+16
+
+Results
+
+16
+
+Orientation-dependent response
+
+	  
+
+17
+
+Procedure
+
+17
+
+Results
+
+17
+
+iv	  
+
+Incision experiments
+
+20
+
+Procedure
+
+20
+
+Results
+
+21
+
+Frequency-dependent response
+
+21
+
+Procedure
+
+22
+
+Results
+
+22
+
+Mechanoreception and satiety level
+
+23
+
+Procedure
+
+23
+
+Results
+
+24
+
+Summary & implications
+
+25
+
+	  
+
+v	  
+
+Characterizing the mechanoreception of water waves in the leech Hirudo verbana
+The modification of behavior following water movement has been documented in a wide
+array of aquatic and semi-aquatic species (Dijkgraaf, 1962; Horridge & Boulton, 1967; Mellon,
+1963). These modifications depend largely on the general behavioral profile of the organism in
+question, as well as the characteristics of the stimulus. Water waves provide multiple forms of
+sensory information that can be used to gain understanding about the waves and more
+importantly, the source that is responsible for the waves. During water movement the reflection
+of sunlight by the water surface fluctuates with surface waves. The resulting alternation of light
+and shadow cast into the water yields visual cues that can be used for localization of the source
+of water movement. Additionally, water waves impart mechanical information. The sensory
+systems of many organisms feature mechanosensory components capable of detecting the
+physical movement of water relative to the body.
+Many organisms can effectively differentiate between stimulus sources using these
+modalities of registering information about water movement. This is essential for an aquatic
+predator such as the leech, which requires the ability to identify water waves produced by prey,
+predators, and environmental disturbances such as wind. Waves caused by prey may have
+distinct features from those caused by predators or other natural sources. Thus, demonstrating the
+appropriate response could result in successful prey location or predator avoidance, which are
+both key to survival. Generally, the behavioral response of the leech to water waves is well
+documented. Indeed, the leech has developed a multimodal sensory system capable of picking up
+visual and mechanical information. However, the sensory patterns of the leech that are involved
+in sensing water disturbance using either modality have not been completely quantitatively
+characterized. The primary objective of this study was to gain insight into the mechanosensory
+
+	  
+
+1	  
+
+processes in the leech nervous system involved in sensing mechanical information presented by
+water waves.
+Behavioral response to water waves in aquatic and semi-aquatic species
+In many aquatic and semi-aquatic species, the behavior displayed in response to water waves
+can be generally assigned to one of two categories: positive and negative response. Certain
+characteristics of water waves may evoke a positive behavior, associated with movement toward
+or interaction with the source of stimulus. This could be the result of sensing waves that
+correspond to a source that promotes survival in the organism, such as prey or a potential mate.
+For example, when presented with a weak water disturbance, arrow worms advance towards the
+source, exhibiting a feeding-type behavior (Horridge & Boulton, 1967). In the case of that
+laboratory study, a relatively weak stimulus was created using a fine wire or glass fiber projected
+into sea water between 1 and 3 mm from the animal and oscillating between 9 and 20 Hz. On the
+other hand, waves with different characteristics may elicit a negative response, involving a
+behavior that facilitates the distancing between the organism and the source of stimulus. Using
+the arrow worm example again, when the stimulus intensity was increased to the point of global
+vibration in the water the arrow worms swam away from the oscillating projection (Horridge &
+Boulton). Indeed, this response pattern in the laboratory corresponds well to relevant arrow
+worm behavior in the wild. Arrow worms suspend themselves motionless until prey swims near,
+then the arrow worms orient themselves appropriately and attack (Horridge & Boulton). Because
+the arrow worm does not have image-forming eyes, Horridge and Boulton suggested
+mechanoreception of water movement was a mechanism for detecting prey. Perhaps the stimulus
+characteristics that led to an approach response by the arrow worm in the laboratory resemble
+water disturbance created by their target prey. This presents a plausible parallel that the stronger
+
+	  
+
+2	  
+
+stimulus accompanied by an escape response may resemble predator-related water disturbance.
+As appears to be the case in arrow worms, the sensory system of many organisms may be
+fine-tuned to discriminate between different sources of water disturbance based on the intensity
+of the waves. Several leech species exhibit a similar pattern of approach or escape in response to
+water disturbance. Whitman (1898) found that the leech Placobdella clutches the bottom of its
+container if a pin is used to disturb the water, suggesting an avoidance response present in the
+leech behavioral repertoire. An advancing response has also been described in the leech.
+According to Herter (1929), the leech Theromyzon exhibited an approach movement in response
+to a weak water surface disturbance. Mann (1962) also described a positive response in the leech,
+proclaiming that simply stirring the surface of a pond with a stick lures leeches to swim towards
+the disturbance. While these documented observations lay the groundwork for practical study of
+the leech’s response to water waves, the characteristics that lead to certain behavioral displays
+were still not quantitatively explored.
+In addition to intensity, several species use water wave frequency to distinguish between
+sources of water movement. Certain behaviors may be tied to a narrow range of water wave
+frequencies. For example, when presented with a single frequency water wave stimulus, the
+fishing spider Dolomedes triton maximally responds to waves of 40-50 Hz with a prey-capturing
+behavior (Bleckmann & Barth, 1983). The backswimmer Notonecta glauca demonstrates a
+similar discriminatory response. Sources of water disturbance that are relevant to Notonecta,
+such as prey or offspring, display waves with unique frequency content. To distinguish between
+sources, Notonecta uses an abdominal receptor system sensitive to higher frequencies and a
+receptor system found in the legs that is sensitive to lower frequencies (Lang, 1980). Likewise,
+leeches also respond discriminately to a narrow range of wave frequencies. The adult leech
+
+	  
+
+3	  
+
+Hirudo verbana is able to locate the source of water waves most successfully for waves of 8 Hz
+and 12 Hz frequencies when compared to lower or higher frequencies (Harley et al., 2011). The
+response to solely visual waves was drastically different to the response to mechanical waves.
+When only the visual cues of waves were presented, leeches most readily responded to 2 Hz
+waves, but when the visual cues were removed and leeches were only presented with mechanical
+waves, they optimally responded to 12 Hz frequency waves (Harley et al.). Harley et al. also
+found that this response differs for juvenile leeches, for whom waves of 2 Hz frequency elicited
+more successful location of stimulus source. Prey preferences change during the leech life cycle,
+with juveniles, adolescents, and adults targeting different hosts for feeding (Keim, 1993).
+Different types of prey may produce different water disturbance patterns, suggesting a tuning
+curve for the leech’s response to water wave frequency.
+The nervous system of the leech
+The leech serves as an excellent model for effectively exploring the mechanisms of the
+nervous system that drive behavior. The accessibility and relative simplicity of the leech nervous
+system paired with a profile of generally intelligible behaviors enables complementary
+experimentation to gain insight into the processes occurring at the cellular and network level of
+the nervous system during behavior (Wagenaar, 2015).
+The nervous system of the leech Hirudo verbana exemplifies typical annelid
+organization, featuring major ganglia found in the head and a ventral nerve cord segmented by
+21 mid-body ganglia. The cephalic ganglia include a supra-esophageal and a sub-esophageal
+ganglion. Another major ganglion can be found at the posterior end of the nerve cord near the tail
+of the leech. The mid-body ganglia each feature approximately 200 bilateral pairs of neurons
+(Wagenaar, 2015). This fairly simple organization makes the leech nervous system accessible
+
+	  
+
+4	  
+
+and identifiable, facilitating the study of the neural mechanisms that drive behavior across levels
+within the leech.
+Water waves and the leech sensory system
+The leech has developed a sensory system capable of integrating visual and mechanical
+information to effectively detect water waves. The leech has five bilateral pairs of simple eyes
+located on the dorsal surface of its head (Kretz et al., 1976). While the head eyes are non-image
+forming, their orientation and geometry allow for a rudimentary depiction of the surroundings of
+the anterior end of the leech (Peterson, 1983). In addition, anatomical structures termed sensilla
+are circumferentially distributed among mid-body segments of the leech. Found at each
+sensillum is a simple pit eye capable of sensing fluctuation of light and shadow cast on the leech
+body by water waves (Carlton & McVean, 1993; Kretz et al., 1976; Young et al., 1981).
+Adjacent to these photoreceptive areas are mechanoreceptive cilia known as sensillar movement
+receptors (SMRs) (Friesen, 1981). The SMRs exhibit considerable sensitivity, responding even
+to slight water movement (Gascoigne & McVean, 1991; Young et al.). The mechanism behind
+SMR activation is not well understood, but when the mechanical force of water displacement
+activates SMRs, electrically coupled interneurons known as S cells receive suprathreshold
+excitatory input and initiate action potentials that are propagated along a ventral nerve cord
+(Friesen).
+
+However, the pattern of this response in the nervous system has not been
+
+quantitatively characterized. Using electrophysiology, action potentials can be recorded and
+analyzed to gain insight into the neural response pattern of the sensory system of the leech to
+varying characteristics of water waves.
+Satiety level and sensitivity to water movement
+Further solidifying the relationship between sensitivity to water movement and prey,
+
+	  
+
+5	  
+
+satiety levels impact behavioral response in the leech as well. Hungry leeches show greater
+success in locating and orienting themselves to a source of stimulus than leeches that have
+recently fed (Young et al., 1981). A secondary objective of this study focused on shedding light
+on the role of satiety level and the sensory system of the leech. While the association between
+sensitivity to water disturbance and hunger level has been documented behaviorally in the leech,
+the neural mechanism behind this has only been suggested. Feeding behavior assumes a
+dominant position on the behavioral hierarchy of the leech, suppressing mechanically evoked
+motor behaviors such as swimming (Misell et al., 1998). During ingestion, the descending
+inhibition of transmitter release at the presynaptic terminals of pressure sensitive cells (P-cells)
+significantly reduces the response of the leech to mechanosensory stimuli (Gaudry & Kristan,
+2009). Distension in the body wall after feeding activates stretch receptors that inhibit
+mechanically elicited swimming for a period of time after feeding as well (Gaudry & Kristan,
+2010). While it is known that feeding directly alters the nervous system in regards to behavioral
+response to water waves, this study seeks to characterize the effect of feeding on the sensory
+response of the leech to the mechanical stimuli of water movement.
+Wave Production
+Accurate characterization of a sensory response to water waves requires understanding
+the waves themselves. This is necessary for controlling characteristics of the wave stimulus as
+well as keeping certain characteristics constant for comparison. For example, frequency is a
+major characteristic of waves that likely plays a role in the leech sensory system. To measure the
+frequency-dependent response, wave amplitudes in the stimulus must be understood for
+comparison of response across frequencies. In this experiment, the goal was to use sine waves as
+the stimulus in all scenarios due to the theoretical simplicity of understanding them. In this
+
+	  
+
+6	  
+
+chapter, the process to produce and measure the waves is described.
+Experimental aquarium
+A 60.9 cm by 50.8 cm aquarium was constructed out of glass and aquarium glue. The
+shorter ends of the aquarium were attached to the bottom at 90° angles, whereas the longer sides
+were angled approximately 30° to promote wave dissipation. Rectangular foam blocks were
+attached to the inside of the upright walls to encourage wave dissipation. The aquarium was
+placed on an air table to prevent influence of unwanted vibrations. All experiments were
+performed in a standard saline bath containing (in mM): 115 NaCl, 4 KCl, 1.8 CaCl2, 1.5 MgCl2,
+10 glucose, and 10 HEPES buffer to modify pH to 7.4. The aquarium was filled with 4 L of cold
+saline immediately prior to beginning trials.
+Waveform
+There were several possible choices for wave shape, but sine waves presented the greatest
+simplicity for wave measurement. While perfectly sinusoidal waves would have been ideal, the
+waves produced in this study had slightly more complex shapes.
+
+1.0 Hz
+
+1.5 Hz
+
+2.0 Hz
+
+3.0 Hz
+
+4.0 Hz
+
+6.0 Hz
+
+8.0 Hz
+
+10.0 Hz
+
+12.0 Hz
+
+14.0 Hz
+
+Figure 1 displays the shape of each of the waves for each
+frequency used. For several of the frequencies, the actual
+waveforms aligned quite well with the calculated fit, but in
+general, the waveform shapes can be classified as composite
+waves.
+Wave generation
+Several methods of wave generation were used before
+the most successful technique was chosen. Each method
+involved at least one loudspeaker (Pasco Scientific, Roseville,
+
+	  
+
+7	  
+
+Figure 1. Waveform of each
+frequency tested. The red trace
+represents measured waveform
+for each frequency. The gray
+trace represents sinusoidal fits
+for each frequency.
+	  
+
+CA) powered by a function generator (Pasco Scientific, Roseville, CA). When activated, the
+loudspeaker(s) propelled a projection up-and-down in the saline-filled aquarium.
+First, a loudspeaker was mounted to a shelf approximately 68 cm above the aquarium.
+The speaker was connected to a circular plastic foot of 4.7 cm diameter using a thin aluminum
+rod. Due to the length of the aluminum rod, lateral error in the system did not allow for clean
+sine wave production. To reduce this lateral error, monofilament wire and a 3.8 cm-diameter
+stainless steel ball replaced the aluminum rod and plastic foot. Elasticity and jerking in the wire
+also led to messy wave production. Finally, two loudspeakers were mounted directly to the ends
+of a hollow aluminum bar, which was partially submerged in the saline bath. The bar remained in
+the same location, 5.5 cm from the right 90° wall of the aquarium, throughout experiments.
+Determining a precise measurement method was not simple. The subsequent sections describe
+wave measurement in further detail.
+Wavelength
+Waves of different wavelengths propagate at distinctive phase velocities. For sinusoidal
+water waves, the phase velocity is dependent on water depth and wavelength. To measure the
+length of the waves in this study, several metal posts were positioned behind the experimental
+aquarium and illuminated. As waves traveled across the water, a camera recorded the reflections
+of the posts by water in the aquarium (Fig. 2).
+Because the saline depth was kept constant
+across all experiments in the study, the phase
+delay for each frequency could be analyzed
+to determine the wavelength. The relationship
+between wavelength (𝜆) and frequency (𝑓)
+Figure 2. Reflections of illuminated posts off water in the
+aquarium.
+
+	  
+
+8	  
+
+can be defined in terms of wave velocity (𝑣) using the
+
+velocity also depends on frequency. Wavelength was
+plotted as a function of frequency and it was
+determined that this equation did not fit the data
+accurately (Fig. 3). Thus, an ad hoc function
+!
+
+!
+
+𝜆 = 2𝜋/(𝐴𝑓 + 𝐵𝑓 + 𝐶𝑓 + 𝐷) was defined using
+
+Wavelength (cm)
+
+formula for wavelength: 𝜆 = 𝑣/𝑓 . However, wave
+
+1000
+
+100
+
+10
+
+1
+0.1
+
+10
+
+Figure 3. Plotting the dispersion relation of
+wavelength and frequency for ocean waves
+(blue line) and the ad hoc equation (red line).
+
+least squares minimization. The parameters were calculated to be: A
+= -5.68×10-4, B = 2.43×10-2, C = 1.42×10-1, D = 5.19×10-2 (Fig. 3).
+Using this equation, the wavelength for each frequency was
+calculated (Table 1). As evident in Figure 3, measurements of lowfrequency waves were difficult to interpret; the likely reason for this
+is covered in the following wave amplitude measurement section.
+Wave amplitude
+
+1
+Frequency (Hz)
+
+Wave%
+Wavelength%(cm)
+Frequency%(Hz)%
+1
+55.20
+1.5
+29.38
+2
+19.35
+3
+10.88
+4
+7.23
+6
+4.05
+8
+2.68
+10
+1.95
+12
+1.51
+14
+1.22
+
+Table 1. Calculated wavelength
+for each frequency tested.
+
+The necessary driving voltages to produce known wave amplitudes were determined for a
+range of wave frequencies. Multiple methods were attempted before accurate wave amplitude
+measurement was achieved.
+First, two parallel silver wires were partially submerged in the saline-filled aquarium.
+Current was delivered through one silver wire and the saline completed the circuit by transferring
+the current to the other silver wire. Hypothetically, the changing resistance between the two
+wires would be proportional to the amount of saline between the two wires. As waves are
+produced, the amount of saline between the two wires would change, providing information
+about the amplitude of the waves. This method did not produce accurate results, which could
+
+	  
+
+9	  
+
+have been due to the saline level between the wires inaccurately corresponding to the waves
+being produced in the saline.
+Next, a commercial laser measurement device (SICK Sensor Intelligence, Waldkirch,
+Germany) was mounted just above the surface of the water in the experimental aquarium. This
+device reflects a laser off of a solid surface back to itself to measure the distance between the
+device and the reflective surface. As the device would not measure when reflecting off the
+surface of water, a free-floating piece of Styrofoam was placed underneath the laser in the
+receptive field on the surface of the water, allowing the laser to measure the distance to the float.
+As waves were produced, the float moved up and down with the water surface, so the changing
+distance between the device and the float corresponded to wave amplitude. However, this
+method also did not produce accurate measurements. This technique relied heavily on stationing
+the float directly under the laser while still allowing free movement with the waves, which was
+not achieved. The styrofoam surface of the float could also have had irregularities that produced
+inaccuracy in measurement of the distance between device and float.
+Third, a device consisting of an ultrasonic speaker/microphone combination was mounted
+just above the surface of the water-filled aquarium. The speaker emitted a quick ultrasonic tone
+into a cone of approximately 80° total aperture. This tone reflected off of the surface of the water
+and was detected by the ultrasonic microphone, which was sensitive to reflections from a cone of
+approximately 80° total aperture. Hypothetically, the delay between release and detection of the
+ultrasonic tone would be proportional to the distance between the device and the surface of the
+water. As waves are produced, that distance would fluctuate, so recording the delay could
+provide measurement of wave amplitude. The sampling area of the device is crucial to accurate
+measurement. In this case, the sampling areas produced by the water waves in this system were
+
+	  
+
+10	  
+
+likely smaller than the approximately 80° aperture, causing the device to receive multiple
+reflections of the tone, which again produced inaccuracy in the measurement.
+Fourth, a series of methods were attempted by reflecting a laser off of the surface of the
+water and measuring its fluctuating reflections. The laser was bounced off the surface of the
+water at an approximately 45° angle onto the wall from the opposite end of the aquarium than the
+wave generator. The displacement of the laser on the wall was analyzed by custom software to
+calculate wave amplitude. This measurement was also inaccurate because in addition to wave
+amplitude the displacement of the laser on the wall likely would have been impacted by angular
+displacement as well, skewing the amplitude measurements.
+For accurate measurement of angular displacement, the laser was then bounced at an
+approximately 45° angle laterally to the waves onto the bare CCD of a camera. Using the bare
+CCD was advantageous for accurate angle measurement without disruption of the water surface
+using a floating item to determine the reflective point on the surface. However, to convert the
+angular displacement into wave amplitude, a cleaner sinusoidal shape is required than the
+A
+X pixels
+
+100
+
+0
+
+B
+
+0
+
+1
+
+2
+
+3
+Time (s)
+
+4
+
+5
+
+6
+
+0
+
+1
+
+2
+
+3
+Time (s)
+
+4
+
+5
+
+6
+
+Y pixels
+
+100
+
+0
+
+Figure 4. Illuminated pixel movement in the (A) horizontal X-direction and the (B) vertical Y-direction
+over the course of several seconds.
+
+	  
+
+11	  
+
+composite waves produced in this study.
+Finally,
+
+accurate
+
+wave
+
+amplitude
+
+measurement was achieved by directing a laser
+onto
+
+the
+
+surface
+
+of
+
+the
+
+water
+
+at
+
+an
+
+approximately 45° angle lateral to the waves
+and recording the vertical displacement of the
+
+Figure 5. Illuminated sawdust particle movement in the
+horizontal X-direction (red trace) and the horizontal Zdirection (blue trace). This example is from the
+measurement of 8 Hz waves.
+
+reflection of the laser from a horizontal angle. Sawdust was sprinkled onto the surface of the
+water to illuminate the point where the laser hits the water surface. While this was not quantified,
+it was presumed that the negligible weight of sawdust marginally impacted characteristics of the
+waves being produced, and thus did not influence measurements. Thus, I recorded videos of
+waves from an approximately horizontal angle to the water surface. In these videos, brightly lit
+sawdust particles effectively represented the surface of the water, moving vertically and
+horizontally with incoming waves. Using software to track bright spots in each video, the
+movement of the water was measured in the vertical (Y) and horizontal (X) dimensions (Fig. 4).
+Because the water does not move perfectly in the X-dimension during wave production, the
+effect of movement towards the camera (Z-dimension) was explored using additional videos that
+were recorded with the camera mounted above the aquarium and facing downward onto the
+water surface (Fig. 5). The influence of Y-direction measurement caused by Z-direction
+movement was quantified and it was determined that movement in the Z-dimension had a
+negligible impact (~.004 mm/V) on the vertical amplitude measurements, allowing the direct
+vertical movement recordings to be trusted. For each relevant frequency, the gain was then
+calculated as mm of wave amplitude produced per volt of driving voltage from the function
+generator (Fig. 6). From there, the necessary driving voltage to produce known amplitudes was
+
+	  
+
+12	  
+
+determined for each frequency
+
+0.4
+
+tested. For the volume of water
+used in this study, a notable
+amount of water displacement was
+required to produce waves with
+frequencies less than 1 Hz, not
+allowing
+
+for
+
+accurate
+
+measurement. Because of this,
+
+Gain (mm/V)
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+0.5
+
+0.7
+
+1
+
+1.5
+
+2
+3
+Frequency (Hz)
+
+4
+
+6
+
+8
+
+12
+
+Figure 6. Gain (mm/V) plotted as a function of wave frequency (Hz).
+The blue x symbols represent individual measurements, while the
+black bars represent the averages for each wave frequency.
+
+waves with any frequency less than 1 Hz were left out of data analysis.
+General Methods
+Animals
+All leeches (Hirudo verbana) were obtained from Niagara Medical Leeches, Inc.
+(Westbury, NY) and housed in aquariums within a temperature-controlled room (16°C) with a
+12-hour light:dark cycle. Leeches were tested individually.
+Electrophysiology
+The data were obtained using extracellular suction electrodes recording from several
+points on the ventral nerve cord. The target area of the nerve cord was tightly sucked into the tip
+of a recording electrode to measure the electrical firing of the nerve. The electrical signals were
+amplified using an A-M Systems differential AC amplifier (Model 1700), then visualized and
+recorded using custom software VScope (Wagenaar, 2008). A spike in voltage corresponds to
+firing of an S cell.
+Data collected by two extracellular electrodes provided information about the direction of
+action potential propagation through the ventral nerve cord of the leech. Comparing the time of
+
+	  
+
+13	  
+
+spike occurrence in one electrode with the other reveals the direction of propagation. One
+electrode recorded from a section more anterior on the nerve cord (between mid-body ganglia 7
+and 8), while the other recorded from a section more posterior (between mid-body ganglia 8 and
+9). If the spike occurred in the anterior electrode before the posterior electrode, the direction of
+action potential propagation would be head to tail.
+General preparation protocol
+Leeches were anesthetized using ice before being pinned onto a freestanding slab of
+Sylguard (Dow Corning Corporation). Magnets were embedded in the Sylgaurd to immobilize
+the slab in the geometric center of the experimental aquarium after dissection. Minimal
+dissection was performed to expose the ventral nerve cord.
+General experimental procedures
+Several steps were taken to ensure responses were not influenced by visual cues. All
+trials were performed in the dark. The room light was kept on until 15 s prior to each trial to
+reduce dark adaptation and visual sensitivity during each trial. Furthermore, the monitor of the
+computer running the recording software VScope was covered in multiple layers of red foil
+because the leech visual system is relatively insensitive to red light (Kretz et al., 1976). Data
+were collected over 31 s trials beginning with a 5 s delay, a 10 s stimulus duration, then a 16 s
+period post-stimulation to allow for wave dissipation. A minimum inter-trial latency of 30 s was
+kept to allow the leech sensory system to return to baseline activity and sensitivity. To confirm a
+clean S-cell recording, the room light was turned on with a few seconds left in the trial. The S
+cell showed a strong response to the room light so a group of spikes accompanying the time
+when the room light was turned on ensured accurate recording during that trial.
+
+	  
+
+14	  
+
+Data analysis
+12
+
+Data were analyzed using
+10
+
+determined for each leech using the
+response during the first 5 s of each
+trial before the stimulus started. This
+baseline activity was accounted for in
+data
+
+analysis
+
+when
+
+comparing
+
+response patterns in each subset of
+
+Firing rate (spks/s)
+
+Octave. Baseline firing rates were
+8
+
+6
+
+4
+
+2
+
+0
+Stimulus (10 s)
+
+Figure 7. Typical S-cell firing rate over the course of a 31-s trial. The
+black trace indicates average firing rate measured in spikes per
+second. The gray shading represents the variation amongst leeches
+using the extremes that deviated from the average.
+
+experiments. Figure 7 shows a typical
+response to water waves that was measured in this study and can be used as a reference for
+understanding comparisons in each subset of experiments. Typically, there was an initial burst of
+spikes in response to the start of stimulus and this response decayed over time. A small burst of
+spikes was often observed at the offset of stimulus. This was likely not a response to the absence
+of waves because the dissipation of waves does not happen instantly. Instead, this small burst at
+the offset of stimulus was due to the wave generating bar stopping and producing a small ripple
+of waves of differing characteristics than the stimulus waves. Often, the S-cell response was
+compared across conditions in terms of an initial response, measured as the spikes during the
+initial 2 s of stimulus, and sustained response, measured as the spikes during the final 5 s of
+stimulus.
+Vibration Response
+As previously mentioned, the experimental aquarium was placed on an air table to reduce
+water movement from unwanted disturbances or vibrations. The wave generation system,
+
+	  
+
+15	  
+
+involving the two loudspeakers and aluminum bar, was mounted to the bench on which the air
+table was located as well as the shelf above. It is important to note that the wave generation
+system was not attached to the air table or the aquarium. The purpose of this design was to limit
+any water disturbance cause by potential vibrations in the wave generation system. However, to
+ensure that leeches were not sensing vibrations, a vibration control experiment was performed.
+Procedure
+Dissection was performed on the dorsal side of the leech. Two suction electrodes
+recorded data from the nerve cord between mid-body ganglia 7 and 8 and 8 and 9. The aluminum
+bar was raised approximately 1 cm so that it never made contact with the saline in the aquarium,
+even during stimulation. A range of stimulus frequencies was tested, including 0.25, 0.5, 1, 2, 4,
+8, and 12 Hz. Frequencies randomly varied across
+trials. In between every few false stimulus trials, I
+performed a trial to ensure that the leech was alive
+and its sensory system working properly. During
+these trials, the false wave stimulus was replaced by
+manually triggering the room light for a 1 s duration
+three times during the trial.
+Results
+Indeed, the response of the leech was no
+different during stimulation and when the bar was at
+rest (Fig. 8). The leech sensory system was
+confirmed to be working properly as the leech
+responded strongly to each flash of the room light
+
+	  
+
+16	  
+
+Figure 8. Vibration in the wave generation system
+does not impact the leech response. Gray
+shading behind responses indicates when
+stimulus was turned on. (A) Above: A typical
+electrophysiology trace of the S cell response to
+water waves. Below: Each mark indicates an Scell spike. (B) Above: The electrophysiology trace
+of the S cell response during the vibration control
+experiment where the bar did not contact the
+water. Below: Each mark indicates an S-cell
+spike. (C) The trials involving room light during
+the control experiments. Above: A typical
+electrophysiology trace of the S-cell response to
+the room light. Below: Each mark indicates an Scell spike.
+
+throughout the experiment (Fig. 8C). This indicates that vibrations in the wave generation system
+had no affect on the leech response to water waves throughout the entire study.
+Orientation-dependent Response
+As previously mentioned, displaying an appropriate behavioral response to certain water
+wave characteristics is vital to the leech. Water wave sensation guides predation as well as
+avoidance of predators, which both require the ability to locate the source of water movement.
+Leeches readily respond to low-amplitude water waves by orienting themselves and initiating
+swimming or crawling behavior toward the source of stimulus (Young et al., 1981). While this
+suggests the ability to sense direction, the mechanosensory response pattern during perception of
+water waves has not been characterized in terms of the direction of a source of water waves
+relative to the leech.
+Procedure
+Dissection was performed on the dorsal side of the leech. Using two extracellular
+electrodes, data was recorded from the ventral nerve cord between mid-body ganglia 7 and 8 and
+8 and 9. Waves of 1 Hz and 8 Hz were presented from four directions relative to the orientation
+of the leech: Toward the head, toward the tail, lateral left, and lateral right. Wave amplitudes at
+each frequency were kept constant (94 µm for 1 Hz waves and 61 µm for 8Hz waves). The
+chosen amplitudes at each frequency are fairly arbitrary because the relationship between driving
+voltage and wave amplitude in the wave generation system had not been determined at the time
+of these experiments.
+Results
+Regarding strength of response, the leeches did not respond differently to waves
+presented laterally, directly towards their head, or directly towards their tail. Separate two-way
+
+	  
+
+17	  
+
+ANOVAs were used to determine differences in the response
+
+frequencies and stimulus directions. Analysis of main effects
+showed that stimulus direction had no effect on initial response,
+
+and waves presented tail-on for 8 Hz waves (Fig. 9A), t(53) = 1.63, p = .11. There was a significant main effect of wave
+
+n.s.
+
+4
+
+2
+
+0
+
+B
+
+stronger initial response than 8 Hz waves. However, there was
+no interaction between the effects of wave frequency and
+stimulus direction on onset of response, F(3,56) = .348, p = .791.
+
+f = 8 Hz
+
+f = 1 Hz
+
+f = 8 Hz
+
+1
+0.5
+0
+0.5
+
+frequency, F(1,56) = 23.56, p < .001, with 1 Hz waves evoking a
+
+f = 1 Hz
+
+1.5
+Avg. net spike count
+
+response was not different between waves presented head-on
+
+Left
+
+6
+
+response during the final 5 s of stimulus (Fig. 9B) across
+
+F(3,56) = 2.48, p = .07, and a t-test confirmed that the initial
+
+Right
+
+Tail
+
+***
+Avg. net spike count
+
+during the initial 2 s of stimulus (Fig. 9A) and sustained
+
+A
+
+Head
+
+Figure 9. The average net spike
+count as function
+of stimulus
+direction for 1 and 8 Hz waves. (A)
+Initial response measured during
+initial 2 s of stimulus. The n.s.
+indicates no statistically significant
+difference. (B) Sustained response
+measured during final 5 s of
+stimulus. Error bars indicate SEM. N
+= 10.
+
+For the sustained response, there was also no interaction between wave frequency and stimulus
+direction, F(3,56) = .842, p = .477, but there was a main effect of stimulus direction, F(3,56) =
+2.89, p = .043. However, post-hoc analyses using a Tukey HSD test did not identify any
+significant differences among specific direction conditions. Baseline S-cell activity was
+subtracted from each response for accurate comparison, resulting in the slightly negative average
+for head-on 8 Hz waves (Fig. 9B).
+The direction of action potential propagation largely depended on the orientation of wave
+presentation relative to the leech (Fig. 10). When waves were presented towards the tail, lateral
+right, or lateral left, the majority of spikes propagated towards the head of the leech. Conversely,
+during the initial 0.5 s of wave presentation toward the head, an initial burst of spikes traveled
+
+	  
+
+18	  
+
+A
+
+B
+
+Head
+
+Head
+
+Tail
+
+Tail
+
+Right
+
+Right
+
+Left
+
+Left
+
+Figure 10. Propagation direction of action potentials along the ventral nerve cord for response to four
+stimulus directions. The gray bars represent 10 stimulus presentation with alternating light and dark shading
+symbolizing wave frequency with panel A representing 1 Hz waves for each direction and panel B
+representing 8 Hz waves for each direction. The height of the gray bars indicates 10 spikes per second. The
+red trace represents action potential transmission towards the tail and the blue trace represents action
+potential transmission towards the head. N = 10.
+
+posteriorly through the nerve cord before the spikes during the remainder of the response
+propagated towards the head. The fraction of spikes that propagated head to tail along the nerve
+cord was compared across wave frequencies and stimulus directions for two durations of
+response (initial 0.5 s and remainder of response) (Fig. 11). Separate two-way ANOVAs were
+employed for each period of response to determine differences in the fraction of anterograde
+propagation across wave frequencies and stimulus directions. There was a main effect of
+direction on the percentage of spikes propagating anterogradely during the initial 0.5 s of
+response, F(3,66) = 27.99, p < .001. A Tukey HSD test revealed that a larger fraction of spikes
+travelled head-to-tail during the initial 0.5 s of response to 1 and 8 Hz waves presented head-on
+and 8 Hz waves presented laterally right than other wave conditions. There was no effect of
+
+	  
+
+19	  
+
+A
+
+during the initial 0.5 s of response, F(1,66) = .068, p =
+.795, and no interaction between wave frequency and
+stimulus direction, F(3,66) = 1.87, p = .144.
+Throughout the remainder of the response, the majority
+
+100
+
+Anterograde propagation (%)
+
+wave frequency on the percentage of head-to-tail spikes
+
+80
+
+also no interaction between wave frequency and
+stimulus direction, F(3,67) = 2.17, p = .100. There were
+no effects of wave frequency, F(1,67) = .580, p = .449,
+
+Left
+
+60
+
+(b)
+
+40
+20
+
+(b)
+
+(b)
+First 0.5 s
+
+Remainder
+
+100
+
+Anterograde propagation (%)
+
+of spikes propagated towards the head and there was
+
+Tail
+
+Right
+(a)
+
+0
+
+B
+
+Head
+
+80
+
+(a)
+
+60
+
+(a)
+
+40
+20
+0
+
+(b)
+First 0.5 s
+
+(b)
+Remainder
+
+Figure 11. The percentage of head-to-tail spike
+propagation as a function of stimulus direction
+for the initial 0.5 s of response and the
+remainder of response. (A) Spike propagation
+direction for 1 Hz waves. (B) Spike propagation
+direction for 8 Hz waves. Error bars indicate
+SEM. N = 10.
+
+or stimulus direction, F(3,67) = 1.43, p = .241.
+
+Incision Experiments
+Previous results showed that action potential propagation depended on stimulus direction
+relative to the leech. The leech nervous system features two major ganglia: one group in the head
+consisting of the supra- and subesophageal ganglia (SEG), known as the head brain, and one in
+the tail, known as the tail brain. The primary role of the two major ganglia in mechanoreception
+involving water waves is not well understood. In this subset of experiments, the effect of
+removing input from the head brain or tail brain was explored on the strength of response to
+water waves and propagation direction of action potentials.
+Procedure
+Dissection and recording procedures were followed as previously described. A range of
+wave frequencies was tested, including 1, 2, 4, 8, and 12 Hz. After each wave frequency was
+
+	  
+
+20	  
+
+tested for two stimulus directions (head-on and tail-on),
+
+A
+
+Tail brain cut
+
+Head brain cut
+
+Pre-cut
+
+an incision was made to completely sever the ventral
+
+15
+
+Spikes
+
+nerve cord either immediately posterior to the head brain
+or immediately anterior to the tail brain. This incision
+
+10
+5
+
+should have effectively removed input from the two
+0
+
+to note that I did not alter the receptive fields of the two
+major ganglia so it is possible that they could provide
+input in a peripheral manner not involving the ventral
+nerve cord.
+Results
+Wave amplitudes were kept constant at each
+frequency but not across frequencies, because the
+
+Anterograde propagation (%)
+
+major ganglia along the ventral nerve cord. It is important
+
+B
+
+Head-on
+
+Tail-on
+
+Head-on
+
+Tail-on
+
+100
+80
+60
+40
+20
+0
+
+Figure 12. Removing input from the head
+brain or tail brain had no effect on (A)
+spikes or (B) percentage of action
+potentials travelling head-to-tail. Each bar
+represents average for that condition.
+Error bars represent SEM. N = 3 for head
+brain input removal and 3 for tail brain
+input removal.
+
+relationship between driving voltage and wave amplitude
+was not yet accurately determined. For this reason, data were pooled across frequencies. For
+either stimulus direction tested, there were significant decreases in spikes after removing head
+brain or tail brain input (Fig. 12A), F(1,19) = 7.46, p = .013. However, there were no differences
+in the percentage of head-to-tail spikes before and after removing input from either major
+ganglion (Fig. 12B), F(1,19) = .21, p = .65.
+Frequency-dependent Response
+The leech experiences water waves that originate from various sources, and each
+produces waves of unique characteristics. Prey, predators, and other sources of waves are likely
+responsible for water waves consisting of distinct frequency content. Using only mechanical
+
+	  
+
+21	  
+
+information, an optimal water wave frequency for eliciting positive leech behavior exists at 12
+Hz (Harley et al., 2011). Sensitivity to wave frequency would be advantageous for distinguishing
+between prey and predators. This subset of experiments was intended to define the neural
+response, in terms of the S cell, to varying frequencies of water waves.
+Procedure
+Dissection was performed on the dorsal body wall. Using two extracellular electrodes,
+data was recorded from the ventral nerve cord between mid-body ganglia 7 and 8 and 8 and 9.
+Waves presented towards the tail and the order in
+40
+
+which wave frequencies were presently randomly
+30
+
+was used for each frequency and the amplitudes
+
+Spikes
+
+varied across leeches. A range of wave amplitudes
+20
+
+randomly varied across trials as well.
+
+10
+
+Results
+
+0
+0
+
+The
+
+relationship
+
+between
+
+strength
+
+of
+
+response, measured by the number of spikes, and
+wave amplitude was generally linear. As wave
+
+50
+
+100
+150
+Wave amplitude (μm)
+
+200
+
+Figure 13. Linear relationship between spikes and
+wave amplitude for 2 Hz waves. Each mark
+represents the average for an individual leech and
+the corresponding color-coded line indicates the
+linear fit for that leech. The thick black bar
+indicates an average fit across leeches.
+
+amplitude increased, the number of spikes increased
+(Fig. 13). A linear fit to the data was as good as a sigmoidal fit, so the linear fit was used for
+simplicity during data analysis. Figure 13 displays the linear relationship between spikes and
+wave amplitude for only 2 Hz waves, but this relationship was similar for all other frequencies
+used.
+To compare the response patterns across frequencies, the slope of each linear fit was
+determined as the number of spikes elicited per µm of wave amplitude for each wave frequency.
+
+	  
+
+22	  
+
+Multiple
+
+peaks
+
+emerged
+
+in
+
+the
+
+(b)
+
+0.25
+(b)
+
+sensitivity profile of Hirudo verbana
+(Fig. 14). A one-way ANOVA was
+used to determine differences in slope
+across wave frequencies. There was a
+
+Slope (spikes/μm)
+
+0.2
+(a,b)
+0.15
+
+0.1
+
+(a)
+
+(a)
+
+(a)
+
+(a)
+
+3
+4
+6
+Frequency (Hz)
+
+8
+
+(a)
+
+main effect of frequency on slope,
+
+0.05
+
+F(9,62) = 7.004, p < .001. A Tukey
+
+0
+1
+
+HSD post-hoc analysis indicated that
+12 and 14 Hz waves elicited the most
+
+(a,b)
+
+(a,b)
+
+1.5
+
+2
+
+10 12 14
+
+Figure 14. The average slope (spikes/μm of wave amplitude) for
+each frequency tested. Error bars represent SEM. N = 9.
+
+spikes per µm of wave amplitude. However, response to waves of 2, 3 and 10 Hz did not differ
+significantly from the response to 12 and 14 Hz waves. Regarding action potential propagation
+direction, there were no differences across frequencies.
+Mechanoreception and Satiety Level
+Procedure
+Leeches were acclimated to room temperature before being fed using pork-based sausage
+casings filled with bovine blood (Animal Technologies, Tyler, TX). Due to ingestion, the body
+weight of the leeches increased approximately 1200%.
+To prevent disturbance of the gut lining, dissection was performed on the ventral side of
+the leech. The ventral nerve cord was exposed between mid-body ganglia 1 and 2 and severed
+just posterior to ganglion 1. Data were then recorded by one extracellular electrode from the
+loose end of the nerve cord anterior to ganglion 2. Waves of 2 Hz were presented with varying
+amplitudes from two directions relative to the orientation of the leech: towards the head and
+towards the tail. Four data sets were recorded and compared. Five leeches were tested
+
+	  
+
+23	  
+
+immediately after feeding (1 to 3 days post-feeding). Previous studies have shown that changes
+in leech behavior after and during ingestion stem from nervous system changes caused by
+distension in the gut lining when it fills with blood from feeding (Gaudry & Kristan, 2009,
+2010). Thus, for each of the leeches tested immediately after feeding, I tested each wave
+amplitude and frequency combination before and after piercing the gut lining to drain the blood
+from the gut. These data provided insight into the impact of distension in the gut on the S-cell
+response to mechanical waves. To further understand the timing of this effect, several leeches
+were tested two weeks after feeding (14 to 17 days post-feeding) and one month after feeding (30
+to 31 days post-feeding). These responses were compared to patterns from leeches used in the
+subset of experiments exploring the frequency-dependent response that had eaten at least 6
+months prior to testing.
+Results
+There were no differences in response patterns to the waves approaching head-on or tailon so the data from these two stimulus directions were combined for each hunger state. The
+initial response to water waves was measured using spikes occurring during the initial 2 s of
+stimulus and the sustained response was measured using spikes occurring during the final 5 s of
+stimulus. One-way ANCOVAs were performed to identify differences in spikes occurring during
+these two stimulus points. When controlling for wave amplitude, there was a main effect of
+hunger state on initial response to water waves, F(4,218) = 3.043, p = .0181 (Fig. 15). A Tukey
+HSD post-hoc analysis determined that leeches tested 30-31 days after feeding exhibited stronger
+initial response than leeches tested 14-17 days after feeding. The main effect of hunger state
+remained for the sustained response to water waves, F(4,218) = 7.162, p < .001. Post-hoc
+analysis (Tukey HSD) indicated that leeches tested 30-31 days post-feeding sustained a greater
+
+	  
+
+24	  
+
+response than leeches tested 1-
+
+A
+
+pf day 1-3 (full)
+pf day 14-17 (full)
+
+leeches tested 14-17 days
+post-feeding. It is important to
+
+10
+Spikes (initial 2 s)
+
+3 days after feeding and
+
+was no difference between
+leeches tested 30-31 days after
+feeding and unfed leeches.
+
+B
+
+Spikes (final 5 s)
+
+and sustained response there
+
+pf 6 months+
+
+(a,b)
+
+(a)
+(a,b)
+(a,b)
+(b)
+
+5
+
+0
+
+note that for both the initial
+
+pf day 30-31 (full)
+
+pf day 1-3 (empty)
+
+0
+
+50
+
+100
+150
+Wave amplitude (μm)
+
+200
+
+10
+
+(a)
+
+(a,b)
+(b)
+(b)
+(b)
+
+5
+
+0
+
+0
+
+50
+
+100
+150
+Wave amplitude (μm)
+
+200
+
+Figure 15. Spikes as a function of wave amplitude for several leech hunger
+states. (A) Initial response measured as spikes during initial 2 s of stimulus.
+(B) Sustained response measured as spikes during the final 5 s of stimulus.
+Error bars represent SEM. N = 5 for pf day 1-3(full/empty), 4 for pf day 14-17,
+3 for pf day 30-31, and 9 for pf 6 months+.
+
+Discussion
+The results of this study complement what is known about the leech behavioral response
+to water waves. It is known that leeches can ascertain directional information from water waves
+to determine the location of the source of stimulus relative to their own orientation (Harley et al.,
+2011; Young et al., 1981). This ability has not been investigated on more than a behavioral level,
+so the mechanism behind localizing the origin of waves is not well understood. These results
+suggest that while the S cell responds equally to water waves approaching from different
+directions, information regarding the direction of stimulus is available to the leech sensory
+system. Generally, waves approaching the tail or laterally elicited action potentials that
+originated posteriorly. Waves approaching the head evoked an initial burst of action potentials
+originating anteriorly and travelling towards the tail along the ventral nerve cord. This flip of
+
+	  
+
+25	  
+
+action potential transmission shows that sufficient information is available to distinguish water
+waves arriving near the head from waves originating elsewhere. The exploratory nature of this
+study limited directional investigation to four broad stimulus directions. The sensory
+mechanisms behind mechanoreception of water waves, the SMRs, are widely distributed
+amongst the circumference of the leech body (Friesen, 1981), so it is possible that the S cell is
+sensitive to more subtle changes in wave source orientation.
+The roles of the head brain and tail brain remain understudied regarding action potential
+propagation direction. The results of this study show that overall S-cell firing rate significantly
+decreases following the severing of the ventral nerve cord just posterior to mid-body ganglion 1
+and just anterior to the tail brain. This reduction in firing rate was similar for either manipulation,
+suggesting that the head brain and the tail brain may serve a similar role in terms of the strength
+of S-cell response. The S-cell action potential propagation direction was not systematically
+affected by the removal of either major ganglion. This suggests that the mechanism behind the
+different directions of S-cell action potential propagation based on stimulus direction is not the
+responsibility of either major ganglion, but rather a mid-body function.
+The results of this study showed parallels and contrasts to previous behavioral studies on
+the leech’s wave frequency-dependent response as well. Harley et al. (2011) showed that 8 and
+12 Hz waves evoked the strongest behavioral response to water waves. When waves were
+reduced to only mechanical presentation (visual cues were eliminated), leeches most readily
+located the source of 12 Hz frequency waves in that study. Consistent with those results, the
+strongest S-cell responses in this study were measured at 12 and 14 Hz. Leeches likely respond
+discriminately to certain frequencies because of the source of waves that correspond to those
+frequencies. While limited, leeches exhibit social interaction (Bisson & Torre, 2011), so waves
+
+	  
+
+26	  
+
+produced by conspecifics almost certainly affect behavior. Additionally, recently fed leeches do
+not behaviorally respond to water waves as readily as hungry leeches (Young et al., 1981),
+suggesting that this discriminate response is related to prey-seeking as well. Waves with 12 and
+14 Hz frequencies likely resemble the target prey of adult leeches.
+The comparisons in S-cell responses to different wave frequencies were made while
+keeping wave amplitude constant. Of course, wave amplitude may not be the most effective
+variable to keep constant when exploring frequency-dependent sensitivities. Figure 16 displays
+the sensitivity profile of the S cell to the same range of wave frequencies plotted in Figure 14,
+except here in Figure 16, the S-cell response is compared across waves of constant energy
+content for each frequency. In this
+
+0.1 (a)
+
+a main effect of wave frequency on S-cell
+response, F(8,62) = 18.39, p < .001. A
+Tukey HSD post-hoc test indicated that
+the S-cell responded most strongly to
+waves of 1 and 2 Hz than other tested
+frequencies of identical energy content.
+The
+
+findings
+
+of
+
+this
+
+study
+
+Slope (spikes/RMS Power)
+
+(a)
+
+comparison, a one-way ANOVA revealed
+
+0.08
+
+0.06
+
+0.04
+(b)
+
+(b)
+
+(b)
+
+(b) (b)
+
+0.02
+(b)
+
+(b)
+(b)
+
+0
+1
+
+1.5
+
+2
+
+3
+4
+6
+8 10 12 14
+Frequency (Hz)
+Figure 15. The S-cell response for a range of frequencies with a
+constant energy content of the wave. Error bars represent SEM.
+N = 9.
+
+corroborate the relationship between feeding and water wave sensation. Hunger state has been
+linked to behavior as well as the nervous system of the leech. There is a decrease in motor
+behavior and localization of water wave sources in satiated leeches (Misell et al., 1998; Young et
+al., 1981). Descending inhibition of pressure sensitive cells (P cells) has been observed to
+accompany the reduction of behavioral responses to water waves during ingestion (Gaudry &
+
+	  
+
+27	  
+
+Kristan, 2009), suggesting that satiation directly impacts the leech nervous system. It has been
+proposed that distension in the body wall after feeding activates stretch receptors that sustain the
+reduction of behavioral responses to water waves (Gaudry & Kristan, 2010), but the mechanism
+employed by the stretch receptors is unknown. My results show that, in general, the S-cell
+response of leeches tested four weeks after feeding was stronger than leeches tested immediately
+after feeding or two weeks after feeding, but did not differ from leeches tested 6+ months after
+feeding. One possible explanation for this is that the S cell lies after the inhibitory stretch
+receptors in the body wall on the pathway to the motor output that is required for the behavioral
+response. Therefore, when the stretch receptors activate when the body wall is distended after
+ingestion, both the behavioral response and the S cell response to water waves are diminished.
+However, the S cell response of leeches tested immediately after feeding suggest otherwise. Two
+data sets were collected from each leech tested immediately after feeding: One while the leech
+was full of blood and therefore had body distension, and another after draining the leech of the
+blood entirely. There were no differences in S cell response in these two distension states,
+suggesting that body wall distension is not responsible for inhibiting the S cell response. Thus, a
+different inhibitory mechanism may be responsible.
+Behavioral adaptation in response to water waves has been well documented in the leech,
+including some understanding of sensory modalities used for perception of water waves. Leeches
+likely use several aspects of physical water waves to localize prey or simply understand their
+environment. The results of this study begin to provide insight into the effects of certain aspects
+of physical water waves on the mechanosensory system in the leech. Complementary behavioral
+data alongside recorded S-cell response to water waves would further clarify this understanding.
+It is clear that mechanoreception of water waves greatly influences behavioral modification in
+
+	  
+
+28	  
+
+the leech and the S cell provides an effective reference point for further understanding the
+complexity of the leech mechanoreceptive system.
+
+	  
+
+29	  
+
+References
+Bleckmann, H. & Barth, F. G. (1983). Sensory ecology of a semi-aquatic spider (Dolomedes
+triton). Behavioral Ecology and Sociobiology, 14, 303-312.
+Bisson, G., & Torre, V. (2011). Statistical characterization of social interactions and collective
+behavior in medicinal leeches. Journal of Neurophysiology. 106(1), 78-90.
+Carlton, T., & McVean, A. (1993). A comparison of the performance of two sensory systems in
+host detection and location in the medicinal leech Hirudo medicinalis. Comparative
+Biochemestry & Physiology. 104(2), 273-277.
+Dickinson, M., & Lent, C. (1984). Feeding behavior of the medicinal leech, Hirudo medicinalis.
+Journal of Comparative Physiology. 154(4), 449-455.
+Dijkgraaf, S. (1962). The functioning and significance of the lateral line organs. Biological
+Reviews. 38, 51-105.
+Gascoigne, L., & Mcvean, A. (1991). Neuromodulatory effects of acetylcholine and serotonin on
+the sensitivity of leech mechanoreceptors. Comparative Biochemistry and Physiology
+Part C – Comparative Pharmacology. 99(3), 369-374.
+Gaudry, Q., & Kristan, W.B. (2009). Behavioral choice by presynaptic inhibition of tactile
+sensory terminals. Nature Neuroscience. 12(11), 1450-1457.
+Gaudry, Q., & Kristan, W.B. (2010). Feeding-mediated distension inhibits swimming in the
+leech. Journal of Neuroscience. 30(29), 9753-9761.
+Friesen, W.O. (1981). Physiology of water motion detection in the medicinal leech. Journal of
+Experiomental Biology. 92, 255-275.
+Harley, C., Cienfuegos, J., & Wagenaar, D. (2011). Developmentally regulated multisensory
+integration for prey localization in the medicinal leech. Journal of Experimental Biology.
+
+	  
+
+30	  
+
+214, 3801-3807.
+Harley, C., & Wagenaar, D. (2014). Scanning behavior in the medicinal leech Hirudo verbana.
+PloS ONE. 9(1), e86120.
+Harley, C., Reilly, M., Stewart, C., Schlegel, C., Morley, E., Puhl, J., Nagel, C., Crisp, K., &
+Mesce, K. (2015). Compensatory plasticity restores locomotion after chronic removal of
+descending projections. Journal of Neurophysiology. 113(10), 3610-3622.
+Herter, K. (1929). Reizphysiologisches verhalten und parasitismus
+des entenegels. Protoclepsis tesselata. 10, 272-308.
+Horridge, G., & Boulton, P. (1967). Prey detection by Chaetognatha via a vibration sense.
+Proceedings of the Royal Society of London B Biological Sciences. 168, 413-419.
+Keim, A. (1993). Studies on the host specificity of the medicinal blood leech Hirudo medicinalis.
+Parasitology Research. 79, 251-255.
+Kretz, J.R., Stent, G.S., & Kristan, W.B. (1976) Photosensory input pathways in the medicinal
+leech. Journal of Comparative Physiology. 106(1), 1-37.
+Lang, H. H. (1980). Surface wave discrimination between prey and nonprey by the back
+swimmer Notonecta glauca L. (Hemiptera, Heteroptera). Behavioral Ecolology
+Sociobiology. 6, 233-246.
+Lent, C.M. (1982). Serotonin-containing neurons within the segmental nervous system of the
+leech. Biology of serotonergic transmission. 431-456.
+Mann, K.M. (1962). Leeches (Hirudinea). Their structure, physiology, ecology and embryology.
+New York: Pergamon Press.
+Mellon, D. (1963). Electrical responses from dually innervated tactile receptors on the thorax of
+the crayfish. Journal of Experimental Biology. 40, 137-148.
+
+	  
+
+31	  
+
+Misell, L.M., Shaw, B.K., & Kristan, W.B. (1998). Behavioral hierarchy in the medicinal leech,
+Hirudo medicinalis: feeding as a dominant behavior. Behavioural Brain Research. 19,
+13-21.
+Peterson, E.L. (1983). Visual processing in the leech central nervous system. Nature. 303, 240242.
+Wagenaar, D.A. (2015). A classic model animal in the 21st century: recent lessons from the leech
+nervous system. Journal of Experimental Biology. 218(21), 3353-3359.
+Whitman, C.O. (1898) Animal behavior. Biological Lectures. Marine
+Biological Laboratory (Woods Hole): 285-338.
+Young, S., Dedwylder, R., & Friesen, W. (1981). Responses of the medicinal leech to waterwaves. Journal of Comparative Physiology. 144(1), 111-116.
+
+	  
+
+32	  
+
+

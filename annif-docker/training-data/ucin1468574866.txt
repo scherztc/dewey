@@ -1,0 +1,2263 @@
+The present thesis has been submitted to the
+Graduate School
+of the University of Cincinnati
+in partial fulfillment of the
+requirements for the degree of
+Master of Arts
+in the Department of Classics
+of the College of Arts and Sciences
+by Eleni Androulaki
+B. A. University of Crete 2004
+& M.A. Leiden University 2007
+Committee Chair: Professor Kathryn J. Gutzwiller
+Committee Member: Professor Susan H. Prince
+
+Ptolemaic Aspirations in Callimachean Poetry
+(A geographic perspective)
+
+Abstract
+The purpose of this thesis was to investigate how the travels of mind and the continuing change
+of places throughout the Greek world - from the North to the South and from the East to the West in a selected corpus of poems in Callimachus’ Aitia, the Hymns and the epigrams create the picture
+of a poetry which mirrored the concerns and interests of the Ptolemaic dynasty in the first half of
+the 3nd century BC. More specifically, the examination of the geographical references in the
+poems which have been selected and analyzed in the present paper, indicates that Callimachus’
+poetry promoted in a discreet way the political aspirations of the Ptolemies on three different
+levels. In the first chapter of this paper, a number of poems have been presented in which the
+relocation of gods, people or objects from the northern parts of the Greek world to the South likely
+signifies the transition of power from the old Greek world to Ptolemaic Egypt. In this context, it
+has also been examined how Callimachus constructed in his poetry the topography of Cyrene and
+Alexandria, the political and cultural center of the new powerful Hellenistic kingdom in the
+Southern Mediterranean. In the subsequent chapter, the focus shifts to poems where the imaginary,
+continuous transportation of the reader to places which were part of the Greek cultural memory
+assisted the Ptolemies to cultivate the idea of Panhellenism among the imported Greek community
+in Egypt in order to unite them under a shared identity. In this way, Callimachus’s poetry supported
+the Ptolemies’ goal to present themselves as legitimate rulers of all the Greeks in Egypt as well as
+to help the Greek community feel less alienated in this foreign environment they were brought to
+inhabit. In this context, it has also been investigated how the Callimachean poetry - which was
+intended for the Greek people who were in the process of coming to an accommodation with the
+traditions and the culture of the native Egyptian population - functioned as a tool for the Ptolemaic
+kings to bridge these two cultures. The last chapter focuses on a small group of poems which
+included places outside Egypt which were at the center of the Ptolemies’ intentions, thus presenting
+the political aspirations of the Ptolemaic kings outside their territory.
+
+1
+
+2
+
+Content
+Introduction
+Chapter I
+A shift of power: Egypt and Alexandria as the new centers of the Greek world
+Chapter II
+Cultural reassurance in verse
+Chapter III
+Callimachean representations of Ptolemaic foreign policy
+Conclusion
+
+3
+
+Ptolemaic Aspirations in Callimachean Poetry
+(A geographic perspective)
+Introduction
+When Ptolemy I became ruler of Egypt, he developed a royal court which played a very
+important role on the organization of the new “bicephalous” kingdom, where the king fulfilled
+the role of the βασιλέα for the new settlers coming from the Greek world to Egypt as well as the
+role of the pharaoh for the native population. Ptolemy I and his successors invited people to
+settle in the royal court in order to assist them to cope with their various duties. Among these
+people, intellectuals in a variety of areas from Greece, Cyrene and Asia Minor, who were also in
+large part friends of the kings, were brought into the royal court to fulfil a twofold role: they
+served as guardians of the Greek culture restating its significance for the settlers of Alexandria
+from the Greek world and they assisted the Ptolemaic kings with their activities to increase their
+reputation while they were trying to establish themselves in Egypt as well as to enhance their
+power in the Greek world.
+Callimachus, a native of Cyrene, was invited by Ptolemy Soter and his son, Philadelphus, to
+participate in the literary and scientific projects of the Library of Alexandria and the Museum.
+Swiftly, he established himself as a leading figure of literary culture and became a distinctive
+member of the expatriate community and the royal court, which with its personalities and
+activities influenced his poetry. Although several scholars have forcefully argued in the past that
+Callimachus’ works were guided only by purely aesthetic criteria, several features of these works
+show that this poetry was closely associated with the interests of the Ptolemaic court.1 In
+
+recent
+
+Recent scholarship has proposed a readjustment of the old view of the Callimachean poetry as an “art for
+the sake of art” (see Green, P.: 1990, Bulloch, A.: 1985, Zanker, G.: 1987) suggesting that Callimachus’
+1
+
+4
+
+research, the majority of scholars have attempted to reconcile extreme approaches of
+Callimachus’ poetry arguing that the Callimachean poetry: a) although it could not have been
+part of public culture, however, it included stories which could appeal not only to a selected,
+erudite readership but also to the more average cultured Greek in and beyond the Museum and b)
+that it is a reflection of the character of the court as political, intellectual and social center and
+therefore, it is essential that this poetry should be perceived and interpreted it in this context.
+Selden in 1998 and Asper in 2011 argued convincingly that a deliberate interpretation of the
+map of the Callimachean poetry shows that Callimachus’ works were created to serve the
+Ptolemaic aspirations in the Greek world as well as the cultural politics of the Ptolemaic kings in
+the 3rd Century BC in different ways.2 Based on this suggestion, the purpose of the present paper
+is to investigate through the example of geographical references how several poems of the
+surviving Callimachean works were employed:3 a) to stress the shifting of power from the old
+Greek world to the new Ptolemaic regime, b) to bind the Greek community in Egypt under a
+shared ethnic identity in order that they would feel less alienated in the new environment they
+were brought to live, as well as to help them absorb their new Egyptian environment freed from
+the fear of assimilation, thus supporting the Ptolemies’ goal to accommodate successfully and
+peacefully Greek and local populations in their regime and 3) to present the Ptolemies as
+powerful kings who were interested to expand their influence in the whole Mediterranean world.
+
+poetic corpus of texts should be viewed as a work with political dimensions (Gutzwiller: 1992) and a
+distinct function in the environment it was produced (see Stephens, S: 1998, Selden, D.: 1998, Acosta
+Hughes, B. & Stephens, S: 2012).
+2
+Selden, L. D. (1998), p. 303 & Asper, M. (2011), p. 155.
+3
+A selection of poems from Callimachus’ Aitia, The Hymns and epigrams has been made to support the
+thesis of this paper as it has been stated in the introduction. Some of this material re-occurs in more than
+one chapter due to the fact that it can be viewed from different perspectives and offer evidence for the
+reinforcement of several arguments.
+5
+
+In the first chapter of this paper, a number of poems will be presented in which the relocation
+of gods, people or objects from the northern parts of the Greek world to the South likely signifies
+the transition of power from the old Greek world to Egypt.4 In this context, we need to examine
+how Callimachus constructed in his poetry the topography of Cyrene and Alexandria, the
+political and cultural center of the new powerful Hellenistic kingdom in the Southern
+Mediterranean. In the subsequent chapter, the focus will shift to poems where the imaginary,
+continuous transportation of the reader to places which were part of the Greek cultural memory
+assisted Ptolemies to cultivate the idea of Panhellenism among the imported Greek community in
+Egypt in order to unite them under a shared identity. In this context, it is also necessary to
+investigate how the Callimachean poetry - which was intended for Greek people who were in the
+process of coming to an accommodation with the traditions and the culture of the native
+Egyptian population - functioned as a tool for the Ptolemaic kings to bridge these two cultures.
+In this way, they would manage to avoid political unrest from both sides and ensure balance and
+stability in their new multicultural regime, without risking the cultural independence of the
+Greeks. In the final chapter, we will inquire whether the map of the world in Callimachus’ poetry
+included places outside the borders of Egypt which were at the center of the Ptolemies’
+intentions, thus presenting the political aspirations of the Ptolemaic kings outside their regime.
+
+4
+
+Acosta - Hughes, B. & Stephens, A. S. (2012), pp. 150-154.
+
+6
+
+Chapter I
+A shift of power: Egypt and Alexandria as the new center of the Greek world
+Alexander the Great achieved through an extraordinary military campaign an extension of
+Macedonian power to the East and South bringing under his rule Asia Minor, Palestine, Syria,
+the Persian Empire and Egypt and carried the Greek culture far beyond the borders of the Greek
+world. After his death his massively expanded empire was left without any particular direction
+and severe conflicts and wars were initiated by his successors in order to ensure control of his
+heritage. By the end of the 1st quarter of the 3rd century BC Alexander’s empire had been divided
+into four separate kingdoms. The Antigonids in the Macedonian homeland, the Seleucids in Asia,
+the Attalids in Asia Minor and the Ptolemies in Egypt were the major dynasties that emerged
+from these conflicts.
+The establishment of these kingdoms and their organization under a centralized bureaucratic
+system resulted in the emergence of big cities resided in by multinational populations. These new
+urban centers had enormous resources and became focal points of international trade and cultural
+life. When Ptolemy I became ruler of Egypt - since he did not desire to be out of the sight of the
+Mediterranean Sea - he transferred the center of the royal operations from Memphis to
+Alexandria and he transformed the city into a great commercial port and a vibrant cultural center.
+Positioned between Europe and Asia, Alexandria became soon the most prominent among the
+new urban centers of the Hellenistic world, a crossroad for all nations and creeds. Although the
+native Egyptians remained the majority of the population, the policy of the first Ptolemies was
+the attraction of populations from all over the Mediterranean world. The Ptolemaic rulers
+offered all these ethnic groups a certain level of autonomy and allowed them to
+
+govern
+
+7
+
+themselves according to their own traditions. A large number of the new settlers in Alexandria
+were imported from the old Greek world and an active plan for the Hellenization of the city was
+organized by the Ptolemies. In their attempt to accommodate the immigrants from Greece, the
+Ptolemaic regime organized the city on the model of Hellenic πόλις and allowed the Greek
+settlers to form their own political bodies and dispense justice according to their own legal
+tradition. Moreover, the Ptolemaic kings established in Alexandria several Greek religious cults
+and festivals while the Museum and the Library became the official institutions for the
+accumulation and preservation of the Greek language, literature and culture.
+Although little is known about the Museum and the Library, it is clear that they played a
+major role in the intellectual and cultural life of Alexandria. The poetry of the Hellenistic period
+is a product of the scholars who carried the responsibility of rescuing a great deal of the Greek
+past for posterity through their projects in this new institution with the support of the royal court.
+For a long time there has been a tendency among modern scholars to consider Hellenistic poetry
+as “art for art's sake”, a kind of autonomous elitist poetry created by scholar-poets who –
+indulging in being as sophisticated as possible - chose isolation from their contemporary world.5
+However, this old view has been recently challenged by a group of scholars who have attempted
+to interpret Hellenistic poetry in association with its contemporary social and political setting.6
+According to Kathryn Gutzwiller “scholars are now arguing that Hellenistic literature not only
+
+Peter Green (1990, pp. 171) held the opinion that the hypereducated scholars of the Alexandrian Library
+had developed a distaste for anything easily accessible to the public, thus opting for a more elitist poetry,
+“rich in exotic literary and mythological references”. Anthony Bulloch (1985, pp.543) shared the same
+view of Hellenistic poetry, stating that it did not arouse any discussion of social issues for its
+contemporary audience.
+6
+Susan Stephens (1998, 2000) and Daniel Selden (1998), two of the major proponents of this new trend,
+have forcibly argue that Hellenistic poetry, having been developed at the royal court with the support of
+Ptolemaic rulers, should not be understood outside the social and cultural context in which it was
+conceived.
+5
+
+8
+
+holds up a mirror to the world around it but also participates in the construction of political
+ideology and the dissemination of new social practices and ideas”. 7
+Callimachus, despite the fact that he was a native of Cyrene, lived the majority of his life in
+Alexandria. Although tradition asserts that in the early stages of adulthood he was a poor school
+master in a suburb of Alexandria, soon he drew the interest of the Ptolemies who invited him at
+the royal court and the Library. The Byzantine poet and scholar Ioannis Tzetzes gave him the
+title of “youth of the court”, indicating that Callimachus belonged in the circle of the king’s
+companions who had the obligation to perform several duties for their elders in order to boost
+their own careers and enhance their status in the royal court.8 As a scholar in the Library, he
+undertook major scholarly projects and was distinguished both for his acuteness of mind and his
+erudite nature. As a poet, he set out the aesthetic principles for his poetry as well as the poets of
+his generation, thus establishing himself as a leading figure of the Alexandrian literary culture. 9
+Taking into consideration that Callimachus lived the majority of his life under the patronage of
+three Ptolemies (Ptolemy Soter, Ptolemy Philadelphus and Ptolemy Euergetes) and having held
+important positions in the royal court and the library, the issue that arises is whether and to what
+extent his poetry was rooted in the concerns of the royal court and contemporary society. This
+chapter - based on the suggestion that Callimachus’ works were created to serve the Ptolemaic
+political and cultural aspirations in the 3rd Century BC10 - will examine through the analysis of
+the geographic references in several poems of the Callimachean literary production, how the
+poet attempted to impart the notion that his era was a moment of a significant transition for the
+
+7
+
+Gutzwiller, K. J. (2007), p. 188.
+Cameron, A. (1995), pp. 3-4 and 9.
+9
+Cameron, A. (1995), pp. 24-25.
+10
+See introduction, p. 3, fn 1.
+8
+
+9
+
+Greek world: the Ptolemies - having been attracted by the possibilities of Egypt - wished and
+managed to establish there a new powerful Macedonian regime which would swiftly become the
+new cultural, political and commercial center of the Mediterranean world, thus transferring the
+center of power from Northern Greece and the old Macedonian world to the South
+Mediterranean and more specifically to Alexandria in Egypt.11
+Hymn to Zeus, the first poem to be explored in this chapter, belongs to Callimachus’
+collection of hymns. The first line of the poem informs us about the setting which is a libation to
+the god at a symposium:
+(l. 1-3)
+Ζηνὸς ἔοι τί κεν ἄλλο παρὰ σπονδῇσιν ἀείδειν
+λώϊον ἢ θεὸν αὐτόν, ἀεὶ μέγαν, αἰὲν ἄνακτα,
+Πηλαγόνων ἐλατῆρα, δικασπόλον Οὐρανίδῃσι;
+Would anything else be better to hymn at libations of Zeus than the god himself,
+ever great, ever lord, router of the Titans, dispenser of justice for the sons of
+Uranus?
+(Translation by Stephens, S., Callimachus the Hymns, 2015, p. 55)
+
+In the next few lines, the poem proceeds with a conventional τόπος of the hymnic tradition, a
+question that challenges the place of the god’s birth and the origin of his cult12:
+(l. 4)
+πῶς καί νιν, Δικταῖον ἀείσομεν ἠὲ Λυκαῖον;
+But how shall we hymn him, as Dictaean or Lycaean?
+(Translation by Stephens, S., 2015, p. 55)
+
+The narrator - by claiming that Cretans are nothing more than liars who even built a tomb for the
+immortal god - rejects this alternative account of the god’s place of birth, thus dispersing any
+doubts about the god’s Arcadian origin. Immediately, the poet begins his narration of Zeus’ birth
+in Arcadia claiming that the place in which Rhea bore the infant god, due to its holiness, is not
+11
+12
+
+Acosta - Hughes, B. & Stephens, S. (2012), pp. 148-151.
+Stephens, S. (2015), p. 46.
+1
+0
+
+accessible to any other mortal woman. According to Neil Hopkinson, this is the first of several
+aetiologies of the hymn which had been provided by the poet in order to reinforce his assertions
+on Zeus’ origin13. In the following lines - after Callimachus has exposed his geographic erudition
+by presenting a long list of Arcadian rivers which came into being when Rhea struck a mountain
+and loosed its waters in order to wash the infant god (l. 10-32) - the narrative shifts to Crete
+where Rhea transferred the newborn god in order to protect him from the rage of Cronus. In this
+section of the hymn, Callimachus inserts the “causes” of how the Omphalian plain in Crete
+acquired its name during the transfer of Zeus in Crete and how the Cretan Couretes were
+appointed to hide and save the infant god from Cronus who was shallowing his children
+immediately after their birth (l. 32-54). Callimachus next narrates Zeus’ growth to manhood in
+Crete and claims that the supremacy of the god in the heaven was ensured due to his superiority
+and power and not to lots as the old poets foolishly used to claim (l. 55-67). Zeus, according to
+the poet, opted to patronize the kings of the world to whom he distributed wealth, although he
+did not favor all of them equally (l. 68-85). At this point, the poet shifts again geographies and
+the reader is transferred from Crete to Alexandria, the center of the new Macedonian regime and
+residence of Ptolemy, the most powerful and gifted of all the rulers according to the narrator:
+(l. 85-90)
+ἔοικε δὲ τεκμήρασθαι
+ἡμετέρῳ μεδέοντι· περιπρὸ γὰρ εὐρὺ βέβηκεν.
+ἑσπέριος κεῖνός γε τελεῖ τά κεν ἦρι νοήσῃ·
+ἑσπέριος τὰ μέγιστα, τὰ μείονα δ᾽ εὖτε νοήσῃ.
+οἱ δὲ τὰ μὲν πλειῶνι, τὰ δ᾽ οὐχ ἑνί, τῶν δ᾽ ἀπὸ πάμπαν
+αὐτὸς ἄνην ἐκόλουσας, ἐνέκλασσας δὲ μενοινήν.
+One can infer this from
+our king, for he far outstrips the rest. At evening he accomplishes what he thinks
+of in the morning; at evening the greatest things, the lesser, immediately he thinks
+of them. Others accomplish some things in a year, other things not in one; of
+others you yourself cut short their accomplishment and thwart their desire.
+13
+
+Hopkinson, N. (1984), p. 139.
+1
+1
+
+(Translation by Stephens, S., 2015, p. 56)
+
+The hymn ends with a praise of Zeus and a prayer for wealth and virtue (l. 91-96).
+Callimachus’ Hymn to Zeus has certainly initiated discussions on the identity of the Ptolemy
+whom the poet praises in lines 86-90 and on the association of the hymn with the Ptolemaic
+kingship and contemporary historical events. Neil Hopkinson in his analysis of the hymn in 1984
+suggested that all these questions should not dominate our interpretation of the poem and that
+emphasis should be given in the sophistication and the complex literary nature of the hymn. 14
+However, the work contains several features that may help to place the hymn in a historical
+context and relate it to the politics in the Ptolemaic court.
+A deliberate analysis of the geographic references of the hymn indicates a gradual movement
+from mainland Greece to Egypt and Alexandria, the center of the newly founded Ptolemaic
+regime.15 Initially, the narrator questions Zeus’ origin and chooses tο place Zeus’ birth in the
+oldest part of Greece, Arcadia. Afterward, the storytelling moves to Crete where Zeus safely
+grows to adulthood and becomes king of the Olympian gods. Despite the fact that the narration
+moves mostly within the sphere of the old Greek world (Crete - Arcadia - Crete), the poet shifts
+the readers’ interest to Alexandria and concludes the hymn with praise to Ptolemy, whom he
+presents as the most influential of all the kings. The role which Callimachus assigns to Zeus to
+protect and oversee the well-being and prosperity of Ptolemy of Egypt concludes the hymn.
+Anthony Bulloch in 1985 associated the Hymn to Zeus with Ptolemy Philadelphus, suggesting
+that the hymn is an encomium to Callimachus’ own patron without though suggesting that the
+
+14
+
+15
+
+Hopkinson, N. (1984), p. 148.
+Acosta-Hughes, B. & Stephens, S. (2012), p. 150.
+10
+
+hymn implies any identification of the god with the Ptolemaic ruler.16 Moreover, James Clauss in
+an article in 1986 suggested that Callimachus evidently attempted a clear connection between his
+king and Zeus in several parts of the poem and takes his argument a step further by arguing that
+the hymn was composed for the celebration of Ptolemy Philadelphus’ co-regency with his father
+which coincided with two other major events: the young king’s birthday and Basileia, a
+Macedonian festival of Zeus in Alexandria17. Despite the fact that many doubts have been cast
+on the historical interpretation of the Hymn to Zeus, the geographic references of the poem (Crete
+- Arcadia - Crete - Alexandria) clearly endorse a movement from the old Greek world to
+Alexandria implying that Alexandria has become now the new culturally and financially
+prosperous center of the Greek world under the rule of a king who was endowed with
+intelligence, power and virtue. Moreover, if we accept as correct that the geographical term
+Πηλαγόνων (l. 3) refers - as it is stated the Thesaurus of Graecae Linguae - to the natives of the
+Macedonian region Πηλαγονία18, thus, Zeus is presented as scourge of the Macedonians (l. 2-3:
+ἀεὶ μέγαν, αἰὲν ἄνακτα, Πηλαγόνων ἐλατῆρα/ always great, always ruler, router of the
+Pelagones). In the light of these lines, we could raise the proposal that in lines 85-90 the poet
+implies that Ptolemy enjoys Zeus’ favor and protection, thus, becoming superior of the rest of the
+kings and more particularly of his rivals in Macedonia.
+The most explicit praise of a king in Callimachus’ poetry is found in the Hymn to Delos. The
+hymnic subject of the longest and most complex of Callimachus’ hymns is the island of Delos, a
+goddess herself as well as Apollo’s birthplace. At the same time, the hymn
+
+undoubtedly
+
+16
+
+Bulloch, A. (1985), p. 552.
+Clauss, J. (1986), pp. 155-170. According to Susan Stephens (1998, pp. 172), Clauss’s argument was
+strengthened by the publication of an inscription published in 1997 by Koenen which provided precise
+evidence that Ptolemy Philadelphus’ birthday coincided with the celebration of the Basileia.
+18
+Henricus Stephanus in his lexicon Thesaurus of Graecae Linguae (Vol. 6, p. 682) writes: Πελαγονία or
+Πηλαγονια is: regio Macedoniae, i.e. a region of Macedonia.
+17
+
+11
+
+constitutes an encomium to the living ruler Ptolemy Philadelphus. Silvia Barbantani in 2011
+argued that the hymn had probably been composed as an encomium of Philadelphus’ victory
+against the Celtic revolt which broke out in Egypt during his reign. This historical event is
+described in the second prophecy of Apollo in the hymn (l. 162-195) and therefore, the poem
+cannot be viewed isolated from the concerns of the royal house and the king. 19
+The poem begins with praise of Delos as the most preeminent island in the Aegean and the
+Mediterranean Sea due to the fact that it became the birthplace of Apollo (l. 1-27) and it
+continues with the myth of origin of the island (l. 28-54). In the mythical past, the island was
+associated with Asteria, a minor goddess who chose to wander across the sea in order to avoid a
+marriage with Zeus. In lines 55-248, the main body of the narrative is taken up with the myth of
+Apollo’s birth and the origin of his cult: pregnant Leto is forced to wander around Greece in
+search of place to bear Apollo in order to avoid Hera’s anger which is described in lines 55-69.
+Leto’s wandering throughout Greece in search of a birth place for Apollo indicates a gradual
+migration from mainland Greece (Peloponnese - Boeotia - Thessaly) to the islands of the South
+Aegean, parallel to the southern migration that has been observed in Hymn to Zeus.20 Leto
+chooses to deliver Apollo in the island of Cos which is positioned in the South-East Aegean and
+not very far from the Egyptian Alexandria but she is interrupted by the unborn Apollo’s second
+prophecy. Apollo excludes Cos as his possible birth place since another “god”, Ptolemy
+Philadelphus, will be born and fostered there:
+(l. 162-170)
+ἀλλά ἑ παιδὸς ἔρυκεν ἔπος τόδε· «μὴ σύ γε, μῆτερ,
+τῇ με τέκοις. οὔτ’ οὖν ἐπιμέμφομαι οὐδὲ μεγαίρω
+νῆσον, ἐπεὶ λιπαρή τε καὶ εὔβοτος, εἴ νύ τις ἄλλη·
+19
+20
+
+Barbantani, S. (2011), pp. 195-196.
+Acosta-Hughes, B. & Stephens, S. (2012), pp. 153.
+12
+
+ἀλλά οἱ ἐκ Μοιρέων τις ὀφειλόμενος θεὸς ἄλλο
+ἐστί, Σαωτήρων ὕπατον γένος· ᾧ ὑπὸ μίτρην
+ἵξεται οὐκ ἀέκουσα Μακηδόνι κοιρανέεσθαι
+ἀμφοτέρη μεσόγεια καὶ αἳ πελάγεσσι κάθηνται
+μέχρις ὅπου περάτη τε καὶ ὁππόθεν ὠκέες ἵπποι
+Ἠέλιον φορέουσιν· ὃ δ᾽ εἴσεται ἤθεα πατρός.
+But this utterance of her son held her back. “You should not give birth to me
+here, mother. I do not blame or grudge the island, seeing as it is rich and thriving
+in flocks, if any other is. But another god is destined to it from the Fates,
+the lofty blood of the Saviors. Under whose diadem will come, not unwilling to
+be ruled by a Macedonian, both lands and the lands that dwell in the sea, as far as the ends of the earth
+and where the swift horses carry the Sun. He will have the character of his father.
+(Translation by Stephens, S., 2015, pp. 175-176)
+
+In a continuous period (l. 171-190), Callimachus employs Apollo’s prophecy to describe two
+significant events contemporary with Philadelphus reign: the Gauls’ attacks on Delphi and the
+revolt of the Celtic mercenaries in Egypt:
+καί νύ ποτε ξυνός τις ἐλεύσεται ἄμμιν ἄεθλος
+ὕστερον, ὁππότ᾽ ἂν οἳ μὲν ἐφ᾽ Ἑλλήνεσσι μάχαιραν
+βαρβαρικὴν καὶ Κελτὸν ἀναστήσαντες Ἄρηα
+ὀψίγονοι Τιτῆνες ἀφ᾽ ἑσπέρου ἐσχατόωντος
+ῥώσωνται, νιφάδεσσιν ἐοικότες ἢ ἰσάριθμοι
+τείρεσιν, ἡνίκα πλεῖστα κατ᾽ ἠέρα βουκολέονται,
+φρούρια καὶ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+καὶ πεδία Κρισσαῖα καὶ ‘Ηφαι[στο]ιο φάρ[αγγ]ες . . . . .
+ἀμφιπεριστείνωνται, ἴδωσι δὲ πίονα καπνόν
+γείτονος αἰθομένοιο, καὶ οὐκέτι μοῦνον ἀκουῇ,
+ἀλλ᾽ ἤδη παρὰ νηὸν ἀπαυγάζοιντο φάλαγγας
+δυσμενέων, ἤδη δὲ παρὰ τριπόδεσσιν ἐμεῖο
+φάσγανα καὶ ζωστῆρας ἀναιδέας ἐχθομένας τε
+ἀσπίδας, αἳ Γαλάτῃσι κακὴν ὁδὸν ἄφρονι φύλῳ
+στήσονται· τέων αἳ μὲν ἐμοὶ γέρας, αἳ δ᾽ ἐπὶ Νείλῳ
+ἐν πυρὶ τοὺς φορέοντας ἀποπνεύσαντας ἰδοῦσαι
+κείσονται, βασιλῆος ἀέθλια πολλὰ καμόντος
+ἐσσόμεναι· Πτολεμαῖε, τά τοι μαντήια Φοίβου.
+αἰνήσεις μέγα δή τι τὸν εἰσέτι γαστέρι μάντιν
+ὕστερον ἤματα πάντα· σὺ δὲ ξυμβάλλεο, μῆτερ·
+And now at some later time a common struggle will
+come to us, when against the Hellenes later born Titans raising up a barbarian
+dagger and Celtic war, from the farthest west will rush, like snowflakes
+or equal in number to the stars, when they graze most closely together upon the
+aethera…and the plain of Crisa and the glens of Hephaestus are hard pressed on
+all sides, and they shall see the rich smoke of the burning neighbor, and no
+longer only by hearsay, but already beside the temple they would perceive phalanxes
+13
+
+of the enemy, already alongside my tripods the swords and the shameless
+belts and the hated shields that will line the evil path of the Galatians, a crazed
+tribe. Some of these shields will be my reward, others will be set by the
+Nile, having seen the bearers breathe their last in the fire, the prizes of a much laboring
+king. O Ptolemy who will be, these are Phoebus’ predictions for you. You
+will praise greatly in all the days to come him who prophesied within the
+womb.
+(Translation by Stephens, S., 2015, p. 176)
+
+Callimachus through this prophecy presents these two events as a common future ἆθλος between
+himself and the king. 21 Apollo initially predicts his victory over the savages who will attempt to
+ravage his island and his temple. Subsequently, the action shifts to Egypt where Ptolemy
+Philadelphus will defeat for second time the Celtic mercenaries in Egypt who will try to
+overthrow the monarch.22 Just as is the Hymn to Zeus, Hymn to Delos transfers notionally its
+reader/ audience from the old Greek world via Cos, the birth-place of an illustrious and powerful
+king, Ptolemy Philadelphus, to Alexandria in order to celebrate the victories of the young
+Macedonian ruler of Egypt over his enemies. The equation of Apollo and Philadelphus to fellow
+deities vanquishing a common enemy (line 171) confirms the power and supremacy of
+Philadelphus in Egypt where the Ptolemies chose to centralize their powers and establish their
+new Macedonian regime.
+Another Callimachean poem where a southern movement from mainland Greece to the
+kingdom of the Ptolemies in Egypt is observed is the elegiac Victory of Sosibius23, an epinician
+song which was composed to celebrate the victories of a powerful and cunning counselor of the
+royal court during the reigns of Ptolemy III Euergetes and Ptolemy IV Philopator in the
+
+Barbantani, S. (2011), p. 195.
+According to Pausanias during the reign of Ptolemy Philadelphus Celtic mercenaries moved into Egypt
+to serve in his army. Soon they plotted a revolt against the Ptolemaic monarch; however, they were
+successfully overthrown and expelled onto an island in the Nile where they all perished (Ελλάδος
+περιήγησις, 10.19.4-23.9).
+23
+Acosta-Hughes & Stephens, S. (2012), pp. 163-164.
+21
+
+22
+
+14
+
+Panhellenic games of Nemea and Isthmia in Greece24. Only five fragments of the poem originally 110 to 115 lines long - have been preserved in the papyri, a summary of which is
+presented below:
+
+
+In lines 1-16, the poet exalts the victory of Sosibius in a chariot-race at the Isthmian
+Games.
+
+
+
+In the second fragment of the elegy (l. 21-34), the poem shifts to another victory of
+Sosibius at the Nemean Games. Subsequently, the Nile expresses his joy for the victory
+of his nursling.
+
+
+
+In the third section of the elegy (lines 35-43), probably Sosibius himself refers to
+victories of his youth: a wrestling victory at the Panathenaea and victory in a double race
+at the Ptolemaea in Egypt.25
+
+
+
+In lines 44-52 two dedicatory offerings are mentioned: precious garments to the naked
+statues of the Charites in the Heraion possibly at Argos and a dedication presumably at a
+sanctuary Zeus Cassius in Egypt.
+
+
+
+Callimachus concludes the poem with praise of Sosibius.
+
+An examination of the geographic references in each section of the elegy indicates a constant
+change of the poem’s setting from mainland Greece to the new Egyptian environment of the
+powerful Ptolemaic rulers. While Callimachus begins his victory song with the praise of
+Sosibius’ victories in Nemea and Isthmia, in the second fragment of the elegy his focus shifts to
+24
+
+Gutzwiller, K.J. (2007), pp. 193-194.
+The Ptolemaea was a festival established initially in Alexandria by Ptolemy Philadelphus in order to
+honor his father Ptolemy Soter after his death. Berenice I was incorporated into the cult after her death in
+279 and the couple was worshipped in the temple of Theoi Soteres in Alexandria. The festival became
+even more lavish under the reign of Ptolemy Euergetes and Philopator making Alexandria to shine as the
+new center of the Mediterranean world (Hölbl, G., 2001, p. 94).
+25
+
+15
+
+the reception of the events in Egypt which is Sosibius’ homeland. In lines 21-26, Callimachus
+says that the news about Sosibius’ victories has exceeded the borders of Greece and has reached
+the Ptolemaic kingdom to its furthest border to the West (river Kinyps)26, thus, stressing the
+significance and prestige of a victory in these games back in Egypt:
+(l.21–26)
+ἐς Νεμέην ἔσπε]υσεν, ἐπ᾿ αὐτίκ[α δ᾿ ἄλ]λα
+σέλινα τοῖς ἀπὸ Πειρήνης ἤγαγεν Ἀ[ργο]λικά,
+ὄφρα κε Σωσίβιόν τις Ἀλεξάνδρου τε πύθηται
+γῆν ἐπὶ καὶ ναίων Κίνυφι διστεφέα
+ἀμφοτέρῳ παρὰ παιδί, κασιγνήτῳ τε Λεάρχου
+καὶ τὸ Μυριναῖον τῷ γάλα θησαμένῳ,
+He rushed to Nemea and swiftly he added
+more Argive celery to those of Peirene
+so that the people of Alexandria and anybody
+dwelling on the banks of river Cinyps may hear
+that Sosibius won two crowns by both children, the brother of Learchus
+and the child that was breastfed by Myrina.
+(Translated by the author of the present paper)
+
+Subsequently, the poet in order to emphasize even more the magnificence of such victories in
+the victor’s homeland, gives voice to the river Nile in order to express his admiration and pride
+in Sosibius’ accomplishments, who was Greek but born and raised in Egypt, and admits that
+before the great victories of this illustrious man in the Panhellenic games, Egypt did not have any
+achievements equivalent to these of Sosibius for display: 27
+(l. 27-34)
+θηλύτατον καὶ Νεῖλo[ς ἄ]γων ἐνιαύσιον ὕδωρ
+ὧδ᾿ εἴπῃ· “καλά μοι θρεπτὸς ἔτεισε γέρα
+. . . . . . οὐ] γάρ πώ τις ἐπὶ πτόλιν ἤγαγ᾿ ἄεθλον
+διπλόον ἐκ] ταφίων τῶνδε πανηγυρίων
+κ]αὶ πουλύς, ὃν οὐδ᾿ ὅθεν οἶδεν ὁδεύω
+θνητὸς ἀνήρ, ἑνὶ γοῦν τῷδ᾿ ἔα λιτότερος
+κε[ίνω]ν, οὓς ἀμογητὶ διὰ σφυρὰ λευκὰ γυναικῶν
+καὶ πα]ῖς ἀβρέκτῳ γούνατι πεζὸς ἔβη”
+26
+
+Kinyps is a small river by the modern city of Tripolis in Libya. The area was under Ptolemaic rule
+during the reign of Ptolemy III and IV, in the court of whom Sosibius possibly lived.
+27
+Bing, P. (2009), p. 241.
+16
+
+… and so that the Nile may as it brings each year its most fertilizing water
+say the following: “Nice rewards my nursling has given to me
+……for until now no one brought a (double) prize to the city
+from these sepulchral festivals.. . . and great as I am, I
+whom no man knows from where I come, I am more insignificant in this one thing
+than those (rivers) that the white ankles of women pass through without difficulty
+and where there goes a child on foot with his knees unwetted.”
+(Translated by the author of this paper)
+
+In this epinician song, the news of Sosibius’ victories in Greece is represented as traveling
+from the site of the victory to the victor’s homeland in Egypt where he is praised and honored for
+his great achievements in the Panhellenic games. The celebration of victories of the Ptolemaic
+royal house or members of the royal court in the Panhellenic games was of great importance for
+the ambitious Ptolemies and their recently established regime in Egypt.28 Their participation in
+such activities from which foreigners were excluded, functioned as a proof of the Greekness of
+the Ptolemaic kings and their court.29 Therefore, the victories of a member of the royal family or
+a member of the court in these games emphasized the Ptolemies’s legitimacy as rulers of the
+Greek world so that they were honored and celebrated with splendor.30
+Moreover, despite the fact that Callimachus begins his victory song for Sosibius by reciting
+the accomplishments of the man in the Panhellenic games in Greece, he concludes his praise in
+the third section of the poem with a reference to one of his earliest victories at the Ptolemaea
+festival in Egypt:
+(l. 39-41)
+ἐκ δὲ διαύλου,
+Λαγείδη, παρὰ σοὶ πρῶτον ἀεθλοφορεῖν
+28
+
+Bing, P. (2009), p. 241.
+Acosta Hughes, B. & Stephens, S. (2012), p. 163.
+30
+Bugh, G. R. (2006), pp. 194.
+29
+
+17
+
+εἱλάμεθα, Πτολεμαῖε, τεῇ π[άτε]ρ ἡνίκ᾿ ἐλεγχ[.”
+…….and in the double race,
+run, son of Lagos in your presence, I took
+my chances, and won, Ptolemy…
+putting to shame…in the dust”
+(Translation by Nisetich, F., 2001, pp. 170)
+
+In this way, Callimachus manages to draw again the interest of the reader/ audience to
+Alexandria, the center of the Ptolemaic aspirations and the new capital of the Greek world.
+Callimachus’ reference to Sosibius’ victory at the Ptolemaea in the presence of the king
+underscores the splendor of the festival which - organized on the model of the Panhellenic games
+in Greece - became one of the major festivals of the Greek world and a symbol of the Ptolemies’
+power31.
+From this account of poems in which Callimachus attempted to represent the movement of
+Greek culture from the old Greek world to Alexandria, we could not exclude his most influential
+collection of poems, the Aitia. Despite the fact that the Aitia consists of a series of stories which
+explain the origin of myths and cults originated throughout the old Greek world - from mainland
+Greece, to Asia Minor and the Greek islands -, in several stories of the collection the poet sets his
+narrative in Alexandria, thus offering to the reader his own portrait of the city as well as an
+insight into the concerns of the Greek community who had relocated in Egypt from other place
+of the Greek world32.
+Callimachus’ Banquet of Pollis (fr. 178-185b in Pfeiffer’s edition of the Aitia) belongs in this
+Alexandrian frame of poems since the occasion it describes takes place in Egypt, presumably in
+Alexandria. The poet narrates his participation in a symposium at the house of an Athenian
+
+31
+32
+
+Dunand, F. & Zivie-Coche, C. (2004), p. 285.
+Acosta - Hughes, B. & Stephens, S. (2012), pp. 170-171.
+18
+
+immigrant in Egypt for the celebration of the Attic festival Aiora and his unexpected encounter
+with an Ician merchant, Theogenes, who was guest at the same event (l.1-10). During the
+banquet, the poet seizes the opportunity for a conversation with his fellow-guest, asking him to
+explain why in Icus - Theogenes’ homeland - there was a tradition of worshipping Peleus and for
+what reason a girl used to carry an onion during the celebrations in the memory of Peleus (l. 1133). After line 33, the poem breaks off and only minor fragments have survived from which it is
+possible to draw further reliable conclusions for the rest of the poem:
+(fr. 178 Pheiffer, l.1-34)
+ἠὼς οὐδὲ πιθοιγὶς ἐλάνθανεν οὐδ᾿ ὅτε δούλοις
+ἦμαρ Ὀρέστειοι λευκὸν ἄγουσι χόες·
+Ἰκαρίου καὶ παιδὸς ἄγων ἐπέτειον ἁγιστύν,
+Ἀτθίσιν οἰκτίστη, σὸν φάος, Ἠριγόνη,
+ἐς δαίτην ἐκάλεσσεν ὁμηθέας, ἐν δέ νυ τοῖσι
+ξεῖνον ὃς Ἀἰγύπτῳ καινὸς ἀνεστρέφετο
+μεμβλωκὼς ἴδιόν τι κατὰ χρέος· ἦν δὲ γενέθλην
+Ἴκιος, ᾧ ξυνὴν εἶχον ἐγὼ κλισίην
+οὐκ ἐπιτάξ, ἀλλ᾿ αἶνος Ὁμηρικός, αἰὲν ὁμοῖον
+ὡς θεός, οὐ ψευδής, ἐς τὸν ὁμοῖον ἄγει.
+καὶ γὰρ ὁ Θρηϊκίην μὲν ἀπέστυγε χανδὸν ἄμυστιν
+ζωροποτεῖν, ὀλίγῳ δ᾿ ἥδετο κισσυβίωι.
+τῷ μὲν ἐγὼ τάδ᾿ ἔλεξα περιστείχοντος ἀλείσου
+τὸ τρίτον, εὖτ᾿ ἐδάην οὔνομα καὶ γενεήν·
+“ἦ μάλ᾿ ἔπος τόδ᾿ ἀληθές, ὅ τ᾿ οὐ μόνον ὕδατος αἶσαν,
+ἀλλ᾿ ἔτι καὶ λέσχης οἶνος ἔχειν ἐθέλει.
+τὴν ἡμεῖς—οὐκ ἐν γὰρ ἀρυστήρεσσι φορεῖται
+οὐδέ μιν εἰς άτ[ενεῖ]ς ὀφρύας οἰνοχόων
+αἰτήσεις ὁρόων ὅτ᾿ ἐλεύθερος ἀτμένα σαίνειβάλλωμεν χαλεπῷ φάρμακον ἐν πόματι,
+Θεύγενες· ὅσσα δ᾿ ἐμεῖο σ[έ]θεν πάρα θυμὸς ἀκοῦσαι
+ἰχαίνει, τάδε μοι λέξον [ἀνειρομέν]ῳ·
+Μυρμιδόνων ἑσσῆνα τ[ί πάτριον ὔ]μμι σέβεσθαι
+Πηλέα, κῶς Ἴκῳ ξυν[ὰ τὰ Θεσσαλι]κά,
+τεῦ δ᾿ ἕνεκεν γήτειον ιδ[..]υτ[....]ρτον ἔχουσα
+ἥρωος κα[θ]όδου πα[ῖς
+εἰδότες ὡς ἐνέπου[σιν
+κείνην ἣ περὶ σὴν [
+οὔθ᾿ ἑτέρην ἔγνωκα· τ[
+οὔατα μυθεῖσθαι βολουμέν[οις ἀνέχων.”
+τ[αῦτ᾿] ἐμέθεν λέξαντο[ς
+“τρισμάκαρ, ἦ παύρων ὄλβιός ἐσσι μέτα,
+ναυτιλίης εἰ νῆιν ἔχεις βίον· ἀλλ᾿ ἐμὸς αἰών
+κύμασιν αἰθυίης μᾶλλον ἐσῳκίσατο
+19
+
+And neither the day of the opening of the jars nor the time
+when Orestes’ pitchers bring a happy day for slaves escaped him;
+and celebrating the yearly festival of the daughter of Icarius,
+your day, Erigone, object of pity for the Attic women,
+he invited congenial friends to a meal, and among them
+a stranger, who, having just arrived, stayed in Egypt,
+where he came on some private business; by birth he was
+an Ician and I shared a couch with him,
+not by prior arrangement, but the word of Homer, that the god
+always brings like to like, is not untrue.
+For he too abhorred drinking neat wine with his mouth wide open
+in large Thracian draughts, but enjoyed a small cup.
+to him I spoke as follows when the bowl went round
+for the third time, after I had learned his name and family:
+“This word id very true indeed that the wine needs not only
+a share of water, but also of conversation.
+Let us throw this into the difficult drink as an antidote
+-because it is not served round in ladles
+and you will not ask for it, looking at the unbending eyebrows
+of the cup-bearers, at a time when the free fawn on slaves-,
+Theogenes; and everything my heart longs to hear from you
+you must tell me in answer to my questions:
+why do you have this tradition of worshipping Peleus, the king
+of the Myrmidons; how are the Thessalian matters connected
+with Icus?
+and why a girl, carrying an onion…
+at the descent (?) of hero…
+pricking up my ears to those willing to tell a story”.
+When I said that…
+“Thrice blessed, you are definitely among the happy few,
+If you lead a life unacquainted with seafaring; but my life
+is more at home in the waves than that of shearwater.
+(Translation by Harder, A., Vol. I, 2012, pp. 347-350)
+
+In this aition, the characters are all dislocated people from different parts of the Greek world.
+The host of the banquet - according to fragment 185b - was an Athenian immigrant in Egypt; the
+guests of this symposium - congenial friends of the host - were presumably Greek immigrants as
+well, while among them there was a merchant from a Greek island who were visiting Egypt for
+business purposes. The personal stories of these people indicate a switchover from Greece to the
+new center of the Greek world.33 Undoubtedly, the poem reflects the vivid life in the bustling
+
+33
+
+Acosta-Hughes, B. & Stephens, S. (2012), p. 173.
+20
+
+city of Alexandria which attracted apart from Macedonians - who formed the upper echelons of
+the Greek society in Alexandria -, people from different locations of the Greek world.34
+Egypt and Alexandria, despite their large population of Greek immigrants, was a cultural
+amalgam.35 In such a multicultural environment and under the fear of a possible assimilation, the
+Greeks, like every other ethnic group in Egypt, tried to maintain their own identity. 36 This
+argument was reinforced by Asper’s article in 2001 in which he had stated that the Greeks in
+Alexandria used to define themselves as citizens of their mother city in order to preserve the
+bonds with their homeland37. The fact that this aition depicts an Athenian immigrant in Egypt
+who feels the urge to celebrate and maintain cults and traditions of his homeland in his new
+environment - inviting as well other Greek immigrants to participate in these private celebrations
+- shows that Callimachus did not write in a vacuum. On the contrary, we could assert that this
+story reflects the concerns and worries of the Greek people who had just migrated in the new
+center of the Greek world but still needed to be in touch with their roots.
+
+Callimachus, after his imaginary travels in geographically discontinuous places throughout
+Greece - the setting of the majority of the poems in the Aitia -, returns to Alexandria, the
+administrative and political center of the Ptolemies, to conclude his collection with a poem for
+queen Berenice II, wife of Ptolemy III Euergetes, the Lock of Berenice. The poems is concerned
+with the dedication of a lock of hair from the newly wedded queen Berenice II to the Temple of
+Aphrodite - Arsinoe in Zephyrium when her husband king Ptolemy III returned from a successful
+campaign in Syria against Seleucus II. Initially, the content of the poem was known due to its
+34
+
+Gutzwiller, K. J. (2007), p. 18.
+Stephens, S. (2003), p. 240.
+36
+Selden, D. (1998), p. 298.
+37
+Asper, M. (2001), p. 96.
+35
+
+21
+
+Latin translation given by Catullus and the diegesis, a short summary of the poem (diegesis: fr.
+110a in Harder, fr. 1, 123 Pfeiffer);38 however, a large part of the Greek text is now available due
+to the discovery of two papyri which were published in 1925 and 1952.39 Callimachus begins his
+narrative with the astronomer Conon’s observation of the sky and his claim that the unknown
+constellation he discovered could be identified with the lock of queen Berenice II which had
+disappeared from the Temple of Aphrodite - Arsinoe.40 According to Catullus’ version - this part
+of the poem has not survived in the existing fragments of Callimachus’ text - the poem continues
+with Berenice’s sadness and the reasons that led her to dedicate her lock in Aphrodite and the
+fulfillment of her promise after the safe return of her husband from a military campaign. In the
+second part of his poem, Callimachus gives voice to the lock which expresses its sadness due to
+her new status as a constellation in the sky, remote from the head of the queen. The rest of the
+poem survives only in Catullus’ version, in which the lock requests from young girls and the
+queen to offer her unguents in order to secure peace and harmony in their homes. In the
+conclusion of the poem, the lock accepts her new status.
+Recent scholarship accepts the fact that the Lock of Berenice should be read and interpreted
+as a product of the Ptolemaic court and its politics.41 Although Ptolemy III appears in the poem
+as a successful king and warrior, the poems focuses mostly in Berenice II who through her
+sacrifice secured the victorious and safe return of her husband from war, thus guaranteeing the
+38
+
+39
+
+Harder, A. (2012), V. 1, pp. 293-300.
+
+The papyri are: PSI 1092, published in 1925 and POxy. 2258C, published in 1952 (Gutzwiller, K. J.,
+1992, pp. 359).
+40
+Harder, A. (2012), Vol. II, p. 794.
+41
+Kathryn J Gutzwiller in 1992 forcibly argued that the Lock of Berenice, composed with the consent of
+the royal court, mirrored the concerns of the young bride of Ptolemy the III, Berenice II (Gutzwiller, K.J.,
+1992, pp. 361-363). Benjamin Acosta - Hughes and Susan Stephens in 2012 stated that “Callimachus’
+Lock of Berenice was emblematic of court culture and royal patronage” (Acosta - Hughes, B. and
+Stephens, S., 2012, pp. 230). Evelyn Prioux in 2011 also analyzes the Lock of Berenice in association
+with the concerns of the royal court (Evelyn Prioux, 2011).
+22
+
+stability of the dynasty and her country.42 Moreover, the act of the dedication of the lock in the
+Temple of Aphrodite Arsinoe brings to the reader’s attention another aspect of the court
+propaganda: her status in her marriage. Although she was betrothed to Ptolemy II by her father
+Magas, the sacrifice of her lock to the Temple of Aphrodite - Arsinoe in Zephyrium (l. 51-58, fr.
+110)43 for the sake of her husband denotes that she came into this marriage by her own desire and
+powers of attraction, thus legitimizing the fact that the Ptolemaic queens were equally as
+powerful and prominent as their husbands.44
+Callimachus chose to conclude his Aitia with a poem dedicated to his queen Berenice II, thus
+placing the last story of his collection in Alexandria, the center of the new Macedonian regime in
+Egypt. Callimachus in this poem attempted to emphasize the close relationship of Berenice and
+the royal family, thus confirming her right to serve as Ptolemaic queen.45 In this poem, as far as
+we can judge from the surviving fragments, Callimachus did not attempt any association of the
+queen with her homeland, Cyrene. However, Acosta-Hughes and Susan Stephens in 2012
+suggested that the phrase “μοιαδ’ ἀνάσσης” in the second line of the epilogue (see Annette
+Harder’s edition) should be read as “μαῖα ἀνάσσης” (“the nurse of my queen”), thus referring to
+the homeland of Berenice.46 If we accept their suggestion, Callimachus evidently chose to
+
+42
+
+Barbantani, S., (2011), p. 179.
+According to Kathryn J Gutzwiller, in choosing this site, Berenice II was laying the groundwork for her
+own identification with Aphrodite, the goddess of sexuality and the deity most prominently connected
+with the Ptolemaic queens” (Gutzwiller, K.J., 1992, p. 363).
+44
+Gutzwiller, K.J. (1992), pp. 363-65.
+45
+In line 45 of fr. 110, the lock of Berenice in its speech calls Arsinoe “mother of Berenice”. In this way,
+Callimachus stresses the close relationship between the two women and enhances the status of Berenice
+within the Ptolemaic royal family. Moreover, Kathryn J Gutzwiller in 1992 and Daniel Selden in 1998
+suggested that the deification of Berenice, reinforced by the catasterism of her lock, legitimized her right
+for a joint rule with her husband (Gutzwiller, K.J. (1992), pp. 363-65 & Selden, D., 1998, pp. 328).
+46
+Acosta-Hughes, B. & Stephens, S. (2012), pp. 173.
+43
+
+23
+
+conclude his Aitia with a reference to Berenice’s origin from Cyrene which is also his own
+homeland:
+(fr. 112 Pheiffer, l. 1-9)
+..]..ιν ὅτ᾿ ἐμὴ μοῦσα τ[....]ασεται
+...]του καὶ Χαρίτων [.....]ρια μοιαδ᾿ ἀνάσσης
+...]τερης οὔ σε ψευδον[......]ματι
+πάντ᾿ ἀγαθὴν καὶ πάντα τ[ελ]εσφόρον εἶπεν...[..].[
+κεὶν.. τῷ Μοῦσαι πολλὰ νέμοντι βοτά
+σὺν μύθους ἐβάλοντο παρ᾿ ἴχν[ι]ον ὀξέος ἵππου·
+χαῖρε, σὺν εὐεστοῖ δ᾿ ἔρχεο λωϊτέρηι.
+χαῖρε, Ζεῦ, μέγα καὶ σύ, σάω δ᾿ [ἐμὸ]ν οἶκον ἀνά-κτων·
+αὐτὰρ ἐγὼ Μουσέων πεζὸν [ἔ]πειμι νομόν.
+…good in all respects and all-fulfilling said…
+to whom the Muses, when he was herding many animals
+contributed stories near the footprint of the swift horse;
+farewell, and come with even better prosperity.
+A well-meant farewell to you, Zeus, and save the house of my lords;
+I, however, will go to the foot-pasture of the Muses.
+(Translation by Harder, A., Vol. I, 2012, p. 305)
+
+The fact that the epilogue of this aition is addressed to the queen clearly indicates the importance
+of the queen in Callimachus poetry.47 Moreover, the poet by emphasizing his common heritage
+with the queen presumably was anxious to ensure the favor of this powerful woman who served
+as his queen and whom he celebrated several times in his poetry.
+Callimachus’ poetry breathes the atmosphere of the Library and the Museum giving the
+impression that this poetry had been produced in a social and political vacuum. However, the
+analysis of the geographical references in the poems analyzed in this chapter indicate the poet’s
+attempts to transfer notionally his readers from the old Greek world to Egypt and Alexandria in
+order to bring into his poetry the concerns and interests of the royal family and the Greek
+immigrants in Egypt as well as to share the idea that the Ptolemies managed to create a powerful
+
+47
+
+Prioux, E. (2011), p. 201.
+24
+
+regime in their newly won territory, thus making Egypt and Alexandria the new center of the
+Greek world.
+
+25
+
+Chapter II
+Cultural reassurance in the verse
+When Ptolemy Soter was allotted Egypt for the establishment of his powerful regime, he
+deployed strong financial incentives and military force in order to attract immigrants from
+different places of the Mediterranean to his recently established kingdom in an attempt to
+transform Egypt and Alexandria into the new political, commercial and intellectual center of the
+Mediterranean world. Traders, bureaucrats, craftsmen and scholars of varying ethnicities
+relocated to Egypt and particularly to Alexandria, thus transforming the city into a humming
+center of commercial and intellectual activity. Despite the cultural heterogeneity of Alexandria, a
+great number of its new settlers - traders and experts in a variety of areas - came from various
+places of the Greek world. Moreover, when the Ptolemies founded their royal court in
+Alexandria - an expanded version of the royal house from where they administered their own
+affairs-, they surrounded themselves with an imperial elite which was imported from several
+places of the Greek world to support them in their various duties.
+The Ptolemies in order to accommodate the Greek settlers as better as possible in this new
+environment, granted them citizenship and allowed them to rule themselves according to their
+own political and legal traditions, although under royal surveillance. Consequently, the city was
+organized for them in the model of the Greek πόλις and all the Greek immigrants were registered
+in demes and tribes. Moreover, they established an assembly and a council for the administration
+of their own affairs and for the arrangement of legal issues they were subject to a legal code
+which was a combination of laws from several Greek states. Furthermore, the Ptolemies
+established the Museum and the Library of Alexandria, two institutions which perfectly fit into
+the political aspirations of the royal family. By founding an intellectual community in the model
+26
+
+of Aristotle’s school, the Ptolemies emphasized their association to Alexander, thus presenting
+themselves as his legitimate successors.48 Moreover, by setting as priority the protection and the
+preservation of the Greek cultural heritage through the scholarly work in the Museum and the
+Library, they gave the Greek inhabitants of their regime a cultural link to a shared Greek past.
+The setting up of a center of Greek culture in Alexandria fit well into the Ptolemies’ measures to
+unify the Greeks of Egypt and Alexandria into one tradition, thus establishing for them a
+common Greek identity. In this context, the Ptolemaic kings sponsored festivals in honor of the
+royal family and the Olympian gods following the model of the hero and religious cults of
+Greece which included: the Ptolemaea in honor of Ptolemy Soter, the Basileia, a revival of an
+old Macedonian festival in honor of Zeus Basileus which was celebrated along with coronation
+ceremonies and royal birthdays, the Soteria, probably in honor of Zeus as well as several
+religious cults in honor of Demeter. Additionally, the Greeks settlers in Egypt were encouraged
+to participate in the Panhellenic games held in Olympia, Nemea, Isthmia and Delphi as well as
+the Alexandrian Ptolemaea which the Ptolemies attempted to promote as “isolympic”49.
+
+All these initiatives of the Ptolemies aimed at giving the Greeks in Egypt access to their
+shared Greek past and traditions, thus making them aware of their shared ethnic identity. In this
+way, they would help this heterogeneous Greek community - who on the one hand looked to
+what it shared and on the other hand prided itself on its distinctiveness - to feel less alienated in
+this new and estranged place they came to live and at the same time the Ptolemies would manage
+
+48
+
+Erskine, A. (1995), p. 41-42.
+Atheneus of Naucratis in his work Deipnosophistae preserved a detailed description of the Grand
+Procession of the Ptolemaea - a festival which was part of the cult of the Ptolemaic Dynasty- as it was
+given by Callixenus of Rhodes in a book he wrote about Alexandria which has been lost. In this
+description, Callixenus gave particular emphasis in the lavish nature of this festival (Deipnosophistae,
+V.1, Book. 5, 196-203c, ed. by Kaibel, G., Teubner, 1985, pp. 435-45).
+49
+
+27
+
+to reinforce their position as absolute rulers of the all Greeks in Egypt despite their place of
+origin.
+This chapter - based on the suggestion that Callimachus’ works were created to serve the
+Ptolemaic political and cultural agenda in the 3rd Century BC50 - will attempt to examine
+through the example of the geographic references in several of his poems, how the poet managed
+a) to create a sense of “Greekness” in his work, thus supporting the Ptolemies’ program to bind
+the immigrants who were imported in Alexandria from many different places of the Greek world
+into a common identity as well as b) to help the Greeks understand and accept local customs and
+traditions without fearing their cultural assimilation.
+The idea of Greekness emerged in the eighth and seventh century BC, when the Greeks
+started establishing colonies in a variety of areas from Spain to the Black Sea.51 During the
+colonization process, the Greeks had to confront new unfamiliar environments and indigenous
+populations with different characteristics, customs and traditions. In these remoted environments
+and having perceived their differences with the various populations they encountered, the Greek
+colonists all over the Mediterranean world eventually developed an awareness of “sameness”
+despite the fact they had departed from different city-states in Greece and still needed to define
+themselves as citizens of their homeland.52 Therefore, the rise of the concept of the Greek
+identity appears to be a consequence of the Greek colonization movement of the Archaic
+
+50
+
+See introduction, p. 3, fn 1.
+Irad Malkin in 2003 was among the first who supported the view that the process of overseas
+colonization significantly affected the way the Greek colonists viewed themselves and strengthened the
+idea of Greekness between them. Moreover, he presented the Greek world “as a network of Greek cities
+and colonies” in which the people were tied together under the same genealogies, festivals and religion.
+This shared cultural past was what helped them - being far from their roots - to develop a sense of
+“sameness” and realize their shared ethnic identity (Malkin, I., 2003, pp. 58-60).
+52
+Burger, M. (2013), p. 47.
+51
+
+28
+
+period.53 Traditions, genealogies as well as religious and athletic festivals became the connective
+ties of the city-states and colonies all over the Greek world.54 Moreover, the settlers of these new
+colonies expressed their need to be connected under a shared Greek identity by organizing their
+cities in a similar way and investing in sanctuaries of Panhellenic gods and heroes as well us
+with their participation in the great Panhellenic events of the Greek mainland.55
+
+During the Hellenistic period, the Ptolemies attempted to create a sense of “Greekness”
+among the Greeks that formed the most dominant ethnic group of the Ptolemaic regime
+following the model of the colonists of the archaic period. The fact that the Ptolemies
+excessively promoted the Greek culture in order to make the Greeks realize what bound them
+into the same ethnic group was a manifestation of rule: the more the Ptolemies emphasized the
+Greek culture, the easier it would be to establish themselves as legitimate successors of
+Alexander and thus legitimate rulers of the Greek community in Egypt.
+In the Ptolemaic court, Callimachus found an abundance of material for his poetry, and his
+works undoubtedly can be perceived as a reflection of the court as a political and intellectual
+center.56 Undoubtedly, as a court poet he drew inspiration from the aspirations of the Ptolemaic
+kings as well as the people in the court and their concerns. In this environment and having been
+influenced by his scholarly work in the Library and the Museum, he produced works with a
+strong Panhellenic impact which - despite their poetic qualities - conformed with the Ptolemies’
+attempts to create a new Greek ethnic identity.57 In order to explore how Callimachus created
+
+a
+
+53
+
+Burger, M. (2013), p. 47.
+Malkin, I., 2003, p. 71.
+55
+Malkin, I., 2003, p. 71.
+56
+Weber, G. (2011), p. 244, Harder, A. (2012), Vol. I, p. 39 & Asper, M. (2011), pp. 155-156.
+57
+Asper, M. (2011), pp. 169 & 177.
+54
+
+29
+
+Panhellenic dimension for his poetry, we need to examine how he presented the Greek world
+where he set the majority of his stories and what connected this world and tied its people into a
+common identity.
+The first poem to be explored in this context is the Hymn to Apollo, a “mimetic” hymn with
+strong Panhellenic character since it celebrates Apollo - a god with strong appeal and influence
+on the Greeks - and focuses on his treatment in three major cult-sites.
+The initial section of the poem re-creates the moment of Apollo’s epiphany (l. 1-9) and
+continues with several events that portend the advent of the god. In the next section (l. 10-31) the
+narrator reveals the god’s presence and calls the attendants to listen to his song which allays all
+pains and passions. In this section, the poet attempts a clear link between the god and Ptolemy
+stating that “whoever fights with his King” would fight even with Apollo” (l. 26-27). In the
+following section (l. 32-54), the narrator offers - along with some selected moments from
+Apollo’s life - a description of Apollo’s characteristics and qualities and presents the god as rich
+in gold and other possessions, beautiful and youthful and refers to him as patron of the archers
+and the poets as well as a great healer who can successfully combat even death (lines 31-46). The
+poet dedicates the rest of his hymn (l. 55 - 113) to Apollo’s treatment in some of the most
+significant cult-sites of the god: in Delphi, Delos and Cyrene.
+
+The poet opens his account of Apollo’s treatment in Delphi. Apollo’s Panhellenic popularity
+and appeal is reflected in lines 34-35 where Callimachus states people can see the rich offerings
+to the god in Delphi (πολύχρυσος γὰρ Ἀπόλλων καὶ πολυκτέανος. Πυθωνί κε τεκμήραιο,
+“Apollo is rich in gold and in possessions and you can find this proof in Pytho.”). In this part of
+
+30
+
+the hymn, Callimachus exposes one of the major reasons Delphi became a great pole of
+attraction for the Greeks which was Apollo’s role as patron of city founders and protector of
+colonists:
+(l. 55-57)
+Φοίβῳ δ᾽ ἑσπόμενοι πόλιας διεμετρήσαντο
+ἄνθρωποι: Φοῖβος γὰρ ἀεὶ πολίεσσι φιληδεῖ
+κτιζομένῃσ᾽, αὐτὸς δὲ θεμείλια Φοῖβος ὑφαίνει.
+Men lay out the foundations of cities following Phoebus. For Phoebus
+always takes pleasure in cities being built, and Phoebus himself weaves together
+foundations.
+(Translation by Stephens, S., 2015, p. 81)
+
+Already from the Archaic period, this site had been linked with colonization since the
+establishment of a colony was impossible without Apollo’s consultation.58 Ancient textual
+sources - whether poetry, historical sources or inscriptions - reveal the pattern of the archaic
+colonization movement59: a civic crisis leads people to Delphi in order to receive Apollo’s
+consultation. Apollo delivers the oracle and authorizes the establishment of a colony, thus
+offering resolution to the original crisis. The colonists commemorate the founder and maintain
+their bond with Delphi where they send religious embassies with rich offerings to Apollo to
+participate in the Pythian Games. Delphi very early acquired the status of a virtual center for the
+Greek world and the poet shows the importance of Delphi as a site with strong Panhellenic
+influence on the religious and political levels, by opening and concluding his account with
+treatment of Delphi:
+(l. 100-104)
+Πυθώ τοι κατιόντι συνήντετο δαιμόνιος θήρ,
+αἰνὸς ὄφις. τὸν μὲν σὺ κατήναρες ἄλλον ἐπ᾽ ἄλλῳ
+βάλλων ὠκὺν ὀιστόν, ἐπηύτησε δὲ λαός,
+‘ἱὴ ἱὴ παιῆον, ἵει βέλος.’ εὐθύ σε μήτηρ
+γείνατ᾽ ἀοσσητῦρα, τὸ δ᾽ ἐξέτι κεῖθεν ἀείδῃ.
+
+Malkin, I., 2003, pp. 61.
+Dougherty, C. (1993), pp. 20-21.
+
+58
+
+59
+
+31
+
+When you were going down to Pytho a demonic beast met you, a dire serpent. You slew
+him, shooting one swift arrow after another, and the people cried: “hie, hie paiêon,
+shoot your arrow, a savior from the time when your mother gave birth to you.”
+And from that point you are hymned in this way.
+(Translation by Stephens, S., p. 81)
+
+In lines 55-64, the narrator shifts to another important cult - site of the god, his sanctuary in the
+sacred island of Delos. Apollo’s important role as patron of city founders is stressed in this part
+of the hymn. Moreover, the narrator describes the foundation of Apollo’s Delian sanctuary
+focusing on Apollo’s active participation in the establishment of the site:
+(l.60 - 64)
+Ἄρτεμις ἀγρώσσουσα καρήατα συνεχὲς αἰγῶν
+Κυνθιάδων φορέεσκεν, ὁ δ᾽ ἔπλεκε βωμὸν Ἀπόλλων.
+δείματο μὲν κεράεσσιν ἐδέθλια, πῆξε δὲ βωμὸν
+ἐκ κεράων, κεραοὺς δὲ πέριξ ὑπεβάλλετο τοίχους.
+ὧδ᾽ ἔμαθεν τὰ πρῶτα θεμείλια Φοῖβος ἐγείρειν.
+Hunting continually, Artemis brought
+him the heads of Cynthian goats, and Apollo wove an altar; he constructed the
+foundations with horns, and fitted the altar from horns, and he built up walls of
+horn around it. In this way Phoebus first learned to raise foundations.
+(Translation by Stephens, 2015, p. 81)
+
+The importance of Delos for the god’s cult is expressed also in Callimachus’ Hymn to Delos
+since this island is Apollo’s birthplace; in his poem Acontius and Cydippe Callimachus informs
+his readers of the Panhellenic status of this site by referring to a Delian festival in honor of
+Apollo where people from all over the Greek world participated. However, the narrator devotes
+his longest narrative unit to the Cyrenean worship of Apollo (l. 65-96). In these lines,
+Callimachus presents Apollo as the founder of Callimachus’ homeland and patron of the
+Cyrenean kings, thus connecting Cyrene with Greece and the Greek cultural past. 60 Historical
+sources have revealed that Cyrene, one of the most important Greek colonies, maintained a close
+
+60
+
+Stephens, S. (2015), p. 74.
+32
+
+relationship with Delphi and many were the Cyrenean aristocrats who used to participate in the
+Pythian Games.61
+The date and the occasion for which the poem could be possibly composed have generated
+many discussions among scholars. Peter Fraser in 1972 proposed that this hymn was probably
+written during the accession period of Ptolemy Euergetes for the celebration of Egypt's new
+alliance with Cyrene through the marriage of Ptolemy Euergetes and Berenice II, daughter of
+Magas, king of Cyrene until his death in 250 BC.62 If Fraser’s view is correct, the Hymn to
+Apollo is possibly associated with the Ptolemies’ aspirations in two ways: a) the poem was
+appropriate for the celebration of the union of Cyrene and Egypt and b) with its Panhellenic
+character supports the Ptolemaic program to unite the Greek settlers in Egypt under their
+common cultural and religious past.
+Another poem with strong Panhellenic impact is the Hymn to Artemis which is dedicated to
+one of the most celebrated goddesses in the Greek world, with numerous worship sites in
+mainland Greece as well as in various Greek colonies around the Mediterranean. In mainland
+Greece, Artemis was mostly honored as goddess of hunting and childbirth and she was
+worshipped in multiple cities in Arcadia, Boeotia, Thessaly, Sparta, Crete, Delos as well as in
+various Aegean islands.63 Very prominent were also her cults in Asia Minor and the Greek west
+where she was worshipped with a rather different role. In these areas she was regarded as
+
+Malkin, I., 2003, p. 61.
+Fraser, P. (1972), Vol. I, p. 652. A different scenario was proposed though by Cameron in 1995, who
+suggested that the king to which Callimachus refers to in line 26, is Magas of Cyrene and that the poem
+was written before his death in 250, while his daughter Berenice II was betrothed to Ptolemy Euergetes
+(Cameron, A., 1995, p. 407 – 409).
+63
+Petrovic, I. (2010), p. 217-218.
+61
+62
+
+33
+
+protector of cities and she was the main goddess of the city of Perge and Ephesus in Asia Minor
+where her cults were particularly prominent.64
+In the Hymn to Artemis, Callimachus begins his narrative with the goddess within a mythic
+frame. Artemis is depicted as a child on her father’s lap in Mt. Olympus asking him to grant her
+virginity as well as the companionship of nymphs to serve her as her chorus and attendants (117). In lines 18-25, she requests mountains to dwell in and cities which she will visit in order to
+give assistance to pregnant women during the delivery of their babies. Therefore, in these lines
+the poet presents to his readers the main attributes of Artemis: she is the goddess of the hunt,
+childbirth, and virginity.
+
+The Panhellenic nature of Artemis and her cults is stressed in several sections of the poem
+starting with Zeus’ reply in lines 33-40 where the god agrees to satisfy Artemis’ requests by
+giving her many cities to protect where people will establish altars and groves in her honor:
+(l. 33-40)
+τρὶς δέκα τοι πτολίεθρα καὶ οὐχ ἕνα πύργον ὀπάσσω,
+τρὶς δέκα τοι πτολίεθρα, τὰ μὴ θεὸν ἄλλον ἀέξειν
+εἴσεται ἀλλὰ μόνην σὲ καὶ Ἀρτέμιδος καλέεσθαι·
+πολλὰς δὲ ξυνῆι πόλιας διαμετρήσασθαι
+μεσσόγεως νήσους τε· καὶ ἐν πάσηισιν ἔσονται
+Ἀρτέμιδος βωμοί τε καὶ ἄλσεα. καὶ μὲν ἀγυιαῖς
+ἔσσηι καὶ λιμένεσσιν ἐπίσκοποσ᾽. ὣς ὃ μὲν εἰπὼν
+μῦθον ἐπεκρήηνε καρήατι. βαῖνε δὲ κούρη
+Thrice ten cities and more than one tower shall I grant you; to you thrice
+ten cities that will not know how to cherish any other god but you alone,
+and to be called Artemis’. And I shall give you many cities to receive a share in
+common [sc. with other gods], both on land and on the islands. And in all there
+will be altars and groves of Artemis. And you will be guardian over streets and
+harbors.” Having spoken thus, he confirmed his speech with a nod of the
+head.
+(Translation by Stephens, S., 2015, p. 117)
+
+64
+
+Petrovic, I. (2010), p. 218.
+34
+
+Moreover, when Artemis grows from child to a young maiden (l. 40- 109), the narrative shifts
+from Homeric Olympus to several places of the Greek world where she appears to visit several
+places around the Greek world: initially she visits Crete and from there she moves to Lipari
+where she finds the Cyclops who will equip her with weapons. After that episode, Artemis visits
+Pan in Arcadia for her hounds and Mt. Parrhasius where she captures a deer for her chariot.
+Callimachus concludes the poem (l.184-268) with a long section where he focuses on Artemis’
+role in the care and protection of cities.65 In line 225, the poet refers to her as “mistress of many
+shrines and cities” ( πότνια πουλυμέλαθρε πολύπτολι χαῖρε Χιτώνη) and subsequently, he cites
+multiple locations where Artemis is worshipped, thus underlining the importance of her cult all
+over the Greek world. Particular emphasis is given on her cult-sites in Perge and Ephesus since
+she was protector and main goddess of these two cities in Asia Minor.66
+The Hymn to Artemis fits well into the Ptolemies’ aspirations to bring the Greek settlers in
+Egypt in touch with their shared cultural heritage since it celebrates a goddess whose fame
+extended all over the Greek world from the East to the West. In this hymn, Callimachus
+undoubtedly manages to show the Panhellenic impact of Artemis’ cults and reminded the Greek
+immigrants in Egypt that despite the fact that they might have come from scattered places all
+over the Greek world with differences in local traditions and dialects, they were still united under
+a common religion and a culture.
+Callimachus’ Aitia is certainly a collection of poems with strong Panhellenic impact: the
+stories of this collection offered the reader the opportunity to travel throughout the Greek world
+
+65
+
+Ivana Petrovic in 2010 noted that the literary evidence for this aspect of Artemis’ cult is very limited;
+however, the archaeological evidence in the West is conclusive as regards the importance of her role as
+city goddess (Petrovic, I., 2010, p. 218).
+66
+Petrovic, I. (2010), p. 218.
+35
+
+and rediscover local myths, cults and traditions.67 In this collection, Callimachus does not follow
+a specific geographical pattern.68 His readers travel continuously through geographically
+discontinuous places but always within the Greek and Roman world. In this collection of poems,
+every Greek in Egypt could probably find some local story from the place from which he or his
+family hailed.69 However, several times in the Aitia the narrative focuses in places of Panhellenic
+interest - like Nemea, Olympia, Delphi, Delos or Attica - places that hosted the most prestigious
+Panhellenic events and religious cults and were regarded as the most important centers of Greek
+culture and undoubtedly promoted an awareness of Greekness among its participants despite the
+fact that they were coming for various places of the Greek world.
+Callimachus opens his third book of the Aitia with the Victory of Berenice, a celebration of
+Berenice’s II chariot victory at the Panhellenic games in Nemea.70 The fragments and testimonia
+suggest though that this poem contains several aitiological elements apart from the main story.71
+While in fragments 54 and 54a the poet focuses on the victory of Berenice at the Nemean
+Games, in the rest of the poem - as we can infer from fragments 54b-54h -, he shifts his narrative
+to the story of the foundation of the Nemean games by Heracles by killing a lion 72. However, in
+this embedded aition emphasis is given to the friendly reception of the Panhellenic hero Heracles
+in the house of a humble peasant, Molorchus, on his way to Nemea as well as on his return to
+Argos after he accomplished the killing of the Nemean lion. In view of Kathryn Gutzwiller,
+
+Asper, M. (2011), p. 167.
+Asper, M. (2011), p. 162-163.
+69
+Asper, M. (2011), pp. 160-169.
+70
+Scholars identify the addressee of this poem with Berenice II, wife of Ptolemy Euergetes (see Harder,
+A., 2012, pp. 390, Clayman, D.L., 2014, pp. 146 & Bennett, C., 2005, 91-96). Moreover, the fact that the
+poet opted to structure his poem according to the model of the Pindaric epinician odes indicates his
+intention to compose this poem in order to honor the queen (Gutzwiller, K.J., 2007, pp 66).
+71
+Harder, A. (2012), Vol. II, p. 387-388.
+72
+Harder, A. (2012), Vol. II, p. 384.
+67
+
+68
+
+36
+
+“Callimachus chose to link a poem which was intended for the celebration of the queen’s chariot
+victory at Nemea with an unheroic event, because he possibly knew that she shared his taste for
+irony and wit”.73
+The Victory of Berenice undoubtedly is a poem that fits well into the concerns of the
+Ptolemaic royal house in many different ways. Particular attention should be given to the
+geographic references of fr. 54 - in which the poet celebrates the victory of his queen in Nemea and how they create for Berenice II a genealogy which connects her with Greece and more
+particularly with Argos.
+In lines 1-4, the poet says that he owes Zeus and Nemea a gift of gratitude for the queen’s
+victory in a chariot race at the Nemean Games. In lines 5-10, he continues saying that a
+victorious message came from “the land of Danaus” to “Helen’s island and the Pallenean seer”
+and that “near the tomb of Opheltes” the swift horses of Berenice brought her the victory since
+they ran like the wind:
+(l.4-10)
+ἁρμοῖ γὰρ Δαναοῦ γῆς ἀπὸ βουγενέος
+εἰς Ἑλένη[ς νησῖδ]α καὶ εἰς Παλληνέα μά[ντιν,
+ποιμένα [φωκαῶν], χρύσεον ἦλθεν ἔπος,
+Εὐφητηϊάδ[αο παρ’] ἠρίον οὕ[νεκ’] Ὀφέλτου
+ἔθρεξαν προ[τέρω]ν οὐτινες ἠνιόχων
+ἄσθματι χλι[....].. πιμίδας, ἀλλὰ θεόντων
+ὡς άνέμων οὐδεὶς εἶδεν ἁματροχιάς
+For recently there came from the land of Danaus, born from a cow,
+to Helen’s island and the Pallenean seer,
+the seal herd, a golden message,
+that near the tomb of Opheltes, the son of Euphetes,
+they ran by no means heating the shoulders of charioteers
+in front of them with their breath, but in fact while they ran
+like the winds no one saw their traces.
+(Translation by Harder, A.,Vol. I, 2012, p. 199)
+
+73
+
+Gutzwiller, K.J., 2007, p 66.
+37
+
+The “land of Danaus” - from where the golden message of the queen’s victory arrived into Egypt
+- is Argos. Danaus - founder of Argos after he fled from Egypt - was descendant of Io and Zeus
+and stood at the beginning of the line of Argive heroes.74 By claiming to be descendants of this
+Argive line of heroes with which the Macedonian royal family was closely associated, the
+Ptolemies sought to present themselves as legitimate successors of Alexander in Egypt as well as
+to connect themselves with mainland Greece and the Greek cultural heritage.75 This was possibly
+the effect that Callimachus attempted to achieve on his learned Greek audience/readership in
+Alexandria through this reference. In line 5, Callimachus refers to the island of Pharos at the
+entrance of the harbor of Alexandria as “island of Helen” and associates it with the Pallenean
+seer Proteus. This reference as well hints at the poet’s intention to link Alexandria with the
+Greek cultural past.76
+The celebration of Berenice’s victory in the Nemean Games by Callimachus - one of the most
+prestigious Panhellenic festivals - was of great importance since Ptolemaic victories in
+Panhellenic games secured for the royal family eternal glory and underlined the Ptolemies’
+legitimacy as rulers of the Greek world.77 Moreover, the emphasis given to the Greek origin of
+the Ptolemaic royal family helped to create an awareness of Greekness for their court.
+Thesmophoria Attica in the third book of Callimachus’ Aitia is also a dedicated to a
+Panhellenic goddess, Demeter. Demeter and her daughter, Persephone, were the central figures
+
+74
+
+Harder, A. (2012), Vol. II, p. 400.
+Harder, A. (2012), Vol. II, pp. 400-401 and Clayman, D.L. (2014), p. 146.
+76
+Harder, A. (2012), Vol. II, pp. 401-402.
+77
+Krevans, N. & Sens A., (2006), pp. 194. Throughout the Ptolemaic dynasty, many of its members had
+competed and won victories in Greek games, and it was duty of the court poets to compose poems which
+would celebrate these victories of their kings and queens (Bennett, C., 2005, p. 91).
+75
+
+38
+
+of the Eleusinian Mysteries, one of the most famous secret religious rites of the Greek world. 78
+Moreover, they were honored in another popular festival, the Thesmophoria, which was
+performed by civic women in order to secure fertility and prosperity for their city. Both festivals
+were based on the myth of the abduction of Persephone from her mother Demeter by the king of
+the underworld Hades, in a cycle with three phases: the loss, the search, and the return and
+reunion of the girl with her mother. Although the best examples of these two festivals were in
+Attica, these cults had Panhellenic character and were celebrated throughout the Greek world.
+Despite the fact that only a very small part of the poem Attica Thesmophoria has survived,
+from the remaining fragment we infer that the poem contained a story which explained the
+exclusion of unmarried girls from the Thesmophoria in Attica: possibly some offence from a girl
+who saw something forbidden provoked the anger of Demeter.79 After this event, Demeter
+excluded all the unmarried girls from the Attic Thesmophoria. The fact that this story is related
+to this particular festival in honor of Demeter in Attic can be inferred from lines 9 - 12:
+(l.9-12)
+τοὔ]νεκεν οὔ πως ἔστιν ἐπ’ ὄθμασιν ο[ἷ]σιν ἰδέσθαι
+παρθενι]καῖς Δηοῦς ὄργια Θεσμοφόρου
+]πόσιν ἐλθέμεναι πρὶν νύμφια λέκτρα τελέσσαι
+]ες ἐκ ἐκείνου χρήματος Ἀκτιάσιν.
+Therefore it is not possible for girls to see with their own eyes
+the rituals of Law-giving Demeter
+before a man comes to them and concludes a marriage:
+because of that event this applies…for Attic girls.
+(Translation by Harder, A., Vol. I, 2012, p. 226)
+
+Demeter’s cult was popular throughout the Greek-speaking world and there is evidence
+that in the Hellenistic period several festivals in honor of Demeter were celebrated in Alexandria
+
+78
+79
+
+Stephens, S. (2015), pp. 264-265.
+Harder, A. (2012), Vol. II, p. 502-503.
+39
+
+as well as in Cyrene.80 The existence of Demeter’s temples as well as the prominence of her cults
+in Alexandria is well documented by literary (Polybius) and documentary sources (Zenon’s
+private archives). 81
+The poem in the Aitia which clearly illustrates the need of the Greek community in Egypt to
+be unified into a shared tradition - despite their differences which derived from fact that they
+hailed from scattered places of the Greek-speaking world - is the Banquet of Pollis which has
+been analyzed in the first chapter, though from a different perspective. In this poem, the reader is
+transferred in Egypt, possibly to Alexandria, where a Greek immigrant from Athens organizes a
+symposium for the celebration of the Attic festival Aiora:
+( l.1-10)
+ἠὼς οὐδὲ πιθοιγὶς ἐλάνθανεν οὐδ᾿ ὅτε δούλοις
+ἦμαρ Ὀρέστειοι λευκὸν ἄγουσι χόες·
+Ἰκαρίου καὶ παιδὸς ἄγων ἐπέτειον ἁγιστύν,
+Ἀτθίσιν οἰκτίστη, σὸν φάος, Ἠριγόνη,
+ἐς δαίτην ἐκάλεσσεν ὁμηθέας, ἐν δέ νυ τοῖσι
+ξεῖνον ὃς Ἀἰγύπτῳ καινὸς ἀνεστρέφετο
+μεμβλωκὼς ἴδιόν τι κατὰ χρέος· ἦν δὲ γενέθλην
+Ἴκιος, ᾧ ξυνὴν εἶχον ἐγὼ κλισίην
+οὐκ ἐπιτάξ, ἀλλ᾿ αἶνος Ὁμηρικός, αἰὲν ὁμοῖον
+ὡς θεός, οὐ ψευδής, ἐς τὸν ὁμοῖον ἄγει.
+And neither the day of the opening of the jars nor the time
+when Orestes’ pitchers bring a happy day for slaves escaped him;
+and celebrating the yearly festival of the daughter of Icarius,
+your day, Erigone, object of pity for the Attic women,
+he invited congenial friends to a meal, and among them
+a stranger, who, having just arrived, stayed in Egypt,
+where he came on some private business; by birth he was
+an Ician and I shared a couch with him,
+not by prior arrangement, but the word of Homer, that the god
+always brings like to like, is not untrue.
+(Translation by Harder, A.,Vol. I, 2012, p. 347)
+
+In this event, several other Greek immigrants in the city were invited - including the narrator as
+well as a merchant who has just arrived from the Greek island Icus - in order to celebrate with
+80
+81
+
+Stephens, S. (2015), p. 265-266.
+Fraser, P. M. (1972), Vol. I, p. 198-199.
+40
+
+the host, Pollis, a holiday practiced in his place of origin, Athens. An important aspect of this
+poem is that despite the local character of this festival, Pollis wished to give it a Panhellenic
+dimension by sharing this experience with other Greek expatriates from various places of
+origin.82
+In lines 11-34, the poet seizes the opportunity for a conversation with his fellow-guest,
+Theogenes, asking him to explain why in Theogenes’ homeland, Icus, there was a tradition of
+worshipping Peleus and for what reason a girl used to carry an onion during the celebrations in
+the memory of Peleus. Lines 11- 22 undoubtedly indicate that the banqueters enjoyed the process
+of learning about local traditions and myths from several places of the Greek world in spite of
+their place of origin:
+(l.11-34)
+καὶ γὰρ ὁ Θρηϊκίην μὲν ἀπέστυγε χανδὸν ἄμυστιν
+ζωροποτεῖν, ὀλίγῳ δ᾿ ἥδετο κισσυβίωι.
+τῷ μὲν ἐγὼ τάδ᾿ ἔλεξα περιστείχοντος ἀλείσου
+τὸ τρίτον, εὖτ᾿ ἐδάην οὔνομα καὶ γενεήν·
+“ἦ μάλ᾿ ἔπος τόδ᾿ ἀληθές, ὅ τ᾿ οὐ μόνον ὕδατος αἶσαν,
+ἀλλ᾿ ἔτι καὶ λέσχης οἶνος ἔχειν ἐθέλει.
+τὴν ἡμεῖς—οὐκ ἐν γὰρ ἀρυστήρεσσι φορεῖται
+οὐδέ μιν εἰς άτ[ενεῖ]ς ὀφρύας οἰνοχόων
+αἰτήσεις ὁρόων ὅτ᾿ ἐλεύθερος ἀτμένα σαίνειβάλλωμεν χαλεπῷ φάρμακον ἐν πόματι,
+Θεύγενες· ὅσσα δ᾿ ἐμεῖο σ[έ]θεν πάρα θυμὸς ἀκοῦσαι
+ἰχαίνει, τάδε μοι λέξον [ἀνειρομέν]ῳ·
+For he too abhorred drinking neat of wine with his mouth wide open
+in large Thracian draughts, but enjoyed a small cup.
+To him I spoke as follow when the bowl went round
+for the third time, after I had learned his name and family:
+‘This word is very true indeed, that wine needs not only
+a share of water, but also of conversation.
+Let us throw this into the difficult drink as an antidote
+-because it is not served round in ladles
+and you will ask for it, looking at the unbending eyebrows
+of the cup-bearers, at a time when the free fawn on slaves -,
+Theogenes; and everything my heart longs to hear from you
+You must tell me in answer to my question:
+82
+
+Asper, M. (2011), p. 170.
+41
+
+(Translation by Harder, A.,Vol. I, 2012, pp. 347-348)
+
+In this aition, the personal stories of the characters reinforce a shift from Greece to
+Alexandria, the new center of the Greek world as it was argued in the first chapter.83 However, in
+this new environment, as the poem illustrates, the Greek expatriates felt the urge not only to
+maintain traditions and cults of their homelands but also expand their knowledge of myths and
+customs of different places of the Greek world.
+In his Aitia, Callimachus attempted to reinforce the idea of the Greek ethnicity among the
+settlers who have arrived in Egypt from all over the Greek world by showing a Greek world
+which is tied by common traditions and religious customs, as the poems analyzed above
+indicated. Moreover, he managed to promote the image of a Greek world which does not hesitate
+to set aside its differences and cooperate against an external enemy when necessary.
+The image of a cooperative Greek world is promoted in the episode called Return of the
+Argonauts, where the poet asks muse Calliope to explain the origin of an aeschrological ritual of
+Apollo in the island of Anaphe. Calliope links this ritual with the episode of the Argonauts’
+departure from Colchis after the theft of the Golden Fleece.
+
+Fragment 7c (l. 7-16) contains a part from Aeetes’ angry speech, given when he realizes the
+escape of the Argonauts and Medea’s flight from Colchis after they stole the Golden Fleece with
+her assistance. Aeetes refers to the Argonauts with the name “Ionian people” (l. 11: ἔθνος
+Ἰήονες), a fact which shows that Aeetes considered that they belonged to the same ethnic group
+
+83
+
+Acosta-Hughes, B. & Stephens, S. (2012), p. 173.
+42
+
+despite the fact that they came from scattered places of the Greek world84. Moreover, this
+fragment indicates that these heroes, as Calliope calls the Argonauts in line 7, came into the land
+of Cytaean Aeetes as a unit to confront a barbarian enemy and as a unit they departed from
+Colchis after the fulfillment of their mission:
+(l.7-13)
+ἄρχμενος ὡς ἥρωες ἀπ᾿ Αἰήταο Κυταίου
+αὖτις ἐς ἀρχαίην ἔπλεον Αἱμονίην
+]εν, ὁ δ᾿ ὡς ἴδεν ἔργα θυγατρ[ός ]
+ἔλεξε τάδε·
+]κα[..]ἔθνος Ἰήονες αλλαμενε...[
+]πάντα δ’ανατράπελα
+σο...[
+ἐποιήσαντό με φόρτον
+beginning how the heroes sailed from Cytaean Aeetes
+back to Ancient Haemonia a
+…and when he saw what his daughter had done
+…he spoke as follows:
+… Ionian people……….
+(Translation by Harder, A., Vol. I, 2012, p. 140)
+
+From fragment 18, we can infer that this band of heroic men, despite the many places and
+adventures they went through, collaborated and remained united until the end of their journey
+which in this version of the myth is the island of Anaphe where they were rescued by Apollo:
+(fr. 18, l. 5-11)
+ἀλλ’ ὅγ’ ἀνι]άζων ὅν κέρας Αἰσονίδης
+σοὶ χέρας ἠέρ]ταζεν, Ἱήιε, πολλὰ δ’ ἀπείλει
+ἐς Πυθὼ πέ]μψειν, πολλὰ δ’ἐς Ὀρτυγίην,
+εἴ καὶ άμιχθαλλόεσσαν άπ’ήέρα νηὸς ἐλάσσης·
+]. ὅτι σήν, Φοίβε, κατ’αἰσιμίην
+πείσματ’] ἔλυσαν ἐκληρώσαντό τ’ἐρετμὰ
+].πικρὸν ἔκοψαν ὕδωρ·
+but the son of Aeson, troubled in his heart,
+lifted his hands to you, addressed with hie, and promised
+84
+
+In the Greek tradition the name “Ionians” was often used of the Athenians. However, in this context it
+used of the Greeks in generals according to the habit of foreigners (Harder, A., 2012, Vol. II, pp. 502503).
+43
+
+solemnly to send many gifts to Pytho, and many to Ortygia,
+if you would drive the misty haze from the ship,
+… that in accordance with the destiny decreed by you, Phoebus,
+they loosened the ropes and allotted the oars
+…and hit the bitter water
+(Translation by Harder, A., Vol. I, 2012, pp. 149-150)
+
+Callimachus’ poems, especially the Aitia, depicted the Greek world as a wide network of
+cities spread throughout the Mediterranean which - despite their local particularities - were
+closely associated through a shared cultural heritage including common myths, genealogies
+religion and values. Moreover, this network of Greek cities always showed itself eager to
+collaborate and put aside its differences in front of an external enemy. In this way, the poet
+managed to create a strong sense of “Greekness” in his work, thus actively participating in the
+program of his monarchs to: a) reinforce their position as legitimate rulers of a united Greek
+community in their newly established regime and b) make the Greek immigrants feel that in this
+new environment they had been relocated to, they were not cut from their roots and neither were
+they in danger of being assimilated by the native Egyptian populations. The Greeks came to
+Egypt as the new ruling power and in order to maintain this power, they should not only be
+aware of whom they were but they should also be able to preserve and safeguard their identity
+from any influence that could dilute it.
+However, the Ptolemies did not ignore the culture of the natives. On the contrary, many were
+the elements of the Egyptian culture they adopted in an attempt to unify culturally the Greek and
+the Egyptian populations.85 This process was necessary for the Ptolemaic kings since their goal
+was to organize and rule a “bicephalous” kingdom in which they could fulfill both the role of the
+βασιλέα for the new settlers coming from the Greek world to Egypt as well as the role of the
+85
+
+Selden, L. D. (1998), pp. 292-294 & Stephens, S. (1993), pp. 167-170
+44
+
+pharaoh for the native population. Although the Greeks received many privileges and they were
+granted the status of the ruling class, still the Egyptians were undeniably the largest population
+with a very strong cultural background that could not be ignored.
+Several modern scholars, among whom are Susan Stephens and Daniel Selden, have recently
+argued that Callimachus - being aware he was writing for a Greek community which on the one
+hand was fighting to preserve its cultural identity and on the other was in a process of
+accommodation with the natives - did not hesitate to incorporate in his works on Greek myths
+Egyptian parallels or clearly Egyptian customs and traditions.86 The purpose of this was to make
+his Greek audience/readership acquainted with the Egyptian culture, elements of which the
+Ptolemies had adopted in their royal behavior. Callimachus, above all was a court poet and since
+the Ptolemies needed to fulfil a double role in order to rule more efficiently their newly
+established regime, the poet had to familiarize his Greek subjects with the new profile of their
+kings.
+Callimachus in his Aitia interrupts his mental trips to the old Greek world several times and
+returns in Alexandria in order to praise his kings and queens. In these poems, he referred or
+alluded to Egyptian customs the royal couples had adopted during the course of their reign. In
+the poem Victory of Berenice, Callimachus refers to Queen Berenice II as “young woman, sacred
+blood of sibling gods” (l. 2: νύμφα, κασιγνήτων ἱερὸν αἷμα θεῶν) which is a clear reference to
+
+86
+
+Selden, L. D. (1998), pp. 307-308 and 329-336 & Stephens, S. (1993), pp. 170-171. Susan Stephens in
+her article “Callimachus at Court” analyzes the Hymn to Zeus and the Hymn to Delos and provides us
+with the Egyptian parallel myths in an attempt to show “how Callimachus prepared his audience to
+imagine an Egyptian as well as a Greek context for divine kingship” (Stephens, S., 1993, pp. 171-183).
+
+45
+
+the Egyptian practice of brother-sister marriage.87 In the Lock of Berenice, lines 51-58 may
+allude to the deification of Arsinoe II and her identification with Aphrodite in the temple of the
+goddess in Zephyrium:88
+(l.51-58)
+ἄρτι [ν]εότμητόν με κόμαι ποθέεσκον ἀδε[λφεαί,
+καὶ πρόκατε γνωτὸς Μέμνονος Αἰθίοπος
+ἵετο κυκλώσας βαλιὰ πτερὰ θῆλυς ἀήτης,
+ἵππο[ς] ἰοζώνου Λοκρικὸς Ἀρσινόης,
+.[.]ασε δὲ πνοιῆι με, δι’ ἠέρα δ’ ὑγρὸν ἐνείκας,
+Κύπριδος εἰσ κόλ[πους ἔθηκε
+αὐτή μιν Ζεφυρῖτις ἐπιπροέ[ηκε(ν)
+.... Κ[ανωπίτου ναιέτις α[ιγιαλοῦ.
+My sister-locks were mourning me when I was just freshly cut off,
+and straightaway the brother of the Aethiopian Memnon
+came rushing on, circling his swift wings, a gentle breeze,
+the Locrian horse of Arsinoe with her purple girdle,
+and took me with his breath, and carrying me through the humid air
+...he placed me in Cypris’ lap.
+Zephyritis herself had sent him on his way,
+… who lives on the coast of Canopus.
+(Translation by Harder, A., Vol. I, 2012, p. 291)
+
+The practice of a king’s or queen’s deification and identification with a god or goddess right
+after their death was another important element of the Egyptian culture and its shows how far the
+Ptolemies had penetrated into the Egyptian pantheon. Furthermore, we could not exclude from
+this account epigram 37 in Pfeiffer’s edition (or 17 in Gow and Page) 89 where Callimachus
+introduced to his Greek readership god Serapis, the cult of which combined both Greek as well
+
+Stephens, S. (1993), pp. 170
+Clayman, D. L, (2014), pp. 73-74 and 167-168
+89
+See Gow A.S.F. and Page D.L, Vol. I, p.61. This poem will be presented and analyzed thoroughly in
+chapter 3.
+87
+88
+
+46
+
+as Egyptian elements and it was invented by the Ptolemies in their attempt to unify the Greeks
+and the Egyptians in their newly founded regime.90
+What made Callimachus a successful supporter of the Ptolemies’ political agenda, was the
+fact that he promoted their aims in a very discreet way. In contrast to Theocritus, who did not
+hesitate to describe the disdain of the Greeks towards the Egyptians91, Callimachus avoided
+speaking openly about how the Greeks viewed the local populations. Instead, he preferred to
+showcase through his poetry Greek myths, traditions, and religious customs in order to create a
+sense of cultural unity among the Greeks, but also several times he made clear references or
+allusions to Egyptian myths and cults in order to help the Greeks understand and accept the
+
+90
+
+Clayman, D. L, (2014), pp. 160
+
+91
+
+In Theocritus’ Idyll 15, The women at the Adonis Festival, a Greek woman called Praxinoa presents the
+Egyptians as common villains who put the life of the Greek population in danger; at the same time, she
+praises Ptolemy who managed to put the Egyptians under his control (Gow, A. S. F., 1950, Vol. I, p.
+112):
+(Id. 15, l. 46-50)
+πολλά τοι, ώ Πτολεμαίε, πεποίηται καλά έργα,
+εξ ώ εν άθανάτοις ό τεκών · ουδείς κακοεργός
+δαλεΐται τον ιόντα παρέρπων Αιγυπτιστί,
+οϊα πριν εξ άπάτας κεκροτημένοι άνδρες επαισδον,
+άλλάλοις ομαλοί, κακά παίχνια, πάντες άραϊοι.
+You’ve done us many a good turn, Ptolemy,
+since your father was in heaven. Nowadays no ruffian
+slips up to you in the street Egyptian-fashion
+and does you a mischief - the tricks those packets of rascality used to
+play, one as bad as another with their nasty tricks, a cursed lot.
+(Translation by Gow, A. S. F, Theocritus, Vol. I (1950), p. 113)
+
+47
+
+double side of the Ptolemaic kingship. Despite the fact that the Greeks were the new ruling
+power in Ptolemaic Egypt, the Egyptians continued to be the largest population in Egypt with a
+strong cultural past that could not be neglected.
+
+48
+
+Chapter III
+Callimachean representations of Ptolemaic foreign policy
+The first half of the 3rd century BC, the Ptolemies managed to establish an independent
+kingdom which became a leading player in the politics of the ancient Mediterranean world. The
+capital of their regime, the city of Alexandria, with its bustling life and intense intellectual and
+commercial activity soon surpassed Athens and became the major center of Greek culture and
+trade. A major concern of the Ptolemaic kings was to create an influential Greek community
+which would assist them to successfully organize and administer their newly established regime
+ensuring at the same time harmonious relations between the Greek immigrants and the native
+Egyptian population. However, the attainment of internal stability and prosperity was not the
+only preoccupation of the Ptolemies. The Ptolemaic kings - always acting in view of Egypt’s
+autonomy and expansion - focused their attention on: a) bringing the majority of the Aegean
+islands under their dominion as well as on establishing an alliance with the anti-Macedonian
+league based in central Greece, b) incorporating Cyrene into the Ptolemaic territory and c)
+expanding their kingdom towards the East, merging Syria and other regions of the Seleucid
+Empire into their own regime.
+The prevailing policy of the Ptolemies in Greece for over a century would be the
+establishment of naval bases in the Aegean and the tightening of the bonds with the city-states of
+mainland Greece which were struggling to maintain their autonomy from the Macedonian kings.
+In this way, the kings of Ptolemaic Egypt attempted to create strong alliances in Greece in order
+to reinforce their defense for the protection of their territory from the Seleucids and the
+Macedonian kings. Moreover, the Ptolemies considered essential the incorporation of Cyrene in
+their sphere of dominion not only because of its wealth but also due to the fact that Magas, after
+49
+
+his ascension to the throne of Libya, attempted multiple times to invade Egypt and threaten its
+territorial integrity. Subsequently, Magas established close relationships with the Seleucid
+Empire, thus becoming even more dangerous for Egypt since the Ptolemaic kings would not
+have the means to defend their country in case of a conflict on two major fronts. Furthermore,
+the Ptolemies were involved three times in conflicts with the Seleucid Empire during the first
+half of the third century BC. The third Syrian War brought a large part of the Seleucid Empire, in
+the Near East, under the rule of the Ptolemies for a short time. The Ptolemies’ foreign policy
+towards Greece, Cyrene and Syria was determined to a large extend from their rivalry with the
+dynasties of the Antigonids, the Seleucids and Magas.
+The successful military campaigns in the East and the West and the establishment of a strong
+thalassocracy in the Aegean were essential for the consolidation of the Ptolemaic influence in the
+sphere of dominion of the Seleucids and the Antigonids. At the same time, such victories abroad
+functioned as means for the legitimization of the Ptolemies’ dynastic rule within their regime as
+well as of their deification. Therefore, the court propaganda had to portray the Ptolemaic king as
+saviors and capable warriors willing to expand with any means the boundaries of their kingdom,
+thus increasing its resources and power, and defend their territory against any external enemy.
+In this chapter, we will examine if Callimachus’s poetry - who was a prominent member of
+the royal court and possibly familiar with the foreign policy of the Ptolemies - represents the
+political aspirations of the Ptolemies outside their regime, thus strengthening their image as
+powerful kings who came to dominate the Mediterranean world.
+The Hymn to Delos - which was also presented in the first chapter - will be re-examined in
+this chapter in order to identify reflections of the Ptolemaic aspirations beyond the borders of
+
+50
+
+Egypt. Leto, as she wanders in search of a resting place, arrives in the Aegean island of Cos.
+However, her unborn son, Apollo, prevents her from dwelling on the island since it is meant to
+be the birth place of a great king, Ptolemy II, whose fate determines that he will rule the world.
+In this section of the hymn, Callimachus evidently extols Ptolemy II’s dominance not only in
+Egypt (l.168: ἀμφοτέρη μεσόγεια92) but also in the Aegean islands (l.168: αἳ πελάγεσσι κάθηνται)
+and predicts that he will extend his sovereignty to the end of the earth. Philadelphus’ greatness
+lies in the fact that all these areas will come under his rule willingly (l.166-168)93. Therefore,
+Callimachus presents his king as a serene power who will attempt to impose his power firstly by
+means of diplomacy and not with war:
+(l.160-170)
+ὠγυγίην δἤπειτα Κόων, Μεροπηίδα νῆσον
+ἵκετο, Χαλκιόπης ἱερὸν μυχὸν ἡρωίνης.
+ἀλλά ἑ παιδὸς ἔρυκεν ἔπος τόδε· ‘μὴ σύ γε, μῆτερ,
+τῇ με τέκοις. οὔτ᾿ οὖν ἐπιμέμφομαι οὐδὲ μεγαίρω
+νῆσον, ἐπεὶ λιπαρή τε καὶ εὔβοτος, εἴ νύ τις ἄλλη·
+ἀλλά οἱ ἐκ Μοιρέων τις ὀφειλόμενος θεὸς ἄλλος
+ἐστί, Σαωτήρων ὕπατον γένος· ᾧ ὑπὸ μίτρην
+ἵξεται οὐκ ἀέκουσα Μακηδόνι κοιρανέεσθαι
+ἀμφοτέρη μεσόγεια καὶ αἳ πελάγεσσι κάθηνται,
+μέχρις ὅπου περάτη τε καὶ ὁππόθεν ὠκέες ἵπποι
+Ἠέλιον φορέουσιν· ὁ δ᾿ εἴσεται ἤθεα πατρός.
+Then she arrived at primeval Cos, the island of Merops, the holy inner sanctuary of the heroine
+Chalciope.
+But this utterance of her son held her back. “You should not give birth to me
+here, mother. I do not blame or grudge the island, seeing as it is rich and thriving
+in flocks, if any other is. (165) But another god is destined to it from the Fates,
+the lofty blood of the Saviors. Under whose diadem will come, not unwilling to
+be ruled by a Macedonian, both lands and the lands that dwell in the sea, as far as
+
+92
+
+The phrase “ἀμφοτέρη μεσόγεια” has created particular issues as regards its interpretation. Initially,
+scholars considered that “ἀμφοτέρη” was referring to Asia and Europe. However, it has been recently
+proposed that “ἀμφοτέρη” may have a second point of reference: Upper and Lower Egypt. Thus, this
+phrase was meant to show that the Ptolemies rule was undoubtedly universal (discussion in Stephens
+(2015), p. 207 and in Fantuzzi and Hunter, 2004, pp. 358-359).
+93
+The idea that these lands would yield willingly to the Ptolemies’ rule is somehow paradoxical since the
+Egyptians very often attempted revolutions against the Ptolemies (Stephens, S., 2015, p. 207 and in
+Funtuzzi, M. and Hunter R. (2004), p. 359).
+51
+
+the ends of the earth and where the swift horses (170) carry the Sun. He will have the character of his
+father.
+(Translation by Stephens, S., 2015, pp. 175-176)
+
+In these lines, Callimachus reflects Philadelphus’ attempt to establish a strong thalassocracy
+in the Aegean by offering his friendship and alliance to the members of the Island League and
+his will to extend the boundaries of his regime towards the East and West, thus increasing the
+influence of his rule all over the Mediterranean.
+Lines 185-187, quoted below, allude to another victory of Ptolemy - within the boundaries of
+his regime this time -, the oppression of the revolt of his Celtic mercenaries in Egypt, whom he
+led into a deserted island on the Nile where he ravaged them.94 In this part of the hymn,
+Philadelphus is depicted as a powerful king able to defend his territory against any external or
+internal enemy. This victory gains even more prestige due to Callimachus’ attempt to equate it
+with the defeat of Celtic invaders in the shrine of Apollo in Delphi in 279 BC when Brennus and
+his army invaded central Greece and attacked the shrine in order to plunder it95. As Silvia
+Barbantani pointed out in 2001 “Callimachus, though concentrating on the Apollo episode, by
+constructing the threat of the Gauls as hovering over all the Greeks (l. 172: ἐφ᾿ Ἑλλήνεσσι),
+
+94
+
+The revolution of the Celtic mercenaries in Egypt occurred in the 270’s. Ptolemy Philadelphus
+managed to quell successfully the revolt and lured the soldiers to a deserted island on the Nile where he
+eradicated them. This event prevented the Ptolemaic king from pursuing Magas, the king of Cyrene, who
+had initiated an invasion against Egypt. The Celtic revolt had been described by Pausanias in his work
+Ἑλλάδος περιήγησις, I.7.2.
+95
+The invasion of the Celts in central Europe started in the 4th century BC. The expansion of their power
+in the Balkan areas changed the political structure of the whole region. In the 270’s the Celts invaded
+Thrace and Macedonia and proceeded to southern Greece. In these areas the Boeotian, Phokian and
+Aitolian cities joined their powers and defeat the Celtic plunderers. Pausanias is the main source for these
+attacks of the Celts in mainland Greece. In summer 278, the Celts invaded the Apollo’s sanctuary in
+Delphi; however, they quit pressed by the mountaineers and extreme weather. Later on, the Aitolians
+claimed that they were responsible for the defeat of Brennus in Delphi in order to seize the sanctuary and
+expand their power in central Greece (discussion in Errington 2008, pp. 82-85 and & Austin 2006, p.
+129).
+52
+
+makes Ptolemy’s deed a common cause with the reaction of the entire Greek world against the
+invaders”:96
+(l.171-188)
+καί νύ ποτε ξυνός τις ἐλεύσεται ἄμμιν ἄεθλος
+ὕστερον, ὁππότ᾿ ἂν οἱ μὲν ἐφ᾿ Ἑλλήνεσσι μάχαιραν
+βαρβαρικὴν καὶ Κελτὸν ἀναστήσαντες Ἄρηα
+ὀψίγονοι Τιτῆνες ἀφ᾿ ἑσπέρου ἐσχατόωντος
+ῥώσωνται νιφάδεσσιν ἐοικότες ἢ ἰσάριθμοι
+τείρεσιν, ἡνίκα πλεῖστα κατ᾿ ἠέρα βουκολέονται,
+παιδ[
+]..
+σα[ ].[ ]
+Δωρι.[.].[
+]. οσα[ ]ς
+καὶ πεδία Κρισσαῖα καὶ Ἡφαί[στο]ιο φάρ[αγγ]ες
+ἀμφιπεριστείνωνται, ἴδωσι δὲ πίονα καπνὸν
+γείτονος αἰθομένοιο, καὶ οὐκέτι μοῦνον ἀκουῇ,
+ἀλλ᾿ ἤδη παρὰ νηὸν ἀπαυγάζοιντο φάλαγγας
+δυσμενέων, ἤδη δὲ παρὰ τριπόδεσσιν ἐμεῖο
+φάσγανα καὶ ζωστῆρας ἀναιδέας ἐχθομένας τε
+ἀσπίδας, αἳ Γαλάτῃσι κακὴν ὁδὸν ἄφρονι φύλῳ
+στήσονται· τέων αἱ μὲν ἐμοὶ γέρας, αἱ δ᾿ ἐπὶ Νείλῳ
+ἐν πυρὶ τοὺς φορέοντας ἀποπνεύσαντας ἰδοῦσαι
+κείσονται βασιλῆος ἀέθλια πολλὰ καμόντος.
+ἐσσόμενε Πτολεμαῖε, τά τοι μαντήια Φοίβου.
+And now at some later time a common struggle will
+come to us, when against the Hellenes later born Titans raising up a barbarian
+dagger and Celtic war, from the farthest west will rush, like snowflakes
+or equal in number to the stars, when they graze most closely together upon the
+aethera and the plain of Crisa and the glens of Hephaestus are hard pressed on
+all sides, and they shall see the rich smoke of the burning neighbor, and no
+longer only by hearsay, but already beside the temple they would perceive phalanxes
+of the enemy, already alongside my tripods the swords and the shameless
+belts and the hated shields that will line the evil path of the Galatians, a crazed
+tribe. Some of these shields will be my reward, others will be set by the
+Nile, having seen the bearers breathe their last in the fire, the prizes of a much laboring
+king. O Ptolemy who will be, these are Phoebus’ predictions for you.
+(Translation by Stephens, S., 2015, p. 176)
+
+In lines 171-185, Apollo initially predicts the attack of the Gauls in his shrine in Delphi and
+he gives this event a Panhellenic dimension by saying that a barbarian sword (l. 171-173
+
+96
+
+Barbantani, S. (2011), p. 198
+
+53
+
+μάχαιραν βαρβαρικὴν97) will fall upon the Greeks coming from the West (l. 171-175) and
+subsequently, he predicts that Ptolemy Philadelphus will have to cope with a Gallic revolt in
+Egypt (185-187).98 Apollo foresees that both he and the king will successfully confront the
+common enemy and therefore, they will share the rewards. By presenting the Gauls’ crushing in
+mainland Greece and Egypt as a common victory, Callimachus shows that his king was
+interested in the protection of his own territory but at the same time he supported the attempts of
+the Greeks in mainland Greece to maintain their autonomy from any external enemy. Therefore,
+although the Ptolemaic kingdom was remote from the old Greek word, the Ptolemaic king was
+
+97
+
+In l. 172-173, the phrase “barbarian sword” (μάχαιραν βαρβαρικὴν) refers specifically to the weapons
+of the Gauls that made great impression on the Greeks as it can be seen from the importance given to the
+Galatian shields as war trophies (Fantuzzi, M. and Hunter R, 2004, p. 357).
+98
+Callimachus, instead of naming explicitly the Galatians at the beginning of this account, refers to them
+as “late born Titans” (l. 174: ὀψίγονοι Τιτῆνες) painting them as similar to the mythical rivals of the gods
+not only in appearance but also in their brutal and impious attitude. The name “Galatians” occurs only in
+line 184 (Γαλάτῃσι) (see Barbantani, S., 2011, p. 197). The violent and lawless behavior of the Gauls is
+also described in an epigram ascribed to the Arcadian poet Anyte in which three Milesian maidens chose
+to commit suicide rather than to yield themselves to the savage Gauls whom they believed to have no
+sense of right:
+(AP 7.492 = HE 752–7, Αnyte XXIII in Gow and Page, Vol. I)
+Οἰχόμεθ΄, ὦ Μίλητε, φίλη πατρί, τῶν ἀθεμίστων
+τὴν ἄνομον Γαλατῶν, ὕβριν ἀναμενόμεναι
+Παρθενικαὶ τρισσαὶ πολιήτιδες, ἅς ὁ βιατάς
+Κελτῶν εἰς ταύτην μοῖραν ἔτρεψεν Ἄρης·
+οὐ γὰρ ἐμείναμεν ἅμμα τὸ δυσσεβὲς ούδ’ Ὑμέναιον νυμφίον ἀλλ’ Άίδην κηδεμόν’ εὑρόμεθα.
+We have come together, O dear land of Miletus,
+delaying the impious sin of the lawless Galatians,
+we, three maidens, your citizens, whom the violent Ares
+of the Galatians turned to such a death·
+for we did not stay for a dishonorable union or a bridal
+song but we found our protector in Hades.
+(Translation by the author of this paper)
+
+54
+
+very concerned about the affairs of the city-states in mainland Greece which he wanted to have
+under his sphere of influence.
+Another poem that that carries the aftermath of a very important campaign of Ptolemy
+Philadelphus against the Seleucid Empire is the Lock of Berenice according to the diegesis (fr. 1,
+123 in Pfeiffer).99 The Third Syrian War was initiated by Ptolemy Euergetes against Seleucus II
+shortly after his proclamation as king of the Ptolemaic regime and his marriage to Berenice II,
+princess of Cyrene.100 Ptolemy Euergetes was invited into Syria by his sister Berenice Syra,
+second wife of the king of the Seleucid Empire, Antiochus II in order to deter her and her son’s
+murder by the first wife of Antiochus II, Laodice, when Antiochus perished. When Ptolemy III
+reached Antioch, his sister and her son had been already murdered and the Seleucids Empire had
+come under the rule of Laodice’s son, Seleucus II. However, Ptolemy took advantage of his
+presence in the area and marched against Antioch and other cities reaching as Far East as
+Seleuceia pretending he was acting in the name of his sister Berenice whose death he had
+managed to hide from her people. Despite his successful campaign in Syria, Ptolemy was obliged
+to return in Egypt; however, most of the king’s conquests were short lived.101
+The diegesis of the Lock of Berenice (fr. 1, 123 Pfeiffer) gives briefly the circumstances of
+this poem. In this short summary, we are informed that Callimachus’ poem concerns the lock of
+Queen Berenice II which she promised to dedicate to the gods after the return of king Ptolemy
+
+99
+
+Harder, A. (2012), Vol. II, p. 853.
+
+100
+
+Hölbl, G. (2001), pp. 48-51.
+The Adoulis inscription, a work of the Ptolemaic royal propaganda, gives an extensive list of the cities
+conquered by Ptolemy III during the 3rd Syrian War, despite the fact that he had lost the majority of these
+conquests by the end of the war in 241 BC. The content of this inscription had been preserved by a monk
+of the 6th c. A.D., Cosmas Indicopleustes, in the second book of his work Χριστιανική τοπογραφία,
+published in the 88th volume of the Patrologia Graeca (for an English translation of the Adulis
+inscription see The Christian Topography of Cosmas, An Egyptian Monk, ed. by McCrindle, J.W., 2010,
+pp. 59-66).
+101
+
+55
+
+Euergetes from the war in Syria and which the astronomer Conon identified with a constellation.
+This summary delivers the information about Ptolemy’s war in Syria; however, there is no
+reference to the success of the campaign and the victorious return of the king:
+(fr. 1, 123 Pfeiffer)
+Πάντα τὸν ἐν γραμμαῖσιν ἰδὼν ὅρον ἧι τε φέρονται
+φησὶν ὅτι Κόνων κατηστέρισε τὸν Βερενίκης βόστρυχον, ὅν θε[οῖ]ς ἀναθήσειν ὑπέσχεσχετο κείνη, ἐπειδὰν ἐπανήκηι ἀπὸ της κατὰ Συρίαν μάχης.
+Observing the whole sky as divided by lines and the movements…
+He says that Conon turned the lock of Berenice into a constellation,
+which she promised to dedicate to the gods, when he came home from the
+wars in Syria.
+(Translation by Harder, A., Callimachus, Aitia, Vol. 1 (2012), p. 293)
+
+Catullus’ translation of the Lock of Berenice refers twice to Ptolemy’s expedition in Syria102.
+In lines 7-12, Catullus presents the lock talking about the circumstances under which astronomer
+Conon identified it in the sky and reveals the reason it was separated from Berenice: the queen,
+the lock says, dedicated it to many goddesses to ensure the safety and the victory of her husband
+in the war he initiated against the Seleucid Empire. It is interesting though that Callimachus - if
+we accept that Catullus’ version of the poem is an accurate translation or that it maintains to a
+large extent Callimachus’ Lock of Berenice - refers to the Seleucid Empire as “the land of the
+Assyrians” (l. 12) as if he wants to sever this land from the Macedonian origin of its rulers and
+present Ptolemy’s expedition as a war with a barbarian nation:
+(l. 7-12)
+idem me ille Conon caelesti <in> lumine vidit
+The assessment of Callimachus’ Lock of Berenice depends to a large extent on Catullus’ Latin version.
+There is a debate between scholars on the extent to which Catullus preserves the content and the style of
+Callimachus version. Rudolph Pfeiffer in 1932, for example, argued that Catullus’ Lock is a faithful
+transliteration of Callimachus’ Lock (Pfeiffer, R., 1932, pp. 223-228), while Peter Bing in 2009 argued
+that Catullus’ version is independent from Callimachus Lock in many different levels (Bing, P., 2009, pp.
+65-82).
+102
+
+56
+
+e Bereniceo vertice caesariem
+fulgentem clare, quam multis illa dearum
+laevia protendens brachia pollicita est,
+qua rex tempestate novo auctus hymeneao
+vastatum finis iuerat Assyrios,
+That same man, Conon, saw me in the heavenly light,
+the lock cut from Berenice’s head,
+shining brightly, which she promised to many goddesses
+raising her dedicates arms to them,
+at the time when the king, blessed by his recent marriage,
+went out to late waste to the lands of the Assyrians,
+(Translation by Harder, A., Vol. 1, 2012, p. 295)
+
+In Catullus’ Lock there is direct praise of Ptolemy’s achievements in the East. In lines 32-36
+the lock mentions once again that the reason she was promised to the gods was the safe return of
+the king from his expedition in Syria. The lock confirms at this point the victorious return of
+Ptolemy, stressing the fact that in a very short time he managed to occupy Asia and incorporate it
+into his territory. Undoubtedly, these events are not presented accurately here since Ptolemy lost
+a large part of these conquests shortly after his return in Egypt. However, Callimachus in these
+lines - given that Catullus’ Lock is a translation of Callimachus’ Lock - creates an illustrious
+portrait of the victorious king and passes on the meaning that the land of Egypt was less than
+enough for Ptolemy:
+(l. 32-36)
+atque ibi me cunctis pro dulci coniuge divis
+non sine taurino sanguine pollicita es,
+si reditum tetulisset. is haud in tempore longo
+captam Asiam Aegypti finibus addiderat.
+Then you promised me to all the gods, not without blood
+of bulls for your sweet husband
+if he should return. In almost no time at all he had taken
+Asia and added it to the Egyptian territory.
+(Translation by Harder, A., Vol. 1, 2012, pp. 296-297)
+
+Callimachus’ Lock, to the extent it survives, does not include any direct reference to the
+Syrian War and the victorious outcome of Ptolemy’s campaign in the East. This aition does not
+exalt Ptolemy’s achievements but instead it deals with the consequential effects of his war on his
+57
+
+new bride, Queen Berenice II.103 Therefore, war is viewed and presented from a female
+perspective since the focal point of the poem is: a) the distress of the queen due to the departure
+of her husband for the war which leads her to an act of unconditional love - the dedication of her
+lock to Aphrodite - in order to ensure that her husband will return safe and victorious as well as
+b) the distress of the lock due to its separation from her queen that can be clearly viewed in lines
+75-78:
+(l. 75-78)
+οὐ τάδε μοι τοσσήνδε φέρει χάριν ὅσ[σο]ν ἐκείνης
+ἀσχἀλλω κορυφῆς ὀυκέτι θιξόμεν[ος
+ἧς ἄπο, παρθενίη μὲν ὅτ’ἦν ἔτι, πολλὰ πέπωκα
+λιτά, γυναικείων δ’οὐκ ἀπέλαυσα μύρων.
+These things do not bring me so much pleasure that it outweighs
+the distress because I no longer touch that head,
+from which, when she was still a girl, I drunk many
+simple ointments, but did not enjoy the scented woman’s unguents.
+(Translation by Harder, A., 2012, pp. 292-293)
+
+If we accept this poem as an output of royal propaganda, undoubtedly it reflects the concerns
+of the Ptolemaic queen since the glorification of her love towards her husband could strengthen
+her position in the palace.104 Moreover, a strong conjugal bond between the royal couple was a
+guarantee for royal stability. From the surviving fragments of this poem, it occurs that
+Callimachus is concerned mostly with the promotion of Berenice’s interests in the Ptolemaic
+court while the victories of his king in Syria are praised in a very indirect way and are attributed
+to the devotion and love of his wife. However, if Catullus’ version of the poem maintains to a
+large extent the content of Callimachus’ aition, it would seem that Callimachus attempted a
+
+103
+
+104
+
+Barbantani, S. (2011), p. 179.
+See ch. 1, p. 22, fn 41.
+58
+
+direct praise of Ptolemy’s expedition in Syria and his success in incorporating a large part of the
+Seleucid empire into his Egyptian regime.105
+Another Callimachean poem which indicates the expansion of the Ptolemaic kingdom to the
+West and the incorporation of Cyrene in the Egyptian territory of the Ptolemies, is the Sosibius’
+Victory (Pfeiffer, fr.384)106. In the second surviving fragment of the poem concerning a transition
+from the Isthmian Games to the Nemea (l.21-34), the poet says, in order to emphasize the
+greatness of Sosibius’ athletic achievements in Greece, that the news of his double victory
+passed beyond Greece and reached Egypt, from Alexandria to the furthest border of the regime
+in the West, the river Kinyps in Libya. These geographical references undoubtedly indicate the
+expansion of the Ptolemaic kingdom to the West and recall the fact that Libya had been
+incorporated into the large empire of the Ptolemies (l.23-24):
+(l.21–26)
+ἐς Νεμέην ἔσπε]υσεν, ἐπ᾿ αὐτίκ[α δ᾿ ἄλ]λα
+σέλινα τοῖς ἀπὸ Πειρήνης ἤγαγεν Ἀ[ργο]λικά,
+ὄφρα κε Σωσίβιόν τις Ἀλεξάνδρου τε πύθηται
+γῆν ἐπὶ καὶ ναίων Κίνυφι διστεφέα
+ἀμφοτέρῳ παρὰ παιδί, κασιγνήτῳ τε Λεάρχου
+καὶ τὸ Μυριναῖον τῷ γάλα θησαμένῳ,
+He rushed to Nemea and swiftly he added
+more Argive celery to those of Peirene
+so that the people of Alexandria and anybody
+dwelling on the banks of river Cinyps may hear
+that Sosibius won two crowns by both children, the brother of Learchus
+and the child that was breastfed by Myrina.
+(Translated by the author of this paper)
+
+Subsequently, the poet personifies the river Nile and presents him praising Sosibius. The words
+uttered by the river Nile indicate the wealth of the Ptolemaic regime and its enormous extent to
+the south (l.27 and 31-32):
+
+105
+
+106
+
+See ch. 3, p. 8, fn 11.
+For a brief summary of Sosibius’ Victory see chapter 1.
+59
+
+(l. 28-34)
+θηλύτατον καὶ Νεῖλo[ς ἄ]γων ἐνιαύσιον ὕδωρ
+ὧδ᾿ εἴπῃ· “καλά μοι θρεπτὸς ἔτεισε γέρα
+. . . . . . οὐ] γάρ πώ τις ἐπὶ πτόλιν ἤγαγ᾿ ἄεθλον
+διπλόον ἐκ] ταφίων τῶνδε πανηγυρίων
+κ]αὶ πουλύς, ὃν οὐδ᾿ ὅθεν οἶδεν ὁδεύω
+θνητὸς ἀνήρ, ἑνὶ γοῦν τῷδ᾿ ἔα λιτότερος
+κε[ίνω]ν, οὓς ἀμογητὶ διὰ σφυρὰ λευκὰ γυναικῶν
+καὶ πα]ῖς ἀβρέκτῳ γούνατι πεζὸς ἔβη”
+…
+and so that the Nile may as it brings each year its most fertilizing water
+say the following: “Nice rewards my nursling has given to me
+……for until now no one brought a (double) prize to the city
+from these sepulchral festivals.. . . and great as I am, I
+whom no man knows from where I come, I am more insignificant in this one thing
+than those (rivers) that the white ankles of women pass through without difficulty
+and where there goes a child on foot with his knees unwetted.”
+(Translated by the author of this paper)
+
+From this fragment, we perceive the full extent of the Ptolemaic regime. The Ptolemies by
+attaching to their kingdom the fertile lands of Libya, added new sources of wealth to those
+offered by the river Nile, thus making Egypt even more opulent and powerful and a very
+noteworthy rival for the other Hellenistic kingdoms.
+During the third century BC, the main goal of the Ptolemies’ policy in Greece was to increase
+of their influence in the Aegean. By the middle of the third century, the Ptolemies had managed
+to strengthen their military presence through the establishment of naval bases in many Aegean
+islands. Ptolemy Philadelphus and Euergetes considered that these territories should legitimately
+belong to the sphere of the Ptolemaic influence since they had inherited them from Ptolemy
+Soter. One of the islands where Ptolemaic power had a firm hold was Crete.107 Even after the
+Ptolemies had lost a large part of their possessions in the Aegean, their presence and their
+participation in many activities on the island were strong. Moreover, the Ptolemies recruited
+
+107
+
+Bagnall, R. S. (1976), pp. 117-123.
+
+60
+
+Cretan soldiers into their military services, many of whom ended up living in Egypt where they
+had the opportunity to induct themselves into the local traditions and religion.108
+Many are the cases of Ptolemaic officers with Cretan origin who, having been impressed by
+what they had heard about the powers of the local gods, visited their sanctuaries in Egypt in
+order to perform dedications for the well-being of themselves or the Ptolemies.109 Such an
+occasion describes Callimachus in his epigram 37 in Pfeiffer’s edition (or 17 in Gow and Page),
+which refers to the dedication of a mercenary’s weapons to the god Serapis:
+(ΧΧΧVII Pfeiffer or XVII Gow and Page, Vol. I)
+‘O Λύκτιος Μένιτας
+τὰ τόξα ταῦτ’ἐπειπών
+ἔθηκε· «τῆ, κέρας τοι
+δίδωμι καὶ φαρέτρην,
+Σάραπι· τοὺς δ’ὀϊστούς
+ἔχουσιν Ἑσπερίται».
+Menitas from Lyctus
+dedicated these bows
+and said “look! to you
+I am offering a bow and a quiver,
+Serapis; but Hesperites
+
+108
+
+Chaniotis, A. (2005), p. 151.
+
+An example of a Cretan mercenary from Phaistos who made a dedication to Osiris upon divine
+command (κατὰ πρόσταγμα) after the god appeared in his dream or via an oracle, offers an inscription
+from Ptolemaic Egypt (3rd/ 2nd BC):
+109
+
+(Supplementum Epigraphicum Graecum, XX, 698):
+Ὀσείρει Ἰσχωνίδας
+Τίμωνος Κρὴς
+Φαίστιος κατὰ
+πρόσταγμα.
+To Osiris, Ischonidas,
+son of Timon, Cretan
+from Phaistos
+upon divine command.
+(Translation by the
+author of this paper.)
+61
+
+have the arrows.”
+(Translated by the author of this paper)
+
+The geographical adjective Λύκτιος in the first line informs us about the mercenary’s origin
+from the island of Crete which belonged to the Ptolemaic sphere of influence and was one of the
+main suppliers of soldiers and officers to the Ptolemies’ military services.110 The second
+geographical reference of the epigram, “Ἑσπερίται”, in its context, indicates that the Cretan
+mercenary was returning from an expedition in Libya, since Hesperis was the westernmost of the
+important Cyrenaic cities.111 After his return to the capital, Menitas feels the obligation to visit
+the sanctuary of Serapis and dedicate his weapons to him, possibly because he returned safe and
+victorious. This epigram clearly outlines the close relationship that the Ptolemies had established
+with the island of Crete as well as their expansionist policy towards Libya during the 3rd century
+BC.
+The geographical references of Callimachus’ poems that were examined in this chapter
+indicate that Callimachus’ poetry represents the political aspirations of the Ptolemies outside
+Egypt since it clearly includes references to places which were at the center of the Ptolemies’
+intentions as well as to the military achievements of the Ptolemies in these regions, thus
+portraying them as powerful kings who came to dominate the Mediterranean world.
+
+110
+
+Gow, A. S. F. & Page, D. L. Vol. II (1955), p. 176 & Chaniotis, A. (2005), p. 151.
+The date of the battle with which the dedication is concerned, is placed by most scholars after the
+murder of Demetrius ὁ καλός by Berenice II and right after Ptolemy Euergetes had succeeded his father
+on the throne of the Ptolemaic Empire (Gow, A. S. F. & Page, D. L., Vol. 2, 1965, p. 175). However,
+Willamowitz had argued that this battle could possibly have taken place in the 270’s during the period of
+conflicts between Magas and Ptolemy Philadelphus (von Wilamowitz – Moellendorff, U., Vol. 2, 1924, p.
+120).
+111
+
+62
+
+Conclusion
+The purpose of this paper was to investigate how the travels of mind and the continuing
+change of places throughout the Greek world - from the North to the South and the East to the
+West - in a selected corpus of poems in Callimachus’ Aitia, the Hymns and the epigrams create
+the picture of a poetry which mirrored the concerns and interests of the Ptolemaic dynasty in the
+first half of the 3nd century BC. More specifically, the examination of the geographical references
+in the poems which were selected and analyzed in the present paper, indicates that Callimachus’
+poetry promoted in a discreet way the political aspirations of the Ptolemies on three different
+levels. In several poems examined in the first chapter, a movement of people, gods and objects
+from the North to the South likely shows the shifting of power from the old Greek world to the
+newly established Ptolemaic regime. Other poems, according to the second chapter of this paper,
+were employed to reinforce the feeling among the Greek settlers that they belong to the same
+ethnic group. In this way, Callimachus supported the Ptolemies’ goal to present themselves as
+legitimate rulers of all the Greeks in Egypt as well as to help the Greek community feel less
+alienated in this foreign environment they were brought to inhabit. However, Callimachus did
+not neglect to make references in Egyptian traditions that his kings adopted during their reign.
+By helping the Greeks understand and accept the double face of their monarchy, he could
+support the Ptolemies’ goal to rule successfully and peacefully their “bicephalous” regime
+without threatening the Greeks with loss of their cultural independence. Last but not least, in a
+small group of poems - the most representative of which have been analyzed in the third chapter
+- there are reflections of the Ptolemies’ interest in expanding their influence beyond Egypt. In
+these poems, Callimachus created for his kings the portrait of powerful rulers who came to
+dominate not only Egypt but the whole Mediterranean world. Undoubtedly, Callimachus’ poetry
+
+63
+
+was not composed in vacuum. It was certainly representative of the character of the Ptolemaic
+court as political, intellectual and social center and therefore, it is important to understand and
+interpret it in this context.
+
+64
+
+Bibliography
+Acosta - Hughes, B. & Stephens, A. S., Callimachus in Context, Cambridge University Press
+(2012)
+Ager, S. L., “An uneasy balance: from the death of Seleukos to the battle of Raphia”, in A
+Companion to the Hellenistic World, Blackwell Publishing (2003), pp. 35-50
+Asper, M., “Dimensions of power: Callimachean Geopoetics and the Ptolemaic Empire”, in
+Acosta - Hughes, B., Lehnus, L. & Stephens, S. (edd.), Brill’s Companion to Callimachus, Brill
+(2011)
+Asper, M., “Gruppen und Dichter: Zu Programmatik und Adressatenbezug bei Kallimachos”,
+Antike und Abendland 47 (2001), pp. 84-116.
+Austin, M., The Hellenistic World from Alexander to the Roman Conquest, Cambridge university
+Press (2006)
+Bagnall, R. S, The administration of the Ptolemaic possessions outside Egypt, Brill (1976)
+Barbantani, S., “Callimachus on kings and kingship”, in Brill’s Companion to Callimachus, Brill
+(2011), pp. 178-200
+Bennett, C., “Arsinoe and Berenice at the Olympics”, Zeitschrift für Papyrologie und
+Epigraphik, Bd. 154 (2005), pp. 91-96
+Bing, P., The scroll and the marble, University of Michigan Press (2009)
+Buch, G.R., “Language and literature”, in The Cambridge Companion to the Hellenistic World,
+pp. 186-207
+Bulloch, A., “Hellenistic Poetry”, in The Cambridge Companion to Hellenistic Classical
+Literature, Cambridge University Press (1985), pp. 541-621
+Bulloch, A., “Hellenistic Poetry”, in The Cambridge History of Classical Literature, Cambridge
+University Press (1985), pp. 541-621
+Burger, M., The Shaping of Western Civilization, Vol. I, University of Toronto Press, 2013
+Cameron, A., Callimachus and his critics, Princeton University Press (1995)
+Carney, E., Arsinoe of Egypt and Macedon: A Royal Life, Oxford University Press (2013)
+Chaniotis, A., War in the Hellenistic World, Blackwell Publishing (2005)
+Cheshire, K., “Thematic Progression and Unity in Callimachus Hymn to Apollo”, The Classical
+Journal, Vol. 100, No. 4 (2005)
+Clauss, J. J., “Lies and Allusions: the Addressee and the Date of Callimachus' Hymn to Zeus”,
+Classical Antiquity, Vol. 5 (1986), pp. 155-170
+65
+
+Clayman, D. L., Berenice II and the Golden Age of Ptolemaic Egypt, Oxford University Press
+(2014)
+Dougherty, C., The Poetics of Colonization: From City to Text in Archaic Greece, Oxford
+University Press (1993)
+Dunand, F. & Zivie-Coche, C., Men and gods in Egypt, Cornell University Press (2004)
+Errington, M. R., A History of the Hellenistic World, Blackwell Publishing (2008)
+Erskine, A., “Approaching the Hellenistic World”, in A Companion to Hellenistic World,
+Blackwell Publishing (2003), pp. 1-16
+Erskine, A., “Culture and Power in Ptolemaic Egypt: The Museum and Library of
+Greece and Rome, Vol. 42, No. 1 (1995), pp. 38-48.
+
+Alexandria”,
+
+Fantuzzi, M. and Hunter R., Tradition and Innovation in Hellenistic Poetry, Cambridge
+University Press (2004)
+Fraser, P. M., Ptolemaic Alexandria, Vol. I, Oxford University Press (1972)
+Gosling, A., “Political Apollo: From Callimachus to the Augustans”, Mnemosyne, Vol. 45, Fasc.
+4 (1992), pp. 501-512.
+Gow, A. S. F, Theocritus, Vol. I, Cambridge University Press (1950)
+Gow, A. S. F. & Page, D. L., The Greek Anthology of Hellenistic Epigrams, Vol. I, Cambridge
+University Press (1965)
+Gow, A. S. F. & Page, D. L., The Greek Anthology of Hellenistic Epigrams, Vol. II, Cambridge
+University Press (1965)
+Green, P., From Alexander to Actium, University of California Press (1990)
+Günther, H., A history of the Ptolemaic empire, Routledge (2001)
+Gutzwiller, J.K., “Callimachus' Lock of Berenice: Fantasy, Romance, and Propaganda”, The
+American Journal of Philology, Vol. 113, No. 3 (Autumn, 1992), pp. 359-385
+Gutzwiller, K. J., A Guide to Hellenistic Literature, Blackwell Publishing (2007)
+Harder, M. A., “Callimachus’ Aitia”, in Claus, J.J. & Cuypers (edd.), A Companion to
+Hellenistic Literature, Blackwell Publishing (2010), 92-105
+Harder, M. A., Callimachus’ Aitia, Vol. I, Oxford University Press (2012)
+Harder, M. A., Callimachus’ Aitia, Vol. II, Oxford University Press (2012)
+Hölbl, G., A History of the Ptolemaic Empire, Routledge (2001)
+
+66
+
+Hopkinson, N., “Callimachus Hymn to Zeus”, Classical Quarterly, Vol. 34, No. 1, (1984), pp.
+139-148
+Krevans, N. & Sens, “Language and Literature”, In The Cambridge Companion to the
+Hellenistic World, Cambridge (2006), pp.186-207
+Malkin, I., “Networks and the Emergence of Greek Identity, Mediterranean Historical Review
+(2003), pp. 56-74
+McCrindle, J.W. (editor-translator), The Christian Topography of Cosmas, an Egyptian Monk,
+Cambridge University Press (2010)
+Nisetich, F., The poems of Callimachus, Oxford University Press (2001)
+Petrovic, I., “Transforming Artemis: From the Goddess of the Outdoors to City Goddess”, in The
+Gods of Ancient Greece, Edinburg University Press (2010), 209-227
+Pfeiffer, R., “The Lock of Berenice”, Philologus, 87 (1932), pp. 179-228
+Prioux, E., “Callimachus’ queens”, in Brill’s Companion to Callimachus, Brill (2011), pp. 201224
+Prioux, E., “Callimachus’ Queens”, in Brill’s Companion to Callimachus, Brill (2011), pp. 201223
+Riad, H., “Egyptian Influence on Daily Life in Alexandria’, in Alexandria and Alexandrianism,
+The J. Paul Getty Museum (1996), 29-39
+Selden, D., “Alibis”, Classical Antiquity, Vol. 17, No. 2 (1998), pp. 289-412
+Stephens, S., “Callimachus at court”, in Harder, M. A., Regtuit, R. F. & G. C. Wakker (edd.),
+Callimachus. Hellenistica Groningana 1, Groningen, The Netherlands: Egbert Forsten (1998),
+pp. 167-185
+Stephens, S., Callimachus - The Hymns, Oxford University Press (2015)
+Strootman, R., “Literature and the Kings”, in A Companion to Hellenistic Literature, WileyBlackwell (2010), pp. 30-45
+Stephens, S., “Battle of the Books” in The New Posidippus: A Hellenistic Poetry Book, Oxford
+(2005), pp. 229-248.
+von Wilamowitz – Moellendorff, U., Hellenistische Dichtung in der Zeit des Kallimachos, Vol.
+2, Berlin, Weidman (1924)
+Weber, G., “Poet and court”, in Acosta - Hughes, B., Lehnus, L. & Stephens, S. (edd.), Brill’s
+Companion to Callimachus, Brill (2011), pp. 225-244
+Zanker, G., Realism in Alexandrian Poetry, London - Sydney (1987)
+67
+
+

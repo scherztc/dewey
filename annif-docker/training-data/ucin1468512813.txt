@@ -1,0 +1,6920 @@
+A Comparative Study of Performance Assessment and Fault Diagnosis
+Approaches for Reciprocating Electromechanical Mechanism
+
+A thesis submitted to the
+Division of Research and Advanced Studies
+of the University of Cincinnati
+In partial fulfillment of the requirements
+for the Degree of
+Master of Science
+In the Department of Mechanical and Materials Engineering
+of the College of Engineering and Applied Science
+by
+Zhe Shi
+2016
+B.S.E. in Quality and Reliability Engineering, Beihang University (2012)
+Committee Chair: Dr. Jay Lee
+Committee Member: Dr. Raj Bhatnagar
+Committee Member: Dr. Mark Schulz
+
+ABSTRACT
+Reciprocating electromechanical mechanism is commonly used for industrial applications,
+including reciprocating engines & compressor, reciprocating valve, railway point machine,
+elevator motor etc. The research work in this thesis mainly focus on a typical reciprocating
+electromechanical mechanism-railway point machine performance assessment and fault diagnosis.
+Point machine switches track between two alternative routes which requires to operate with a high
+level of safety and reliability and a failure asset has a significantly high chance to cause system
+delay and fatal accident. With the growing needs for intelligent operation and safety assurance,
+developing a system for performance assessment, fault diagnosis as well as remaining useful life
+prediction for such critical assets has gained greater attention. Prognostics and Health Management
+(PHM) methodologies and techniques are considered to be the foremost enabling technology for
+achieving those tasks and extensive research has been carried out in the area of PHM system
+development for point machines. However, there still exists many unmet needs for the current
+system and studies. For instance, few studies have been investigated based on the low cost onboard
+signals, which is necessary to monitor widely distributed infrastructures. Also, far too little
+attention has been paid to the incipient faults which can also lead to catastrophic accidents. Most
+of the systems are developed based on expert knowledge and diagnostic expertise, which are
+problem-specific and difficult to apply for other similar assets.
+The main objective of this study was to develop performance assessment and fault
+diagnosis approaches based on low cost onboard signals for point machines to detect incipient
+failure and diagnose faults and to provide a comparative study about the effectiveness of each
+approach. Feature based and auto-associative residual based approaches were developed and
+selected PHM techniques were applied and evaluated for both approaches.
+i
+
+Feature based approach follows conventional PHM system development methodology
+which consists of signal pre-processing, data segmentation, feature extraction & selection, health
+assessment and fault diagnosis. The limitation of feature based approach is that it needs expert
+knowledge for data segmentation, diagnostic expertise for feature extraction and it is usually
+problem-specific. The newly developed auto-associative residual (AAR) based approach provides
+a way to build the degradation assessment model based on residual vector from auto-associative
+model input and output, which requires minimal prior knowledge of the system and reduces
+manual processing work for feature extraction and selection. Unsupervised degradation
+assessment methods were used for performance assessment and selected multiclass classification
+algorithms were applied for fault diagnosis in this study.
+The proposed approaches were applied to an Alstom MET F-BANE point machine for
+validation. Both approaches achieve over 99% fault detection rate and over 95% overall fault
+diagnosis accuracy for 17 different health conditions.
+
+ii
+
+iii
+
+ACKNOWLEDGEMENT
+I would like to show my special thanks to my academic advisor Professor Jay Lee who
+provided me research opportunity and guidance for my graduate study. I also would like to thank
+my committee members Prof. Mark Schulz and Prof. Raj Bhatnagar for all the comments they
+provided for my research. I also want to express my special thanks to Alstom Transport team for
+supporting the research project, including Dr. Piero La Cascia, Mr. Michele Pugnaloni, Mr. Marco
+Radaelli. I am also thankful to former IMS researchers who provided me guidance and help
+throughout my graduate study: Dr. Edzel Lapira, Dr. Yan Chen, Dr. David Siegel, Dr. Wenyu
+Zhao, Dr. Shanhu Yang, Dr. Chuan Jiang, Dr. Mohammad Rezvani, Mr. Eric Huang and Ms.
+Xiaorui Tong. I also want to appreciate all our current IMS family members for all your help and
+support, they are Ms. Wenjing Jin, Ms. Hung-An Kao, Mr. Hossein Davari, Mr. Chao Jin, Mr.
+Zongchang Liu, Mr. Behrad Bagheri, Mr. Yuan Di, Mr. Xiaodong Jia, Mr. Matt Buzza, Ms. Laura
+Pahren, Mr. Aaron Shelly, Ms. Ellen Gamel. I would also like to thank IMS staff Mr. Michael
+Lyons and Mr. Patrick Brown who are always supportive and helpful. At last, I want to thank my
+family and my girlfriend for all their support and encouragement which provide me strength and
+faith to fulfil all this research work.
+
+iv
+
+Table of Contents
+List of Figures................................................................................................................. viii
+List of Tables .................................................................................................................. xiii
+List of Acronyms ............................................................................................................ xiv
+CHAPTER 1 INTRODUCTION ..................................................................................... 1
+1.1
+
+Motivation.......................................................................................................... 1
+
+1.2
+
+Research Objective ........................................................................................... 7
+
+1.3
+
+Thesis Organization .......................................................................................... 9
+
+CHAPTER 2 LITERATURE REVIEW ON RELATED WORKS ........................... 11
+2.1
+
+Reciprocating Electromechanical Mechanism ............................................. 11
+
+2.2
+
+Overview on Data Driven Prognostics and Health Management
+Techniques ....................................................................................................... 13
+
+2.3
+
+Performance Assessment and Fault Diagnosis Methods ............................. 14
+
+2.3.1
+
+Principal Component Analysis (T2/SPE) ...................................................... 14
+
+2.3.2
+
+Self-organizing Map (SOM) ......................................................................... 17
+
+2.3.3
+
+Support Vector Machine ............................................................................... 20
+
+2.3.4
+
+Naive Bayes Classifier .................................................................................. 23
+
+2.4
+
+Review on Performance Assessment and Fault Diagnosis Techniques for
+Point Machine.................................................................................................. 25
+
+CHAPTER 3 PERFORMANCE ASSESSMENT AND FAULT DIAGNOSIS
+APPROACHES FOR POINT MACHINE ................................................................... 31
+3.1
+
+Feature Based Performance Assessment and Fault Diagnosis Approach . 31
+
+v
+
+3.1.1
+
+Overview ....................................................................................................... 31
+
+3.1.2
+
+Pre-processing and Data Segmentation ........................................................ 32
+
+3.1.3
+
+Feature Extraction ......................................................................................... 38
+
+3.1.4
+
+Feature Selection & Dimension Reduction................................................... 39
+
+3.1.5
+
+Performance Assessment .............................................................................. 41
+
+3.1.6
+
+Fault Diagnosis ............................................................................................. 41
+
+3.2
+
+Auto-associative Residual Based Performance Assessment and Fault
+Diagnosis Approach ........................................................................................ 42
+
+3.2.1
+
+Overview ....................................................................................................... 42
+
+3.2.2
+
+Review of Auto-associative Modeling Techniques ...................................... 45
+
+3.2.3
+
+Auto-associative Residual Based Approach Overview ................................ 54
+
+3.2.4
+
+Baseline Data Preparation and Pre-processing ............................................. 55
+
+3.2.5
+
+Memory Matrix Construction ....................................................................... 55
+
+3.2.6
+
+Auto-associative Model Selection ................................................................ 58
+
+3.2.7
+
+Performance Assessment .............................................................................. 60
+
+3.2.8
+
+Fault Diagnosis ............................................................................................. 61
+
+CHAPTER 4 CASE STUDY: POINT MACHINE PERFORMANCE
+ASSESSMENT AND FAULT DIAGNOSIS ................................................................ 62
+4.1
+
+Test Description .............................................................................................. 62
+
+4.1.1
+
+Failure Modes Analysis ................................................................................ 64
+
+4.1.2
+
+Failure Modes Simulation ............................................................................. 65
+
+4.1.3
+
+Environmental Conditions ............................................................................ 68
+
+4.1.4
+
+Test Records.................................................................................................. 70
+vi
+
+4.1.5
+
+Data Description ........................................................................................... 72
+
+4.2
+
+Feature Based Approach ................................................................................ 74
+
+4.3
+
+Auto-associative Residual Based Approach ................................................. 87
+
+CHAPTER 5 CONCLUSION AND FUTURE WORKS .......................................... 101
+5.1
+
+Conclusion ..................................................................................................... 101
+
+5.2
+
+Future Works ................................................................................................ 103
+
+REFERENCE ................................................................................................................ 106
+
+vii
+
+List of Figures
+Figure 1-1 UK railway derail cause (2008-2013) ........................................................................... 2
+Figure 1-2 Irregular working derailments (2008-2013) .................................................................. 2
+Figure 1-3 Track related derailments .............................................................................................. 3
+Figure 2-1 Multivariate time series trajectory signal acquired from point machine. (a): speed signal.
+(b) torque signal. ................................................................................................................... 12
+Figure 2-2 Illustration of principal component analysis source: http://austingwalters.com/wpcontent/uploads/2014/11/gaussDist-labeled.png .................................................................. 16
+Figure 2-3 SOM Model. The input is connected to every cell (neuron) in the map (Yin, 2008) . 18
+Figure 2-4 SOM U-matrix (left), hit-map (right) .......................................................................... 19
+Figure 2-5 Perceptron and support vector machine ...................................................................... 20
+Figure 2-6 SVM kernel mapping concept ..................................................................................... 22
+Figure 2-7 Schematic diagram illustrating the main components of a set of points. (Oyebande &
+Renfrew, 2002) ..................................................................................................................... 25
+Figure 3-1 Feature based approach for performance assessment and fault diagnosis .................. 32
+Figure 3-2 The 4 phases of point machine drive current curve (Márquez et al., 2007) ................ 33
+Figure 3-3 Alstom MET point machine data segments (red: active power; blue: speed)............. 34
+
+viii
+
+Figure 3-4 Data Segmentation using K-means. (top) raw signal from current transducer; (middle)
+wavelet de-noised current signal; (bottom) segmented current signal using k-means clustering
+(k=4)...................................................................................................................................... 35
+Figure 3-5 Moving window standard deviation data segmentation approach .............................. 36
+Figure 3-6 Data segmentation using moving window standard deviation .................................... 37
+Figure 3-7 Illustration of feature extraction process ..................................................................... 38
+Figure 3-8 Point machine active power dynamic characteristic variation from different phases . 43
+Figure 3-9 Example of auto-associative model output and residual. (a) measured signal and
+predicted signal normal-to-reverse movement; (b) measured signal and predicted signal
+normal-to-reverse movement; (c) residual sequence of torque signal normal-to-reverse
+movement; (d) residual sequence of torque signal reverse-to-normal movement. ............... 44
+Figure 3-10 Schematic diagram for auto-associative model......................................................... 45
+Figure 3-11 Typical AANN 5 layer architecture .......................................................................... 46
+Figure 3-12 Illustration of Gaussian kernel and distance measure under different kernel bandwidth
+............................................................................................................................................... 49
+Figure 3-13 Flow chart of auto-associative residual based approach ........................................... 55
+Figure 3-14 Illustration of memory matrix construction process ................................................. 56
+Figure 3-15 Flow chart of vector selection algorithm .................................................................. 57
+Figure 4-1 Point machine testbed inside climatic chamber .......................................................... 63
+Figure 4-2 Stock rail bracket screws (UP); Point machine optimal position (BOTTOM) ........... 65
+ix
+
+Figure 4-3 Four variations of misalignment failure modes simulate ............................................ 66
+Figure 4-4 Obstacle failure modes simulation .............................................................................. 67
+Figure 4-5 Hydraulic system for friction test on point machine ................................................... 68
+Figure 4-6 0+/-5 test temperature profile ...................................................................................... 69
+Figure 4-7 Temperature measurements locations on point machine testbed ................................ 70
+Figure 4-8 Point machine signal acquired from testbed. (a) speed signal from point machine
+forward and backward operation; (b) torque signal from point machine forward and backward
+operation; (c): active power signal forward and backward operation................................... 73
+Figure 4-9 Data segmentation results on raw trajectory signals under healthy and faulty conditions.
+(a) healthy speed signal segmentation result; (b) Healthy torque signal segmentation result;
+(c) healthy active Power signal segmentation result; (d) Excessive friction speed signal
+segmentation; (e) Excessive friction torque signal segmentation; (f) Excessive friction active
+power signal segmentation .................................................................................................... 76
+Figure 4-10 Point machine active power segment 4 RMS under healthy condition and
+environmental temperature. (a.1) active power segment 4 RMS from 25c+-5 temperature
+range; (a.2) environmental temperature measure corresponding to a.1; (b) and (c) are RMS
+and temperature measurements from 0c+-5 and 25c+-5 temperature range respectively .... 77
+Figure 4-11 Correlation between temperature from different location on testbed and Seg4 RMS
+............................................................................................................................................... 77
+
+x
+
+Figure 4-12 Signal normalization using cubic fit. (a) Cubic fit of temperature and segment 4 RMS;
+(b) Original active power signal measured from 3 different temperature range (green: -25c;
+blue: 0c; red: 25c); (c) normalized active power signal based on temperature. ................... 78
+Figure 4-13 PCA-T2 Performance assessment result (FDRate: fault detection rate; FPRate: false
+positive rate).......................................................................................................................... 80
+Figure 4-14 PCA-SPE Performance assessment result (FDRate: fault detection rate; FPRate: false
+positive rate).......................................................................................................................... 81
+Figure 4-15 SOM-MQE Performance assessment result. (MQE limit =mean+2*std; FDRate: fault
+detection rate; FPRate: false positive rate) ........................................................................... 81
+Figure 4-16 ROC from three performance assessment models .................................................... 82
+Figure 4-17 Example of NBC confusion matrix w/o feature selection. Accuracy = 94.1%......... 84
+Figure 4-18 AAKR RMSE with different kernel bandwidth. (a) Evaluate AAKR RMSE of 4
+different signals with selected kernel bandwidth, forward (FwD) speed, backward (BwD)
+speed, forward torque and backward torque; (b) Average AAKR RMSE from all 4 signals
+with different kernel bandwidth ............................................................................................ 88
+Figure 4-19 AANN RMSE with different number of bottleneck layer nodes with hidden layer
+nodes fixed to 7. (a) Evaluate AANN RMSE of 4 different signals with 6 different number of
+bottleneck layer nodes; (b) Average AANN RMSE from all 4 signals with different number
+of bottleneck layer nodes ...................................................................................................... 90
+Figure 4-20 AANN RMSE with different number of hidden layer nodes with bottleneck layer
+nodes fixed to 4. (a) Evaluate AANN RMSE of 4 different signals with 6 different number of
+xi
+
+hidden layer nodes; (b) Average AANN RMSE from all 4 signals with different number of
+hidden layer nodes ................................................................................................................ 91
+Figure 4-21 Auto-associative model comparison based on accuracy. (a) Evaluate AAMSET,
+AAKR, AANN RMSE of 4 different signals; (b) Average RMSE from all 4 signals using
+AAMSET, AAKR, AANN ................................................................................................... 92
+Figure 4-22 AAR based performance assessment and fault diagnosis flow chart ........................ 93
+Figure 4-23 PCA-T2 performance assessment result (FDRate: fault detection rate; FPRate: false
+positive rate).......................................................................................................................... 94
+Figure 4-24 PCA-SPE performance assessment result (FDRate: fault detection rate; FPRate: false
+positive rate).......................................................................................................................... 94
+Figure 4-25 SOM-MQE performance assessment result (FDRate: fault detection rate; FPRate:
+false positive rate) ................................................................................................................. 95
+Figure 4-26 ROC from three performance assessment models .................................................... 95
+Figure 4-27 Example of NBC fault diagnosis w/o feature selection, AAR based approach.
+Accuracy = 84.8%................................................................................................................. 97
+Figure 4-28 Residual feature vector from all 17 classes ............................................................... 98
+Figure 4-29 KNN (k=1, City block) fault diagnosis result, accuracy = 98.2% .......................... 100
+
+xii
+
+List of Tables
+Table 3-1 Commonly used time domain features ......................................................................... 39
+Table 4-1 Point machine degradation mode analysis ................................................................... 64
+Table 4-2 Temperature range at different countries ..................................................................... 69
+Table 4-3 Test records under 0+/-5 temperature profile ............................................................... 71
+Table 4-4 Data segmentation result: number of samples in each segment ................................... 76
+Table 4-5 10 folds cross validation model evaluation results. 112 features in total. PCA(95%,15
+PC), 9% variance retained and 15 PCs are selected; Fisher(15,~68), top 15 features selected
+from each class, approximate 68 features retained ............................................................... 85
+Table 4-6 Correlation coefficient of variables in memory matrix for model selection ................ 87
+Table 4-7 AAKR average RMSE using different kernel bandwidth ............................................ 88
+Table 4-8 AANN average RMSE with different number of nodes in bottleneck layer ................ 90
+Table 4-9 AANN average RMSE with different number of nodes in hidden layer ..................... 91
+Table 4-10 Auto-associative model comparison results ............................................................... 92
+Table 4-11 Performance assessment methods comparison from two approaches ........................ 96
+Table 4-12 10 folds cross validation results AAR based approach (NBC, SOM, SVM) ............. 97
+Table 4-13 10 folds cross validation results AAR based approach (KNN) .................................. 98
+Table 4-14 KNN (city block) fault diagnosis result using feature based approach ...................... 99
+
+xiii
+
+List of Acronyms
+PHM
+
+Prognostics and Health Management
+
+PCA
+
+Principal Component Analysis
+
+PC
+
+Principal Component
+
+LDA
+
+Linear Discriminant Analysis
+
+SOM
+
+Self-organizing Map
+
+SVM
+
+Support Vector Machine
+
+NBC
+
+Naïve Bayes Classifier
+
+SPE
+
+Square Prediction Error
+
+RMSE
+
+Root Mean Square Error
+
+FDR
+
+Fault Detection Rate
+
+FPR
+
+False Positive Rate
+
+NN
+
+Neural Network
+
+AAR
+
+Auto-associative Residual
+
+AANN
+
+Auto-associative Neural Network
+
+AAMSET Auto-associative Multivariate State Estimation Technique
+AAKR
+
+Auto-associative Kernel Regression
+
+MQE
+
+Minimum Quantization Error
+
+KNN
+
+K-nearest Neighbor
+
+ROC
+
+Receiver Operating Characteristic
+
+AUC
+
+Area Under Curve
+
+xiv
+
+CHAPTER 1
+1.1
+
+INTRODUCTION
+
+Motivation
+Point machines, which switch tracks between two alternative routes, are always required
+
+to operate with a high level of safety and reliability and a failure asset has a significantly high
+chance to cause system delay or a fatal accident. The annual safety performance report prepared
+by UK rail safety and standard board (RSSB) shows that point machine failures or malfunctions
+are one of the main causes of train derailment accidents from 2008 to 2013(Rail Safety and
+Standards Board, 2012). On 10 May 2002 a train traveling from London Kings Cross derailed at
+Potters Bar when passing over points 2182A because of secure nets missing and lock stretcher
+fatigue. The consequences of the accident included 7 deaths and injuring over 70 people (HSE
+Potters Bar Investigation Board, 2003). The following investigation by Health Safety Executive
+shows that the cause of the tragedy is flawed maintenance and ineffective safety check. On Friday
+23 February 2007, a Virgin West Coast train from London Euston to Glasgow derailed on 2B
+points at Lambrigg, near Grayrigg in Cumbria. The accident caused 1 death and 88 injuries. The
+immediate cause of the accident was the poor condition of the stretcher bar arrangement at points
+2B. The investigation suggested that the accidents came out as a result of combinations of factors:
+mechanical failure of the point machine; miss inspection from previous scheduled check. As
+shown in Figure 1-1, Irregular working (33%) is recognized as the main cause of train derailment
+followed by environment (14%) and track problem (13%). Around half of the irregular working
+related derailments are related to crossing signaler in which the point machine is not locked at the
+correct position. This can be detected and avoided by using point machine remote monitoring
+system which detects current position of the switching rail.
+1
+
+Train runaway
+5%
+
+Vandalism
+1%
+Track
+13%
+
+Collision with
+object
+12%
+Rolling stock
+10%
+
+Irregular
+working 33%
+
+Environment
+14%
+SPAD
+12%
+
+Figure 1-1 UK railway derail cause (2008-2013)
+
+Loading error
+Speeding
+4%
+8%
+Infrastructure
+worker error
+19%
+
+Other driver/crew
+error
+11%
+
+Signller/crossing
+keeper error
+46%
+
+Other shunter
+error
+12%
+
+Figure 1-2 Irregular working derailments (2008-2013)
+
+The environment related issues or natural hazards include but not limited to landslide,
+strong wind, flooding, snow, fallen tree, earthquake. Most of the time, the natural hazards happen
+in a sudden and difficult to detect. Currently, obsolete manual check strategy is used along the line
+to check the track condition. However, manual routing check cannot fully cover whole operation
+duration of the system and it is costly. Countermeasures against natural hazard is necessary to
+2
+
+reduce the risk of environment related issues. Slope reinforcement, windbreak fence, snow remove
+equipment and onboard monitoring system including anemometer, water gauge and landslide
+detector were developed and applied to train and track to minimize risk level of natural hazard. On
+the other hand, advanced analysis algorithms were developed based on monitoring system to detect
+such hazard, for example, (Chavan, Pangotra, Nair, More, & Nair, 2015) developed an accurate
+and efficient landslide detection system for Konkan railway line using image processing.
+
+Switch &
+crossing
+30%
+
+Other Track
+faults
+30%
+
+Gauge spread
+30%
+
+Buckled rail
+10%
+
+Figure 1-3 Track related derailments
+
+Although monitoring systems were developed for natural hazard detection, it is still not
+feasible to prevent it from happening. On the other hand, the track related issues can be avoided
+by applying proper maintenance at early stage of failure. As Figure 1-3 shown, about one-third of
+track related derailments were occurred at switched and crossing. The main cause of switch and
+crossing failure can be point machine failure, point machine in wrong position but not detected or
+other failures. Currently the maintenance of point machines is carried out at periodical intervals.
+A load pin is inserted between the switch and stock rails, and the force profile during rail movement
+is checked. Any problems with the force profile is then reported to the maintenance department.
+3
+
+The frequency of maintenance is determined by the frequent and weight of the trains,
+environmental conditions, etc. However, manual check is costly and still not sufficient for point
+machine to ensure safety. It is difficult to ensure maintenance crew fulfill their task 100% percent
+correct every time and minor flaw on point machine system is easily to lead to catastrophic accident.
+The train derailment in Grayrigg was caused by missing inspection from previous scheduled check.
+In order to avoid derailment and other tragedies from happening and reduce infrastructure
+maintenance cost for widely distributed assets, it is necessary to develop and implement an online
+low cost PHM system for point machines to remotely detect incipient failure, identify faults and
+eventually predict remaining useful maneuvers of the point machine. The benefits of developing
+the performance assessment and fault diagnosis system are:
+1) The developed system is capable to detect incipient faults remotely which helps
+ensure system safety and avoid catastrophic accident from happening by sending
+out request for maintenance in time.
+2) The capability to identify different failure modes of the system can help reduce the
+maintenance cost and time. The maintenance crew can prepare spare parts, check
+maintenance manual before they actually working on the field with the help of
+accurate diagnostic information.
+3) The system is based on low cost onboard signals which are accessible remotely
+from the control room and can be easily applied to large numbers of machines in
+the field.
+The feasibility study on ALSTOM P80 electromechanical point machine in (Ardakani et
+al., 2012) obtained promising results for system degradation assessment using active power signal,
+however, the accurate failure detection and fault diagnosis system was still missing due to the
+4
+
+incompleteness of the field data. The results show that available low cost onboard signals from
+point machine are capable of distinguishing degradation with appropriate analysis. The unfinished
+tasks from previous work includes critical failure modes identification, fault simulation and test,
+accurate incipient fault detection, and accurate fault diagnosis for multiple failure modes. The
+urgent needs for point machine PHM system from transportation industry encourage us to extend
+and further improve existing work. The challenges of developing a PHM system for point machine
+system based on onboard signals includes:
+1) Identify critical failure modes and collect data from faulty point machine.
+The failure modes of the target system need to be studies prior to collect data or do
+experiment. The failure mode analysis and selection can be done based on expert knowledge or
+maintenance record from field. With selected failure modes, collecting data from system in field
+under faulty condition is still challenging. For the system which has high reliability requirement,
+some of the failure modes happens really rare. For most of the electromechanical system, multiple
+failure modes usually exist together within the system, it is difficult to acquire data from the system
+with only one failure mode. So collecting data from testbed with seeded faults is necessary for
+most of the PHM system development. The fault simulation needs expert knowledge about the
+system to correctly induce specific to the system and is able to generate drifts from measured
+signals.
+2) The signals measured from onboard system are less sensitive to faults.
+The onboard signals are usually used for control or thresholding based alarms. The
+sampling rate is relatively low compared with specific fault diagnosis system. Also, the measured
+signal from onboard system is usually not directly related to the faulty condition of the system.
+
+5
+
+For the point machine system, the force of the driven rod measured from load pin is directly related
+the actually performance of the system. However, the force measurement cannot be measured
+remotely. The speed and torque signal is only two variables available from the system for PHM
+system development.
+3) The relationship between degradation of the system and the onboard signal value
+change is unknown and difficult to quantify.
+The onboard signals are measured from motor module, however, the fault of the point
+machine occurs at the movement part of the system not the motor. It is difficult to build a system
+model to describe the relationship between measured signal and system failure. Data-driven model
+also need specific efforts for feature extraction and selection to generate a set of significant features
+to depict system performance degradation based on signals from motor. During this process, expert
+knowledge and problem specific solutions are needed.
+4) Multiple operation phases in which the condition monitoring features are highly
+influenced by the operating phases.
+The point machine has multiple phases within one movement. The characteristics of the
+signal measured from different phase are highly influenced by the operation phase. For example,
+the transient signals generated during machine startup, shutdown or the changing of direction and
+the stationary signals during rail is moving. Multi-regime modeling techniques including regime
+identification, normalization need to be used for model development. In order to identify regimes
+or find out best parameter for normalization, expert knowledge of the system is necessary.
+5) No well-established signal processing techniques are available for highly nonstationary signal.
+6
+
+The multi-regime operation generates highly non-stationary signals. These non-stationary
+signals contain critical information for machine condition monitoring and fault detection. Signals,
+such as vibration, current, speed, torque collected from the machine during its operation are all
+highly non-stationary which cannot be analyzed directly by stationary signal processing techniques,
+for example, FFT, PSD. Also, signal processing methods for common non-stationary signals
+including STFT, WT are also not feasible to apply directly for this highly non-stationary situation.
+1.2
+
+Research Objective
+This research aims to develop approaches for point machine performance assessment and
+
+fault diagnosis based on low cost onboard signals and provide a comparative study of the
+effectiveness of selected PHM algorithms from different approaches. The major targeted research
+gaps in this research are, the lack of research based on low cost onboard signals for point machine
+incipient fault detection and multiple failure modes diagnosis and also the lack of research for
+more generic approaches for modeling multivariate time series trajectory signals from the point
+machine system which requires less expert knowledge and diagnostic expertise. The objectives of
+this thesis are:
+1) To develop and validate a feature based performance assessment and fault diagnosis
+approach.
+a. Compare and select analytical tools and methods for data segmentation,
+feature extraction, feature selection, performance assessment and fault
+diagnosis.
+b. Assess system degradation based on features extracted from all segments
+using PCA-T2/SPE, SOM-MQE.
+7
+
+c. Identify different failure modes using multiclass classification algorithms
+including SVM, SOM, NBC and KNN together with selected feature
+selection (fisher criterion) & dimension reduction (PCA) methods.
+2) To develop and validate an auto-associative residual (AAR) based performance
+assessment and fault diagnosis approach.
+a. Compare and select different auto-associative models, including autoassociative neural network (AANN), auto-associative kernel regression
+(AAKR) and auto-associative multivariate state estimation (AAMSET).
+b. Assess system degradation based on residual feature vector calculated from
+measured inputs and auto-associative model estimate inputs using PCAT2/SPE, SOM-MQE.
+c. Identify failure modes using classification algorithms including SVM, SOM,
+NBC and KNN based on residual feature vector together with selected
+feature selection (fisher criterion) & dimension reduction (PCA) methods.
+3) Benchmark performance assessment and fault diagnosis results from AAR based
+approach with traditional feature based approach in terms of fault detection rate and
+overall diagnosis accuracy.
+The major contributions of this research work are:
+1) A feature based performance assessment and fault diagnosis approach was
+developed and validated for point machine system which finished and extended the
+previous work from feasibility study. Based on the features extracted from the point
+machine active power signal, the feature based approach achieved 100% fault
+detection rate and over 95% overall fault diagnosis accuracy.
+8
+
+2) An AAR based performance assessment and fault diagnosis approach was first
+proposed in this research. The AAR based approach is suitable for
+systems/processes which have a fixed reciprocating operation cycle and correlated
+multivariate trajectory signals during operation. Compared with feature based
+approach, it requires less expert knowledge of the system for model development.
+Also, without using advanced feature extraction and feature selection technique,
+the AAR based approach could also achieve similar or even better fault diagnosis
+accuracy than the feature based approach.
+3) This research work developed two performance assessment and fault diagnosis
+approaches for point machine system based on low cost onboard signals and
+achieved great success in both fault detection and diagnosis. The AAR based
+approach is more generic and promising to apply to larger spectrum of similar
+reciprocating electromechanical mechanisms.
+1.3
+
+Thesis Organization
+The remainder of the thesis is arranged as follows:
+Chapter 2 provides an overview of PHM related research and a comprehensive review of
+
+the analysis methods used for performance assessment and fault diagnosis. A literature review on
+point machine PHM research is also provided.
+Chapter 3 presents two proposed approaches for performance assessment and fault
+diagnosis system development. An overview of each approach is provided at the beginning and is
+followed by a step-by-step discussion of the system development process.
+
+9
+
+Chapter 4 describes the test conducted in lab environment and applies two proposed
+approaches to point machine system. Performance assessment models are compared by their fault
+detection rate and AUC from ROC curve. Selected fault diagnosis algorithms, including SOM,
+SVM, NBC, KNN from both approaches are ranked using their overall classification accuracy. A
+detailed discussion about the auto-associative model selection and memory matrix construction
+process are also included.
+Chapter 5 is the conclusion of the thesis and suggested potential future research work.
+
+10
+
+CHAPTER 2
+
+LITERATURE REVIEW ON RELATED WORKS
+
+Reciprocating Electromechanical Mechanism
+
+2.1
+
+The reciprocating electromechanical mechanism in this study is defined as critical assets
+which operate back-and-forth alternatively with fixed operation pattern and where multivariate
+time series signals are available for collection during operations. In terms of the signals for analysis,
+the targeted assets have following characteristics:
+1. Multivariate time series signal.
+•
+
+Available signals are measured from different critical components of the system or
+different variables from same components. Examples of the signals includes current,
+voltage, speed, torque, etc.
+
+•
+
+All signals are measured in time manner and have same sampling interval. (synchronized)
+
+•
+
+The multivariate time series signals collected from single operation are called trajectory
+signal in this research, and the vector that contains all variables measured at the same time
+is called observation.
+
+2. Trajectory from repeated operations are similar but not identical.
+•
+
+Each operation is expected to finish within similar time interval, but are not required to be
+identical to each other.
+
+•
+
+The trajectory of each variable has similar shape for same operation when system is
+operating under healthy condition.
+
+11
+
+3. The dynamic characteristics of the trajectory at different phase of operation are different
+since different internal components are working at different phase.
+Figure 2-1 shows an example of the multivariate time series trajectory signal measured
+from point machine. Forward (normal-to-reverse) and backward (reverse-to-normal) are two
+typical alternative operations. During each operation speed and torque signals are measured
+simultaneously from the motor module. The x-axis is the index of the observations; y-axis is the
+magnitude of each signal. The speed and torque of the motor are controlled by the system to fulfill
+different tasks from different phases of the point machine movement.
+(a) Point Machine Speed Signal
+
+2000
+1500
+
+(b) Point Machine Torque Signal
+
+500
+
+Forward
+Backward
+
+Forward
+Backward
+
+400
+300
+
+1000
+
+200
+
+Torque
+
+Speed
+
+500
+0
+
+100
+0
+
+-500
+-100
+-1000
+
+-200
+
+-1500
+-2000
+
+-300
+
+0
+
+500
+
+Index
+
+1000
+
+1500
+
+-400
+
+0
+
+500
+
+Index
+
+1000
+
+1500
+
+Figure 2-1 Multivariate time series trajectory signal acquired from point machine. (a): speed signal. (b) torque signal.
+
+One category of assets named Single Throw Mechanical Equipment (STME) all have
+similar characteristics of the reciprocating electromechanical mechanism defined for this research.
+In (Bai, 2010; Lehrasab & Fararooy, 1998), the STME is defined as a class of electro-mechanically
+operated equipment, which shares the properties of mechanical switches and reciprocating systems
+but differs from them due to the following features: slow throw speed, long throw time, non-
+
+12
+
+periodic operation and large varying load. The signals available from STME also possess similar
+characteristics of the trajectory multivariate time series defined for this research.
+2.2
+
+Overview on Data Driven Prognostics and Health Management
+Techniques
+Prognostics and Health Management (PHM) is an emerging technology and research area
+
+focusing on assets degradation assessment, fault detection, remaining useful life prediction and
+maintenance strategy optimization which aims to improve overall system performance, ensure
+system safety and reduce produce life cycle cost. Recently, with growing Internet-of-Things
+enabling technology, PHM gained greater attention as an analytical centered technology and
+numbers of frontier algorithms and technologies are being introduced into PHM area.
+PHM is mainly implemented using two approaches: model-based and data-driven. The
+model-based PHM uses mathematical functions, such as differential equations, to represent the
+system and residuals between model output and measurement are then used to detect, isolate and
+predict degradation. Due to relatively high requirements for detailed knowledge about underlying
+physical process for model development, physical based approaches are applied in relatively
+limited area including avionics, power electronics, etc. (Pecht & Jaai, 2010).
+On the other hand, the data-driven approach builds degradation assessment models based
+on historical data and information about the system to evaluate system degradation, identify
+different failure modes within system and predict system remaining useful life (RUL). The
+ultimate goal for data-driven PHM approach is to convert raw signals to actionable information
+including health value, fault type and remaining useful life (RUL). In order to achieve this,
+techniques from digital signal processing, data mining, statistical pattern recognition, machine
+13
+
+learning and time series analysis are all used for system development. Compared with model-based
+approach, the data-driven approach has a broader application range in different industries including
+manufacturing, energy generation, automobile, construction, etc. However, the major challenges
+for data-driven model development are: 1. Insufficient of historical data. It is difficult and costly
+to accumulate useful high quality data for data-driven model training. Also in practice, data from
+faulty condition is even harder to collect. 2. Dynamic degradation patterns. For a complex system,
+multiple failure modes and degradation patterns are all possible at the same time, it is difficult to
+cover all possible situations using one single model.
+Key aspects of data-driven PHM system development including pre-processing, feature
+extraction, feature selection & dimension reduction, health assessment, fault diagnosis and health
+prediction and detailed discussion about techniques commonly used for each step are provided in
+(Siegel & Lee, 2013). For a specific application and signal type, appropriate tools at each step need
+to be selected and compared carefully for better results.
+2.3
+
+Performance Assessment and Fault Diagnosis Methods
+Data-driven performance assessment aims to develop models to monitor when system
+
+performance shifts from normal ranges and fault diagnosis is used to identify current health
+condition/failure modes of the system from multiple candidate failure modes. The following
+section reviews commonly used performance assessment and fault diagnosis tools in PHM area.
+2.3.1 Principal Component Analysis (T2/SPE)
+Principal component analysis (PCA) has been studied and successfully applied in
+processing monitoring, fault detection with high dimensionality. Also it is used for dimensionality
+reduction in some cases. PCA has two common definitions: (1) orthogonal projection original data
+14
+
+onto lower dimensional space, principal space, such that the variance of the projected data is
+maximized; (2) linear projection of original data which has minimized mean squared error between
+original data and their projections. As an unsupervised learning method, the calculation of PCA
+only involves a set of features without corresponding response. This advent makes PCA suitable
+for performance assessment. When using PCA for process monitoring or fault detection,
+Hotelling’s T2 and square prediction error (SPE) or Q statistics are often used (Garcia-Alvarez,
+2009).
+Consider a data matrix 𝑋"# has M observations and N variables and its principle
+component can be calculated as:
+1. Normalize column vector of original data matrix to zero mean and unit variance by
+subtract mean and divide by variance. 𝑋"#
+2. Calculate the covariance matrix R of normalized data matrix.
+𝑅 = 𝑐𝑜𝑣 𝑋 = (
+
+1
+)𝑋′𝑋
+𝑀−1
+
+(2-1)
+
+3. Calculate Eigenvalues and Eigenvectors if the covariance matrix R by performing the
+SVD.
+𝑅 = 𝑉Λ𝑉′
+
+(2-2)
+
+Λ is a diagonal matrix with eigenvalues of R stored in descending order 𝜆2 > 𝜆4 > ⋯ >
+𝜆6 > 0 and 𝑉 are corresponding eigenvectors of Λ. The summation of all the eigenvalues is as
+the same as the total variance of the original data matrix. Percentage of each eigenvalue from the
+summation of eigenvalues indicate the percentage of total variance contains at corresponding
+principle axes.
+
+15
+
+4. Project original data matrix into PC space.
+𝑇 = 𝑋𝑃#:
+
+(2-3)
+
+P is the transfer matrix with selected W eigenvectors. The scree plot and cumulative percentage of
+variance methods are commonly used to select number of PCs to retain. The score T are the values
+projected to the reduced dimension from original data matrix.
+
+Figure 2-2 Illustration of principal component analysis
+source: http://austingwalters.com/wp-content/uploads/2014/11/gaussDist-labeled.png
+
+The unsupervised training process of PCA model completed with selection of eigenvalues
+and eigenvectors. Based on the normal training data, upper control limit of Hotelling’s T2 of a new
+process data vector 𝑥 can be calculated as in (2-4):
+𝑇 4 = 𝑥′𝑃Λ=2
+< 𝑃′𝑥
+
+(2-4)
+
+where a is the number of selected PCs. And the upper control limit for T2 given significant level
+𝛼 is:
+
+16
+
+𝑇?4 =
+
+𝑛4 − 1 𝑎
+𝐹
+(𝛼)
+𝑛 𝑛 − 𝑎 <,D=<
+
+(2-5)
+
+where 𝐹? (𝑎, 𝑛 − 𝑎) is F-distribution with a and n-a degrees of freedom. The square prediction
+error (SPE) or Q statistics can also be calculated as (2-6):
+𝑄 = 𝑟′𝑟
+
+(2-6)
+
+𝑟 = (𝐼 − 𝑃𝑃′)𝑥
+
+(2-7)
+
+with:
+
+and the upper control limit is obtained by:
+
+𝑄? = 𝜃2
+
+ℎJ 𝑐? 2𝜃4
+𝜃4 ℎJ ℎJ − 1
++1+
+𝜃2
+𝜃24
+
+2
+MN
+
+(2-8)
+
+with:
+6
+
+𝜆PO
+
+(2-9)
+
+2𝜃2 𝜃S
+3𝜃44
+
+(2-10)
+
+𝜃O =
+PQ<R2
+
+ℎJ = 1 −
+
+where 𝑐? is the (1 − 𝛼) percentile of the standard normal distribution.
+T2 and Q statistics measures the major variation and random noise in the data respectively.
+Then the stored model is used for online monitoring of T2 and SPE value when a new process data
+vector x is available (Garcia-Alvarez, 2009).
+2.3.2 Self-organizing Map (SOM)
+As one of neural networks, Kohonen’s self-organizing map (SOM) provides topologically
+preserved mapping from input to output space. The SOM maps high dimensional to 2D provides
+17
+
+great benefits for data visualization. Based on this SOM is used for vector quantization,
+dimensionality reduction, clustering, classification and anomaly detection (Yin, 2008).
+
+Figure 2-3 SOM Model. The input is connected to every cell (neuron) in the map (Yin, 2008)
+
+The SOM uses a set of neurons in a 2D grid to form a topological mapping of an input
+space X. The typical training process of SOM includes:
+1. Map initialization. Each neuron is initialized by a small random number 𝑤O which has
+same dimension as input vector.
+2. At each training time t, select the input x(t) and then choose the winner or best matching
+unit (BMU) which has the smallest distant with the input from the map
+𝑣 𝑡 = argmin 𝑥 𝑡 − 𝑤] (𝑡)
+
+(2-11)
+
+]^_
+
+3. Update the weights of the winner and its neighbors, until the map converge
+Δ𝑤] 𝑡 = 𝛼 𝑡 𝜂 𝑣, 𝑘, 𝑡 [𝑥 𝑡 − 𝑤d (𝑡)]
+A Gaussian form neighborhood function 𝑣, 𝑘, 𝑡 = exp (−
+
+(2-12)
+jk =jl m
+4n(o)m
+
+) is often used in
+
+practice, and is the learning rate coefficient 0 < 𝛼 𝑡 < 1 decreases monotonically. The SOM
+learning algorithm is also called competitive learning, in which nodes compete the right to
+18
+
+response of the input data. After the training process, nodes on the map form clusters representing
+intrinsic clusters from input data set and u-matrix is used for visualization on 2D space (Ultsch,
+2003). Besides clustering, SOM is also used for classification as a supervised learning method. In
+this case, the map is training with input data with known class labels. The nodes on the map are
+then labeled so that a new unseen sample can be classified by finding its BMU from the map. A
+hit map is commonly used for SOM classification task (Vesanto, Himberg, Alhoniemi, &
+Parhankangas, 1999).
+
+Figure 2-4 SOM U-matrix (left), hit-map (right)
+
+The method to use SOM for anomaly detection involves a new term, minimum quantization
+error (MQE). SOM-MQE represents the distance between new input and its best matching unit
+from the SOM map. When we use SOM-MQE for anomaly detection or performance assessment,
+the SOM model is trained by normal data set or baseline set first, then the MQE value is used as a
+degradation severity indicator (Zhao, Siegel, Lee, & Su, 2013).
+19
+
+2.3.3
+
+Support Vector Machine
+Support vector machine (SVM) is widely used for linear and nonlinear binary classification
+
+problem. For a linear separable problem, the output of the SVM is the hyperplane or boundary
+which has the maximized margin towards both classes. As shown in Figure 2-5, when comparing
+with the perceptron classifier, SVM generates unique solution for specific dataset with maximized
+margin. Solid samples are called support vectors that define the optimal separating hyperplane.
+
+Figure 2-5 Perceptron and support vector machine
+
+For a linear separable case, the decision boundary is obtained by solving a general convex
+optimization problem
+𝑀𝑖𝑛𝑖𝑚𝑖𝑧𝑒
+
+1
+𝑊 4
+2
+
+𝑠𝑢𝑏𝑗𝑒𝑐𝑡 𝑡𝑜 𝑦O 𝑊 { 𝑥O + 𝑏 ≥ 1 ∀𝑖
+
+(2-13)
+
+(2-14)
+
+where W is the norm to the hyperplane satisfies 𝑤𝑥 + 𝑏 = 0; x is samples for classification; yi is
+the class label for ith sample (+1 for + samples, -1 for - samples).
+
+20
+
+The positive Lagrange multiplier is then introduced to solve unequal constrain optimization
+problem. There are two reasons for doing this: (1) easy to handle mathematically by replacing the
+constrain on the Lagrange multiplier themselves; (2) the reformulation make the training data only
+appear in the form of dot product between vectors and this is the foundation for kernel based
+methods (Burges, 1997). Afterwards, either quadratic programming or sequential minimal
+optimization is used for optimization. The final optimal hyperplane for solving the optimization
+problem is given:
+#
+
+𝛼O∗ 𝑦O (𝑋 ∙ 𝑋P ) + 𝑏 ∗ = 0
+
+(2-15)
+
+OQ2
+
+And the norm function is 𝑊 =
+
+#
+∗
+OQ2 𝛼O 𝑦O 𝑋O where α• is
+
+the Langrage multiplier for
+
+corresponding sample. Once the SVM is trained correctly, for a testing sample x, its class label
+can be simply calculated by 𝑠𝑖𝑔𝑛(𝑤 ∙ 𝑥 + 𝑏).
+In practice, most of the classification problems are not linear separable, and then the object
+function for linear separable case is no longer feasible. The soft-margin SVM (c-SVM) is
+developed by introducing positive slack variable 𝜉 to relax the constraint when necessary. The
+objective function then becomes:
+𝑀𝑖𝑛𝑖𝑚𝑖𝑧𝑒
+
+1
+𝑊 4+𝐶
+2
+
+𝜉O
+
+4
+
+𝑠𝑢𝑏𝑗𝑒𝑐𝑡 𝑡𝑜 𝑦O 𝑊 { 𝑥O + 𝑏 ≥ 1 ∀𝑖
+
+(2-16)
+(2-17)
+
+where C is the penalty for error.
+The c-SVM only allows SVM to misclassify samples with penalty. In order to achieve
+correct classification for linear non separable situation, “kernel function” K such that 𝐾 𝑥O , 𝑥P =
+𝜙(𝑥O ) ∙ 𝜙(𝑥P ) is introduced into analysis. For kernel based approach, the inner product during
+21
+
+training and testing is replaced by K and it is not necessary to explicitly know what Φ is. When
+implement support vector machine by replacing all 𝑥O ∙ 𝑥P by 𝐾 𝑥O , 𝑥P , the algorithms produces a
+support vector machine which lives in a higher dimension space with roughly similar
+computational cost. As shown in Figure 2-6, linear non-separable samples become separable by
+linear hyperplane in higher dimension space.
+
+Figure 2-6 SVM kernel mapping concept
+
+By mapping all samples into a higher dimension, we will find a classification hyperplane
+in higher dimension which is nonlinear in lower dimension space. Since the mapping function Φ(x)
+is difficult to find and the calculation Φ(x)Φ(y) is not feasible when dimensional becomes really
+large, only kernel function K(x,y) is necessary during calculation. The commonly used kernel
+functions are polynomial of degree p, Gaussian radial function (RBF) and sigmoid:
+𝐾 𝑥, 𝑦 = (𝑥 ∙ 𝑦 + 1)‡
+𝐾 𝑥∙𝑦 =𝑒
+
+= ˆ=‰ m
+
+4n m
+
+𝐾 𝑥, 𝑦 = 𝑡𝑎𝑛𝑔(𝑘𝑥 ∙ 𝑦 − 𝛿)
+
+(2-18)
+(2-19)
+(2-20)
+
+When we use kernel SVM for classification, the degree p for polynomial kernel and redial
+𝜎 need to be chosen carefully to avoid over-fitting problem.
+22
+
+2.3.4
+
+Naive Bayes Classifier
+The Naïve Bayes Classifier (NBC) is a classification algorithm based on the Bayes rules.
+
+The Bayes theorem is used to inference probability of an event based on conditions might related
+to the event. Given n mutually exclusive events 𝐵2 , 𝐵4 , … , 𝐵D , for which we know 𝑃(𝐴|𝐵O ), then
+the probability of 𝑃(𝐵O |𝐴) is:
+𝑃 𝐵O 𝐴 =
+
+𝑃(𝐵O ∩ 𝐴)
+=
+𝑃(𝐴)
+
+𝑃 𝐴 𝐵O 𝑃(𝐵O )
+D
+OQ2 𝑃 𝐴 𝐵O 𝑃(𝐵O )
+
+(2-21)
+
+The posterior probability of event 𝐵O when event A happen 𝑃 𝐵O 𝐴 is determined by prior
+probability of event 𝐵O and likelihood of event A happen when 𝐵O happen. When the Bayes
+theorem is applied for pattern classification the equation can be re-written as:
+
+𝑃 𝜃O 𝑥 =
+
+𝑃 𝑥 𝜃O 𝑃(𝜃O )
+𝑃 𝑥 𝜃O 𝑃(𝜃O )
+=
+D
+𝑃(𝑥)
+OQ2 𝑃 𝑥 𝜃O 𝑃(𝜃O )
+
+(2-22)
+
+where 𝑥 is the feature/observation vector; 𝑃(𝜃O ) is the prior distribution of class 𝜃O ; 𝑃 𝑥 𝜃O is the
+likelihood function of observation x given class 𝜃O . 𝑃 𝜃O 𝑥 is the posterior probability of class 𝜃O
+given the observation x. Therefore, the predicted class is:
+𝜃 = 𝑎𝑟𝑔 𝑚𝑎𝑥 𝑃 𝑥 𝜃O 𝑃(𝜃O )
+‘’
+
+(2-23)
+
+When we apply Bayes classifier to classify feature vector with discrete-valued features X ∈
+{1,2,3, … , K}˜ , where K is the number of values for each feature and D is number of features, n
+classes in total, it is requires to specify the class conditional distribution:
+𝑃 𝑋 = 𝑥 𝛩 = 𝑖 = 𝑃 𝑋2 = 𝑥 2 , … , 𝑋 š = 𝑥 š 𝜃 = 𝑖 , 𝑖 = 1,2, … , 𝑛
+
+23
+
+(2-24)
+
+The joint distribution 𝑃(𝑋|𝛩) sometimes is not feasible to be accurately estimated from
+training dataset. To make the calculation simple and feasible, it is assumed that all attributes are
+independent given the class. Then the likelihood function for 𝑃(𝑋|𝛩) becomes:
+š
+
+𝑃 𝑋P = 𝑥 P 𝜃 = 𝑖 , 𝑖 = 1,2, … , 𝑛
+
+𝑃 𝑋=𝑥𝛩=𝑖 =
+
+(2-25)
+
+PQ2
+
+The posterior probability of class 𝜃O given the observation x is obtained by:
+
+𝑃 𝜃O 𝑥 =
+
+𝑃 𝑥 𝜃O 𝑃 𝜃O
+=
+D
+OQ2 𝑃 𝑥 𝜃O 𝑃 𝜃O
+
+š
+P
+P
+PQ2 𝑃 𝑋 = 𝑥
+
+𝜃 = 𝑖 𝑃 𝜃O
+
+𝑃 𝑥
+
+(2-26)
+
+And the predicted class is:
+š
+
+𝑃 𝑋P = 𝑥 P 𝛩 = 𝑖 𝑃(𝜃O )
+
+𝜃 = 𝑎𝑟𝑔 𝑚𝑎𝑥
+‘’
+
+(2-27)
+
+PQ2
+
+This procedure is called the Naïve Bayes Classifier (NBC) as well as Simple Bayes
+Classifier. The advantage of NBC is that it is easy to implement and has high computational
+efficiency. Also by choosing different distributions as the likelihood function, NBC can handle
+both analog and discrete data types. It is said that the major drawback of NBC is that it assumes
+all features are independent. However in (Domingos & Pazzani, 1997), it was shown that NBC
+performs well in many dataset which have clear dependencies between attributes. And NBC is in
+fact optimal when dependent attributes are included for classification, this is because even though
+the algorithm produces poor probability estimates, the correct class still generates highest posterior
+probability which leads to a correct classification.
+
+24
+
+2.4
+
+Review on Performance Assessment and Fault Diagnosis Techniques for
+Point Machine
+A point machine is a track side asset which operates the railway track. As Figure 2-7 shows,
+
+a railway switch mechanism consists of point machine, stock rail, switch rail, stretch bar and
+detector bar. The point machine is mechanically linked with the switch rail and the route is selected
+by turning the switch rail against the stock rail (Oyebande & Renfrew, 2002). To ensure safety, at
+the end of a stroke operation, a lock mechanism is used and a lock detection circuit will be on as
+an indicator for completion. Typically, a rail switch process involves three steps of point machine
+operations: 1. Point unlock; 2. Point drive movement; 3. Point lock and detection circuit complete.
+
+Figure 2-7 Schematic diagram illustrating the main components of a set of points. (Oyebande & Renfrew, 2002)
+
+A large of mount of research work had been done for developing performance assessment
+and fault diagnosis system for different types of point machines. Different combinations of signals
+had been evaluated to detect specific failure modes. This section will review the state-of-art
+research in the area of point machine performance assessment and fault diagnosis and present the
+contribution of this research work.
+25
+
+In (Chen & Roberts, 2006), the author reviewed state-of-the-art predictive fault detection
+and diagnosis methods for line-side assets. In current research and application, there are three types
+of monitoring systems for the point machine mechanism, including event loggers, condition
+monitoring system, fault detection & diagnosis system. Condition monitoring systems equipped
+with distributed transduce are able to provide basic detection function based on thresholding
+technology. As an advanced version of condition monitoring system, the fault detection and
+diagnosis system is capable to detect failure in advance using ‘intelligent algorithms’. Over
+decades, researchers have been trying to develop low cost accurate algorithms for point machine
+major faults detection. (Márquez, Roberts, & Tobias, 2010) summarized predictive fault detection
+and diagnosis methods for three major types of point mechanisms -- electro-mechanical, electropneumatic, and electro-hydraulic. It is shown that for electro-mechanical point mechanism the
+most commonly used signals in current research are motor current and drive bar force. However,
+the force signal is not quite applicable in practice, since it needs to install a load pin into the drive
+assembly which decreases point machine reliability by introducing additional failure modes into
+the system (Asada & Roberts, 2013).
+The proposed methods from existing literatures can be roughly categorized into two groups:
+Feature based methods and raw data based method.
+The feature based method first extracts relevant features from raw point machine signal
+and features are then used for health assessment or fault diagnosis. The features are expected to
+represent characteristics of raw signal but have relatively lower dimensions. The model complex
+for feature based method reduces significantly with lower dimension data inputs. However, the
+major challenge of feature based methods is relevant features are sometimes difficult to find
+without expert knowledge about the system.
+26
+
+In (Asada & Roberts, 2013), drive force, electric current and voltage were collected to
+detect fault caused by misalignment. An in lab test bed was developed to simulate overdriving and
+underdriving faults by adjusting the nut of the drive rod. A discrete wavelet decomposition was
+applied to all three signals and scaling coefficients from Haar wavelet at decomposition level 9
+were used as feature. More than 97% classification accuracy was achieved for DC point machine
+fault detection and diagnosis using C-SVM. The disadvantage of this method is that it requires to
+sample as high as 10 kHz which is not available and feasible for most of the point machines in
+field. In (Eker, Camci, & Kumar, 2010), a SVM based method was developed to detect ‘drive rod
+out of adjustment’ failure. Linear positions of the switch rail were collected during point movement
+and fault samples were manually simulated in the field by loosening the bolt. Good classification
+result was achieved for both two sample T-test and principal component analysis based approach
+by taking statistic features as input, including mean, standard deviation, variance, slop, maximum
+and minimum. The limitation of this work is that the single failure mode is relatively easy to
+recognize and the author didn’t test the effectiveness of proposed approach for multiclass fault
+diagnosis. Three different categories of features were extracted first from raw current and voltage
+in (Ardakani et al., 2012) and a PCA based health monitoring method was used to monitor point
+machine health value change overtime. The method was developed for a P80 point machine in
+various locations, but exact failure information is missing for validation. In (Márquez & Pedregal,
+2007; Márquez, 2006), customized features and standard statistical features were extracted from
+force signal to detect and distinguish ’Drive rod stretcher bar loose’,’12mm obstruction reverse
+side at toe’ and ‘Back drive slack end off toe end RHS’ faults. Three different signal processing
+method were studied in (McHutchon, Staszewski, & Schmid, 2005), and it was shown that only
+force signal related features are capable to distinguish different faults.
+
+27
+
+Different from feature based methods, raw data based methods use raw signal as model
+input for degradation assessment without extracting features. The assumption is that raw signal
+will drift away from normal baseline when failure occur and similarity between expected signal
+and actual measured signal is capable to show the degradation of the system. The raw signal based
+method evaluate point machine performance without feature extraction/selection step which
+requires less expert knowledge about the system during model developments phase.
+(Atamuradov.V, Camci.F., Baskan.S., & Sevkli. M., 2009) used time series similarity
+based method to detect point machine ‘switch block’ and ‘malleable blockage’. Moving average
+smoothing method was applied to raw signal for de-noising and smoothed motor voltage signal
+was segmented into several phases. Then dynamic time warping was used to calculate distance
+between baseline and current signal in each phase. At last, an expert system was developed based
+on the distance from each phase for fault detection. In (Márquez, Pedregal, & Roberts, 2010) a
+pure time series based method was developed to predict motor current signal from historical data.
+First, a vector auto-regressive moving average model was developed to predict the duration of the
+next operation. Then the motor current signal was forecasted using a harmonic regression model.
+The standard deviation of the error by subtracting actual data and forecasts was considered as
+health condition indicator of the point machine. Kalman filter was also used to de-noise motor
+current signal before spectral analysis in (Márquez, Weston, & Roberts, 2007). By employing a
+moving average filter in the pattern recognition model allows every failure mode to be detected in
+both the normal to reverse and reverse to normal directions of operation.
+Both feature based and raw data based methods show potential in point machine
+performance assessment and fault diagnosis from existing work, but several unmet needs include:
+1. Lack of solutions based on low cost onboard signals.
+28
+
+For widely distributed point machine, it is necessary to develop fault diagnosis algorithms
+based on an onboard data acquisition system which is available remotely from the control room.
+Solutions based on signals from add-on sensors like load pin, linear position sensor and high
+sampling rate current are costly for real application. The signals used for this thesis (motor speed
+and torque) are collected from point machine onboard data acquisition system and measured nonintrusively.
+2. Lack of research focused on incipient fault detection and fault diagnosis for multiple
+failure modes.
+As a critical asset working under large load during train passing, incipient fault of a point
+machine can quickly develop into a major failure. Most of the failure modes reviewed from
+previous work are beyond the category of incipient failure. For this research work, the proposed
+performance assessment and fault diagnosis approach was expected to detect incipient failure and
+identify different levels severity.
+3. Expert knowledge and diagnostic expertise are necessary for most of the existing feature
+based method and raw data based methods.
+Most of the methods developed for point machine system degradation assessment in the
+literatures require expert knowledge for data preprocessing and diagnostic expertise for feature
+extraction or feature selection. Even though good results were achieved, the developed solutions
+are usually problem-specific and lack of generalizability. The proposed AAR based approach
+requires less prior knowledge about the system and reduces the manual processing work for feature
+extraction and selection which makes the approach more generic and applicable for larger
+spectrum of similar mechanisms.
+
+29
+
+This thesis proposes and compares two approaches for point machine performance
+assessment and fault diagnosis to address the aforementioned unmet needs. A full size point
+machine test bed was established at Alstom transport testing facility. Different failure modes were
+seeded during tests for this study. Motor speed and torque signals were collection during point
+machine operation. Chapter 3 gives a step-by-step description about feature based approach and
+auto-associative residual based approach. The performance assessment and fault diagnosis results
+and comparative study will be discussed in Chapter 4.
+
+30
+
+CHAPTER 3
+
+PERFORMANCE ASSESSMENT AND FAULT
+
+DIAGNOSIS APPROACHES FOR POINT MACHINE
+3.1
+
+Feature Based Performance Assessment and Fault Diagnosis Approach
+
+3.1.1 Overview
+The feature based approach is proposed and developed in this research for performance
+assessment and fault diagnosis. The most important part of the feature based approach is to extract
+meaningful features from raw signals which are able to indicate system degradation and distinguish
+different failure modes. Most commonly used features are extracted from time domain, frequency
+domain and time-frequency domain and only time domain features are extracted for model
+development for this work.
+The flowchart of feature based performance assessment and fault diagnosis approach is
+shown in Figure 3-1. The feature based approach follows conventional PHM system development
+methodology, and several key steps include data pre-processing and segmentation (or regime
+identification), feature extraction/selection, model training and model testing. Performance
+assessment model is used to evaluate system performance drift from normal condition, and alarms
+are generated when assessment results are beyond a certain threshold. The training of the
+performance assessment model only needs data from normal condition. The fault diagnosis model
+is then used to identify different failure modes within the system from candidate modes. Multiclass
+classification algorithms are usually used for fault diagnosis, so data set from known faulty
+conditions are required for model training.
+
+31
+
+Figure 3-1 Feature based approach for performance assessment and fault diagnosis
+
+3.1.2 Pre-processing and Data Segmentation
+As discussed previously, multivariate time series trajectory signals available from a
+reciprocating electromechanical mechanism have the following characteristics: (1) the shape and
+duration of each trajectory from the same variable are similar but not identical; (2) the magnitude
+of the trajectory is related to the movement mechanism of the system. As discussed in (Marquez
+et al., 2007) different failure modes of the point machine only effects part of the whole signal. The
+Japanese study divided electric point machine operation into four consecutive phase which covers
+critical actions for each movement. Phase 1 consists of power on, contact switching and start
+movement. The second phase includes the lock release. During phase 3, the point machine start
+and finish movement, followed by power off in phase 4. For example, problems associated with
+
+32
+
+the movable parts of the point mechanism usually leads to changes of measured signal during
+phase 3, while the other phases signals will remain normal.
+
+Figure 3-2 The 4 phases of point machine drive current curve (Márquez et al., 2007)
+
+The signal pre-processing and data segmentation step is used to identify start and end
+indexes of each segment. The appropriate segmentation ensures features extracted from each
+segments are only corresponding to specific failure modes of the system.
+The number of segments is first determined by evaluating the movement mechanism of the
+targeted system. At this step, expert knowledge about system is necessary to select correct
+segments. For the point machine under study, seven segments are selected after discussion with
+the Alstom design engineer. As shown in Figure 3-3, the approximate region of each segment is
+determined and the segments are: motor start, movement of the internal components to inlock the
+locking system, unblocking of the locking system, rail movement, blocking of the locking system,
+locking of the locking system and reach end. Ideally, the excessive friction during movement will
+only distort the signal in phase 4.
+
+33
+
+After the number of segments and the approximate region of each segment are determined,
+the next step is to segment acquired signals automatically for feature extraction. There are
+primarily three approaches to fulfill this:1. control information based approach; 2. clustering based
+approach; and 3. signal shape based approach.
+5000 1
+
+2
+
+3
+
+4
+
+6
+
+5
+
+7
+
+Active Power
+Speed
+
+4000
+3000
+
+Normalized Magniture
+
+2000
+1000
+0
+-1000
+-2000
+
+Movement of the internal components
+to unlock the locking system
+
+Rail
+Movement
+
+Locking
+
+-3000
+
+Unblocking of the
+locking system
+
+Start
+-4000
+-5000
+
+100
+
+200
+
+300
+
+400
+
+Blocking of the
+locking system
+
+500
+
+600
+
+700
+
+800
+
+900
+
+Reach
+end
+1000
+
+Sample Index
+
+Figure 3-3 Alstom MET point machine data segments (red: active power; blue: speed)
+
+The control information based approach either uses controller signal directly or uses system
+operation rules to label each sample to different regime (segments). For some applications such as
+an elevator lift motor monitoring system, the controller signal has information about the elevator
+operating either up or down, and such indicators are used to label data to different segment for
+further analysis. In some situations, the system may operate in different regimes under predefined
+conditions then the specification can be used to generate rules to assign data to different segments.
+The clustering based approach uses unsupervised clustering techniques to automatically
+form clusters from raw data then assign same segment number to samples at the same cluster. As
+34
+
+shown in Figure 3-4, the example is from a current signal collected from an elevator door motor
+test. The elevator door opens and closes continuously during the test, so the signal shows
+reciprocating pattern and during each movement the current signal has four operation phases. A kmeans clustering technique with k equals to 4 was applied to de-noised current signal for
+segmentation. As shown in Figure 3-4, four different segments were successfully identified and
+marked with different colors automatically. Besides k-means, other clustering techniques like selforganizing map and hierarchical clustering can also be used for segmentation.
+
+Rawdata
+5
+0
+−5
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+4
+
+x 10
+
+Wavelet denoise data
+5
+0
+−5
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+4
+
+x 10
+
+Segment Signal
+5
+0
+−5
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+4
+
+x 10
+
+Figure 3-4 Data Segmentation using K-means. (top) raw signal from current transducer; (middle) wavelet de-noised
+current signal; (bottom) segmented current signal using k-means clustering (k=4).
+
+Signal shape based approach is an ad-hoc segmentation solution. Based on the shape of the
+available signal, customized segmentation method is developed. A moving window standard
+deviation approach was developed in this research work. The first step is to select appropriate
+signal for segmentation. The point machine system has two major types of operations: transient
+35
+
+and static. During the transient period, motor model changes speed significantly and during static
+period the system operates under a relatively stable speed.
+
+Figure 3-5 Moving window standard deviation data segmentation approach
+
+As shown in Figure 3-6, segment 1,3,5,7 are at transient period and 2,4,6 are at static period.
+The speed signal has abrupt changes at the beginning and end of each transient segment (accelerate
+or decelerate), so the moving window standard deviation at transient periods has relatively large
+value. Compared with speed signal, the torque signal doesn't show any distinguishable pattern
+between transient periods and static periods. So the speed signal was selected for data segmentation
+for this research. A wavelet based signal de-noise technique was applied to speed signal prior to
+36
+
+standard deviation calculation to improve the performance of segmentation. Lastly, a threshold
+(red line) for moving window standard deviation was selected to distinguish transient (highlighted
+in green) from static periods.
+
+Figure 3-6 Data segmentation using moving window standard deviation
+
+The number of samples within each segment are quite consistent from healthy condition
+and most of the faulty conditions. A segmentable check from the overall approach is used to filter
+out conditions when point machine is severely damaged. When the speed profile changes
+significantly and cannot be divided into correct segments, it is evident that some abrupt and severe
+damage has occurred on the point machine. Under this situation, the point machine needs to be
+stopped and a maintenance is required immediately.
+
+37
+
+3.1.3
+
+Feature Extraction
+Features extraction is an important step for data-driven PHM approach. In practice, due to
+
+the high dimensionality and complexity, the raw signals measured from the system are usually not
+suitable as direct input for performance assessment and fault diagnosis models. So appropriate
+preprocessing and feature extraction are needed to improve overall model learning performance
+and reduce computation complexity.
+
+Figure 3-7 Illustration of feature extraction process
+
+The feature extraction process generates a feature vector with significant lower dimensions.
+The feature vector is a compressed representation of raw signal and is used for further analysis
+instead of raw data. For a raw signal 𝑆 = 𝑠2 , 𝑠4 , … , 𝑠# , where N is the number of samples, feature
+subsets 𝐹] = {𝑓•2 , 𝑓•4 , … , 𝑓•O } are extracted from different domains, where k standards for
+different feature domain and Ki is the ith feature from Kth domain. Then all feature subsets are
+concatenated as a feature vector 𝑥 = [𝑥2 ; 𝑥4 ; … ; 𝑥• ] where 𝑥• = 𝐹] and the total number of
+features is d.
+Applying signal processing approach to extract frequency domain and time frequency
+domain features are categorized into high frequency based feature extraction method in (Siegel &
+Lee, 2013) and those methods are commonly used for rotating machinery health assessment and
+
+38
+
+fault diagnosis. To extract useful feature from high frequency signal, expert knowledge and costly
+data acquisition system is required.
+For relatively lower frequency signals such as temperature, pressure, force, etc., time
+domain features are recommended. For a segment of raw signal 𝑆 = 𝑠2 , 𝑠4 , … , 𝑠# , commonly
+used features are mean, standard deviation (std), root mean square (RMS), Kurtosis, crest factor,
+skewness, peak-to-peak, etc.
+Table 3-1 Commonly used time domain features
+
+Features
+
+Definition
+#
+OQ2 𝑆O
+
+Mean
+
+𝑁
+#
+4
+OQ2 𝑆O
+
+RMS
+
+𝑁
+#
+4
+OQ2(𝑆O − 𝜇)
+
+Standard Deviation
+Kurtosis
+
+𝑁−1
+#
+¡
+OQ2(𝑆O − 𝜇)
+
+𝑁
+
+#
+4 4
+OQ2(𝑆O − 𝜇)
+
+𝑁
+
+Crest Factor
+
+𝑚𝑎𝑥( 𝑆O ) 𝑅𝑀𝑆
+
+Skewness
+
+#
+S
+OQ2 𝑆O − 𝜇
+𝑁 ∙ 𝑆𝑡𝑑 S
+
+Peak-to-peak
+
+max 𝑆O − min(𝑆O )
+
+3.1.4 Feature Selection & Dimension Reduction
+With all the features extracted from raw data, it is difficult to ensure that they are all
+relevant to the targeted problem and have no redundancy. The changes of irrelevant features are
+not directly related to the objective of analysis and additional redundant features provide no more
+39
+
+useful information for model training. It is shown that irrelevant and redundant features not only
+increase the model complexity but also reduce the accuracy of the model. In order to further
+improve model learning performance and reduce complexity, feature selection and dimension
+reduction techniques are introduced.
+Feature selection aims to select a subset of features from the original feature set using
+evaluation criterion. Depending on the availability of class labels, feature selection methods are
+categorized into three types: supervised methods, unsupervised methods, and semi-supervised
+methods (Tang, Alelyani, & Liu, 2014). The supervised methods are most commonly used
+methods which select top features by evaluating their capability of distinguishing different classes
+with the help of label information. Three approaches of supervised methods are widely used: filter,
+wrapper and embedded.
+The filter methods select feature subsets independently with the classification model. The
+relevance evaluation criterion (score) is calculated for each individual feature and then features
+with higher scores are selected. Relieff, fisher criterion, gain ratio, correlation coefficient are the
+most selected methods for variable ranking. The wrapper methods combine feature selection with
+classifier training to select the best feature subset by choosing the feature subset which generates
+best classification result. The major drawback of the wrapper methods is that it requires massive
+amounts of computation to exhaust search all possible combinations of feature subsets. The
+embedded methods perform feature selection together with classification model training.
+Besides selecting subsets from original features, another way to reduce the dimension of
+the feature vector is to construct new features from the original features. Principal component
+analysis (PCA) and linear discriminate analysis (LDA) are widely used linear transformations
+methods for dimension reduction. The fisher criterion and principal component analysis are
+40
+
+selected for feature selection and dimension reduction as a representative of two approaches for
+this research.
+3.1.5 Performance Assessment
+The performance assessment model is developed to evaluate the degradation of the point
+machine system and only data sets collected from normal condition is used for model training.
+Three different unsupervised methods are applied and compared in this research including PCAT2, PCA-SPE and SOM-MQE. The upper control limit (UCL) of the SOM-MQE is calculated
+simply by mean+2*std which contains 95.4% of normal samples. A validation data set from
+normal condition is used to calculate baseline MQE value.
+3.1.6 Fault Diagnosis
+The fault diagnosis model is developed to identify different failure modes. Multiclass
+classification models, including SOM, SVM and NBC, are selected for this research. SOM and
+NBC can be applied for multiclass classification directly without any specific implementation;
+however, the SVM is originally designed for binary class classification problem. When SVM is
+used for multiclass classification, several methods have been proposed to construct a multiclass
+classifier by combining several binary classifiers, including one-vs-all, one-vs-one and directed
+acyclic graph. The LIBSVM toolbox is used for multiclass SVM in this study, and one-verses-one
+strategy is applied because of its accuracy and training efficiency (Hsu & Lin, 2002). The one-vsone strategy first constructs K(K-1)/2 binary classifier for K classes, and each classifier is trained
+by data from two classes. Then a voting mechanism is used during prediction stage: all K(K-1)/2
+classifiers are applied to test sample and the class with most ‘+1’ predicts is selected as prediction
+result.
+
+41
+
+3.2
+
+Auto-associative Residual Based Performance Assessment and Fault
+Diagnosis Approach
+
+3.2.1 Overview
+An auto-associative residual (AAR) based approach for performance assessment and fault
+diagnosis is first proposed in this research. The underlying fundamental theory of the approach is
+to use the auto-associative model to estimate the correct input signal values using the correlation
+embedded in the model during its training and then significant level of residual between estimated
+correct input values and the actual monitored input values represents the degradation of the system.
+The auto-associative memory algorithms are used to ‘memorize’ system normal behavior and
+generate residuals. Health assessment and fault diagnosis methods are applied to residual feature
+vectors afterwards.
+Compared with feature based approach, the AAR based approach has better generalization
+capability. As discussed in the previous section, data segmentation is necessary for feature based
+approach. The number of segments and region of each segment needs to be determined based on
+the design specification of the system and expert knowledge. Also, autonomous data segmentation
+methods are usually ad-hoc solutions, so the developed feature based approach solution is difficult
+to directly apply for other applications without customization. The AAR based approach evaluates
+system performance and diagnose faults using the residual vector calculated from model input and
+output. AAR model train and test use raw multivariate time series and no segmentation is required
+which provides AAR based approach a better generalization capability.
+In addition, different statistic features need to be extracted to represent intrinsic
+characteristics of the raw signal in the feature based approach. For example, peak-to-peak value is
+42
+
+normally used for signals with overshoot, and root mean square value is more suitable to depict
+energy change of the signal. As shown in Figure 3-8,three highlighted regions of the active power
+signal have significantly different characteristics. Signal in region one is quite smooth and its mean
+value could be a good feature. And region two contains overshoot and variation of the signal is
+more suitable than its mean value as a feature. Region three has a stable mean value and it also has
+ripples throughout the region which are usually measured by variation. The regional difference of
+the signal characteristic is also the reason why appropriate data segmentation is necessary before
+feature extraction. In practice, it is difficult to identify the characteristics of the signal of each
+region automatically. It is also unrealistic to check manually for a large amount of high
+dimensional data. In order to avoid missing useful features, a same group of statistic features are
+normally extracted from all regions (segments). Advanced feature selection methods are then
+necessary to select relevant features and remove redundancy.
+
+Figure 3-8 Point machine active power dynamic characteristic variation from different phases
+
+By using the auto-associative models, the dynamics of the original signal are preserved in
+the estimated output. As a result, the residual vector contains no more dynamic information and
+43
+
+only its magnitude possesses diagnostic information. This means that advance feature extraction
+and feature selection methods are not necessary for residual feature vectors. Figure 3-9 (a) and (b)
+shows the measured signal and estimated signal using auto-associative method from both normalto-reverse and reverse-to-normal operation under normal condition respectively. Only the mean
+value or max value of residual vector will be used for performance assessment and fault diagnosis.
+The conventional feature based approach manually extracts features based on prior knowledge of
+the system and diagnostics expertise. The limitation of feature based approach makes it a problemspecific and un-scalable solution. The proposed AAR based approach minimizes human labor
+during analysis, which makes it more applicable for large amount of data.
+
+(a) Normal-to-Reverse
+
+1
+
+Measured
+Predicted
+
+0.6
+0.4
+0.2
+0
+
+Measured
+Predicted
+
+0.8
+
+Torque
+
+Torque
+
+0.8
+
+(b) Reverse-to-Normal
+
+1
+
+0.6
+0.4
+0.2
+
+0
+
+500
+
+1000
+
+0
+
+1500
+
+0
+
+500
+
+Index
+(c) Normal-to-Reverse Residual
+
+0.02
+
+0.015
+
+Magnitude
+
+Magnitude
+
+1500
+
+(d) Reverse-to-Normal Residual
+
+0.02
+
+0.015
+
+0.01
+
+0.005
+
+0
+
+1000
+
+Index
+
+0.01
+
+0.005
+
+0
+
+500
+
+1000
+
+1500
+
+0
+
+Index
+
+0
+
+500
+
+1000
+
+1500
+
+Index
+
+Figure 3-9 Example of auto-associative model output and residual. (a) measured signal and predicted signal normal-toreverse movement; (b) measured signal and predicted signal normal-to-reverse movement; (c) residual sequence of torque
+signal normal-to-reverse movement; (d) residual sequence of torque signal reverse-to-normal movement.
+
+44
+
+3.2.2
+
+Review of Auto-associative Modeling Techniques
+The auto-associative models, also known as non-redundant empirical models, are used for
+
+a wide spectrum of applications including online instrument calibration monitoring at nuclear
+power plant (Hines & Seibert, 2007) and asset fault diagnosis (Antory, 2005; Bickford, Davis,
+Rusaw, & Shankar, 2002; Guo, Infield, & Yang, 2012; Yongjie & Dongfeng, 2013). The autoassociative model is trained to estimate its identical input over an appropriate dynamic range.
+During the model training stage, the input and output of the model are identical. When use for
+degradation monitoring, the significant level of residual between actual measurements and model
+estimates is used to measure the degradation of the system. Statistical hypothesis test methods are
+usually applied to residual signal to detect residual mean shifts. Considering the sequential nature
+of the measured signal, several methods, including T-test, Hotelling’s T2 control chart and
+sequential probability ratio test (SPRT) are mostly selected.
+
+Figure 3-10 Schematic diagram for auto-associative model
+
+Among all auto-associative models, auto-associative neural network (AANN), autoassociative kernel regression (AAKR) and auto-associative multivariate state estimation
+(AAMSET) are mostly used and all three are successful used for commercial PHM products (Hines
+& Seibert, 2006). AANN is a parametric model which determines weights of neurons during
+training stage. And AAKR and AAMSET are non-parametric models which have no training
+45
+
+process, but instead they store all ‘training data’ in a memory matrix and then directly use it to
+estimate model output. So they are also called auto-associative memory models.
+a. AANN
+The 5 layer AANN structure was first introduced in (Kramer, 1991) by Kramer for
+nonlinear principle component analysis. The proposed neural network structure consists of 5 layers:
+input layer, mapping layer, bottle neck layer, de-mapping layer and output layer. The second
+hidden layer which is the bottleneck layer has the smallest dimension. The network uses a
+conventional feedforward structure with linear or sigmoid transfer functions and is trained by
+backpropagation. As an auto-associative model, the AANN is trained to perform identity mapping,
+where the output of the model is trained to approximate its input. The mapping requires the bottle
+neck layer to represent the compressed information of the input for the following layers to
+reconstruct input signal. So the output of the bottleneck layer is regarded as the nonlinear principal
+components of the original signal.
+
+Figure 3-11 Typical AANN 5 layer architecture
+
+46
+
+In order to realize nonlinear reconstruction capability, the mapping layer and de-mapping
+layer is required to be nonlinear sigmoid functions. The typical structure of a AANN model is
+shown in Figure 3-11 (Sadough Vanini, Meskin, & Khorasani, 2014), where 𝜎 is the nonlinear
+transfer function and l is the linear transfer function.
+When AANN is used for performance assessment, its identity mapping capability is used
+to generate residual vector from input and output for degradation assessment. First, the AANN
+model is trained with samples only from normal conditions. And then the trained model is used to
+predict estimates for each testing sample. The increase of the residual between testing input and
+its model estimates indicates the degradation of the system. In order to achieve good performance
+of AANN, the number of neurons of each of the three hidden layers needs to be carefully chosen.
+Empirical search is commonly used for optimal parameter estimation.
+b. AAKR
+The AAKR is a non-parametric method and no training is needed. The AAKR model
+estimates output using historical observations. The distance between model input and all historical
+observations are calculated first. Then the distances are further transferred to similarity
+measurement using specific kernel function. Lastly, the model output is obtained by weighted
+average of historical observations.
+The observations collect from normal condition formed a memory matrix 𝑋, where 𝑋OP is
+the ith observation and jth variable.
+𝑋2,2
+𝑋
+𝑋 = 4,2
+⋮
+𝑋#,2
+
+𝑋2,4
+𝑋44
+⋮
+𝑋#,4
+
+⋯
+⋯
+⋱
+⋯
+
+47
+
+𝑋2,‡
+𝑋4,‡
+⋮
+𝑋#,¥
+
+(3-1)
+
+when a new observation 𝑋 o is available:
+𝑋 o = [𝑋2o 𝑋4o 𝑋So ⋯ 𝑋¥o ]
+
+(3-2)
+
+The distance between 𝑋 o and empirical observations from memory matrix are calculated
+first. There are several distance calculate methods available, including Euclidean distance,
+Manhattan distance, Hamming distance, Cosine distance and the L2-norm. The L2-norm is chosen
+for this study and the distance between ith observation from memory matrix and the current
+observation is defined as:
+𝑑O 𝑋O , 𝑋 o =
+
+m
+
+(𝑋O,2 − 𝑋2o )4 + (𝑋O,4 − 𝑋4o )4 + ⋯ + (𝑋O,¥ − 𝑋¥o )4
+
+(3-3)
+
+The calculated distances are then stored in a N by 1 vector 𝑑. Afterwards, the distances are
+converted to similarity measure or weight vector by applying a kernel function. The Gaussian
+kernel is mostly used and selected for this study:
+𝑊 = 𝐾M 𝑑 =
+
+1
+2𝜋ℎ4
+
+𝑒
+
+=§ m
+
+Mm
+
+(3-4)
+
+Finally, the weighted average of observations in the memory matrix generates the model
+prediction result 𝑋 o .
+𝑋o =
+
+(𝑤O ∙ 𝑋O )
+𝑤O
+
+(3-5)
+
+The value of kernel bandwidth h direct determines how significant the similarity measure
+is related to the distance. As shown in Figure 3-12, with smaller kernel bandwidth (h=0.1), the
+kernel function only generates large weights to observations have near zero distance with testing
+observation, so small kernel bandwidth leads to rough mode output. On the contrary, with large
+bandwidth (h=1.2), the Gaussian kernel generates sufficient large weights for more observations.
+
+48
+
+Relation of Distance and Guassian Kernel
+
+4
+
+h=0.1
+h=0.5
+h=0.8
+h=1.0
+h=1.2
+
+3.5
+
+Gaussian Kernel (K)
+
+3
+
+2.5
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+2
+
+3
+
+Distance (d)
+
+Figure 3-12 Illustration of Gaussian kernel and distance measure under different kernel bandwidth
+
+c. AAMSET
+The auto-associative multivariate state estimation is another non-parametric regression
+method developed by the Argonne National Laboratory. The underlying fundamental theory of the
+AAMSET is similar to AAKR and it is derived using the least square method which is similar to
+a multiple linear regression.
+The AAMSET also uses the observations collected from normal condition to form a
+memory matrix 𝑋, where 𝑋OP is the ith observation and jth variable.
+𝑋2,2
+𝑋
+𝑋 = 4,2
+⋮
+𝑋#,2
+
+𝑋2,4
+𝑋44
+⋮
+𝑋#,4
+
+⋯
+⋯
+⋱
+⋯
+
+𝑋2,‡
+𝑋4,‡
+⋮
+𝑋#,¥
+
+(3-6)
+
+Let 𝐷 = 𝑋 © = [𝑋2 , 𝑋4 , ⋯ , 𝑋# ] as the memory matrix which stores observations columnwise. The AAMSET model also calculates the weight vector 𝑊 = 𝑊2 , 𝑊4 , ⋯ , 𝑊# ′ to obtain
+49
+
+weight average of observations in memory matrix as model output for a new observation 𝑋 o =
+[𝑋2o 𝑋4o 𝑋So ⋯ 𝑋¥o ]:
+𝑋 o = 𝑋2 𝑊2 + 𝑋4 𝑊4 + ⋯ + 𝑋# 𝑊#
+
+(3-7)
+
+In order to achieve most accurate model estimation, the conventional least square method
+is used. The weight vector is derived by minimizing the sum square of residual between input and
+output.
+𝜀4 =
+
+𝑋o − 𝑋o
+
+4
+
+= 𝑋o − 𝐷 ∙ 𝑊 4
+
+(3-8)
+
+The first order derivative of 𝑊 is set to zero:
+𝑑𝜀 4 𝑑 𝑋 o − 𝐷 ∙ 𝑊 4
+=
+=0
+𝑑𝑤
+𝑑𝑊
+
+(3-9)
+
+Then the least square solution of the weight vector W is:
+𝑊 = 𝐷© ∙ 𝐷 =2 (𝐷′ ∙ 𝑋 o )
+
+(3-10)
+
+Finally, the estimate model output for the input observation 𝑋 o is obtained by:
+𝑋 o = 𝐷 ∙ 𝑊 = 𝐷 ∙ 𝐷© ∙ 𝐷 =2 (𝐷′ ∙ 𝑋 o )
+
+(3-11)
+
+The linear solution derived using least square manner ensures the sum mean square error
+of the input and output vector is minimized. Also the AAMSET model guarantees that if the input
+vector is identical to one of the observations within the memory matrix, the output of the model is
+identical to the input.
+The AAMSET has a clear limitation which requires the recognition matrix 𝐷© ∙ 𝐷 must be
+nonsingular in order to obtain meaningful inverse. It is stated in (Black, Uhrig, & Hines, 1998)
+that the linear interrelationship between observations in memory matrix D result in conditioning
+
+50
+
+difficulties associated with the inversion of recognition matrix. Then the nonlinear operator ⨂ is
+introduced to overcome such limitation. The ⨂ calculates in matrix manner and (3-11) becomes:
+𝑋 o = 𝐷 ∙ 𝑊 = 𝐷 ∙ 𝐷© ⨂𝐷 =2 (𝐷′⨂𝑋 o )
+
+(3-12)
+
+The ⨂ can be any similarity or difference measurement operated for vectors. The scalarvalue output is the similarity measurement value for the recognition matrix. Some of the commonly
+used operators ⨂ 𝑋, 𝑌 for vector X and Y are:
+1. Euclidean Norm
+D
+
+(𝑥O − 𝑦O )4
+
+(3-13)
+
+𝑥O − 𝑦O
+
+(3-14)
+
+D
+O 𝑥O − 𝑥 (𝑦O − 𝑦)
+D
+4 𝑦 −𝑦 4
+O
+O 𝑥O − 𝑥
+
+(3-15)
+
+⨂ 𝑋, 𝑌 =
+O
+
+2. City Block Distance
+D
+
+⨂ 𝑋, 𝑌 =
+O
+
+3. Linear Correlation Coefficient
+⨂ 𝑋, 𝑌 =
+4. Root Mean Power Error
+
+⨂ 𝑋, 𝑌 =
+
+1
+𝑛
+
+D
+
+𝑥O − 𝑦O 4
+
+(3-16)
+
+O
+
+For a non-parametric model, the selection of the memory matrix serves as its ‘training’
+process. The selection process includes two parts: variable selection and vector selection. The
+variable selection selects variable subset from existing variables as model input. And vector
+51
+
+selection chooses minimized number of observations to add into memory matrix as the baseline of
+normal condition.
+Since the auto-associative models use the correlation to predict correct output of the
+corresponding input, if there’s no correlation between input signals, the model could not generate
+reliable estimations. The auto-associative models require that each input signal is correlated with
+at least one other signals in the input. Correlation coefficient is the most commonly used metric to
+measure the linear correlations between variables. Also, for large dimension signals, grouping
+technologies were proposed to group/divide available signals into highly correlated groups and an
+auto-associative model is then built for each group separately. More advanced heuristic search and
+optimization approach was also applied for optimal signal grouping in (Baraldi, Canesi, Zio,
+Seraoui, & Chevalier, 2011).
+Another essential step for memory matrix construction is vector selection. As shown in
+equation (3-12), the calculation of the output involves the inverse of the recognition matrix
+𝐷© ⨂𝐷 =2 and the similarity matrix between current observation and all observations in memory
+matrix (𝐷′⨂𝑋 o ). Selecting the appropriate vectors are imperative, because if there are too few
+observations in the memory matrix, it will not completely cover the normal working condition
+region, which will result in low prediction. Conversely, if the memory matrix has too many
+observations, it will significantly increase the model computational load. The vector selection
+process is expected to fulfill three tasks:
+1. Reduce the size of the memory matrix to ensure reasonable computational load.
+2. Selected observations cover as much normal operation conditions of the system as
+possible.
+
+52
+
+3. Remove similar observations from the memory matrix to avoid ill-conditioned situation
+for matrix inversion.
+Three different approaches are proposed to automatically select vectors: (1) min-max
+vector selection; (2) vector ordering; (3) combination of (1)&(2). (Hines & Seibert, 2008)
+The min-max vector selection approach first segment all available signal into 𝑛- segements:
+𝑛- =
+
+𝑛6
+2𝑃
+
+(3-17)
+
+Where 𝑛6 is the number of observations needed to remain in the memory matrix; P is the number
+of signals available in the memory matrix and 𝑛- is the number of segments. The observations that
+contain minimum and maximum value of each signal in each segment are selected. The min-max
+vector selection approach reduces the size of memory matrix significantly by selecting
+observations only that cover the boundary of baseline operation region. However, the intermediate
+operation information is disregarded from the model. Thus the max-min vector selection approach
+is more suitable for more stable signals.
+The vector ordering approach is proposed to select intermediate observations for the
+memory matrix. First, the relative distance between observations and the origin are first calculated.
+Normally, Euclidean norm is used as the ordering parameter. Then all observations are sorted in
+ascending or descending order. Afterwards, observations are picked periodically with constant
+sampling interval which is determined by dividing the total number of vectors by the number of
+vectors to retain. The combination of (1) and (2) approach provides better coverage of the training
+sample space by implementing (1) prior to (2).
+However, the limitation of vector ordering approach is that the distance measurement
+metric usually takes observation vector as a whole which ignores the variation of each signal. For
+53
+
+example, for observation 𝑥2 = 1,0,1 and 𝑥4 = [0,1,1], they both have 1.414 Euclidean norm
+with respect to the origin but they have different values in first and second variable. The vector
+ordering approach will only pick 𝑥2 or 𝑥4 for memory matrix which results in incomplete coverage
+of normal working conditions.
+A modified vector selection approach is proposed in (Guo & Bai, 2011) and validated on
+a wind turbine gearbox temperature monitoring system. The proposed approach selects
+observations based on the differences of each variable which provides a better coverage of the
+original training observations and meanwhile ensures no repeated observations are added into the
+memory matrix. The variable selection and vector selection are critical for auto-associative
+methods especially for AAMSET method. With an appropriately constructed memory matrix, all
+three methods can performant better reconstruction of input signal.
+3.2.3 Auto-associative Residual Based Approach Overview
+The overall approach for AAR based approach is shown in Figure 3-13. The proposed
+approach consists of several major steps: baseline data preparation and pre-processing; memory
+matrix construction; baseline residual model training; model testing for performance assessment
+and fault diagnosis.
+
+54
+
+Figure 3-13 Flow chart of auto-associative residual based approach
+
+3.2.4 Baseline Data Preparation and Pre-processing
+The first step is to collect baseline data for ‘model training’. The auto-associative models
+are all trained by data from normal condition. This means that only observations from normal tests
+are included in training dataset (memory matrix). The pre-processing step is necessary to remove
+observations with outliers, missing values and other abnormalities which might significantly
+reduce the reconstruction accuracy of auto-associative model.
+3.2.5 Memory Matrix Construction
+With all baseline data available, the next step is to construct the appropriate memory matrix
+for model training. Variables that are related to the system operation and have correlations are
+55
+
+selected. For relatively low dimension signals, this step is done by manual check, but for a high
+dimensional data set, an empirical search approach, for example wrapper, can be applied.
+The next step is to select observations from baseline observations for the memory matrix
+using vector selection algorithms. The memory matrix construction process is illustrated in Figure
+3-14. Each block stands for a trajectory multivariate signal collected from a single operation which
+is a N by Mi matrix with N variable and Mi observations. The length Mi of the trajectory signals
+are not identical for all samples. The trajectory signals from normal conditions are concatenated
+into one multivariate time series signal first. The concatenation step is used to make sure the
+original memory matrix fully covers the normal operation region of the system. Then the vector
+selection approach from (Guo & Bai, 2011) is then applied to concatenated trajectory signal.
+
+Figure 3-14 Illustration of memory matrix construction process
+
+56
+
+Figure 3-15 Flow chart of vector selection algorithm
+
+Figure 3-15 shows the flowchart of the vector selection approach. The first step is to
+remove duplicated observations from the concatenated trajectory signal which can significantly
+reduce the computational load for following steps. Then each variable is normalized to [0,1] range
+for further analysis. The vector selection starts by finding min and max values of each variable.
+Then the observations containing those values are selected and put into the memory matrix first.
+This step is similar to the min-max approach, but it finds the bound of entire baseline dataset
+instead of choosing bounds for sub-regions. Next, a heuristic search strategy is applied to a
+P
+
+normalized baseline dataset. For a concatenated trajectory baseline dataset 𝑋] (𝑘 =
+57
+
+1,2,3, … , 𝑁; 𝑗 = 1,2,3, … , 𝑀) , where N is the number of variables and M is the number of
+observations. The searching approach selects observations based on each individual variable. It
+first cuts each variable value range into 1/t even pieces, then finds variable values from all
+observations which are close enough to the cut point. The 𝛿 is a small positive number which is
+predefined to judge whether the variable value is close enough to ith cut point. The observations
+𝑋P with at least one variable value close to any cut location are added to the memory matrix. The
+number of observations selected is determined by the cut incremental t, the close significant
+threshold 𝛿 and the original dynamics of the baseline trajectory signal. By using a pick without
+replacement strategy, duplication observations are avoided.
+Compared with a conventional min-max, vector ordering and combination approach, the
+approach used in this research covers more intermediate observations and the major drawback is
+it selects larger groups of observations in the memory matrix.
+3.2.6 Auto-associative Model Selection
+The auto-associative model is then developed using the memory matrix constructed from
+the previous step. In order to develop more accurate and robust performance assessment and fault
+diagnosis system in the next step, appropriate model need to be selected and tuned first. There two
+requirements for auto-associative models for performance assessment and fault diagnosis:
+(1) The auto-associative model must be able to accurately reconstruct input vectors as long
+as the operation condition is still the same and the system is still operating under its healthy
+condition. As a result, the residual value calculated from input and model output stays in low
+magnitude level.
+
+58
+
+The capability of accurate reconstruction input signal is defined as the accuracy of the
+model. The accuracy of the auto-associative models is usually measured by the mean square error
+(MSE) between the model input and output (Baraldi et al., 2011; Yang, Huang, & Yang, 2015):
+1
+𝑀𝑆𝐸 =
+𝑁
+
+#
+
+𝑥¯ − 𝑥O 4
+
+(3-18)
+
+OQ2
+
+where N is the number of observations; 𝑥¯ is the ith model output; 𝑥O is the ith model input.
+(2) The auto-associative model must be able to accurately predict the input observations’
+true value under fault free condition even when input observations that are supplied to the model
+contain errors. Then the residual between input observation and model output can be used as
+signature for degradation assessment and fault diagnosis. On the contrary, if the model output
+changes with the input and the residual stays low for input observations from faulty condition, then
+the model is not useful.
+The residual values start to grow when degradation happens and usually there are two
+major different causes for residual increases: (1) one of the measured signals drifts from its normal
+value range due to some sort of fault and other signals are still within the normal range, then the
+residual of the drifted signal increases; (2) signals drift out of normal range and the model cannot
+reconstruct input observation accurately without corresponding training data. Scenario (1) is
+similar to trivial fault situation and (2) is more similar to severe faults.
+The robustness of the auto-associative model is used to describe the capability of the model
+to generate little or no change in its prediction output for faulty input observations. The autosensitivity is widely used in literature to measure the robustness of the model (Baraldi et al., 2011;
+Hines & Seibert, 2007). The auto-sensitivity 𝑆<°o± can be calculated as:
+59
+
+1
+𝑆²°o± =
+𝑁
+
+#
+
+OQ2
+
+𝑥¯§ − 𝑥¯
+𝑥O§ − 𝑥O
+
+(3-19)
+
+where 𝑥O is the ith observation of the input signal under fault free condition; 𝑥O§ is the ith drifted
+observations of input signal due to fault; 𝑥¯ is the ith model prediction from fault free input; 𝑥¯§ is
+the ith model prediction from drifted input. The auto-sensitivity ranges from [0,1]. With 𝑆²°o± =
+1, the model output exactly follows the change of the model input which results in poor fault
+detection capability.
+In practice, due to the difficulty of collecting large amount of faulty data from different
+degradation levels, the evaluation process of auto-sensitivity is sometimes challenging. Thus the
+auto-sensitivity is usually calculated using simulation dataset with different levels of noise and
+induced deviations (Hines & Seibert, 2007).
+An ideal auto-associative model should have higher accuracy (small MSE) and robustness
+( small 𝑆²°o± ). The model selection process is necessary to ensure the effectiveness of the residual
+feature vector for performance assessment and fault diagnosis.
+3.2.7 Performance Assessment
+In order to apply performance assessment models, residual vector from all available signals
+are divided into 15 blocks equally and residual mean is calculated from each block as a feature.
+The features from the residual vectors are then concatenated together to form a residual feature
+vector which is used as the input for performance assessment models. The same performance
+assessment methods, including PCA-T2/SPE and SOM-MQE, are used in order to compare the
+effectiveness of the AAR based approach. The performance assessment models are compared
+using the area under the curve (AUC) of the receiver operating characteristic (ROC) curve.
+60
+
+3.2.8
+
+Fault Diagnosis
+For fault diagnosis, the constructed memory matrix still only contains observations from
+
+normal condition. The residual feature vectors from training dataset with known class labels are
+calculated first and stored as residual training dataset. Next, the fault diagnosis algorithms are
+trained using the residual training dataset. The same supervised multiclass classification methods
+including NBC, SVM and SOM are also used. The final results are compared with feature based
+approach using confusion matrix and overall classification accuracy. Since the residual feature
+vectors are similar to a time series data type, the k-nearest neighbor (KNN) is also applied with
+different distance metrics. The KNN is selected because it is a most commonly used method for
+time series classification and clustering (Fu, 2011). The KNN based classification is based on the
+similarity of the time series of the testing data and training datasets instead of measuring feature
+distributions similarity. For a new testing residual feature vector, its k nearest neighbor from
+residual training datasets are first identify by selected distance metric. Next, a voting mechanism
+is used to assign a class label for the testing sample. The overall diagnosis accuracy of KNN, SOM,
+SVM, NBC for fault diagnosis are compared together in chapter 4.
+
+61
+
+CHAPTER 4
+
+CASE STUDY: POINT MACHINE
+
+PERFORMANCE ASSESSMENT AND FAULT DIAGNOSIS
+The two proposed approaches are applied to the dataset collected from the point machine
+testbed. The point machine was tested under three different temperature profiles and 17 different
+modes were tested under each profile including: normal condition (Norm), 4 types of misalignment
+(M1, M2, M3, M4), 4 levels of obstacle at motor side (O1, O2, O3, O4), 4 levels of obstacle at
+opposite motor side (N1, N2, N3, N4) and 4 levels of friction during movement (F1, F2, F3, F4).
+All misalignments and low level obstacles (M1, M2, O1, O2) are all trivial incipient failure modes.
+The goal of developing the performance assessment model is to evaluate the degradation of the
+point machine and send out alarms. Next, the fault diagnosis model will be used to identify
+different failure modes. Accurate fault detection at early stage can help avoid catastrophic accident
+from happening and isolating different faults remotely can help improve maintenance activity.
+4.1
+
+Test Description
+In order to explore the feasibility of applying PHM system for point machines using low
+
+cost onboard signals, a series of tests were conducted on a point machine test bed in the lab, as
+shown in Figure 4-1. Several failure modes were selected and seeded for algorithm development
+and validation. Also the tests were conducted inside a climatic chamber to test the point mechanism
+performance under different environmental conditions. An Alstom MET F-BANE Point Machine
+was chosen for in lab test and it is mainly comprised by the following function blocks:1. Motor; 2.
+Emergency Hand Movement; 3. Movement; 4. Switch Rail Frame Lock & Stock Rails Connection;
+5. Detection Limit Switches; 6. End Stroke Cut Out Switches.
+62
+
+The motor function block is the core part of the point machine, which transforms the
+electrical power to mechanical power. The motor also consists of 3 parts: electric motor, digital
+control electronic systems and auxiliary devices. A motor position sensor is available inside the
+auxiliary devices which provide information for motor speed and position control.
+The emergency hand movement allows for manual operation of the turn-out in case of
+emergency or if maintenance is needed. The hand movement function inhibits both motor function
+and detection function.
+
+Figure 4-1 Point machine testbed inside climatic chamber
+
+The movement module inside point machine transforms the rotational motion from motor
+to linear motion. Next the switch rail frame lock & stock rails connection function moves the
+switch rail and locks the switch rail against the stock rails.
+
+63
+
+The detection limit switches are used to detect the switch rails position and its mechanical
+locking against the stock rails. The final position of the MET F-BANE point machine is detected
+by the ‘End Stroke Cut Out Switches’ in both position sides.
+4.1.1 Failure Modes Analysis
+Prior to conducting the experiment, failure modes of typical electromechanical point
+machine were studied. A list of the possible failure modes that may occur on the components of
+the point machine is provided in the component FMECA and the most common failure modes are
+listed in Table 4-1 (Jin et al., 2015). Lastly, three major failure modes are considered: 1. Obstacle:
+the point machine can still perform full operation, but clearance exists between stock rail and
+switch rail (the movement is interrupted by external objectives); 2. Misalignment: movement
+components are not aligned any more. 3. Excessive friction: the force to move switch rail increased
+significantly.
+Table 4-1 Point machine degradation mode analysis
+
+Effects
+
+Physical Parameters
+
+Degradation
+Simulation
+
+The stroke of the switch rails is
+reduced
+
+Gap between the stock rail and
+switch rail
+
+Gap shim
+
+Switch rail movement force
+increased
+
+Friction
+
+Friction Increase
+
+Corrosion and elastic deformation
+
+Friction & Clearance
+
+Friction Increase, gap
+shim
+
+The trajectory of the moveable
+components change
+
+Misalignment
+
+Unscrew critical screws
+
+The movement is interrupted with
+significant shift or obstacle
+
+Obstacle
+
+Gap shim
+
+Switch rail movement force
+increased
+
+Friction
+
+Friction Increase
+
+64
+
+4.1.2
+
+Failure Modes Simulation
+
+a. Misalignment
+Misalignment is a trivial and incipient failure mode of the the point machine system. As
+shown in Table 4-1, the trajectory of the moveable parts changes if the system is misaligned and
+this might lead to increase of the mechanical stress on the components directly connected to the
+moveable parts. Consequently, the signals measured from the motor module during MET
+movement may change. The misalignment is simulated by loosening stock rail bracket screws and
+the possible cause of loose screws is the vibration during the train passing. As shown in Figure
+4-2, the highlighted screws (1,2 at motor side, 3,4 at opposite motor side) allow the tightening of
+the switch point machine to the rail and the point machine is exactly aligned with the rails thanks
+to a tightening torque of 400NM applied to the stock rail bracket screws. So the loosening of the
+four screws is expected to cause MET misalignment.
+
+Figure 4-2 Stock rail bracket screws (UP); Point machine optimal position (BOTTOM)
+
+65
+
+Four variations of misalignment were simulated and seeded by loosening different
+combinations of screws, including: 1&2, 3&4, 1&3 and 2&4. As shown in Figure 4-3, by loosening
+screw 1&2, the point machine system is expected to lower the motor side and 3&4 is expected to
+lower opposite motor side. The looseness of 1&3 and 2&4 cause the point machine system to
+misalign along the rail. At the end of each test the point machine was restored to its optimal
+position.
+
+Figure 4-3 Four variations of misalignment failure modes simulate
+
+b. Obstacle
+Obstacle was selected to simulate two abnormal conditions: 1. small ballast or unknown
+objects get stuck in between the switch rail and stock rail and the size of the small object is not
+66
+
+detectable by detection rod thus no alarms of failed movement will be sent to central control room;
+2. due to any possible reason (corrosion, elastic deformation, etc.) the stroke of the switch rail
+reduced and caused the gap between stock rail and switch rail increased. The gap between the
+stock rail and switch rail may cause a catastrophic train derail accident.
+
+Figure 4-4 Obstacle failure modes simulation
+
+The different levels of obstacle were simulated by inserting metal shims with different
+thicknesses between the stock rail and switch rail. As shown in Figure 4-4, metal shims were placed
+between the switch rail and stock rail at both the motor side and opposite the motor side
+respectively. Four different thickness levels of metal shims were used: 1mm, 2mm, 3mm and 4mm
+to simulate different severity. The shims must be located at the center of the stock rail in order to
+make the movement reach end force evenly distributed. In total, eight different obstacle faults were
+tested: motor side 1mm, 2mm, 3mm, 4mm and opposite motor side 1mm, 2mm, 3mm and 4mm.
+
+67
+
+c. Excessive Friction
+The last failure mode tested was the excessive friction. The force to move the switch will
+increase due to corrosion, wear, lack of lubrication and deformation. The level of friction reflects
+the degradation level of the point machine. Hydraulic equipment was placed on the point machine
+switch rail to prevent the switch movement by applying friction on the guide way, as shown in
+Figure 4-5. The friction level was controlled by the hydraulic pressure level. Three levels were
+investigated for this study: (1) baseline test after installing hydraulic equipment; (2) 12 bar pressure
+level and (3) 22 bar pressure level. The baseline test is necessary because the switch rail has to
+move along the hydraulic rail which also increases the friction level of point machine movement.
+
+Figure 4-5 Hydraulic system for friction test on point machine
+
+4.1.3 Environmental Conditions
+Point machines are widely distributed equipment, which means the same type of point
+machine might work in extremely different environmental conditions. For this study, temperature
+68
+
+is selected as the primary environmental factor because the average temperature can vary
+significantly throughout Europe. As shown in Table 4-2, Norway has an average minimum
+temperature at -30 degree, whereas Greece has an average minimum temperature of 0 degree.
+Table 4-2 Temperature range at different countries
+
+Country
+
+Min Temp Average [°C]
+
+Max Temp Average [°C]
+
+Norway
+
+-30
+
++30
+
+Sweden
+Italy
+
+-20
+-20
+
++20
++40
+
+Kazakhstan
+Turkey
+Greece
+
+-40
+-10
+0
+
++40
++30
++30
+
+Russia
+Denmark
+
+-40
+0
+
++30
++20
+
+Three temperature profiles were selected for each tests including -25 +/-5 Celsius, 0 +/-5
+Celsius and 25 +/-5 Celsius and Figure 4-6 shows the temperature profile of 0 +/-5 Celsius
+condition.
+
+Figure 4-6 0+/-5 test temperature profile
+
+69
+
+Temperatures were measured from 6 different locations in order to evaluate the correlation
+between the point machine performance and the temperature change more accurately. The
+measurement locations include: room (environmental condition), motor side switch, motor module,
+opposite motor side switch, motor side locking module and opposite motor side rail. The
+thermocouple for the motor module was inserted inside the motor cover, directly attached on the
+motor module case.
+
+Figure 4-7 Temperature measurements locations on point machine testbed
+
+4.1.4 Test Records
+Under each temperature profile, four variations of misalignment, eight variations of
+obstacle and three different levels of friction were tested. The time duration was controlled by the
+climatic cycle and approximately 500 maneuvers (movements) were measured including normalto-reverse and reverse-to-normal for each test. An example of the test record under 0 +/-5 Celsius
+is shown in Table 4-3, N, M, O, F are used to stands for different failure modes for analysis results
+70
+
+in chapter 4. F1 is nominal degradation test which was conducted without seeded faults and it was
+used to test normal baseline shift after 2 months of tests.
+
+Excessive Friction
+
+Obs. Opposite
+Motor Side
+
+Obs. Motor Side
+
+Misalignment
+
+Table 4-3 Test records under 0+/-5 temperature profile
+
+Climatic Cycle
+
+Maneuver #
+
+Failure Modes
+
+0+-5C
+
+546
+
+N: Normal
+
+0+-5C
+
+445
+
+M1: Motor side screws loose
+
+0+-5C
+
+467
+
+M2: Opposite motor side screws loose
+
+0+-5C
+
+474
+
+M3: Switching side screws loose
+
+0+-5C
+
+470
+
+M4: Detection side screws loose
+
+0+-5C
+
+654
+
+O1: 1mm obstacle motor side
+
+0+-5C
+
+470
+
+O2: 2mm obstacle motor side
+
+0+-5C
+
+453
+
+O3: 3mm obstacle motor side
+
+0+-5C
+
+508
+
+O4: 4mm obstacle motor side
+
+0+-5C
+
+470
+
+N1: 1mm obstacle opposite motor side
+
+0+-5C
+
+470
+
+N2: 2mm obstacle opposite motor side
+
+0+-5C
+
+482
+
+N3: 3mm obstacle opposite motor side
+
+0+-5C
+
+481
+
+N4: 4mm obstacle opposite motor side
+
+0+-5C
+
+470
+
+F1: Nominal degradation test
+
+0+-5C
+
+511
+
+F2: Baseline Test (after
+hydraulic equipment)
+
+0+-5C
+
+468
+
+F3: 12 Bar friction tests
+
+0+-5C
+
+474
+
+F4: 22 Bar friction tests
+
+71
+
+installing
+
+4.1.5
+
+Data Description
+Speed and torque signals were measured from motor module simultaneously without using
+
+any add-on sensor. The sampling rates of both speed and torque signals are 250 Hz, and which is
+significantly lower compared with the vibration and current signals used for fault diagnosis in
+existing literatures. The advantages of using low cost onboard signals are:
+1. Better scalability. Speed and torque signals are usually available from point machine
+control room remotely since they are measured from motor module directly without adding any
+additional sesnor. So the developed performance assessment and fault diagnosis system can be
+easily applied to large amount of widely distributed assets.
+2. Low cost. Compared with the solution of using high frequency signals, the data
+acquisition, transfer and storage costs are lower. Also, the amount of data needed to be processed
+is much smaller which reduces the requirement of the computational capability of the whole
+system.
+3. Ensures reliability and safety. The onboard measurement from the motor module without
+adding additional sensors won’t introduce new failure modes to the system which ensures system
+overall reliability. In most of the literature, the force signal from the drive rod was used, however,
+the intrusive measuring of load signal by inserting a load pin in the drive rod reduces the system
+reliability by introducing new failure modes from the load pin.
+Figure 4-8 shows the speed and torque signal measured under normal conditions from
+motor module from both normal-to-reverse and reverse-to-normal movement. The active power of
+the motor is calculated by multiplying speed by torque. The active power signal shows a slightly
+
+72
+
+differenc from both operation directions since the mechanism of the two operation directions are
+different.
+
+(a) Point Machine Speed Signal
+
+2000
+1500
+
+Forward
+Backward
+
+400
+
+1000
+500
+
+Torque
+
+Speed
+
+(b) Point Machine Torque Signal
+
+600
+
+Forward
+Backward
+
+0
+-500
+-1000
+
+200
+0
+-200
+
+-1500
+-2000
+
+0
+
+500
+
+1000
+
+1500
+
+-400
+
+0
+
+500
+
+Index
+8
+
+#10 4
+
+1500
+
+(c) Point Machine Active Power
+Forward
+Backward
+
+6
+
+Active Power
+
+1000
+
+Index
+
+4
+2
+0
+-2
+-4
+-6
+-8
+
+0
+
+500
+
+1000
+
+1500
+
+Index
+
+Figure 4-8 Point machine signal acquired from testbed. (a) speed signal from point machine forward and backward
+operation; (b) torque signal from point machine forward and backward operation; (c): active power signal forward and
+backward operation.
+
+73
+
+4.2
+
+Feature Based Approach
+In preliminary analysis from (Ardakani, Lucas, & Siegel, 2012) the active power showed
+
+great potential in distinguishing normal and faulty conditions for MJ81 point machine, the active
+power is also used for this study. The active power is obtained by multiplying the speed by the
+torque signal. The data set from all conditions are partitioned into two parts: training and testing.
+70 trajectories from both normal-to-reverse (Forward) operations and reverse-to-normal
+(Backward) operations under each health condition are selected randomly from all available
+historical data for model training. 50 trajectories from each health condition are then picked
+randomly for model testing from the remaining data.
+The proposed moving-window standard deviation approach is first applied to speed signal
+for data segmentation. Window size of 15 and threshold of 150 were used to detect transient
+periods of the movement. As Figure 4-9 shows, the segmentation approach performed very well
+for both healthy and degraded point machines. The number of samples assigned to each
+segmentation are consistent. However, for some abrupt severe faulty situations when the point
+machine cannot accomplish full operation or finish in a longer time duration, the speed signal
+changes significantly from normal. The segmentation process then cannot obtain accurate
+segments. For those emergence situations, the point machine needs to stop working and an
+immediate maintenance action is recommended. By comparing the number of samples in each
+segment, the severe faulty condition can be detected easily. Table 4-4 shows the mode of number
+of samples from each segment.
+After segmentation, 8 statistical features are extracted from each segment of the active
+power signal, including: peak-to-peak (p2p), variance (var), standard deviation (std), root mean
+74
+
+square (RMS), max, crest factor (crest), kurtosis, and mean. Features from forward and backward
+operations are concatenated as a feature vector for further analysis. This means the length of the
+feature vector for each full cycle operation is 112 (112 = 8 features*7 segments*2 operations).
+The variation of measured signals under different temperatures is evaluated first. It is
+observed that the temperature has significant effects on the active power signal, especially in
+segment 4. This is reasonable since segmentation 4 is corresponding to rail movement which uses
+motor to move switching rail and temperature has effects on both motor winding resistance and
+lubrication viscosity that might increase the power measurement. In order to develop a more robust
+model for feature based performance assessment and fault diagnosis, two approaches can be
+applied: (1) develop separate models for different environment conditions; (2) normalize measured
+signals based on the critical environmental parameters.
+As shown in Figure 4-10, the RMS value of segment 4 shows strong correlation with
+temperature under all three different temperature ranges. The correlation coefficient between
+temperature measurement from 6 different locations and segment 4 RMS value are evaluated as
+shown in Figure 4-11. The result shows that segment 4 RMS value is significantly correlated with
+temperature measurement from a motor module with r = 0.96161.
+
+75
+
+(a) Normal Speed Signal
+
+1500
+
+1500
+
+1000
+
+1000
+
+500
+0
+
+0
+-500
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+0
+
+200
+
+Sample Index
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+Sample Index
+
+(b) Normal Torque Signal
+
+400
+
+Seg1
+Seg2
+Seg3
+Seg4
+Seg 5
+Seg 6
+Seg 7
+
+500
+
+-500
+
+0
+
+(d) 22 Bar Speed Signal
+
+2000
+
+Speed
+
+Speed
+
+2000
+
+(e) 22 BarTorque Signal
+
+500
+
+Torque
+
+Torque
+
+200
+0
+-200
+
+0
+
+-400
+-600
+
+0
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+-500
+
+1200
+
+0
+
+200
+
+Sample Index
+#10 5 (c) Normal Active Power Signal
+
+1
+
+0.5
+0
+-0.5
+-1
+
+0
+
+200
+
+400
+
+600
+
+600
+
+800
+
+1000
+
+1200
+
+Sample Index
+
+Active Power
+
+Active Power
+
+1
+
+400
+
+800
+
+1000
+
+0.5
+0
+-0.5
+-1
+
+1200
+
+#10 5 (f) 22 Bar Active Power Signal
+
+Sample Index
+
+0
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+Sample Index
+
+Figure 4-9 Data segmentation results on raw trajectory signals under healthy and faulty conditions. (a) healthy speed
+signal segmentation result; (b) Healthy torque signal segmentation result; (c) healthy active Power signal segmentation
+result; (d) Excessive friction speed signal segmentation; (e) Excessive friction torque signal segmentation; (f) Excessive
+friction active power signal segmentation
+Table 4-4 Data segmentation result: number of samples in each segment
+
+Seg1
+
+Seg2
+
+Seg3
+
+Seg4
+
+Seg5
+
+Seg6
+
+Seg7
+
+Forward
+
+46
+
+346
+
+82
+
+351
+
+36
+
+108
+
+50
+
+Backward
+
+46
+
+346
+
+81
+
+352
+
+38
+
+106
+
+50
+
+76
+
+3.2
+
+#10 4 (a.1) RMS seg4 -25c
+
+#10 4 (b.1) RMS seg4 0c
+
+2.4
+
+1.8
+
+#10 4 (c.1) RMS Seg4 25c
+
+3
+2.3
+
+RMS
+
+RMS
+
+2.6
+2.4
+2.2
+
+1.75
+
+2.2
+
+RMS
+
+2.8
+
+2.1
+
+2
+
+1.7
+
+1.65
+
+2
+
+1.8
+0
+
+100
+
+300
+
+0
+
+100
+
+200
+
+300
+
+File Number
+
+1.6
+
+(b.2) Temperature 0c
+
+25
+
+Tempearture (c)
+
+0
+-10
+-20
+
+100
+
+200
+
+10
+
+300
+
+200
+
+300
+
+File Number
+
+(c.2) Temperature 25c
+
+25
+
+5
+
+24
+23
+22
+
+0
+0
+
+100
+
+26
+
+15
+
+-5
+
+0
+
+27
+
+20
+
+10
+
+-30
+
+1.9
+
+(a.2) Temperature -25c
+
+20
+
+Temperature (c)
+
+200
+
+File Number
+
+RMS
+
+1.6
+
+21
+0
+
+100
+
+File Number
+
+200
+
+20
+
+300
+
+0
+
+100
+
+File Number
+
+200
+
+300
+
+File Number
+
+Figure 4-10 Point machine active power segment 4 RMS under healthy condition and environmental temperature. (a.1)
+active power segment 4 RMS from 25c+-5 temperature range; (a.2) environmental temperature measure corresponding
+to a.1; (b) and (c) are RMS and temperature measurements from 0c+-5 and 25c+-5 temperature range respectively
+#10 4
+
+(a) Room r=-0.51955
+
+3.2
+25
+0
+-25
+
+3
+2.8
+
+3.2
+25
+0
+-25
+
+2.8
+
+2.4
+
+2.4
+
+2
+
+2
+
+2
+
+1.8
+
+1.8
+
+1.8
+
+#10
+
+4
+
+20
+
+1.6
+-40
+
+40
+
+(d) LM Locking r=-0.97813
+
+3.2
+25
+0
+-25
+
+3
+2.8
+
+2.2
+
+#10
+
+-20
+
+4
+
+0
+
+Temperature (c)
+
+20
+
+(d) LM Switch r=-0.96852
+
+3.2
+25
+0
+-25
+
+3
+2.8
+
+2.4
+
+2
+
+2
+
+1.8
+
+1.8
+
+1.8
+
+0
+
+20
+
+40
+
+1.6
+-40
+
+40
+
+(e) Motor Moduel r=-0.96161
+25
+0
+-25
+
+2.4
+
+2
+
+Temperature (c)
+
+20
+
+2.6
+
+2.4
+2.2
+
+-20
+
+4
+
+0
+
+Temperature (c)
+
+3
+
+2.2
+
+1.6
+-40
+
+#10
+
+-20
+
+2.8
+
+2.6
+
+RMS
+
+2.6
+
+1.6
+-40
+
+40
+
+RMS
+
+3.2
+
+0
+
+Temperature (c)
+
+25
+0
+-25
+
+2.6
+
+2.4
+2.2
+
+-20
+
+(c) LOM Rail r=-0.92834
+
+2.8
+
+2.2
+
+1.6
+-40
+
+#10 4
+
+3
+
+2.6
+
+RMS
+
+RMS
+
+(b) LOM Switch r=-0.8711
+
+3
+
+2.6
+
+RMS
+
+#10 4
+
+RMS
+
+3.2
+
+2.2
+
+-20
+
+0
+
+Temperature (c)
+
+20
+
+40
+
+1.6
+-40
+
+-20
+
+0
+
+Temperature (c)
+
+20
+
+40
+
+Figure 4-11 Correlation between temperature from different location on testbed and Seg4 RMS
+
+77
+
+3.4
+
+#10 4
+
+(a) Cubic Fit Regression
+
+8
+
+Seg4 RMS
+Cubic fit
+
+#10 4 (b) Original Active Power Signal
+
+6
+
+3.2
+
+Active Power
+
+4
+
+3
+
+2
+0
+-2
+
+2.8
+-4
+
+Seg4 RMS
+
+-6
+2.6
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+Sample Index
+
+2.4
+8
+
+4 Normalized Active Power Signal
+#10(c)
+
+6
+2.2
+
+Active Power
+
+4
+2
+
+2
+0
+-2
+
+1.8
+
+-4
+1.6
+-30
+
+-20
+
+-10
+
+0
+
+10
+
+Temperature
+
+20
+
+-6
+
+30
+
+200
+
+400
+
+600
+
+800
+
+Sample Index
+
+1000
+
+1200
+
+Figure 4-12 Signal normalization using cubic fit. (a) Cubic fit of temperature and segment 4 RMS; (b) Original active
+power signal measured from 3 different temperature range (green: -25c; blue: 0c; red: 25c); (c) normalized active power
+signal based on temperature.
+
+A regression model is then developed for normalization. A cubic fit is selected because it
+obtained relative small MSE comparing with other methods. The cubic fit model is expressed as:
+
+𝑦𝑓𝑖𝑡 = 𝑝2 ∗ 𝑋 S + 𝑝4 ∗ 𝑋 4 + 𝑝S ∗ 𝑋 + 𝑝¡
+
+(4-1)
+
+where, yfit is the prediction value for X. The cubic fit model is then used to normalize active power
+signal to 𝑋J temperature degree using the following expression:
+
+𝑌D = 𝑌 − 𝑝2 ∗ (𝑋 − 𝑋J )S + 𝑝4 ∗ (𝑋 − 𝑋J )4 + 𝑝S ∗ (𝑋 − 𝑋J )
+
+78
+
+(4-2)
+
+where Yn is the normalized active power value at 𝑋J degree; Y is the actual measured active power
+at X degree.
+As shown in Figure 4-12 (b), before normalization, active power signals from healthy point
+machines show significant difference under different temperatures especially segment 3 to 6. The
+cubic fit based normalization approach is able to normalize active power signal under different
+temperatures to the same level, Figure 4-12 (c). The normalization step prior to feature extraction
+is necessary for data-driven approach in order to develop a robust health assessment and
+performance diagnosis model for a point machine working under different environmental
+conditions.
+Besides normalization, another approach to ensure model effectiveness is to develop
+separate model for each temperature level and this approach is used for this study to compare the
+capability of the proposed performance assessment and the fault diagnosis algorithm. All following
+analysis results are obtained on the dataset collected under 0+-5c.
+The performance assessment results from PCA-T2 is shown in Figure 4-13. In order to
+achieve best performance, different combinations of percentage of variance need to be retained
+and the significant level alpha are tested. Eventually, 90% percentage of variance is selected with
+alpha = 0.01 which results in 17 PCs being retained from all 112. The PCA-T2 performed perfect
+with 100% fault detection rate (FDRate) without raising any false alarms (FPRate). The PCA-SPE
+also achieved 100% fault detection rate but with 78% false alarm rate which is unacceptable.
+However, from the PCA-SPE results in Figure 4-14, it can be observed that with higher SPE-limit
+the model could generate better result with fewer false alarms.
+
+79
+
+The SOM-MQE model with a mean+2*std fault detection threshold achieved a decent
+result. The fault detection rate is 80.2% with zero false alarms. Also, the threshold of the MQE
+limit can be adjusted to achieve better results according to the result figure.
+
+PCA-T2 Performance Assessment Result (90%, Alpha =0.01)
+
+10 7
+
+Norm
+M1
+M2
+M3
+M4
+O1
+O2
+O3
+O4
+N1
+N2
+N3
+N4
+F1
+F2
+F3
+F4
+
+T2 Value
+
+10 6
+
+10
+
+5
+
+10
+
+4
+
+FDRate= 1.000
+FPRate= 0.000
+
+10 3
+
+10 2
+
+10 1
+
+10
+
+0
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+Sample Index
+
+Figure 4-13 PCA-T2 Performance assessment result (FDRate: fault detection rate; FPRate: false positive rate)
+
+80
+
+PCA-SPE Performance Assessment Result (90%, Aplpa =0.01)
+
+10 8
+
+10
+
+7
+
+10
+
+6
+
+Norm
+M1
+M2
+M3
+M4
+O1
+O2
+O3
+O4
+N1
+N2
+N3
+N4
+F1
+F2
+F3
+F4
+
+SPE Value
+
+10 5
+
+10
+
+4
+
+10
+
+3
+
+10
+
+2
+
+10
+
+1
+
+10
+
+0
+
+0
+
+100
+
+FDRate= 1.000
+FPRate= 0.780
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+Sample Index
+
+Figure 4-14 PCA-SPE Performance assessment result (FDRate: fault detection rate; FPRate: false positive rate)
+
+SOM-MQE Performance Assessment Result
+
+10 4
+Norm
+M1
+M2
+M3
+M4
+O1
+O2
+O3
+O4
+N1
+N2
+N3
+N4
+F1
+F2
+F3
+F4
+
+MQE
+
+10 3
+
+FDRate= 0.802
+FPRate= 0.000
+
+10 2
+
+10
+
+1
+
+10 0
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+Sample Index
+
+Figure 4-15 SOM-MQE Performance assessment result. (MQE limit =mean+2*std; FDRate: fault detection rate;
+FPRate: false positive rate)
+
+81
+
+The receiver operation characteristic (ROC) curve of three methods are used to evaluate
+the effectiveness of the model which is shown in Figure 4-16. From the ROC, all three models are
+capable of obtaining perfect fault detection, AUC =1.
+
+(a) ROC Curve PCA-T2 , AUC = 1
+PCA-T2 ROC
+
+0.8
+0.6
+0.4
+0.2
+0
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+(b) ROC Curve PCA-SPE, AUC = 1
+
+1
+
+True Positive Rate
+
+True Positive Rate
+
+1
+
+PCA-SPE ROC
+
+0.8
+0.6
+0.4
+0.2
+0
+
+1
+
+0
+
+False Positive Rate
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+False Positive Rate
+
+(c) ROC Curve SOM-MQE, AUC = 1
+
+1
+
+True Positive Rate
+
+0.2
+
+SOM-MQE ROC
+
+0.8
+0.6
+0.4
+0.2
+0
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+False Positive Rate
+
+Figure 4-16 ROC from three performance assessment models
+
+The fault diagnosis model is used to identify different failure modes and distinguish
+different fault severity levels of the point machine system. Multivariate classification models,
+including SOM, SVM and NBC are selected for this study. Also selected feature selection (fisher
+criterion) and dimensional reduction (PCA) methods are applied before classification in order to
+evaluate their capability of improving model performance.
+
+82
+
+The overall classification accuracy of all 17 classes are used to compare fault diagnosis
+model performance. And a cross validation method is used for model evaluation. First, 70 samples
+from each condition are randomly selected as a training set and another 50 samples from the
+remainder samples from each condition are also randomly selected as testing set. Then selected
+training and testing matrix are then used for model training and testing respectively. The process
+is repeated 10 times and the average overall classification accuracy is calculated at the end.
+Figure 4-17 shows one confusion matrix obtained by NBC using all 112 features. The xaxis of the matrix are the true labels of the testing data and the y-axis are the predicted labels by
+NBC. The numbers on the diagonal of the matrix are numbers of samples that have been correctly
+classified by the NBC model. The overall accuracy of the classifier is located at the right bottom
+corner of the matrix which is 94.1% in this case. The accuracy represents overall how often the
+classifier is correct and it is calculated by (True Positive + True Negative)/total.
+Table 4-5 shows the cross validation results from the three selected fault diagnosis models.
+Without using any feature selection and dimension reduction technique, the one-vs-one SVM
+classifier performs the best with 95.08% accuracy for all 17 classes. The major misclassifications
+are between excessive friction level 3 (F3) and excessive friction level 4 (F4). These two failure
+modes are both severe faults and the distortion of the active power signal is significant, so the
+misclassification can be caused by the irregular values of the active power feature caused by large
+distortion.
+
+83
+
+Confusion Matrix NBC
+50
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 98.0%
+Norm 5.9%
+0.0% 0.0% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 2.0%
+0
+49
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 98.0%
+M1 0.0%
+5.8% 0.0% 0.0% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 2.0%
+0
+1
+49
+0
+6
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 87.5%
+M2 0.0%
+0.1% 5.8% 0.0% 0.7% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 12.5%
+0
+0
+0
+41
+0
+4
+0
+0
+0
+1
+1
+0
+0
+0
+0
+0
+0 87.2%
+M3 0.0%
+0.0% 0.0% 4.8% 0.0% 0.5% 0.0% 0.0% 0.0% 0.1% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 12.8%
+0
+0
+1
+0
+43
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 97.7%
+M4 0.0%
+0.0% 0.1% 0.0% 5.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 2.3%
+0
+0
+0
+7
+0
+44
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 84.6%
+O1 0.0%
+0.0% 0.0% 0.8% 0.0% 5.2% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 15.4%
+
+Output Class
+
+0
+0
+0
+0
+0
+0
+49
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+100%
+O2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 5.8% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0
+0
+0
+0
+0
+0
+100%
+O3 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+46
+0
+0
+0
+0
+0
+0
+0
+0
+100%
+O4 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.4% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+2
+0
+0
+0
+49
+0
+0
+0
+0
+0
+0
+0 96.1%
+N1 0.0%
+0.0% 0.0% 0.0% 0.0% 0.2% 0.0% 0.0% 0.0% 5.8% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 3.9%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+49
+0
+0
+0
+0
+0
+0
+100%
+N2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.8% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+48
+0
+0
+0
+0
+0
+100%
+N3 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.6% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0
+100%
+N4 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+100%
+F1 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+100%
+F2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+45
+12 78.9%
+F3 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.3% 1.4% 21.1%
+0
+0
+0
+1
+0
+0
+0
+0
+4
+0
+0
+2
+0
+0
+0
+5
+38 76.0%
+F4 0.0%
+0.0% 0.0% 0.1% 0.0% 0.0% 0.0% 0.0% 0.5% 0.0% 0.0% 0.2% 0.0% 0.0% 0.0% 0.6% 4.5% 24.0%
+100% 98.0% 98.0% 82.0% 86.0% 88.0% 98.0% 100% 92.0% 98.0% 98.0% 96.0% 100% 100% 100% 90.0% 76.0% 94.1%
+0.0% 2.0% 2.0% 18.0% 14.0% 12.0% 2.0% 0.0% 8.0% 2.0% 2.0% 4.0% 0.0% 0.0% 0.0% 10.0% 24.0% 5.9%
+Norm
+
+M1
+
+M2
+
+M3
+
+M4
+
+O1
+
+O2
+
+O3
+
+O4
+
+N1
+
+Target Class
+
+N2
+
+N3
+
+N4
+
+F1
+
+F2
+
+F3
+
+F4
+
+Figure 4-17 Example of NBC confusion matrix w/o feature selection. Accuracy = 94.1%
+
+PCA for dimension reduction is then applied to the feature matrix. The selected PCs with
+lower dimension are then used for model training and testing. Different levels of variance to retain
+were evaluated, including 95%, 90% 85% and 80% and the corresponding numbers of PCs retained
+were approximately 15, 10, 6 and 4. The classification accuracy of the SOM and NBC models are
+significantly decreased as the number of PCs retained in the model becomes smaller. Also, the
+SVM model with PCA always outperforms the other two models with higher accuracy. The SVM
+model also achieved better results than the original feature matrix using PCs with 95% and 90%
+of variance retained. From the result, it is suggested to use SVM model with PCA when the number
+of PCs retained is relatively small.
+
+84
+
+Table 4-5 10 folds cross validation model evaluation results. 112 features in total. PCA(95%,15 PC), 9% variance
+retained and 15 PCs are selected; Fisher(15,~68), top 15 features selected from each class, approximate 68 features
+retained
+
+SOM
+
+SVM
+
+NBC
+
+All Features (112)
+
+92.55%
+
+95.08%
+
+93.01%
+
+PCA(95%, 15 PC)
+
+88.48%
+
+96.20%
+
+90.48%
+
+PCA (90%, 10 PC)
+
+88.94%
+
+95.87%
+
+89.29%
+
+PCA (85%, 6 PC)
+
+85.07%
+
+93.95%
+
+85.68%
+
+PCA(80%, 4PC)
+
+76.64%
+
+87.13%
+
+77.60%
+
+Fisher (15, ~68)
+
+93.00%
+
+90.08%
+
+94.76%
+
+Fisher (10, ~56)
+
+93.00%
+
+90.29%
+
+95.01%
+
+Fisher (5,~37)
+
+92.78%
+
+86.67%
+
+95.69%
+
+Fisher (3,~26)
+
+90.00%
+
+78.67%
+
+95.20%
+
+Fisher (1,~11)
+
+83.40%
+
+81.28%
+
+92.13%
+
+The multiclass feature selection using fisher criterion is then applied. The fisher criterion
+is a commonly used discriminant criterion to evaluate how good a single feature is to separate two
+classes. As discussed in 3.1.4, the fisher criterion differs from feature reconstruction methods like
+PCA which selects feature subset from original features. The fisher score 𝐽 𝑓O , 𝐶2 , 𝐶4 of feature i
+between class C1 and C2 is calculated by:
+
+𝐽 𝑓O , 𝐶2 , 𝐶4 =
+
+𝜇µ’ ,¶· − 𝜇µ’ ,¶m
+
+𝜎µ4’ ,¶· + 𝜎µ4’ ,¶·
+
+85
+
+4
+
+(4-3)
+
+where 𝜇µ’ ,¶· is the mean value of feature 𝑓O from class 𝐶2 and 𝜎µ4’ ,¶· is the variance of feature 𝑓O
+from class 𝐶2 .
+When the fisher score is used for feature selection, it has two steps: (1) calculate the fisher
+score for each feature; (2) select top features with higher fisher scores for classification. The fisher
+criterion is developed for binary classes and it is used for multiclass in this study. First, top N
+features are selected between normal class and each of the 16 faulty classes. Next, the unique
+features from selected 16*N features are retained for classifier training and testing.
+As shown in Table 4-5, Fisher (15, ~68) means the top 15 features are selected for each
+failure modes and in total approximately 68 features are retained. NBC model always outperforms
+SOM and SVM using fisher criterion. Also the classification accuracy of NBC is improved by
+selecting less numbers of features. For the last case Fisher (1, ~11), only the best feature is selected
+from each case and the accuracy is still comparable by using the NBC classifier.
+Compared with SVM and NBC, SOM obtained decent results with both PCA and fisher
+criterion. For all tests, SOM doesn’t obtain the highest accuracy for any of the test; however the
+SOM model has its own advantage in visualization. The U-matrix displays high dimension feature
+vector in 2D which provides very straightforward representation of the system health conditions.
+As a conclusion, the proposed feature based approach performed perfect to distinguish
+normal and all faulty conditions. The PCA-T2 method achieved 100% fault detection rate without
+raising any false alarms. The one-vs-one SVM for multiclass classification obtained over 95%
+accuracy with raw feature and PCA. NBC is more suitable for ranking based feature selection
+approach. The SOM model obtained decent but not as good as NBC and SVM with both PCA and
+feature ranking.
+86
+
+Auto-associative Residual Based Approach
+
+4.3
+
+The first step of AAR based approach for performance assessment and fault diagnosis is to
+construct a meaningful memory matrix and select a suitable auto-associative mode.
+Besides speed and torque, three more variables are added into the memory matrix including
+1st order difference of speed, 1st order difference of torque, and time index for model performance
+evaluation. The 1st difference of speed signal has strong correlation with torque. The time index
+variable is used to represent the sequence of the signal and it is correlated with speed. So in total
+five variables are included in the memory matrix and their correlation coefficients are shown in
+Table 4-6.
+Table 4-6 Correlation coefficient of variables in memory matrix for model selection
+st
+
+st
+
+Speed
+
+Torque
+
+1 diff speed
+
+1 diff torque
+
+Time index
+
+Speed
+
+1
+
+-0.046
+
+-0.053
+
+-0.433
+
+0.346
+
+Torque
+
+-0.046
+
+1
+
+0.953
+
+0.267
+
+-0.745
+
+1 diff speed
+
+-0.053
+
+0.953
+
+1
+
+0.103
+
+-0.6852
+
+1 diff torque
+
+-0.433
+
+0.267
+
+0.103
+
+1
+
+-0.200
+
+Time index
+
+0.346
+
+-0.745
+
+-0.6852
+
+-0.200
+
+1
+
+st
+
+st
+
+The vector selection approach proposed in section 3.2.5 is applied and 352 out of 5000
+observations are selected. The accuracy of AAKR, AANN and AAMSET model are then
+compared based on the memory matrix. The normal-to-reverse (forward) and reverse-to-normal
+(backward) operations are modeled separately and the accuracy of each variable is evaluated
+individually. 50 measures from both operations are randomly selected from healthy condition to
+construct the memory matrix and another 50 measures from the remaining data set are used for
+87
+
+testing. The mean value of residual root mean square (RMSE) of all 50 testing measurements is
+used to represent the accuracy of the model for comparison.
+Since AAKR and AANN require parameter tuning to achieve their best performance, the
+model comparison first needs to find the best parameters for the AAKR and AANN model. The
+kernel bandwidth is the only parameter needed to be selected for AAKR model with Gaussian
+kernel. The RMSE values are calculated for forward (FwD) speed, backward (BwD) speed,
+forward torque and backward torque signal using different kernel bandwidth (0.03,
+0.07,0.1,0.3,0.7,1.1) and the result is shown in Figure 4-18.
+
+(a) AAKR RMSE with Different Kernel Bandwidth
+
+0.3
+
+0.03
+0.07
+0.1
+0.3
+0.7
+1.1
+
+AAKR RMSE
+
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+
+0.3
+
+FwD Speed
+
+BwD Speed
+
+FwD Toruqe
+
+BwD Torque
+
+(b) Mean RMSE for AAKR with Different Kernel Bandwidth
+
+Mean RMSE
+
+0.25
+0.2
+0.15
+0.1
+0.05
+0
+
+0.03
+
+0.07
+
+0.1
+
+0.3
+
+Kernel Bandwidth
+
+0.7
+
+1.1
+
+Figure 4-18 AAKR RMSE with different kernel bandwidth. (a) Evaluate AAKR RMSE of 4 different signals with selected kernel
+bandwidth, forward (FwD) speed, backward (BwD) speed, forward torque and backward torque; (b) Average AAKR RMSE from
+all 4 signals with different kernel bandwidth
+Table 4-7 AAKR average RMSE using different kernel bandwidth
+
+Kernel
+Bandwidth
+
+0.03
+
+0.07
+
+0.1
+
+0.3
+
+0.7
+
+1.1
+
+RMSE
+
+0.0125
+
+0.0113
+
+0.0103
+
+0.0204
+
+0.1332
+
+0.1811
+
+88
+
+The smallest RMSE is obtained with h =0.1. From the RMSE results, it can be observed
+that with the model bandwidth h increase, the model RMSE increases significantly. This is because
+the AAKR model tends to include more observations from the memory matrix for output
+calculation. The output then becomes smoother and smoother and eventually when the h is
+sufficiently large enough, the output will be the average value of all observations in the memory
+matrix. As a result, the model will have no reconstruction capability and the residual value will no
+longer be meaningful.
+Two parameters need to be optimized for AANN model: the number of nodes in bottleneck
+layer and the number of nodes in hidden layer (mapping&de-mapping). The AANN model is
+expected to obtain concise representation of the original input at the bottleneck layer, so the
+number of nodes in bottleneck layer should be smaller than the input layer. As shown in Figure
+4-19, as the number of nodes in bottleneck layer increases, the RMSE decreases significantly.
+However, with 5 and 6 nodes in the bottleneck layer, the training process didn't converge. This is
+because with equal or larger number of nodes in bottleneck layer than the number of input, the
+AANN model will simply pass input observations to output directly to achieve minimized RMSE.
+As a result, the model is not robust and is not capable to predict correct value of input when applied
+with drifted input. At last, 4 nodes in bottleneck layer is selected for AANN model.
+
+89
+
+(a) AANN RMSE with Different Bottleneck Layer Nodes
+
+0.12
+
+1
+2
+3
+4
+5
+6
+
+AANN RMSE
+
+0.1
+0.08
+0.06
+0.04
+0.02
+0
+
+FwD Speed
+
+BwD Speed
+
+FwD Toruqe
+
+BwD Torque
+
+(b) Mean RMSE for AANN with Number of Bottleneck Layer Neuron
+
+0.08
+
+Mean RMSE
+
+0.07
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Number of Bottleneck Layer Neuron
+
+Figure 4-19 AANN RMSE with different number of bottleneck layer nodes with hidden layer nodes fixed to 7. (a) Evaluate AANN
+RMSE of 4 different signals with 6 different number of bottleneck layer nodes; (b) Average AANN RMSE from all 4 signals with
+different number of bottleneck layer nodes
+Table 4-8 AANN average RMSE with different number of nodes in bottleneck layer
+
+Bottleneck Layer
+Nodes Number
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+RMSE
+
+0.0732
+
+0.0271
+
+0.0196
+
+0.0113
+
+0.0066
+
+0
+
+Next, the AANN models with different number of nodes in hidden layer are compared with
+number of bottleneck layer is fixed to 4. The results display that the RMSE doesn't show much
+different with different number of hidden layers. The final structure of AANN is fixed to 5-7-47-5.
+
+90
+
+AANN RMSE
+
+0.025
+0.02
+0.015
+
+(a) AANN RMSE with Different Number Hidden Layer Nodes
+5
+6
+7
+8
+9
+10
+
+0.01
+0.005
+0
+
+Mean RMSE
+
+0.015
+
+FwD Speed
+
+BwD Speed
+
+FwD Toruqe
+
+BwD Torque
+
+(b) Mean RMSE for AANN with Differnt Number Hidden Layer Nodes
+
+0.01
+
+0.005
+
+0
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Number of Hidden Layer Neuron
+
+Figure 4-20 AANN RMSE with different number of hidden layer nodes with bottleneck layer nodes fixed to 4. (a) Evaluate AANN
+RMSE of 4 different signals with 6 different number of hidden layer nodes; (b) Average AANN RMSE from all 4 signals with
+different number of hidden layer nodes
+Table 4-9 AANN average RMSE with different number of nodes in hidden layer
+
+Hidden Layer
+Nodes Number
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+RMSE
+
+0.0125
+
+0.0113
+
+0.0103
+
+0.0204
+
+0.1332
+
+0.1811
+
+The optimal AAKR, AANN models are then compared with AAMSET model. As shown
+in Table 4-10, AAMSET model outperforms AAKR, AANN model on the point machine data set
+in terms of reconstruction accuracy. Since the robustness of the model is difficult to evaluate based
+on real data, the result from (Hines & Seibert, 2007) is used as the reference of model robustness.
+In the report, the AAMSET obtained the smallest auto-sensitivity on a simulated dataset. As a
+result, the AAMSET model is selected for this study because its high accuracy and robustness.
+
+91
+
+(a) Autoassociative Model Comparison: Accuracy
+
+Estimation RMSE
+
+0.025
+0.02
+
+AAMSET Euclidean
+AAKR H =0.1
+AANN 5-7-4-7-5
+
+0.015
+0.01
+0.005
+0
+
+Fwd Speed
+
+Fwd Toruqe
+
+BwD Torque
+
+(b) Mean RMSE of Different Model
+
+0.015
+Mean RMSE
+
+BwD Speed
+
+0.01
+
+0.005
+
+0
+
+AAMSET
+
+AAKR
+
+AANN
+
+Figure 4-21 Auto-associative model comparison based on accuracy. (a) Evaluate AAMSET, AAKR, AANN RMSE of 4 different
+signals; (b) Average RMSE from all 4 signals using AAMSET, AAKR, AANN
+Table 4-10 Auto-associative model comparison results
+
+AAMSET
+
+AAKR
+
+AANN
+
+FwD Speed RMSE
+
+0.0013
+
+0.0063
+
+0.0057
+
+BwD Speed RMSE
+
+0.0202
+
+0.0077
+
+0.0053
+
+FwD Torque RMSE
+
+0.0013
+
+0.0126
+
+0.0173
+
+BwD Torque RMSE
+
+0.0020
+
+0.0133
+
+0.0209
+
+Average RMSE
+
+0.0017
+
+0.0100
+
+0.0123
+
+Speed, torque, and 1st difference of the speed signal is included in the final memory matrix
+after an empirical search and comparison. The residual vectors obtained from speed and torque are
+used as input for performance assessment and fault diagnosis. The residual vectors from forward
+operation and backward operation are calculated separately and then concatenated together.
+92
+
+Figure 4-22 AAR based performance assessment and fault diagnosis flow chart
+
+PCA-T2, PCA-SPE and SOM-MQE methods are also used for the AAR based approach.
+Figure 4-23 and Figure 4-24 shows the performance assessment result from PCA-T2 and PCASPE respective. The PCA-SPE obtained a 100% detection rate but raised 28% false alarms. The
+PCA-T2 outperforms SPE method by achieving a 94.4% detection rate but a significantly lower
+false alarm rate 0.2%.
+The SOM-MQE achieved the best result with a 99.9% fault detection rate and 0.4% false
+alarm rate as shown in Figure 4-25. The ROC curve from the three methods in Figure 4-26 shows
+that SOM-MQE and PCA-SPE has better performance than PCA-T2.
+
+93
+
+10
+
+8
+
+10
+
+7
+
+10
+
+6
+
+PCA-T2 Performance Assessment Result (90%, Alpha =0.01)
+Norm
+M1
+M2
+M3
+M4
+O1
+O2
+O3
+O4
+N1
+N2
+N3
+N4
+F1
+F2
+F3
+F4
+
+T2 Value
+
+10 5
+
+10
+
+4
+
+10
+
+3
+
+10
+
+2
+
+10
+
+1
+
+10
+
+0
+
+0
+
+100
+
+FDRate= 0.944
+FPRate= 0.020
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+Sample Index
+
+Figure 4-23 PCA-T2 performance assessment result (FDRate: fault detection rate; FPRate: false positive rate)
+
+SPE Value
+
+10
+
+PCA-SPE Performance Assessment Result (90%, Aplpa =0.01)
+
+8
+
+10
+
+7
+
+10
+
+6
+
+10
+
+5
+
+10
+
+4
+
+10
+
+3
+
+10
+
+2
+
+10
+
+1
+
+10
+
+0
+
+Norm
+M1
+M2
+M3
+M4
+O1
+O2
+O3
+O4
+N1
+N2
+N3
+N4
+F1
+F2
+F3
+F4
+
+0
+
+100
+
+FDRate= 1.000
+FPRate= 0.280
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+Sample Index
+
+Figure 4-24 PCA-SPE performance assessment result (FDRate: fault detection rate; FPRate: false positive rate)
+
+94
+
+10
+
+SOM-MQE Performance Assessment Result
+
+5
+
+4
+
+10
+
+3
+
+10
+
+2
+
+MQE
+
+10
+
+Norm
+M1
+M2
+M3
+M4
+O1
+O2
+O3
+O4
+N1
+N2
+N3
+N4
+F1
+F2
+F3
+F4
+
+FDRate= 0.999
+FPRate= 0.040
+
+10 1
+
+10 0
+
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+600
+
+700
+
+800
+
+900
+
+Sample Index
+
+Figure 4-25 SOM-MQE performance assessment result (FDRate: fault detection rate; FPRate: false positive rate)
+(a) ROC Curve PCA-T2 , AUC = 0.993
+PCA-T2 ROC
+
+0.8
+0.6
+0.4
+0.2
+0
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+(b) ROC Curve PCA-SPE, AUC = 0.998
+
+1
+
+True Positive Rate
+
+True Positive Rate
+
+1
+
+PCA-SPE ROC
+
+0.8
+0.6
+0.4
+0.2
+0
+
+1
+
+False Positive Rate
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+(c) ROC Curve SOM-MQE, AUC = 0.998
+
+True Positive Rate
+
+1
+
+SOM-MQE ROC
+
+0.8
+0.6
+0.4
+0.2
+0
+
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+0.8
+
+False Positive Rate
+
+1
+
+False Positive Rate
+Figure 4-26 ROC from three performance assessment models
+
+95
+
+1
+
+The performance assessment results from the feature based approach and AAR based
+approach are compared in Table 4-11. The best result is PCA-T2 from the feature based approach
+(100% fault detection rate without raising any false alarms). The AAR based approach outperforms
+feature based approach on both PCA-SPE and SOM-MQE model. The PCA-T2 result from AAR
+based approach is also comparable with feature based approach with a 94.4% fault detection rate
+and 2% false alarm (AUC = 0.993).
+Table 4-11 Performance assessment methods comparison from two approaches
+
+Feature Based Approach
+
+AAR Based Approach
+
+Methods
+
+Fault
+Detection
+
+False
+Positive
+
+AUC
+
+Fault
+Detection
+
+False
+Positive
+
+AUC
+
+PCA-T2
+
+100%
+
+0
+
+1
+
+94.4%
+
+2%
+
+0.993
+
+PCA-SPE
+
+100%
+
+78%
+
+1
+
+100%
+
+28%
+
+0.998
+
+SOM-MQE
+
+80.2%
+
+0
+
+1
+
+99.9%
+
+4%
+
+0.998
+
+The fault diagnosis models are also developed based on the residual vector. The residual
+feature vectors are first calculated from original residual vector. The residual vector from each
+variable is divided into 15 equal blocks and the residual mean from each block is used as feature.
+As a result, a 1 by 60 residual feature vector is constructed from four signals including forward
+speed, backward speed, forward torque and backward torque. It is shown in Table 4-12 that the
+NBC model performs better than the SOM and SVM model in AAR based approach for most of
+the tests. However, the overall fault diagnosis accuracy from AAR based approach decreases about
+10% compared to the feature based approach. From the example confusion matrix using NBC,
+Figure 4-27, it is obvious that the misclassification rate increases for the misalignment (M3), and
+low level obstacle (O1).
+
+96
+
+Table 4-12 10 folds cross validation results AAR based approach (NBC, SOM, SVM)
+
+All
+Residuals
+(60)
+
+PCA
+(95%
+10 PC)
+
+PCA
+(90%
+5 PC)
+
+Fisher
+(10, ~42)
+
+Fisher
+(5, ~31)
+
+Fisher
+(3, ~21)
+
+Fisher
+(1, ~8)
+
+NBC
+
+83.44%
+
+72.49%
+
+69.04%
+
+84.48%
+
+85.74%
+
+87.02%
+
+86.28%
+
+SOM
+
+82.32%
+
+68.82%
+
+60.84%
+
+75.80%
+
+78.79%
+
+81.26%
+
+80.54%
+
+SVM
+
+74.94%
+
+83.68%
+
+77.99%
+
+59.16%
+
+60.29%
+
+59.82%
+
+53.54%
+
+Confusion Matrix NBC
+42
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 95.5%
+Norm 4.9%
+0.0% 0.0% 0.0% 0.2% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 4.5%
+0
+49
+5
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 87.5%
+M1 0.0%
+5.8% 0.6% 0.1% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 12.5%
+7
+1
+41
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 77.4%
+M2 0.8%
+0.1% 4.8% 0.0% 0.5% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 22.6%
+0
+0
+0
+12
+0
+4
+0
+4
+6
+0
+0
+0
+0
+6
+0
+0
+1 36.4%
+M3 0.0%
+0.0% 0.0% 1.4% 0.0% 0.5% 0.0% 0.5% 0.7% 0.0% 0.0% 0.0% 0.0% 0.7% 0.0% 0.0% 0.1% 63.6%
+0
+0
+4
+30
+42
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 55.3%
+M4 0.0%
+0.0% 0.5% 3.5% 4.9% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 44.7%
+1
+0
+0
+6
+1
+45
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0 83.3%
+O1 0.1%
+0.0% 0.0% 0.7% 0.1% 5.3% 0.0% 0.0% 0.0% 0.0% 0.0% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 16.7%
+
+Output Class
+
+0
+0
+0
+0
+0
+0
+44
+0
+0
+14
+0
+0
+0
+0
+0
+0
+0 75.9%
+O2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 5.2% 0.0% 0.0% 1.6% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 24.1%
+0
+0
+0
+1
+0
+0
+0
+46
+0
+0
+1
+0
+0
+0
+0
+0
+0 95.8%
+O3 0.0%
+0.0% 0.0% 0.1% 0.0% 0.0% 0.0% 5.4% 0.0% 0.0% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 4.2%
+0
+0
+0
+0
+0
+0
+0
+0
+44
+0
+0
+0
+0
+0
+0
+0
+0
+100%
+O4 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.2% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+1
+6
+0
+0
+36
+0
+0
+0
+0
+0
+0
+0 83.7%
+N1 0.0%
+0.0% 0.0% 0.0% 0.0% 0.1% 0.7% 0.0% 0.0% 4.2% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 16.3%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+49
+0
+0
+0
+0
+0
+0
+100%
+N2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.8% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+49
+0
+0
+0
+0
+0
+100%
+N3 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.8% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0
+100%
+N4 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+44
+0
+0
+0
+100%
+F1 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.2% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+100%
+F2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+44
+15 74.6%
+F3 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.2% 1.8% 25.4%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+6
+34 85.0%
+F4 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.7% 4.0% 15.0%
+84.0% 98.0% 82.0% 24.0% 84.0% 90.0% 88.0% 92.0% 88.0% 72.0% 98.0% 98.0% 100% 88.0% 100% 88.0% 68.0% 84.8%
+16.0% 2.0% 18.0% 76.0% 16.0% 10.0% 12.0% 8.0% 12.0% 28.0% 2.0% 2.0% 0.0% 12.0% 0.0% 12.0% 32.0% 15.2%
+Norm
+
+M1
+
+M2
+
+M3
+
+M4
+
+O1
+
+O2
+
+O3
+
+O4
+
+N1
+
+N2
+
+N3
+
+N4
+
+F1
+
+F2
+
+F3
+
+F4
+
+Target Class
+
+Figure 4-27 Example of NBC fault diagnosis w/o feature selection, AAR based approach. Accuracy = 84.8%
+
+The residual feature vector can also be treated as a time series signal as shown in Figure
+4-28. The trajectory of the residual feature vector has length of 60 and the shape of the residual
+
+97
+
+feature vector from all 17 classes are different. The classification method for time series can be
+applied directly to residual feature vector for fault diagnosis. The time series signal usually cannot
+be measured or distinguished simply by the distribution of the signal value. The shape and the
+sequence of the signal also contains useful diagnostic information. The KNN is introduced to this
+study, since it is a common classification method used for time series classification. Three distance
+measures are applied for this study, including Euclidean, city block and dynamic time warping
+with Euclidean distance (DTW) and the results are shown in Table 4-13.
+
+Residual Feature Vector
+
+0.025
+Norm
+M1
+M2
+M3
+M4
+O1
+O2
+O3
+O4
+N1
+N2
+N3
+N4
+F1
+F2
+
+Residual Mean
+
+0.02
+
+0.015
+
+0.01
+
+0.005
+
+0
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+Block Index
+
+Figure 4-28 Residual feature vector from all 17 classes
+Table 4-13 10 folds cross validation results AAR based approach (KNN)
+
+KNN
+
+K=20
+
+K=15
+
+K=10
+
+K=5
+
+K=3
+
+K=1
+
+Euclidean
+
+89.54%
+
+91.61%
+
+92.91%
+
+94.87%
+
+96.04%
+
+97.44%
+
+City block
+
+89.24%
+
+91.84%
+
+93.40%
+
+95.39%
+
+96.31%
+
+97.67%
+
+DTW
+(Euclidean)
+
+89.53%
+
+92.47%
+
+92.59%
+
+95.88%
+
+95.53%
+
+97.41%
+
+98
+
+The best result from the AAR based approach is obtained by KNN (K=1) using city block
+distance (97.67% overall accuracy) and one example confusion matrix from KNN (K=1, city block)
+is shown in Figure 4-29. Considering the variation caused by the random selection of training and
+testing samples, the overall classification accuracy using three different distance measurements
+are at the same level. So the city block distance is preferred because of its high efficiency.
+Compared with the confusion matrix from the feature based approach in Figure 4-27, the fault
+detection accuracy for higher friction level classes (F3, F4) using AAR based approach with KNN
+are significantly improved. In order to perform a fair comparison, KNN is also applied to the
+feature based approach and the city block distance is used. With K =1and PCA for dimension
+reduction, the KNN method obtained 95.75% accuracy based on the features. As a conclusion, the
+KNN method in AAR based approach performs the best for fault diagnosis.
+Table 4-14 KNN (city block) fault diagnosis result using feature based approach
+
+All
+Residuals
+(112)
+
+PCA
+(95%
+15 PC)
+
+PCA
+(90%
+9 PC)
+
+Fisher
+(10, ~60)
+
+Fisher
+(5, ~31)
+
+Fisher
+(3, ~21)
+
+Fisher
+(1, ~8)
+
+KNN(1)
+
+91.48%
+
+95.75%
+
+95.42%
+
+90.67%
+
+86.19%
+
+80.27%
+
+62.54%
+
+KNN(5)
+
+91.53%
+
+95.41%
+
+94.95%
+
+90.46%
+
+86.34%
+
+79.82%
+
+60.65%
+
+KNN(15)
+
+92.38%
+
+94.25%
+
+92.04%
+
+88.86%
+
+85.22%
+
+91.44%
+
+57.46%
+
+In summary, the proposed AAR based approach obtained comparable results with feature
+based approach in performance assessment and achieved better results in fault diagnosis. The best
+performance assessment result from AAR based approach is SOM-MQE (AUC = 0.998,
+FDR=99.9%, FPR=0.4%) which is comparable with PCA-T2 (AUC=1, FDR =100%, FPR =0%)
+
+99
+
+result from feature based approach. The AAR based approach using KNN improved the fault
+diagnosis accuracy (from 95% to over 97% overall accuracy) with all three distance measurements.
+Confusion Matrix KNN (K=1)
+50
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 100%
+Norm 5.9%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+50
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 98.0%
+M1 0.0%
+5.9% 0.0% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 2.0%
+0
+0
+49
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 96.1%
+M2 0.0%
+0.0% 5.8% 0.1% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 3.9%
+0
+0
+0
+45
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 100%
+M3 0.0%
+0.0% 0.0% 5.3% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+1
+1
+49
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 96.1%
+M4 0.0%
+0.0% 0.1% 0.1% 5.8% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 3.9%
+0
+0
+0
+1
+0
+50
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0 98.0%
+O1 0.0%
+0.0% 0.0% 0.1% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 2.0%
+
+Output Class
+
+0
+0
+0
+0
+0
+0
+49
+0
+0
+2
+0
+0
+0
+0
+0
+0
+0 96.1%
+O2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 5.8% 0.0% 0.0% 0.2% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 3.9%
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0
+0
+0
+0
+0
+0 100%
+O3 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0
+0
+0
+0
+0 100%
+O4 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+1
+0
+0
+48
+0
+0
+0
+0
+0
+0
+0 98.0%
+N1 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.1% 0.0% 0.0% 5.6% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 2.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0
+0
+0 100%
+N2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0
+0 100%
+N3 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0 100%
+N4 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0% 0.0% 0.0%
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+1 96.2%
+F1 0.0%
+0.0% 0.0% 0.1% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.1% 3.8%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0 100%
+F2 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.9% 0.0% 0.0% 0.0%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+49
+3 94.2%
+F3 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 5.8% 0.4% 5.8%
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+46 97.9%
+F4 0.0%
+0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.1% 5.4% 2.1%
+100% 100% 98.0% 90.0% 98.0% 100% 98.0% 100% 100% 96.0% 100% 100% 100% 100% 100% 98.0% 92.0% 98.2%
+0.0% 0.0% 2.0% 10.0% 2.0% 0.0% 2.0% 0.0% 0.0% 4.0% 0.0% 0.0% 0.0% 0.0% 0.0% 2.0% 8.0% 1.8%
+Norm
+
+M1
+
+M2
+
+M3
+
+M4
+
+O1
+
+O2
+
+O3
+
+O4
+
+N1
+
+Target Class
+
+N2
+
+N3
+
+N4
+
+F1
+
+F2
+
+F3
+
+F4
+
+Figure 4-29 KNN (k=1, City block) fault diagnosis result, accuracy = 98.2%
+
+100
+
+CHAPTER 5
+5.1
+
+CONCLUSION AND FUTURE WORKS
+
+Conclusion
+This research work developed and validated two performance assessment and fault
+
+diagnosis approaches for a typical reciprocating electromechanical mechanism. The comparative
+study of two approaches was performed on a railway point machine in lab test dataset. Although
+the proposed approaches are only applied to a point machine data set in this study, the developed
+approaches are expected to be applicable to other similar reciprocating electromechanical
+mechanisms which have fixed cycle operation and have multivariate time series signal acquired
+during operation. For example, elevator door motor, reciprocating engine, industrial robot arm, etc.
+The feature based approach follows conventional the PHM system development
+methodology and the whole process has several key steps, including signal pre-processing, data
+segmentation, feature extraction & selection and model development. The performance assessment
+model using PCA Hotelling’s T2 metric achieved the perfect result with 100% detection rate
+without raising any false alarms. Multiclass support vector machine using one-vs-one scheme
+obtained the best fault diagnosis result (96.2% overall accuracy) for all 17 classes. The limitations
+of the feature based approach are that it requires expert knowledge for data segmentation and
+feature extraction and the segmentation process is mostly problem-specific. The fault diagnosis
+result shows that selecting the proper feature selection method can significantly improve the
+overall diagnosis accuracy, but feature selection for multiclass classification problem is also
+challenging.
+
+101
+
+The auto-associative residual based performance assessment and fault diagnosis approach
+is first proposed in this research based on multivariate time series trajectory signal. The process of
+AAR based approach includes auto-associative model selection, memory matrix construction and
+model development. Motor speed, motor torque and 1st difference of the motor speed is included
+memory matrix for the point machine system in this study. Next, the residual feature vectors
+calculated from the model inputs and estimated outputs are used for performance assessment and
+fault diagnosis. The comparative study finds that better fault diagnosis results are obtained with
+KNN classifier (97.67%) when compared with the conventional feature based approach.
+The advantage of the AAR based approach is that it minimizes the human effort needed
+for data segmentation and feature extraction during modeling process. The residual feature vectors
+between raw signal and auto-associative model estimate outputs are used directly as health
+assessment and fault diagnosis model input without extracting specific features. Also, the KNN
+model based on the residual feature vectors achieved better classification results (98% accuracy)
+for all 17 classes without using any specific feature selection or dimension reduction techniques.
+The AAR based approach provides a more generic and easy implementation framework for point
+machine performance assessment and fault diagnosis system development. The major limitation
+of the AAR based approach is that it requires that the input signals are correlated and the level of
+correlation is difficult to define. Also, the robustness of the auto-associative model is effected by
+the number of variables of the memory matrix, and the optimal number of the input signals is
+difficult to find when the number of variables available is relatively large.
+
+102
+
+5.2
+
+Future Works
+In order to further improve the proposed approaches, future works suggestions are provided
+
+here as the guidance of potential research directions. Both the feature based approach and autoassociative residual based approach have a lot space for improvement.
+1. Multiclass classification feature selection and unsupervised feature learning
+The effective feature selection or dimension reduction can not only reduce the model
+complexity but also improve its overall performance. However, multiclass feature selection is a
+challenging part for feature based approach. In this research, two commonly used methods (fisher
+criterion and PCA) were applied and an empirical search method was used. It was shown that
+improper feature selection and dimension reduction reduced the model accuracy significantly. For
+a dataset with high dimension feature space, it is difficult to find the best subset using empirical
+search, and more advanced methods such as sequential feature selection, sequential floating
+forward selection need to be used. It is necessary and encouraged to evaluate and develop feature
+selection methods for high dimensional data set.
+However, those methods are all supervised methods and only applicable when normal and
+faulty datasets are both available. In practice, data from faulty conditions are usually difficult to
+collect. It is necessary to evaluate unsupervised multiclass feature extraction and feature selection
+methods. Recently, autoencoder based approach for unsupervised feature learning has been used
+widely for image recognition, and some researchers are already using this technique for PHM. In
+(Yan & Yu, 2015), the authors used stacked denoising autoencoders to learn more robust features
+from noise for classification and the proposed approach was applied on a heavy duty industrial gas
+turbine condition monitoring system. In (Lei, Jia, Lin, Xing, & Ding, 2016), a sparse filtering was
+103
+
+used as the first stage of a two stage learning method to directly learn features from mechanical
+vibration signal. The proposed approach was testing on both motor and bearing datasets and the
+result showed that the unsupervised learning approach outperformed the conventional vibration
+based analysis method in classification accuracy. The promising results achieved from different
+research communities using unsupervised feature learning method show that it would be
+interesting to further study the feasibility of applying the unsupervised learning approach for larger
+spectrum of PHM applications.
+2. Effective variable selection for auto-associative based approach
+For the auto-associative based approach, the first and most critical step is to choose
+variables for memory matrix. The selected variables are suggested to have correlation with at least
+one variable in the memory matrix. In this study, since the number of available signals is small,
+the candidate variables are first selected based on experience and correlation coefficient, then an
+empirical search strategy is applied to select the best group of variables which has minimum
+reconstruction error. However, if in some situations the available signals are more than 100 or
+1000, it is difficult or impossible to choose variables only based on experience and search. More
+advanced approaches for variable selection is proposed in recent literatures. In (Baraldi et al.,
+2011), a generic algorithm based wrapper approach was developed for variable grouping. The
+accuracy and robustness of the model are aggregated together as a signal metric for optimization.
+The effectiveness of the proposed approach was validated on a dataset containing 46 signals which
+monitors the reactor coolant pump of a French Pressurized Water Reactor.
+3. Robustness enhancement for auto-associative method
+
+104
+
+Accuracy and robustness are two major metrics used to measure the performance of the
+auto-associative models. The accuracy is measured by the RMSE of model input and its estimated
+output. Research has been conducted to improve the accuracy of the model by introducing
+regularization term (Gribok, Attieh, Hines, & Uhrig, 2001; Hines & Usynin, 2005) and optimizing
+variable grouping (Baraldi et al., 2011). The robustness of the auto-associative model is used to
+describe the capability of the model to generate little or no change in its prediction output for faulty
+input observations. The higher the robustness of the model, the more sensitive the model is to
+detect parameter shift. The robustness of the model is usually evaluated on simulated datasets with
+different levels of drift induced. However, few research works can be found on the methodology
+to evaluate and improve robustness of the model in a real dataset. From this research, it is also
+discovered that with different groups of variables included into the memory matrix, the fault
+detection accuracy changes significantly, which means by correctly selecting or constructing
+variables for the memory matrix, the robustness of the model can be improved.
+4. Validate feature based approach and AAR based approach on other reciprocating
+electromechanical mechanism.
+Due to the lack of data available for research, the developed approaches only applied and
+validated on point machine system. In the future, if data set from other systems like elevator door,
+industrial robotic arm is available, the proposed approaches are expected to be validated on those
+data set as well.
+
+105
+
+REFERENCE
+Antory, D. (2005). Fault diagnosis application in an automotive diesel engine using autoassociative neural networks. International Conference on Computational Intelligence for
+Modelling, Control and Automation and International Conference on Intelligent Agents, Web
+Technologies and Internet Commerce (CIMCA-IAWTIC’06), 2, 109–116.
+Ardakani, H., Lucas, C., & Siegel, D. (2012). PHM for railway system—a case study on the health
+assessment of the point machines. (PHM), 2012 IEEE ….
+Asada, T., & Roberts, C. (2013). Improving the dependability of DC point machines with a novel
+condition monitoring system. Proceedings of the Institution of Mechanical Engineers, Part
+F: Journal of Rail and Rapid Transit, 227(4), 322–332.
+Atamuradov.V, Camci.F., Baskan.S., & Sevkli. M. (2009). Failure diagnostics for railway point
+machines using expert systems. In Diagnostics for Electric Machines,Power Electronics and
+Drives, 1–5.
+Bai, H. (2010). A generic fault detection and diagnosis approach for pneumatic and electric driven
+railway assets, (July).
+Baraldi, P., Canesi, R., Zio, E., Seraoui, R., & Chevalier, R. (2011). Genetic algorithm-based
+wrapper approach for grouping condition monitoring signals of nuclear power plant
+components. Integrated Computer-Aided Engineering, 18(3), 221–234.
+Bickford, R., Davis, E., Rusaw, R., & Shankar, D. R. (2002). Development of an Online Predictive
+Monitoring System for Power Generating Plants.
+
+106
+
+Black, C., Uhrig, R., & Hines, J. (1998). System Modeling and Instrument Calibration Verification
+with a Non-linear State Estimation Technique. Proc. Maintenance and Reliability, (May),
+12–14.
+Burges, C. J. C. (1997). A Tutorial on Support Vector Machines for Pattern Recognitionrial, 43,
+1–43.
+Chavan, S., Pangotra, S., Nair, S., More, V., & Nair, V. (2015). Effective and Efficient Landslide
+Detection System to Monitor Konkan Railway Tracks, 2–7.
+Chen, J., & Roberts, C. (2006). Effective condition monitoring of line side assets. IET
+International Conference on Railway Condition Monitoring, 2006(11575), 78–83.
+Davari, H., Lucas, C., Siegel, D., Chang, S., Dersin, P., Bonnet, B., & Lee, J. (2012). PHM for
+railway system - A case study on the health assessment of the point machines. PHM 2012
+IEEE Int. Conf.on Prognostics and Health Management Conference, 9–13.
+Domingos, P., & Pazzani, M. (1997). On the Optimality of the Simple Bayesian Classifier under
+Zero-One Los. Machine Learning, 29, 103–130.
+Eker, O. F., Camci, F., & Kumar, U. (2010). Failure Diagnostics on Railway Turnout Systems
+Using Support Vector Machines. 1st International Congress on eMaintenance, 248–251.
+Fu, T. C. (2011). A review on time series data mining. Engineering Applications of Artificial
+Intelligence, 24(1), 164–181.
+Garcia-Alvarez, D. (2009). Fault detection using Principal Component Analysis ( PCA ) in a
+Wastewater Treatment Plant ( WWTP ). 62th Int. Student’s Scientific Conf, 13–17.
+Gribok, A. V., Attieh, I. K., Hines, J. W., & Uhrig, R. E. (2001). Regularization of Feedwater Flow
+107
+
+Rate Evaluation for Venturi Meter Fouling Problem in Nuclear Power Plants. Nuclear
+Technology, 134(1), 3–14.
+Guo, P., & Bai, N. (2011). Wind turbine gearbox condition monitoring with AAKR and moving
+window statistic methods. Energies, 4(11), 2077–2093.
+Guo, P., Infield, D., & Yang, X. (2012). Wind Turbine Generator Condition-Monitoring Using
+Temperature Trend Analysis. IEEE Transactions on Sustainable Energy, 3(1), 124–133.
+Hines, J. W., & Seibert, R. (2006). Technical Review of On-Line Monitoring Techniques for
+Performance Assessment Volume 1 : State-of-the-Art. U.S. Nuclear Regulatory Commission.
+Hines, J. W., & Seibert, R. (2007). Technical Review of On-Line Monitoring Techniques for
+Performance Assessment Volume 2 : Theoretical Issues.
+Hines, J. W., & Seibert, R. (2008). Technical Review of On-Line Monitoring Techniques for
+Performance Assessment Volume 3 : Limitating Case Studies.
+Hines, J. W., & Usynin, A. (2005). MSET Performance Optimization Through Regularization.
+Nuclear Engineering and Technology, 32(2), 177.
+HSE Potters Bar Investigation Board. (2003). Train Derailment at Potters Bar 10 May 2002, (May),
+87.
+Hsu, C.-W., & Lin, C.-J. (2002). A comparison of methods for multiclass support vector machines.
+IEEE Transactions on Neural Networks, 13(2), 415–425.
+Jin, W., Shi, Z., Siegel, D., Dersin, P., Douziech, C., Pugnaloni, M., … Lee, J. (2015).
+Development and Evaluation of Health Monitoring Techniques for Railway Point Machines.
+Kramer, M. A. (1991). Nonlinear principal component analysis using autoassociative neural
+108
+
+networks. AIChE Journal, 37(2), 233–243.
+Lehrasab, N., & Fararooy, S. (1998). Formal definition of single throw mechanical equipment for
+fault diagnosis. Electronics Letters, 34(23), 2231–2232.
+Lei, Y., Jia, F., Lin, J., Xing, S., & Ding, S. X. (2016). An Intelligent Fault Diagnosis Method
+Using Unsupervised Feature Learning Towards Mechanical Big Data. IEEE Transactions on
+Industrial Electronics, 63(5), 3137–3147.
+Márquez, F. (2006). An approach to remote condition monitoring systems management. No IET
+International Conference on Railway Condition Monitoring (Sēj. 2006, lpp. 156–160). IEE.
+Márquez, F., & Pedregal, D. J. (2007). Applied RCM2 algorithms based on statistical methods.
+International Journal of Automation and Computing, 4(2), 109–116.
+Márquez, F., Pedregal, D. J., & Roberts, C. (2010). Time series methods applied to failure
+prediction and detection. Reliability Engineering and System Safety, 95(6), 698–703.
+Márquez, F., Roberts, C., & Tobias, A. M. (2010). Railway point mechanisms: condition
+monitoring and fault detection. Proceedings of the Institution of Mechanical Engineers, Part
+F: Journal of Rail and Rapid Transit, 224(1), 35–44.
+Márquez, F., Weston, P., & Roberts, C. (2007). Failure analysis and diagnostics for railway
+trackside equipment. Engineering Failure Analysis, 14(8 SPEC. ISS.), 1411–1426.
+McHutchon, M. A., Staszewski, W. J., & Schmid, F. (2005). Signal processing for remote
+condition monitoring of railway points. Strain, 41(2), 71–85.
+Oyebande, B. O., & Renfrew, A. C. (2002). Condition monitoring of railway electric point
+machines. Electric Power Applications, IEE Proceedings, 149(6), 465–473.
+109
+
+Pecht, M., & Jaai, R. (2010). A prognostics and health management roadmap for information and
+electronics-rich systems. Microelectronics Reliability, 50(3), 317–323.
+Rail Safety and Standards Board. (2012). Annual Safety Performance Report.
+Sadough Vanini, Z. N., Meskin, N., & Khorasani, K. (2014). Multiple-Model Sensor and
+Components Fault Diagnosis in Gas Turbine Engines Using Autoassociative Neural
+Networks. Journal of Engineering for Gas Turbines and Power, 136(9), 091603.
+Siegel, D., & Lee, J. (2013). Reconfigurable informatics platform for rapid prognostic design and
+implementation: tools and case studies. Machinery Failure Prevention Technology (MFPT)
+Conference.
+Tang, J., Alelyani, S., & Liu, H. (2014). Feature Selection for Classification: A Review. Data
+Classification: Algorithms and Applications, 37–64.
+Ultsch, A. (2003). U*-Matrix: a Tool to visualize Clusters in high dimensional Data. Marburg:
+Fachbereich Mathematik und Informatik.
+Vesanto, J., Himberg, J., Alhoniemi, E., & Parhankangas, J. (1999). Self-organizing map in
+Matlab : the SOM Toolbox. Proceedings of the Matlab DSP Conference, 35–40.
+Yan, W., & Yu, L. (2015). On Accurate and Reliable Anomaly Detection for Gas Turbine
+Combustors : A Deep Learning Approach. PHM Conference, 1–8.
+Yang, H. H., Huang, M. L., & Yang, S. W. (2015). Integrating auto-associative neural networks
+with hotelling T2 control charts for wind turbine fault detection. Energies, 8(10), 12100–
+12115.
+Yin, H. (2008). The self-organizing maps: Background, theories, extensions and applications.
+110
+
+Studies in Computational Intelligence, 115, 715–762.
+Yongjie, Z., & Dongfeng, W. (2013). Research on Early Fault Diagnostic Method of Wind
+Turbines. … Indonesian Journal of …, 11(5), 2330–2341.
+Zhao, W., Siegel, D., Lee, J., & Su, L. (2013). An Integrated Framework of Drivetrain Degradation
+Assessment and Fault Localization for Offshore Wind Turbines. International Journal of
+Prognostics and Health Management, 4, 13.
+
+111
+
+

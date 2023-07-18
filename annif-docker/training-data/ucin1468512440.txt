@@ -1,0 +1,2904 @@
+Prediction of Surfactant Mildness for Rinse-off Formulations
+Using Preclinical Assays
+A thesis submitted to the
+
+Division of Research and Advanced Studies
+of the University of Cincinnati
+
+in partial fulfillment of the
+requirements for the degree of
+
+Master of Science
+
+In the division of Pharmaceutical Sciences
+of The James L. Winkle College of Pharmacy
+
+June 29th, 2016
+by
+
+Nicole Rae McCardy
+
+B.A. in Chemistry Pre-Medicine
+Taylor University, Upland, Indiana, U.S.A, 2016
+
+Committee Chair: Gerald B. Kasting, Ph.D.
+
+Abstract
+Mixed surfactant and surfactant-polymer compositions have been reported to decrease
+surfactant deposition onto and into the skin relative to single surfactant compositions, potentially
+improving the mildness of the product. Previous workers in this area (see Moore et al., J Cosmet Sci
+54:29-46 (2003) and subsequent publications), employed a procedure in which excised porcine skin was
+exposed to a surfactant solution containing radiolabeled sodium dodecyl sulfate (14C-SDS) for 5 hours.
+We have developed an improved 14C-SDS deposition assay using excised human skin that reflects typical
+consumer exposure times for rinse-off products. Using the new protocol, we were able to see a
+significant decrease in 14C-SDS deposition from an SDS/PEG 8000 composition applied to excised skin for
+either 2 minutes or 10 minutes, as compared with SDS only.
+Following this, a study was designed to determine whether data from a carefully designed array
+of preclinical assays could effectively predict the harshness of mixed surfactant and surfactant-polymer
+compositions on human skin, as measured by corneometry and visual dryness scores in a five-day
+forearm controlled application test (FCAT). The test compositions included surfactants commonly used
+in rinse-off applications including shampoos and shower gels. A total of seventeen compositions were
+tested. The preclinical methods included the recently-developed surfactant deposition assay, zein
+solubilization, stearic acid solubilization, micelle size, and critical micelle concentration (CMC). The
+changes-from-baseline (CFB) of the two primary clinical measures, corneometer reading and expertassessed visual dryness score, were analyzed in terms of the preclinical assay results according to linear
+regression for bivariate analyses and partial least squares (PLS) for multivariate analyses. Crossvalidation was performed within PLS via a leave-one-out algorithm in order to prevent overfitting of the
+clinical data. FCAT test results correlated significantly with surfactant deposition (corneometer: r2 =
+0.631, visual dryness: r2 = 0.498), micelle size (corneometer: r2 = 0.551, visual dryness: r2 = 0.445) and
+zein solubilization (corneometer: r2 = 0.480, visual dryness: r2 = 0.145). A one-component PLS model
+i
+
+using normalized and scaled data from three of the five preclinical assays – surfactant deposition,
+micelle size and zein solubilization – yielded the strongest correlations (corneometer: r2 = 0.889, visual
+dryness: r2 = 0.861). Milder formulations were associated with lower surfactant deposition, larger
+micelle size, and lower zein solubilization. The study results show that, within the composition range
+tested, preclinical assay data can be strongly correlated to clinical measures of skin dryness. The results
+support the hypothesis that micellar structure is more important to surfactant mildness than is CMC,
+with larger micelles leading to milder formulations.
+
+ii
+
+Copyright © 2016
+by
+Nicole Rae McCardy
+
+iii
+
+Acknowledgements
+Obtaining my Master of Science at the University of Cincinnati has been one of the most
+challenging but fulfilling experiences of my life. It is my pleasure to thank the people who helped make
+this thesis possible.
+To start with, I extend heartfelt gratitude to Dr. Gerald B. Kasting for choosing me as one of his
+graduate students. He has been an incredibly supportive advisor and an unlimited source of knowledge
+during my research. He genuinely has an interest in my growth as a scientist and continues to want the
+best opportunities for me. I could not have asked for a better academic advisor and mentor.
+I would also like to thank Matt Miller, the Research Assistant for our laboratory, who has trained
+me in many unique lab techniques.
+Likewise, I wish to express gratitude to Dr. R. Randall Wickett, who provided me with a thorough
+understanding of skin science and the cosmetic industry through his comprehensive classes.
+I am so grateful to Dr. Harshita Kumari and Ryan Thompson for being a part of my M.Sc. thesis
+committee. Their input and dedication to my research was greatly appreciated.
+I would particularly like to acknowledge the Procter & Gamble Company for their financial
+support to this research. From the P&G team, I especially wish to thank to Ryan Thompson, for not only
+his being a part of my M.Sc. thesis committee, but also for his consistent assistance in the
+instrumentation analysis needed for my research. Similarly, sincere gratitude goes out to Robert Glenn
+and the P&G Beauty Department, for their contribution to this research.
+I am so grateful to the James L. Winkle College of Pharmacy, the University of Cincinnati, and A.
+William Forbriger Jr., for the financial support they have given me over my two years here – without
+which; I would not be writing these acknowledgements.
+
+iv
+
+I thank my fellow graduate students in my research laboratory for their friendship and continual
+support and send out great appreciation to the many friends I’ve made during my two years in
+Cincinnati. You truly made my experience here worthwhile.
+I’d like to recognize my steadfast parents, Cardinal and Hope McCardy, who are always so
+supportive of all my academic endeavors.
+And last, but certainly not least, I am grateful to God for all the favor He has granted me,
+enabling me to obtain this degree.
+With the blessings of these individuals, I am fully equipped to pursue a career in the Cosmetic
+Science industry. Thank you all!
+
+v
+
+Table of Contents
+1 Introduction .................................................................................................................................. 1
+1.1 Background ................................................................................................................................ 1
+1.2 Project significance .................................................................................................................... 3
+
+2 Hypothesis and Specific Aims ...................................................................................................... 5
+2.1 Hypothesis.................................................................................................................................. 5
+2.2 Specific Aims .............................................................................................................................. 5
+
+3 Development of a preclinical surfactant deposition assay to reflect exposure times typical of
+consumer use ............................................................................................................................................. 6
+3.1 Introduction ............................................................................................................................... 6
+3.2 Materials .................................................................................................................................... 8
+3.3 Methods ..................................................................................................................................... 9
+3.3.1 Preparation of skin membranes ................................................................................ 9
+3.3.2 In vitro static diffusion cells ....................................................................................... 9
+3.3.3 Human skin membrane integrity assessment ........................................................... 9
+3.3.4 Surfactant deposition protocol – porcine skin......................................................... 10
+3.3.5 Surfactant deposition protocol – human skin ......................................................... 10
+3.4 Results ...................................................................................................................................... 12
+3.4.1 14C-SDS deposition on porcine skin .......................................................................... 12
+3.4.2 14C-SDS deposition on human skin........................................................................... 13
+3.5 Conclusions .............................................................................................................................. 16
+
+4 Investigation of the correlations between clinical and preclinical surfactant mildness studies
+.................................................................................................................................................................... 17
+4.1 Introduction ............................................................................................................................. 17
+4.2 Materials .................................................................................................................................. 19
+4.2.1 Test formulations ..................................................................................................... 19
+4.3 Methods ................................................................................................................................... 20
+4.3.1 Forearm controlled application test ........................................................................ 20
+4.3.2 14C-SDS deposition assay.......................................................................................... 21
+4.3.3 Micelle size determination ..................................................................................... 22
+4.3.4 Zein solubilization test ............................................................................................. 22
+4.3.5 Critical micelle concentration .................................................................................. 23
+vi
+
+4.3.6 Stearic acid solubilization assay ............................................................................... 23
+4.3.7 Statistical analysis .................................................................................................... 24
+4.4 Results ...................................................................................................................................... 25
+4.4.1 Forearm controlled application test ........................................................................ 25
+4.4.2 Preclinical assays ...................................................................................................... 26
+4.4.3 Statistical analysis .................................................................................................... 27
+4.4.3.1 Results of ANOVA analysis for 14C-SDS deposition .................................. 27
+4.4.3.2 Multivariate statistical analysis................................................................ 28
+4.5 Discussion................................................................................................................................. 30
+4.6 Conclusion ................................................................................................................................ 33
+
+5 Final Conclusion and Recommendations ......................................................................................... 34
+4.1 Final conclusion........................................................................................................................ 34
+4.2 Recommendations for future use ............................................................................................ 36
+
+Bibliography.............................................................................................................................................. 37
+Appendix A: Development of a Preclinical Surfactant Deposition Assay to Reflect Exposure
+Times Typical of Consumer Use ............................................................................................................ 39
+A.1 Tabular results for 10 minute and 2 minute 14C-SDS deposition on human skin .................... 39
+
+Appendix B: Investigation of the Correlations between Clinical and Preclinical Surfactant
+Mildness Studies ..................................................................................................................................... 40
+B.1 Analysis of clinical test results ................................................................................................. 40
+B.2 14C-SDS deposition results ....................................................................................................... 41
+B.3 Zein solubilization results ........................................................................................................ 43
+B.4 Stearic acid solubilization results ............................................................................................. 44
+B.5 CMC results .............................................................................................................................. 45
+B.6 DLS results................................................................................................................................ 45
+B.7 Predicted results using one component PLS prediction formula ........................................... 46
+B.8 Determining the sample size for 14C-SDS deposition to get within 1 SEM unit ....................... 49
+
+vii
+
+List of Tables
+Description
+
+Page #
+
+Table 3.1 Dose solutions and sample sizes for the 14C-SDS deposition studies....................................... 11
+Table 4.1 Surfactant systems tested and the assigned treatment codes ............................................... 20
+Table 4.2 FCAT clinical evaluation results. Results are shown as mean change from baseline ................ 25
+Table 4.3 Summary of in vitro assay results ........................................................................................ 26
+Table 4.4 Data transformations for preclinical assays .......................................................................... 28
+Table 4.5 Pairwise correlations of the clinical and preclinical surfactant assays..................................... 28
+Table 4.6 Model comparison summary table ...................................................................................... 29
+Table 4.7 Cross validation using the NIPALS methods .......................................................................... 29
+Table A.1 Surfactant treatments, sample sizes and 14C-SDS deposition for 10 minute exposure on human
+skin. ................................................................................................................................................. 39
+Table A.2 Surfactant treatments, sample sizes and 14C-SDS deposition for 2 minute exposure on human
+skin ................................................................................................................................................. 39
+Table B.1 Average micelle diameter size for coded treatments found by dynamic light scattering ......... 45
+Table B.2 Clinical results for FCAT mildness study conducted by P&G................................................... 46
+Table B.3 Results for preclinical studies conducted at the University of Cincinnati and P&G .................. 47
+Table B.4 Data transformations done to preclinical assays to reflect normal distribution ...................... 47
+Table B.5 Scaled observed and predicted clinical results based on standardized data from the three
+preclinical assays .............................................................................................................................. 48
+Table B.6 Observed and predicted clinical evaluation results shown as CFB in the original measurement
+units ............................................................................................................................................... 49
+Table B.7 σCFB of corneometer CFB with regards to n .......................................................................... 51
+Table B.8 σCFB of visual dryness CFB with regards to n ......................................................................... 52
+
+viii
+
+List of Figures
+Description
+
+Page #
+
+Figure 3.1 Structure of SDS .................................................................................................................. 7
+Figure 3.2 Structure of polyethylene glycol (also referred to as polyethylene oxide) ............................... 7
+Figure 3.3 14C-SDS penetration into porcine skin following a 5 hour exposure......................................... 8
+Figure 3.4 Deposition of 14C-SDS into porcine skin following a 10 minute exposure. (a) Total SDS
+recovered in the SC; (b) Penetration profile into SC obtained from D-Squame tape strips ..................... 13
+Figure 3.5 Total deposition of 14C-SDS into human skin + receptor solution following a 10 minute
+exposure; (b) Penetration profile into human stratum corneum obtained from D-Squame tape strips. .. 14
+Figure 3.6 Deposition of 14C-SDS into human skin + receptor solution following 2 minute exposure ....... 15
+Figure 4.1 Proposed mechanisms underlying surfactant-induced skin irritation .................................... 18
+Figure 4.2 Correlation between corneometer mean CFB and visual dryness mean CFB ......................... 26
+Figure 4.3 Correlation between clinical variables and the predicted formula based on the three strongest
+pre-clinical variables generated from PLS analysis .............................................................................. 29
+Figure B.1 Skin hydration levels found by corneometer assessments .................................................. 40
+Figure B.2 Skin hydration levels as determined from visual dryness assessments ................................. 41
+Figure B.3 Deposition pattern of 14C-SDS (% of applied material) in human skin following a 2 minute
+exposure ......................................................................................................................................... 42
+Figure B.4 Correlation between corneometer and visual dryness CFB values and log10 14C-SDS deposited
+........................................................................................................................................................ 42
+Figure B.5 Mg/ml zein protein solubilized by each treatment. ............................................................. 43
+Figure B.6 Correlation between corneometer and visual dryness CFB values and zein solubilized .......... 43
+Figure B.7 Percent of dissolved stearic acid by treatment used ............................................................ 44
+Figure B.8 Correlation between corneometer and visual dryness CFB values and % stearic acid solubilized
+Figure B.9 Correlation between corneometer and visual dryness CFB values and the (log10) critical
+micelle concentration. ...................................................................................................................... 45
+Figure B.10 Correlation between corneometer and visual dryness CFB values and average micelle
+diameter .......................................................................................................................................... 46
+
+ix
+
+44
+
+List of Abbreviations
+Abbreviation
+
+Description
+
+14
+
+C
+
+Carbon-14
+
+ANOVA
+
+Analysis of Variance
+
+BCA
+
+Bicinchoninic acid
+
+CFB
+
+Change From Baseline
+
+CMC
+
+Critical Micelle Concentration
+
+DLS
+
+Dynamic Light Scattering
+
+FCAT
+
+Forearm Controlled Application Technique
+
+FW
+
+Formula Weight
+
+LSC
+
+Liquid Scintillation Counter
+
+LSD
+
+Least Significant Difference
+
+MW
+
+Molecular Weight
+
+NIPALS
+
+Nonlinear Iterative Partial Least Squares
+
+P&G
+
+The Procter and Gamble Company
+
+PBS
+
+Phosphate Buffered Saline
+
+PEG
+
+Poly-ethylene Glycol
+
+PEO
+
+Poly-ethylene Oxide
+
+PLS
+
+Partial Least Squares
+
+PRESS
+
+Predicted Residual Error Sum of Squares
+
+SC
+
+Stratum Corneum
+
+SEM
+
+Standard Error Mean
+
+SDS
+
+Sodium Dodecyl Sulfate
+
+ΔCMC
+
+Delta Critical Micelle Concentration
+
+x
+
+1 Introduction
+1.1 Background
+The skin is the largest organ of the human body. It has many vital functions, such as acting as a
+protective barrier from external influences and preventing the loss of water from the body. Human skin
+is divided into two distinct layers, the epidermis and the dermis. The epidermis is the upper layer of the
+skin and is itself sub-divided into several strata, which are basal, spinous, granular, lucid, and corneum
+[1].
+The stratum corneum (SC), which is the uppermost layer, holds the most responsibility in the
+barrier function of the skin. The SC is a rather impermeable barrier that allows the passive diffusion of
+water in and out of the skin and is also the main barrier of molecules such as irritants that penetrate
+into the skin barrier. The structure of the SC is likened to a “bricks and mortar wall”, in which noncontinuous, terminally differentiated keratinocytes called corneocytes (‘bricks’) are embedded in a thick,
+continuous lipid matrix (‘mortar’). Corneocytes simply described are insoluble cells that contain a highly
+organized keratin matrix. This keratinous macrofibrillar matrix has an important function in the binding
+of water. The lipid network consists mainly of ceramides, fatty acids, and cholesterol at an approximate
+ratio of 50:15:25 respectively. The SC is composed of approximately 60% keratin and 15% lipids by dry
+weight [1, 2]. The normal water content in healthy SC is about 30% [3]. The SC lamellae of corneocytes
+and lipids effectively work to reduce entry of external xenobiotics and prevent water from being lost
+internally [2].
+To help maintain skin integrity, and for beautification purposes, personal care products and
+cosmetics are often applied daily to the human skin. For cleansing and emulsifying purposes, these
+products often consist of a variety of surfactant materials. Surfactants, or ‘surface active agents’, are
+amphipathic molecules that aid in lowering the surface and interfacial tension between the medium that
+it is dissolved in, and any other liquid in contact [4]. Both ionic and nonionic surfactants are widely used
+1
+
+as cleansing and emulsifying agents in the cosmetic and personal care industry, where they
+consequently contact human skin from short to extended periods of time. As a result of these
+exposures, surfactants can penetrate into the skin layers, where they can denature proteins [5-9], and
+remove and disrupt skin lipids [5, 7, 10, 11]. This penetration into the skin surface and the subsequent
+interaction with skin components has long been linked to skin irritation.
+Sodium dodecyl sulfate (SDS) is a common anionic surfactant that is often found in cleaning
+products. When the surfactant concentration is above the critical micelle concentration (CMC), micelles
+can begin to form spontaneously [5]. It has been shown that with increasing concentrations of SDS
+above the CMC, there is a dose-dependent increase in the amount of SDS measured in the skin [5]. A
+widely accepted view of surfactant penetration through the skin, as reviewed by Moore et al. [5], is that
+“at surfactant concentrations that exceed the CMC, where surfactant micelles first form, only surfactant
+monomers can penetrate into the skin, because the surfactant micelles are not surface active, or they
+are too large to penetrate into the stratum corneum.” This is known as the “Monomer Penetration
+Model” and is largely based on experimental data using surfactant mixtures. This view supports the
+theory that lowering the surfactant CMC leads to reduced skin irritation. This view was challenged in
+2003 by the Blankschtein group at MIT [5], who showed that addition of polyethylene oxide (PEO, MW
+8000) to SDS solutions reduced the penetration of 14C-radiolabeled SDS into porcine SC at levels well
+above the CMC [5].
+Polymers can interact with surfactant micelles and modify the surface tension behavior of the
+surfactant [5, 12, 13]. For polymer interaction, a “pearls on a string model” is proposed, where
+hydrophobic polymers penetrate deep into the surfactant “micellar pearls” palisade layer and extend
+between numerous micelles to form a “string” [13]. This model has been validated through viscosity
+measurements and neutron scattering. For hydrophilic polymers mixed with ionic surfactants, the
+repulsion between the “micellar pearls” causes the expansion of the polymer chain, which increases the
+
+2
+
+‘blob size’ (i.e. length/size of the polymer molecule). This model supports the idea that larger micelles
+lead to lower irritation. Longer alkyl chains have also been shown to reduce surfactant penetration [14,
+15] but this could be caused by either lower CMCs, larger micelles, or a combination of both factors.
+
+1.2 Project Significance
+Clinical studies involving human subjects are often conducted to analyze surfactant mildness
+differences in a variety of formulations. The word “mildness” in this context refers to visual dryness and
+corneometer grades obtained in a five-day forearm controlled application test (FCAT). Such tests are
+seen to correlate well with actual consumer response [16, 17]. Preclinical studies are also done to
+predict the surfactant mildness prior to the use of human subjects [7, 9]. Such studies have long been
+developed to analyze surfactant penetration into skin layers and are seen to have a mixed correlation to
+actual consumer response [8, 9, 18]. For this work, the preclinical data was selected from 14C-SDS
+deposition on human skin in vitro, dynamic light scattering determinations of micelle size, CMC
+determination, ΔCMC due to mixed surfactants and surfactant-polymer interactions, zein assay for
+protein denaturation and stearic acid assay for lipid solubilization.
+Our research group was responsible for the 14C-SDS deposition assay, which involved the use of
+static Franz diffusion cells and human split-thickness skin. The Moore et al. study [5] and subsequent
+publications from this group [12, 19] employed a five hour exposure time of porcine skin to the
+surfactant solution. At Procter and Gamble, a similar study employing a 10-minute exposure time on
+porcine skin was recently conducted. One of our goals in this project was to develop an improved
+surfactant deposition assay on human skin in vitro that reflects typical consumer exposure times. We
+furthermore sought to simplify the existing assay and maximize its sensitivity.
+In addition, we desired to use the improved assay along with the other preclinical assays to
+generate surfactant deposition data on 14 surfactant and surfactant-polymer compositions that were
+3
+
+tested in a five-day FCAT. The study was designed to determine whether data from a carefully designed
+array of preclinical assays could effectively predict the harshness of mixed surfactant and surfactantpolymer compositions on human skin. The test compositions included surfactants commonly used in
+rinse-off applications including shampoos and shower gels. A predictive model based on preclinical data
+would be more cost effective for industry use and quicker than typical clinical data outputs. It could also
+possibly be useful in determining what surfactant interaction mechanisms contribute to skin irritation
+more.
+
+4
+
+2 Hypothesis and Specific Aims
+2.1 Hypothesis
+The hypothesis that was made for this study is:
+“The mildness of mixed surfactant and surfactant-polymer compositions on human skin can be
+accurately predicted from preclinical, experimental data”
+
+2.2 Specific Aims
+1. To develop an improved surfactant deposition assay on human skin in vitro that reflects typical
+consumer exposure times, using 14C-SDS as the deposition marker. We sought to confirm the
+effects of polymer addition on SDS deposition in human skin and to determine whether the
+exposure time could be further reduced to reflect conditions even closer to typical consumer
+use of rinse-off products.
+2. To use the improved assay, and other preclinical assays to generate surfactant deposition data
+on 14 mixed surfactant and surfactant-polymer compositions that were tested in a five-day
+FCAT. The study was designed to determine whether data from an array of preclinical assays
+could effectively predict the harshness of mixed surfactant and surfactant-polymer
+compositions on human skin.
+3. By using appropriate multivariate methods, to analyze preclinical and clinical data related to the
+FCAT formulations to develop a predictive relationship for the latter. A predictive model based
+on in vitro work would provide a more cost effective analysis, which would be quicker than a
+clinical analysis. It could also help determine which surfactant interaction mechanisms
+contribute to skin irritation more.
+
+5
+
+3 Development of a Preclinical Surfactant Deposition Assay to Reflect Exposure
+Times Typical of Consumer Use
+3.1 Introduction
+Surfactants, or ‘surface active agents’, are amphipathic molecules that aid in lowering the
+surface and interfacial tension between the medium that it is dissolved in, and any other liquid in
+contact [4]. Surfactants have multiple industrial uses as emulsifying and cleansing agents, noticeably in
+the cosmetic and personal care industry. Therefore, surfactant systems will commonly make contact and
+be deposited on human skin from short to extending periods of time. Depending how long the skin is
+exposed to surfactant solution, surfactant material can deeply penetrate into the layers of the skin. This
+penetration of surfactant systems into the skin surface has been linked to skin irritation [5, 11, 12].
+Sodium dodecyl sulfate (SDS, Figure 3.1) is a common anionic surfactant that is often found in
+cleaning products. It has been shown that with increasing concentrations of SDS above the critical
+micelle concentration (CMC) there is a dose-dependent increase in the amount of SDS measured in the
+skin [5]. When certain polymers are added to SDS and other surfactant systems, SDS penetration is
+reduced [5, 12, 19, 20]. Polymers can interact with surfactant micelles and modify the surface tension
+behavior of the surfactant [5, 12, 13]. For such interaction, a “pearls on a string model” has been
+proposed, where hydrophobic polymers penetrate deep into the surfactant “micellar pearls” palisade
+layer and extend between numerous micelles to form a “string” [13]. In the case of SDS, the ionic
+repulsion between the “micellar pearls” leads to an expansion of the polymer chain, which causes an
+increase in blob size (i.e. the size/length of the polymer molecule). This model has been validated
+through viscosity measurements and neutron scattering.
+When the surfactant concentration is above the CMC, micelles can begin to form. A widely
+accepted view of surfactant penetration through the skin, as reviewed by Moore et al. [5], is that “at
+surfactant concentrations that exceed the CMC, where surfactant micelles first form, only surfactant
+6
+
+monomers can penetrate into the skin, because the surfactant micelles are not surface active, or they
+are too large to penetrate into the stratum corneum.” This theory is known as the monomer penetration
+model [5]. This view is largely based on experimental data using surfactant mixtures.
+This view was challenged in 2003 by the Blankschtein group at MIT [5], who showed that the
+addition of polyethylene oxide (PEO, MW 8000, Figure 3.2) to SDS solutions reduced the penetration of
+14
+
+C-radiolabeled SDS into porcine stratum corneum at levels well above the CMC. The Moore et al. study
+
+[5] and subsequent publications from this group [12, 19] employed a five hour exposure time of the skin
+to the surfactant solution.
+The objectives of the present study were to confirm the effects of polymer addition to 14C-SDS
+deposition on skin and to determine whether the exposure time could be further reduced to reflect
+conditions closer to consumer usage of rinse-off products. We furthermore sought to simplify the assay
+and to maximize its sensitivity. Human and porcine skin studies were conducted. Experimental trials on
+human skin were conducted using exposure times of 10 minutes and 2 minutes. A simplified protocol in
+which the tape-stripping step was eliminated was employed for the 2 minute exposure protocol;
+furthermore a random controlled block design, followed by a two-way ANOVA analysis of logtransformed data was employed to increase sensitivity [21]. This report presents the details of these
+studies and provides a recommendation for further use of this assay.
+
+Figure 3.1 Structure of sodium dodecyl sulfate, FW 288.372 Da.
+
+Figure 3.2 Structure of polyethylene glycol (also referred to as polyethylene oxide), MW~8000 Da.
+
+7
+
+14
+
+Figure 3.3 C-SDS penetration into porcine skin following a 5 hour exposure as reported by Moore et al. [5]. There
+was a significant increase in the concentration of SDS found in the epidermis for 100mM SDS when compared to
+14
+50mM SDS. The addition of 2% w/w PEG 8000 (therein called PEO) reduced C-SDS deposition in both cases to
+levels that were not significantly different from one another.
+
+3.2 Materials
+Aqueous solutions of sodium dodecyl sulfate (SDS, 50mM), SDS with 2% polyethylene glycol
+(PEG 8000) and SDS with 2% Polymer B1 were provided by the Procter & Gamble Company. Radiolabeled
+sodium dodecyl sulfate (14C-SDS, 55 mCi/mmol) was obtained from American Radiolabeled Chemicals
+(St. Louis, MO). Tritiated water (3H2O, 1.0 mCi/mL) and Solvable were obtained from Perkin Elmer
+(Waltham, MA). Dulbecco’s phosphate-buffered saline and sodium azide were obtained from Fisher
+Scientific. Deionized (DI) water was prepared by ultrafiltration. Pig skin was obtained from a local
+slaughter house and dermatomed to a thickness of ~500um. Human cadaver skin was obtained from the
+New York Firefighters Skin Bank (New York, NY). A different donor was used in each experimental trial.
+The source and identity of each human donor skin sample (age, ethnicity, gender, date of death, and
+cause of death) was documented. The pig skin studies were approved by the P&G IACUC and work on
+de-identified human tissues was exempted from human subjects categorization by the UC Academic
+Health Center IRB.
+
+1
+
+Nonionic, hydrophilic polymer, MW~30,000
+
+8
+
+3.3 Methods
+3.3.1 Preparation of Skin Membranes
+Human skin was stored at -80C until use. On the morning prior to the study, the skin was
+thawed rapidly by immersing the sealed packet in warm water. It was then rinsed with distilled water
+and cut into 2 cm × 2 cm pieces using a scalpel. Porcine skin taken from the belly area was obtained
+from a slaughterhouse, stored in chilled saline, and used within 24 hours of collection.
+
+3.3.2 In Vitro Static Diffusion Cells
+The skin membrane was mounted in Franz diffusion cells (0.79 cm2) [22] with the stratum
+corneum facing the donor chamber. The receptor solution (~5 mL) was Dulbecco’s phosphate-buffered
+saline (PBS, pH 7.4) to which 0.02% w:v sodium azide had been added to retard microbial growth. The
+receptor fluid was continuously stirred using a magnetic stir bar. The cells were maintained at 37C in a
+thermostatted aluminum block, yielding a skin surface temperature of 32C. Low glass tops with no
+occlusion were used for this study.
+
+3.3.3 Human Skin Membrane Integrity Assessment
+The integrity of each of the human skin membranes was assessed by 3H2O penetration [21]. The
+skin was mounted and allowed to equilibrate for about 1 hour. A 150 L aliquot of 3H2O (0.4 Ci/mL)
+was applied with a pipette and allowed to remain on the skin surface for 5 minutes. It was then removed
+with a cotton-tipped swab, which was placed on the skin surface for 30 seconds. The receptor solution
+was collected 60 minutes post-dose and replaced with PBS. The collected samples were analyzed for 3H
+in Ultima Gold XR cocktail by liquid scintillation counting (LSC) using a Beckman LS 6500 counter. They
+were counted for 1 minute and the results reported as L 3H2O/cm2. Samples with water permeation
+
+9
+
+greater than 2.0 L3H2O/cm2 were discarded. The remaining cells were ranked in order of increasing
+water permeability to facilitate the random controlled block experimental design [21].
+The receptor exchange procedure was repeated, and the cells were allowed to wash out
+overnight. A final exchange was performed in the morning prior to dosing. Porcine skin integrity was not
+assessed.
+
+3.3.4 Surfactant Deposition Protocol – Porcine Skin
+C-SDS solutions (50 mM SDS, 6.7 Ci/mL) in DI water, with and without 2% w/w of an added
+
+14
+
+polymer, were prepared and shaken to ensure homogeneity. A 150 µL aliquot (10 Ci) of the surfactant
+solution was pipetted onto each skin membrane. Skin from one donor was exposed to the surfactant
+solution for 10 minutes (n = 6/treatment).
+Following the surfactant exposure, the dose solution was removed using a transfer pipet. The
+surface of the skin was rinsed three times with 0.5 mL of tap water for 10 seconds, and the rinses were
+collected and pooled. The skin was then wiped twice with 70%/30% ethanol/water and once with filter
+paper soaked with PBS to remove unabsorbed (residual) product. These wipes were collected and
+pooled. Receptor solutions were also collected. 10 tape strips were performed on each sample. The
+tapes were dissolved in 2 mL of Solvable and analyzed individually. All samples were analyzed by LSC.
+Results were expressed as g/cm2 equivalent 14C-SDS. The arithmetic mean and standard error mean
+(SEM) was reported for each treatment.
+
+3.3.5 Surfactant Deposition Protocol – Human Skin
+C-SDS solutions (50 mM SDS, 6.7 Ci/mL) in DI water, with and without 2% w/w of an added
+
+14
+
+polymer, were prepared and shaken to ensure homogeneity. A 150 µL aliquot (10 Ci) of the surfactant
+solution was pipetted onto each skin membrane, which were rank-ordered in terms of permeability
+10
+
+based on the 3H2O prescreening results. The rank-ordering and subsequent randomization by treatment
+were key elements in maximizing the sensitivity of the assay [21]. Two sets of experiments were
+conducted. In experiment 1, skin from three donors was exposed to the surfactant solution for 10
+minutes (n = 4-6/donor). The total sample size was n = 14-15/treatment. In experiment 2, skin from four
+donors was exposed to the surfactant solution for 2 minutes (n = 2-7/donor). The total sample size was n
+= 20-21/treatment. The treatment groups are summarized in Table 3.1.
+14
+
+Table 3.1 Dose solutions and sample sizes for the C-SDS deposition studies.
+
+Treatments
+
+Sample Size (n)
+10 minute
+14
+15
+14
+
+50mM SDS (Control)
+50mM SDS + 2% PEG 8000
+50mM SDS + 2% Polymer B
+
+2 minutes
+20
+21
+21
+
+The same method of collection was utilized as with porcine skin following the surfactant
+exposure. For experiment 1, 4-10 tape strips were performed on each sample. The tapes were dissolved
+in 2 mL of Solvable and analyzed individually. The residual epidermis and the dermis were also
+physically separated and dissolved overnight in Solvable. Tape stripping was not conducted in
+experiment 2; instead the total membrane was dissolved in 2mL of solvable™ with no physical
+separation of the skin layers. All samples were analyzed by LSC for 5 minutes.
+Results were expressed as g/cm2 14C-SDS equivalents in the various samples, following
+background subtraction. The deposited dose was calculated as the total amount of 14C-SDS in skin plus
+the receptor solution. Outliers were detected using Dixon’s test on the full dataset following a
+logarithmic transformation of the individual sample values [21]. Outlying results were rejected if they
+exceeded the 95% confidence limit. The geometric mean and standard error for each donor were
+calculated; these values were then averaged arithmetically over donors to obtain the final mean and
+standard error. Statistical comparisons between treatments were made via two-way ANOVA on the log
+transformed values, using donor and treatment as the blocking variables.
+11
+
+3.4 Results
+3.4.1 SDS Deposition on Porcine Skin
+Figure 3.4 shows the14C-SDS deposition results on porcine skin. Total recovery of SDS in the SC
+following a 10 minute exposure to the 50 mM SDS control was approximately 0.36 µg 14C-SDS
+equivalents/cm2. Addition of 2% PEG 8000 to this formulation reduced deposition by approximately
+80%. This result is consistent with values previously reported by the Blankschtein group [5]. Addition of
+2% Polymer B yielded a similar result. Approximately 3.7% of applied material was found in stratum
+corneum treated with 50 mM SDS. Deposition was reduced to <1% for both the SDS-polymer solutions.
+
+(a)
+
+0.50
+
+14C-SDS equivalents, µg/cm2
+
+0.45
+0.40
+0.35
+0.30
+0.25
+0.20
+0.15
+
+0.36
+
+0.10
+0.05
+
+0.07
+
+0.07
+
+50mM SDS + 2%
+PEG 8000
+Treatment
+
+50mM SDS + 2%
+Polymer B
+
+0.00
+50mM SDS
+
+12
+
+(b)
+
+50mM SDS (Control)
+
+0.70
+
+50mM SDS + 2% PEG 8000
+
+% of Applied Material
+
+0.60
+
+50mM SDS + 2% Polymer B
+0.50
+0.40
+0.30
+0.20
+0.10
+0.00
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Number of Tape Strips
+14
+
+Figure 3.4 Deposition of C-SDS into porcine skin following a 10 minute exposure. (a) Total SDS recovered in the
+stratum corneum; (b) Penetration profile into stratum corneum obtained from D-Squame tape strips.
+
+3.4.2
+
+14
+
+C-SDS Deposition on Human Skin
+
+Figure 3.5 shows 14C-SDS deposition on and into human skin following a 10 minute exposure.
+Tabular results are given in Appendix A.1. The 50 mM SDS control showed approximately 16.0 µg 14CSDS equivalents/cm2 was recovered from the human skin membrane. The treatment with 2% PEG 8000
+was seen to have significant reduced skin deposition. Unlike the porcine data, the treatment with 2%
+Polymer B was not seen to statistically reduce SDS skin deposition. This could be due to the fact that this
+study evaluated total skin penetration, while the previous study with porcine skin only evaluated
+deposition in the SC.
+
+13
+
+(a)
+***
+
+14C-SDS equivalents, µg/cm2
+
+20.0
+
+***p<0.001
+
+18.0
+16.0
+14.0
+12.0
+10.0
+8.0
+
+16.0
+
+6.0
+
+11.3
+
+4.0
+
+6.5
+
+2.0
+0.0
+50mM SDS
+
+50mM SDS + 2% PEG 50mM SDS + 2% Polymer
+8000
+B
+Treatment
+
+(b)
+
+14C-SDS equivalents,µg/cm2
+
+9.0
+8.0
+
+50mM SDS (Control)
+
+7.0
+
+50mM SDS + 2% PEG 8000
+
+6.0
+
+50mM SDS + 2% Polymer B
+
+5.0
+4.0
+3.0
+2.0
+1.0
+0.0
+1
+
+2
+
+3
+
+4
+
+5
+
+Number of Tape Strips
+
+14
+
+Figure 3.5 (a) Total deposition of C-SDS into human skin + receptor solution following a 10 minute exposure; (b)
+Penetration profile into human stratum corneum obtained from D-Squame tape strips.
+
+14
+
+To test an exposure time closer to consumer use, a 2 minute study was conducted. Figure 3.6
+shows the deposited dose to the skin. The 50 mM SDS control showed approximately 7.3 µg 14C-SDS
+equivalents/cm2 was recovered from the human skin membrane. In the presence of 2% PEG 8000, the
+amount of SDS recovered in the skin was significantly reduced. The presence of 2% Polymer B did not
+yield a statistically significant reduction in deposition into the skin. Both 10 and 2 minute exposure times
+revealed a similar pattern of surfactant skin deposition.
+
+*
+
+14C-SDS equivalents, µg/cm2
+
+9.0
+
+*p<0.05
+
+8.0
+7.0
+6.0
+5.0
+4.0
+
+7.3
+
+3.0
+
+5.3
+
+2.0
+
+3.5
+
+1.0
+0.0
+50mM SDS
+
+50mM SDS + 2% PEG
+8000
+
+50mM SDS + 2% Polymer
+B
+
+Treatment
+
+14
+
+Figure 3.6 Deposition of C-SDS into human skin + receptor solution following 2 minute exposure.
+
+15
+
+3.5 Conclusion
+The addition of 2% PEG-8000 to 50 mM SDS solution significantly lowered 14C-SDS deposition for
+both 10 minute and 2 minute exposure protocols on human skin. This result mirrored that from the
+porcine skin studies of Moore et al. (Figure 3.3) and the initial 10 minute study (Figure 3.4). Unlike the
+porcine skin, addition of 2% Polymer B did not lower penetration significantly in either of the human
+skin protocols; however, the 10 minute and 2 minute exposures revealed a similar pattern of
+penetration. Statistical differences between PEG-8000 and control were stronger for the 10 minute
+exposure time vs. 2 minutes, but this could be due to the skin being of better quality for the 10 minute
+exposure based on 3H2O permeation. Based on these results, we recommend the 2 minute human skin
+protocol for further studies. It provides differentiation between treatments comparable to the 10
+minute human skin protocol and corresponds more closely to typical consumer use time for rinse-off
+products. The 10 minute porcine skin protocol gave a result for SDS + 2% Polymer B that was not
+confirmed in the human skin studies; consequently we cannot recommend porcine skin for routine
+mildness screening by 14C-SDS deposition.
+
+16
+
+4 Investigation of the Correlations between Clinical and Preclinical Surfactant
+Mildness Studies
+4.1 Introduction
+Both ionic and nonionic surfactants are widely used as emulsifying and cleansing agents in the
+cosmetic and personal care industry; they consequently contact human skin from short to extended
+periods of time during daily use of cosmetic products. As a result of these exposures, surfactants can
+penetrate into the skin layers, where they can denature proteins [5-9], and remove and disrupt skin
+lipids [5, 7, 10, 11]. This penetration into the skin surface and the subsequent interaction with skin
+components has long been linked to skin irritation. Both monomer penetration theories [14] and micelle
+penetration theories [5] have been proposed. According to the former, lower critical micelle
+concentration (CMC) leads to reduced skin irritation, while the latter holds that larger micelles lead to
+lower irritation. Sodium dodecyl sulfate (SDS), in particular, has been reported to penetrate
+“considerably slower” when concentration levels are above the CMC [14]. Longer alkyl chains have been
+shown to reduce surfactant penetration [14, 15], but this could be caused by either lower CMCs, larger
+micelles, or a combination of both factors.
+Research has shown that surfactant-induced skin irritation is a multifaceted phenomenon with
+several underlying mechanisms [8, 11, 23]. Numerous tests have been developed to estimate a
+surfactant’s irritation potential or “mildness” [17, 24]. Surfactant mildness in cosmetics and personal
+care products is best evaluated under conditions typical of consumer use. However, this is not always
+useful in rapidly showing differences between products, since consumer use conditions do not usually
+elicit an irritation response. Therefore, formulators tend to use exaggerated protocols over a short
+period of time to bring out mildness differences. In this study, a forearm controlled application test
+(FCAT) was conducted to demonstrate the relative irritancy of a variety of mixed surfactant and
+
+17
+
+surfactant-polymer systems. This method has been shown to produce results that correlate with actual
+consumer response [16]. Skin mildness was assessed by visual dryness scores and corneometry.
+Five preclinical assays were conducted on the FCAT formulations in order to interpret the clinical
+results. The tests included 14C-SDS deposition, stearic acid solubilization, zein solubilization, CMC
+determination, and micelle size distribution. The results were analyzed by standard multivariate
+techniques. Predictive models for both visual dryness and corneometer scores based on the preclinical
+data were developed.
+
+Figure 4.1 Proposed mechanisms underlying surfactant-induced skin irritation.
+
+18
+
+4.2 Materials
+Surfactants and surfactant mixtures were obtained from the Procter & Gamble Company
+(Mason Business Center formulary) and consisted of commercially manufactured ingredients. 14Cradiolabeled sodium dodecyl sulfate (14C-SDS 55 mCi/mmol) was obtained from American Radiolabeled
+Chemicals (St. Louis, MO). Tritiated water (3H2O, 1.0 mCi/mL) and Solvable were obtained from Perkin
+Elmer (Waltham, MA). Dulbecco’s phosphate-buffered saline, sodium azide and hexane (HPLC grade)
+were obtained from Fisher Scientific. Deionized (DI) water was prepared by ultrafiltration. Human splitthickness cadaver skin was obtained from the New York Firefighters Skin Bank (New York, NY). Syringe
+filters (0.1µm) were obtained from the Pall Corporation (Port Washington, NY). Purified zein powder was
+obtained from Sigma-Aldrich (St. Louis, MO). Bicinchoninic acid (BCA) kit for protein assessment was
+obtained from ThermoFisher Scientific (Waltham, MA). Stearic acid, tridecanoic acid and boron
+trifluoride-methanol solution were obtained from Sigma-Aldrich (St. Louis, MO).
+
+4.2.1 Test formulations
+Sixteen multi-component surfactant formulations (A-P) plus a preclinical control formulation (Q)
+were prepared. The formulations were comprised of sulfated anionic surfactants in combination with
+amphoteric and nonionic surfactants and/or polymers. Fourteen of the formulations (A-L, N, O) were
+clinically tested for skin mildness by the sponsor. Water was also tested in the clinical study as
+‘formulation M’, instead of what is listed here, but results are not shown. The compositions are shown
+in Table 4.1.
+
+19
+
+Table 4.1 Surfactant systems tested and the assigned treatment codes.
+
+Treatment Code
+A
+
+Anionic surfactant + cosurfactants
+
+B
+
+Anionic surfactant + cosurfactants
+
+C
+
+Anionic surfactant + cosurfactants
+
+D
+
+Anionic surfactant + cosurfactants
+
+E
+
+Nonionic surfactant + cosurfactants
+
+F
+
+Anionic surfactant + cosurfactants
+
+G
+
+Anionic surfactant + cosurfactants + hydrophilic polymer
+
+H
+
+Anionic surfactant + cosurfactants + hydrophilic polymer
+
+I
+
+Anionic surfactant + cosurfactants + hydrophilic polymer
+
+J
+
+Anionic surfactant + cosurfactants + cationic polymer
+
+K
+
+Anionic surfactant + cosurfactants
+
+L
+
+Anionic surfactant + cosurfactants + solvent
+
+M
+
+Anionic surfactant + cosurfactants + solvent
+
+N
+
+Fully formulated body wash
+
+O
+
+Anionic surfactant + cosurfactants
+
+P
+
+Anionic surfactant + cosurfactants + hydrophilic polymer
+
+*
+
+Q
+*
+
+Surfactants System Descriptions
+
+Sodium dodecyl sulfate, 50 mM
+
+Preclinical control formulation. 50 mM SDS corresponds to approximately 1.5% (w/w) surfactant.
+
+4.3 Methods
+4.3.1 Forearm Controlled Application Test
+The FCAT method was adapted from Ertel et al. [17]. In brief, the study was conducted over a
+five day period in 2015 in the Winnipeg, Manitoba area. A total of 70 female subjects between the ages
+of 18 to 55 were recruited. All prospective subjects were screened for eligibility prior to participating
+based on inclusion/exclusion criteria.
+Each participant had four application areas (1.25" diameter) marked off on the volar surface of
+each forearm with a laboratory marking pen. A clinical assistant wet the participant’s volar forearm with
+warm tap water (95-100ºF) then applied the product (beginning with the site nearest the elbow) by
+
+20
+
+dispensing the appropriate amount of neat surfactant into the center of the marked area. Surfactant
+formulas that had 15% surfactant were dosed at 0.25 mL, while those with higher/lower percent values
+were dosed accordingly so that equal grams of surfactant was delivered. The assistant then used a
+gloved hand to lather by a circular motion within the treatment site for 10 seconds. The product was
+rubbed on each of the four forearm application areas for 10 seconds. The lather remained on each site
+for a total of 90 seconds, after which the site was rinsed with warm water for 15 seconds. This was done
+to both the left and right forearm. After all treatment sites were rinsed, the clinical assistant patted the
+subject's arm dry. Wash visits occurred four times a day for the first four days and twice on the final day
+for a total of 18 applications. Wash visits were spaced by a minimum of three hours.
+The results of the FCAT study were evaluated by visual and instrumental means as described in
+[17]. Visual dryness was assessed by an expert grader at baseline and three hours after the final study
+wash. Instrumental measurements to assess hydration levels were conducted using a Corneometer® CM
+825 (Courage + Khazaka electronic GmbH, Cologne, Germany). The instrument was operated with a
+multi-prong probe (model MT-8C, Measurement Technologies, Inc., Cincinnati, OH). Values cited in this
+analysis were calculated as mean change from baseline (CFB). Milder treatments were associated with
+lower visual dryness scores and higher corneometer readings.
+
+4.3.2
+
+14
+
+C-SDS Deposition Assay
+
+Test solutions (except for Q, which was already at the target concentration) were diluted with
+water to 1.5% (w/w) surfactant. A different skin donor was used in each experimental trial. The source
+and identity of each donor skin sample (age, ethnicity, gender, date of death, and cause of death) was
+documented.
+The integrity of each of the skin membrane was assessed by using 3H2O permeation [21], as
+described in the previous chapter. Samples with water permeation greater than 2.0 L3H2O/cm2 were
+21
+
+discarded. The 2 minute improved 14C-SDS deposition method recommended in chapter 3, section 3.4.2,
+was used.
+
+4.3.3 Micelle Size Determination
+For each treatment, approximately 1.5 mL of the solution was filtered through a 0.1 m syringe
+filter. The first 0.25 mL was discarded to avoid contamination. This solution was poured into a cuvette
+and analyzed using a Zetasizer (Malvern Instruments Ltd., Malvern UK). Each measurement consisted of
+10 runs, and a total of three measurements were conducted. The refractive index of the surfactant
+micelles was assumed to be 1.31 and the dispersant was set to water.
+
+4.3.4 Zein Solubilization Test
+Zein is a corn protein similar to keratin, that is insoluble in aqueous solution unless denatured by
+a detergent [9]. The purpose of the zein solubility test is to investigate the irritation potential of
+surfactant and surfactant-based product. This test is used to rank protein denaturing potential of a
+surfactant system in which, the more zein that is solubilized, the more irritating the product is deemed
+[6, 18].
+Five grams of zein powder were mixed with 200 mL of 10 mM treatment solution for 24 hours.
+The same amount of zein powder was mixed with 200 mL of water for 24 hours to be used as the
+control. After 24 hours, the solution was centrifuged for 10 minutes at 10,000 rpm (9,615  g), and the
+supernatant was collected and analyzed for protein content using a BCA protein assay [25]. The
+dissolved zein solution was also analyzed by UV absorbance using a plate reader (Biotek Synergy 4,
+Winooski, VT) to determine protein content.
+
+22
+
+4.3.5 Critical Micelle Concentration
+The surface tensions of the dilute surfactant systems were assessed using a force tensiometer
+(Kruss K100, Matthews, NC) fitted with a Wilhelmy plate. The surface tension of the coded
+multicomponent surfactant systems was measured at appropriate concentrations. After measurements
+were taken, surface tension (mN/m) was plotted against the log concentration (mg/L) and, using the
+linear and exponential plots, the CMC was determined. Since these surfactant systems are multicomponent, the CMCs determined are only approximate values [24].
+
+4.3.6 Stearic Acid Solubilization Assay
+The purpose of the stearic acid solubility test is to investigate the irritation potential of
+surfactant or surfactant-based product on lipid bilayers. A surfactant’s potential to alter and solubilize
+skin lipid bilayers has been reported in the literature [7]. Lipid assays of this type are useful in assessing
+the ability of surfactants to extract lipid chains. Stearic acid was used as the target lipid to be solubilized
+by the surfactant system and the irritation potential is determined by the amount of solubilized stearic
+acid [7]. Therefore, the more stearic acid that is solubilized, the more irritating the product is deemed.
+The test formulation was diluted to 1.5% surfactant. Five grams of stearic acid powder were
+mixed with 200 mL of the diluted solution for 24 hours on a stir plate at RT. After 24 hours of mixing, the
+solution was allowed to sit for 2 hours to let the excess stearic acid precipitate. After this, 1 mL of the
+supernatant was centrifuged at 12,000 rpm (13,845  g) for 20 minutes. About 0.1 mL of this solution
+was transferred into a glass GC auto-sampler vial and 1 mL BF3 methanol solution was added
+(esterification temperature: 90ºC). After this esterification step, 1 mL of hexane was added to extract
+the stearic acid methyl ester. An internal standard solution was made with tridecanoic acid (C11 fatty
+acid) and esterified in the same manner as the unknown solution. About 0.8 mL of the extract was mixed
+
+23
+
+with 0.2mL of the internal standard solution and analyzed by GC-MS. Results from GC-MS were
+expressed as the amount of stearic acid solubilized.
+
+4.3.7 Statistical Analysis
+For 14C-SDS deposition, outliers were detected using Dixon’s test on the full dataset by
+treatment following a logarithmic transformation of the individual sample values [21]. Outlying results
+were rejected if they exceeded the 95% confidence limit. A two-way ANOVA was used to compare the
+mean differences between the two independent variables; treatments tested and skin donors used. The
+purpose of using a two-way ANOVA is to determine if there is an interaction between the independent
+variables on the dependent variable (i.e. % of deposited dose).
+Bivariate plots were used to examine the correlation of preclinical assay data to the clinical
+results. Partial least squares (PLS) was used for multivariate analyses. This method is carried out by
+fitting linear combinations of explanatory variables (X) based on the number of factors. The numbers of
+factors chosen are found by utilizing a method that attempts to maximize the covariance between the X
+explanatory variables and the Y response variables. In this study the X variables were the preclinical test
+results and the Y variables were the clinical test results. PLS is useful when the number of predictors is
+more than the number of observations. Cross-validation was performed within PLS via a leave-one-out
+algorithm in order to prevent overfitting of the clinical data.
+Statistical comparisons between treatments were made via two-way ANOVA on the log
+transformed values, using donor and treatment as the blocking variables. The geometric mean and
+standard error for each donor were calculated; these values were then averaged arithmetically over
+donors to obtain the final mean and standard error.
+
+24
+
+4.4 Results
+4.4.1 Forearm Controlled Application Test
+Results of the FCAT study are shown in Table 4.2. All treatments led to increased dryness and
+decreased skin hydration versus baseline values. The range of the changes was 0.559 to 1.489 dryness
+units and -13.088 to -5.454 corneometer units. For both evaluations, formulation A was the harshest
+treatment and formulation N was the mildest treatment.
+
+Table 4.2 FCAT clinical evaluation results. Results are shown as mean change from baseline.
+
+*
+
+Treatment
+Code
+
+Corneometer
+
+Visual Dryness
+
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+
+-13.088
+-8.485
+-10.649
+-10.916
+-5.164
+-8.889
+-8.104
+-10.417
+-11.577
+-12.874
+-11.044
+-10.534
+-*
+-5.454
+-10.998
+-
+
+1.489
+1.082
+1.228
+1.164
+0.736
+1.064
+0.911
+1.204
+1.365
+1.367
+1.332
+1.168
+0.559
+1.146
+-
+
+(-) indicates that test was not conducted for specified treatment.
+
+Figure 4.2 shows the relationship between corneometer and visual dryness scores. The two
+measures were highly inversely correlated, i.e. clinical mildness was associated with high corneometer
+scores and low visual dryness scores.
+
+25
+
+2
+
+r = 0.921
+
+Figure 4.2 Correlation between corneometer mean CFB and visual dryness mean CFB. The variables have been
+standardized (µ=0, SD=1).
+
+4.4.2 Preclinical assays
+Table 4.3 Summary of In vitro assay results.
+
+Treatment Log 14C-SDS Deposition
+Code
+(% applied dose) 2
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q (control)
+*
+
+-0.61 ± 0.077
+-0.98 ± 0.075
+-0.76 ± 0.075
+-0.70 ± 0.076
+-1.02 ± 0.074
+-0.76 ± 0.074
+-1.06 ± 0.074
+-0.91 ± 0.074
+-0.56 ± 0.075
+-0.59 ± 0.075
+-0.83 ± 0.078
+-0.94 ± 0.078
+-0.86 ± 0.074
+-1.10 ± 0.075
+-0.81 ± 0.076
+-0.76 ± 0.077
+-0.45 ± 0.076
+
+CMC
+(mg/L) 3
+
+Zein Solubility
+Test (mg/ml) 4
+
+Stearic Acid
+Assay (%) 5
+
+Average Micelle
+Diameter (nm) 6
+
+59
+38
+19
+166
+25
+225
+180
+92
+63
+59
+59
+57
+-*
+49
+36
+1510
+
+1.16 ± 0.016
+0.91 ± 0.023
+0.84 ± 0.013
+1.16 ± 0.014
+0.14 ± 0.004
+1.02 ± 0.021
+1.03 ± 0.004
+1.15 ± 0.005
+1.06 ± 0.010
+1.13 ± 0.022
+1.22 ± 0.022
+1.26 ± 0.017
+1.23 ± 0.028
+0.98 ± 0.025
+1.25 ± 0.016
+1.14 ± 0.014
+-
+
+3.43%
+4.19%
+2.47%
+2.74%
+5.34%
+3.17%
+2.92%
+4.88%
+2.27%
+3.53%
+11.25%
+6.34%
+9.81%
+12.90%
+3.60%
+3.00%
+2.29%
+
+3.71
+5.59
+3.37
+4.31
+25.70
+4.92
+23.85
+6.41
+7.14
+10.21
+3.02
+3.59
+4.03
+146.30
+3.99
+3.99
+4.59
+
+(-) indicates that test was not conducted for specified treatment.
+
+2
+
+Log10 geometric mean ± SEM, n = 12-14. The values cited are least squares means and their errors as determined
+from a two-way ANOVA.
+3
+Multiple tensiometer measurements were taken before final CMC was determined.
+4
+Mean ± SE, n = 3
+5
+n=1
+6
+Mean, 3 measurements were conducted, each measurement consisted of 10 runs.
+
+26
+
+All treatments deposited less 14C-SDS into the skin membrane than did the single surfactant
+system, formulation Q. Formulation M shown here is from the listed compositions in Table 4.1 (not
+water, as assessed in the clinical studies). 14C-SDS deposition was significantly correlated to both
+corneometer (r2 = 0.631) and visual dryness (r2 = 0.498) scores. Micelle size was slightly less correlated
+(corneometer: r2 = 0.551, visual dryness: r2 = 0.445), with larger micelles associated with milder
+treatments. Zein solubilization correlated significantly with corneometer scores (r2 = 0.480) but not with
+visual dryness scores (r2 = 0.145). The results from CMC measurements (r2 = 0.009, r2 = 0.0017) and the
+stearic acid assay (r2 = 0.165, r2 = 0.244) were not significantly correlated with the clinical
+measurements.
+
+4.4.3 Statistical Analysis
+4.4.3.1 Results of the ANOVA analysis for 14C-SDS Deposition
+14
+
+C-SDS deposition results were expressed as % of deposited dose 14C-SDS equivalents in the
+
+various samples. The deposited dose was calculated as the total amount of the % of applied dose 14CSDS equivalents in skin plus the receptor solution. Statistical comparisons between treatments were
+made via two-way ANOVA on the log10 transformed values, using donor and treatment as the blocking
+variables. There was a significant statistical difference (p<0.001) between the mean values for the skin
+donor groups analysis, where the SEM between donor groups ranged from 0.039 to 0.098. The
+differences in the donor groups allowed for a statistical difference (p<0.001) between the levels of
+treatment tested to be detected. This provided the necessary variability to our analysis. The least square
+means and standard error by treatment were calculated and used in the multivariate analysis.
+
+27
+
+4.4.3.2 Multivariate statistical analysis
+The results for the preclinical and clinical tests were scaled by standardization (µ=0, SD=1) and
+the preclinical assay data were transformed to yield normal or nearly normal distributions. The
+transformations are shown in Table 4.4. Various multivariate analyses were done to analyze the strength
+of each preclinical variable to predict the clinical variables. Pairwise correlations were examined to
+assess the strength of each individual variable to the clinical parameters and see if they were
+significantly correlated (Table 4.5).
+
+Table 4.4 Data transformations for preclinical assays.
+
+Assay
+
+Data Transformation
+
+Formula
+
+14
+
+C-SDS Deposition
+CMC
+Zein Solubility Test
+
+Log Base 10
+Log Base 10
+Inverse Reflection
+
+Log10 (x)
+Log10 (x)
+1/(xmax - x + 1)
+
+Stearic Acid Assay
+Average Micelle Diameter
+
+Inverse
+Log Base 10
+
+1/x
+Log10 (x)
+
+Table 4.5 Pairwise correlations of the clinical and preclinical surfactant assays.
+
+28
+
+The notable correlations in this analysis for the preclinical variables are for (log10) 14C-SDS
+deposition, (transformed) zein solubilized, and (log10) average micelle diameter, which all have
+significant correlations with the clinical variables. CMC and stearic acid assay did not correlate to the
+clinical variables. There was some correlation of the preclinical variables with each other.
+Table 4.6 Model comparison summary table.
+
+Table 4.7 Cross validation using the NIPALS methods. The minimum root mean PRESS was 0.4136 and the
+minimizing number of factors was 1.
+
+The “nonlinear iterative partial least squares” (NIPALS) algorithm was used to generate the
+values. The Van der Voet T2 test and cross validation was used to choose the optimal number of factors
+to extract. This test determines whether a model with a different number of factors differs significantly
+
+Increasing Mildness
+
+Increasing Mildness
+
+from the model with the minimum PRESS value.
+
+2
+
+2
+
+r = 0.889
+
+r = 0.861
+
+Figure 4.3 Correlation between clinical variables and the predicted formula based on the three strongest
+preclinical variables generated from PLS analysis. Results shown are associated with a one-component model. The
+clinical variables are shown as mean change from baseline. Green arrows point to milder formulations.
+
+29
+
+Predicted Corneometer Formula
+= -0.426  (log10) C-SDS Deposition  0.328  (1/xmax-x+1) Zein Solubilized + 0.392 
+(log10) Ave. Micelle Diameter  0.122
+14
+
+Predicted Visual Dryness Formula
+= 0.395  (log10) C-SDS Deposition + 0.304  (1/xmax-x+1) Zein Solubilized  0.363 
+(log10) Ave. Micelle Diameter + 0.221
+14
+
+Equation 4.1 Predictive equations for each the clinical variables based on the preclinical results. Coefficients are
+associated with normalized and scaled values of each independent variable; consequently the magnitude of the
+coefficient reveals the strength of the contribution of each variable.
+
+It was possible to achieve higher values of the squared correlation coefficient (r2) using PLS
+models with 4-5 predictor variables and two principle components; however, this procedure resulted
+also in higher values of the predicted residual error sum of squares (PRESS) statistic. PRESS is calculated
+during the cross-validation procedure and is a measure of the predictive power of the relationship.
+Higher values are associated with greater prediction errors. Consequently the one component model
+using three predictor variables is preferred.
+
+4.5 Discussion
+The compositions examined in this study were based on sulfated, anionic surfactants with
+varying degrees of ethoxylation. Each composition, except for the SDS control, contained additional
+surfactants and some contained polymers. The mixtures were designed to mitigate skin irritation while
+still providing lather and cleansing for rinse-off applications. Strategies suggested by Moore et al. [5, 18]
+were included, as well as conventional concepts employing amphoteric and nonionic cosurfactants.
+None of the strategies completely offset the skin irritation induced by multiple daily exposures to the
+test compositions over a period of five days in the FCAT protocol; however, they were able to mitigate
+this phenomenon in a reproducible manner. The fully formulated body wash (formulation N) actually led
+to lower visual dryness scores than did water.
+30
+
+Standard error of the mean (SEM) for the corneometer and visual dryness measurements were
+0.671 and 0.105 (unscaled) test units, respectively, for a sample size of n = 21-28 human
+subjects/treatment. Least significant differences for the corneometer and visual dryness were estimated
+to be ~1.59 and ~0.206 (unscaled) test units respectively.
+The strongest preclinical predictor variable for the FCAT clinical data was 14C-SDS deposition.
+This is the newly developed test recommended in chapter 3, section 3.4.2, based on a procedure
+originally proposed by Moore et al. [5]. The five hour exposure of pig skin to surfactant solutions
+containing 14C-SDS in [5] has been replaced by a two minute exposure on human skin. The changes not
+only involve exposures more consistent with consumer use of rinse-off products, but they avoid making
+inferences about human exposure from pig skin, which has a different array of skin appendages than
+human skin [26]. Penetration pathways for polar or amphiphilic compounds are not completely
+understood and may be different in porcine and human skin. The results of the study show that 14C-SDS
+deposition is a useful preclinical test for sulfate-based rinse-off products. The standard deviation of the
+log10 (% of dose deposited) values, averaged over all treatments, was 0.281 log10 units. For a sample size
+of n = 12-14/treatment this led to an SEM of 0.075 log10 units and a least significant difference (Fisher’s
+LSD, α = 0.05) of 0.214 log10 units. In other words, for a sample size of n = 12-14 one is able to distinguish
+between treatments having SDS deposition values differing by a factor of 100.214 = 1.64. The FCAT study
+described in this chapter (n = 21-28/treatment) yielded SEM values of 0.671 for corneometer scores and
+0.105 for visual dryness scores. By using the predictive relationships in Eqs. 4.1 (scaled) or B.3
+(unscaled), it can be shown that the 14C-SDS deposition experiment should be sized at n ≥ 5-6 to predict
+corneometer scores and n ≥ 3-4 to predict visual dryness scores to within one standard error of the
+clinical measurement. Consequently we recommend an approximate sample size of n = 5-6/treatment
+for future SDS deposition studies, in order to optimize the tradeoff between accuracy and effort. The
+complete analysis is outlined in Appendix B.8.
+
+31
+
+Zein solubilization was a powerful complement to 14C-SDS deposition for these anionic
+surfactant-based formulations. This is consistent with the known denaturation of zein protein by anionic
+surfactants [5-9]. It is less clear whether zein solubilization or even 14C-SDS deposition will provide good
+predictions for the relative harshness of sulfate-free or nonionic-based surfactant systems. Nonionics, in
+particular, have been hard to differentiate via the zein assay [6, 18].
+It is of some interest that the DLS micelle size determinations in this study correlated well with
+clinical data. Formulations with large micelles were generally milder than those with small micelles. This
+finding generally supports the micelle penetration hypothesis of Moore et al. [5]; however, it does not
+firmly establish a pore penetration mechanism. Micelles have long been thought to play a role in lipid
+roll up and detergency in test systems that do not involve pores [12]. Nevertheless the findings are
+intriguing.
+Interpretation of the DLS data was by no means straightforward in these mixed surfactant and
+surfactant-polymer systems, and the resulting size distributions reflect this uncertainty. It is
+recommended that simpler systems covering a wider range of surfactant compositions be studied in
+order to better understand the relationships between micelle size, surfactant deposition, and skin
+mildness. A second recommendation is to add both a measure of surfactant head group interaction with
+proteins and a measurement of micelle charge to the preclinical test battery. A final recommendation is
+to replace the stearic acid assay with a test based on disruption of bilayer lipids. Stearic acid
+solubilization did not prove to be a useful predictor for clinical mildness in this study. This poor
+correlation for this assay has been seen in additional studies [11].
+
+32
+
+4.6 Conclusion
+Within the composition range tested, preclinical assay data can be strongly correlated to clinical
+measures of skin dryness. The results of 14C-SDS deposition, zein solubilization and average micelle
+diameter assays, combined in a one-component PLS model, yielded predictive equations for
+corneometer and visual dryness scores in a five-day FCAT study. The results support the hypothesis that
+micellar structure is more important to surfactant mildness than is CMC, with larger micelles leading to
+lower surfactant deposition and milder formulations.
+
+33
+
+5 Final Conclusions and Next Steps
+5.1 Final Conclusion
+Surfactant systems used in cosmetic and personal care products and their potential to induce
+skin irritation have been topics of discussion for over 50 years. A oft-repeated tenant in surfactant
+literature holds that surfactant micelles cannot penetrate into the skin due to size limitations [15].
+However, this has been shown to be a poor approximation for the surfactant SDS [5]. Therefore, much
+work has been done to understand the phenomenon of surfactant-induced skin irritation. Mixed
+surfactants and surfactant-polymer compositions have been intensely scrutinized and have been proven
+to reduce surfactant-induced irritation. They therefore form the basis of most mild surfactant systems.
+The addition of 2% of the hydrophilic polymer PEG 8000 to 50 mM SDS solution significantly
+lowered 14C-SDS deposition for both 10 minute and 2 minute exposure protocols on human skin, as
+shown in Chapter 3. This result mirrored that from the 5 hour porcine skin studies of the Blankschtein
+group ([5, 18], Figure 3.1) and 10 minute porcine skin studies conducted at Procter & Gamble (Figure
+3.2). However, unlike the porcine skin study shown in Figure 3.2, the addition of 2% Polymer B did not
+lower penetration significantly in either of the human skin protocols. The 10 minute porcine skin
+protocol gave a result for SDS + 2% Polymer B that was not confirmed in the human skin studies;
+therefore we did not recommend porcine skin for routine mildness screening by 14C-SDS deposition.
+Based on these results, an improved 14C-SDS deposition assay using excised human skin that
+reflects typical consumer exposure times for rinse-off products was successful developed. With this
+protocol, a significant decrease was found in 14C-SDS deposition from an SDS/PEG 8000 composition for
+2 minutes, as compared with SDS only. After a statistical comparison of the 10 and 2 minute exposure
+results, the 2 minute exposure protocol was recommended for future use.
+The improved 14C-SDS deposition assay, along with four other preclinical assay – zein
+solubilization, stearic acid solubilization, CMC and micelle size determinations, were used in an effort to
+34
+
+predict and understand the underlying causes of clinical surfactant harshness based on the results of a
+five-day forearm controlled application test (FCAT). The clinical variables examined were the mean CFB
+of the corneometer and visual dryness scores. The test compositions examined were based on sulfated,
+anionic surfactants with varying degrees of ethoxylation. Each composition, except for the SDS control,
+contained additional surfactants and some contained polymers. Partial least squares (PLS) regression
+was used to examine correlations between the preclinical and clinical variables. PLS allows one to
+investigate linear relationships between dependent and independent variables in a manner that
+minimizes the chance of overfitting the data. The statistical measures PRESS and van Voet’s T2 were
+evaluated to choose an optimum PLS model with the least number of predictor variables and principal
+components.
+For the composition range tested, the preclinical assay data were strongly correlated to clinical
+measures of skin dryness. The strongest preclinical predictor variable for the FCAT data was the newly
+improved 14C-SDS deposition described in Chapter 3. This single predictor variable explained 87.5% of
+the variance for cumulative corneometer scores and visual dryness scores. Statistical analysis of these
+data showed that the optimum sample size for 14C-SDS deposition for the prediction of FCAT results to
+within the accuracy of the clinical measurements was n = 5-6.
+Zein solubilization and DLS micelle size determination also correlated well with clinical data.
+CMC measurements led to marginal correlations that conflicted directionally with related literature on
+the topic [5, 7, 24]. Stearic acid solubilization did not prove to be a useful predictor for clinical mildness
+in this study which has been noted in other studies [11]. Therefore, the three leading variables that
+correlated best with the clinical results – 14C-SDS deposition, zein solubilization and DLS micelle size -were used to develop the prediction formulas. The results of these assays, when combined in a onecomponent PLS model, yielded predictive equations for corneometer and visual dryness scores in the
+FCAT study. Final r2 values for these correlations were 0.889 for corneometer readings and 0.861 for
+
+35
+
+visual dryness scores. The results support the hypothesis that micellar structure is more important to
+surfactant mildness than is CMC, with larger micelles leading to lower surfactant deposition and milder
+formulations. Therefore, we concluded that the results of three preclinical assays combined in a onecomponent PLS model can be used to predict the clinical mildness for the compositions tested in this
+study, namely sulfate-based surfactant and surfactant-polymer mixtures. With appropriately sized
+preclinical studies, clinical differences of about 0.67 corneometer units and 0.10 visual dryness units can
+be detected. Detection of differences smaller than these values will require more sensitive preclinical
+tools.
+
+5.2 Recommendations for Future Research
+
+
+14
+
+C-SDS deposition studies for prediction of clinical surfactant harshness on skin should be
+
+conducted with human skin rather than porcine skin.
+
+
+Extrapolation of the results presented here to sulfate-free formulations and/or nonionic
+surfactant mixtures is not guaranteed to be successful. As an example, in studies not
+reported here, 14C-SDS deposition and zein solubilization were shown to be ineffective in
+predicting isolated chicken eye (ICE) results with sulfate-free shampoo formulations.
+
+
+
+A study using simpler surfactant systems that cover a wider range of surfactant composition
+should be conducted in order to better understand the relationships between micelle size,
+CMC, surfactant deposition, and skin mildness.
+
+
+
+Additional assays that measure the surfactant head group interaction with proteins and the
+associated micelle charge should be explored as additional tools in the preclinical assay
+formulary.
+
+
+
+The stearic acid solubilization assay should be replaced with a better preclinical test based
+on disruption of bilayer lipids.
+36
+
+Bibliography
+1.
+
+Wickett, R.R. and M.O. Visscher, Structure and function of the epidermal barrier. American
+journal of infection control, 2006. 34(10): p. S98-S110.
+
+2.
+
+Harding, C.R., The stratum corneum: structure and function in health and disease. Dermatologic
+therapy, 2004. 17(s1): p. 6-15.
+
+3.
+
+Leyden, J.J. and A.V. Rawlings, Skin moisturization. 2002: CRC Press.
+
+4.
+
+Rosen, M.J. and J.T. Kunjappu, Surfactants and interfacial phenomena. 2012: John Wiley & Sons.
+
+5.
+
+Moore, P.N., S. Puvvada, and D. Blankschtein, Challenging the surfactant monomer skin
+penetration model: penetration of sodium dodecyl sulfate micelles into the epidermis. J Cosmet
+Sci, 2003. 54(1): p. 29-46.
+
+6.
+
+Lips, A., Ananthapadmanabhan, KP, Vethamuthu, M, Hua, XY, Yang, L, Vincent, C, Deo, N, and
+Somasundaran, P, Role of surfactant micelle charge in protein denaturation and surfactantinduced skin irritation. Surfactant Sci Series, 2006. 135: p. 177-187.
+
+7.
+
+Ananthapadmanabhan, K.P., et al., A novel technology in mild and moisturizing cleansing liquids.
+Quadrant, 2009. 22(6).
+
+8.
+
+Goffin, V., M. Paye, and G.E. Piérard, Comparison of in vitro predictive tests for irritation induced
+by anionic surfactants. Contact Dermatitis, 1995. 33(1): p. 38-41.
+
+9.
+
+Morrison Jr, B.M. and M. Paye, A comparison of three in vitro screening tests with an in vivo
+clinical test to evaluate the irritation potential of. J Soc Cosmet Chem, 1995. 46: p. 291-299.
+
+10.
+
+Almgren, M., Mixed micelles and other structures in the solubilization of bilayer lipid membranes
+by surfactants. Biochimica et Biophysica Acta (BBA)-Biomembranes, 2000. 1508(1): p. 146-163.
+
+11.
+
+Froebe, C., Simion, FA, Rhein, LD, Cagan, RH Kligman, A, Stratum corneum lipid removal by
+surfactants: relation to in vivo irritation. Dermatology, 1990. 181(4): p. 277-283.
+
+12.
+
+Ghosh, S. and D. Blankschtein, The role of sodium dodecyl sulfate (SDS) micelles in inducing skin
+barrier perturbation in the presence of glycerol. J Cosmet Sci, 2007. 58(2): p. 109-33.
+
+13.
+
+Lochhead, R.Y. and L.R. Huisinga, A brief review of polymer/surfactant interaction. Cosmetics
+and toiletries, 2004. 119(2): p. 37-45.
+
+14.
+
+Rieger, M. and L.D. Rhein, Surfactants in cosmetics. Vol. 68. 1997: CRC press.
+
+15.
+
+Rhein, L., C. Robbins, and K. Fernee, Surfactant structure effects on swelling of isolated human
+stratum corneum. J Soc Cosmet Chem, 1986. 37: p. 125-139.
+
+37
+
+16.
+
+Keswick, B., K. Ertel, and M. Visscher, Comparison of exaggerated and normal use techniques for
+assessing the mildness of personal cleansers. J Soc Cosmet Chem, 1992. 43: p. 187-187.
+
+17.
+
+Ertel, K.D., B.H. Keswick, and P.B. Bryant, A forearm controlled application technique for
+estimating the relative mildness of personal cleansing products. J Soc Cosmet Chem, 1995. 46(2):
+p. 67-76.
+
+18.
+
+Moore, P.N., S. Puvvada, and D. Blankschtein, Role of the surfactant polar head structure in
+protein-surfactant complexation: zein protein solubilization by SDS and by SDS/C12E surfactant
+solutions. Langmuir, 2003. 19(4): p. 1009-1016.
+
+19.
+
+Ghosh, S. and D. Blankschtein, Why is sodium cocoyl isethionate (SCI) mild to the skin barrier? An in vitro investigation based on the relative sizes of the SCI micelles and the skin aqueous
+pores. J Cosmet Sci, 2007. 58(3): p. 229-44.
+
+20.
+
+Michael, J.F., M.W. Russel, and J.L. Joseph, A new approach to formulating mild cleansers:
+hydrophobically-modified polymers for irritation mitigation, in Polymeric Delivery of
+Therapeutics. 2010, American Chemical Society. p. 221-242.
+
+21.
+
+Kasting, G.B., Filloon, Thomas G, Francis, William R., and Meredith, Michael P, Improving the
+sensitivity of in vitro skin penetration experiments. Pharm Res, 1994. 11(12): p. 1747-1754.
+
+22.
+
+Merritt, E.W. and E.R. Cooper, Diffusion apparatus for skin penetration. J Control Rel, 1984. 1: p.
+161-162.
+
+23.
+
+Piérard, G., V. Goffin, and C. Piérard-Franchimont, Corneosurfametry: a predictive assessment of
+the interaction of personal-care cleansing products with human stratum corneum. Dermatology,
+1994. 189(2): p. 152-156.
+
+24.
+
+Hall-Manning, T., Holland, GH, Rennie, G, Revell, P, Hines, J, Barratt, MD, Basketter, DA, Skin
+irritation potential of mixed surfactant systems. Food Chem Toxicol, 1998. 36(3): p. 233-238.
+
+25.
+
+Krohn, R.I., The colorimetric detection and quantitation of total protein. Curr Protoc Cell Biol,
+2001.
+
+26.
+
+Kong, R. and R. Bhargava, Characterization of porcine skin as a model for human skin studies
+using infrared spectroscopic imaging. Analyst, 2011. 136(11): p. 2359-2366.
+
+38
+
+Appendix A. Development of a Preclinical Surfactant Deposition Assay to Reflect
+Exposure Times Typical of Consumer Use
+A.1 Tabular results for 10 minute and 2 minute SDS deposition on human skin
+14
+
+Table A.1 Surfactant treatments, sample sizes and C-SDS deposition for 10 minute exposure on human skin.
+
+Treatment
+
+Total n
+
+Geometric mean
+( C-SDS µg/cm2 equivalent)
+
+(+) SE
+
+(-) SE
+
+16.0
+6.5
+11.3
+
+2.3
+0.8
+1.5
+
+2.0
+0.7
+1.3
+
+14
+
+50mM SDS (control)
+50mM SDS + 2% PEG 8000
+50mM SDS + 2% Polymer B
+
+14
+15
+14
+14
+
+Table A.2 Surfactant treatments, sample sizes and C-SDS deposition for 2 minute exposure on human skin.
+
+Treatment
+
+Total n
+
+Geometric mean
+( C-SDS µg/cm2 equivalent)
+
+(+) SE
+
+(-) SE
+
+7.3
+3.5
+5.3
+
+1.2
+0.5
+0.8
+
+1.0
+0.5
+0.7
+
+14
+
+50mM SDS (control)
+50mM SDS + 2% PEG 8000
+50mM SDS + 2% Polymer B
+
+20
+21
+21
+
+39
+
+Appendix B. Investigation of the Correlations between Clinical and Preclinical
+Surfactant Mildness Studies
+
+B.1 Analysis of Clinical Test Results
+The clinical results were graphed to show the mildness differences between the treatments
+tested. Figure B.1 shows the results for corneometer measurements for 14 of the test compositions,
+where a higher result indicated a milder composition. Compositions M, P, and Q were not tested.
+
+E
+N
+G
+
+Increasing Mildness
+
+B
+F
+
+Treatments
+
+H
+L
+C
+D
+O
+K
+I
+J
+A
+
+-16
+
+-14
+
+-12
+
+-10
+
+-8
+
+-6
+
+-4
+
+-2
+
+0
+
+Mean Change From Baseline
+Figure B.1 Skin hydration levels found by corneometer assessments. The higher the obtained value indicates the
+more hydrated the skin is, hence the milder the surfactant. Green arrow points to milder formulations.
+
+Figure B.2 shows the results for visual dryness interpretations for 14 of the test compositions,
+where a lower result indicated a milder composition. Compositions M, P, and Q were not tested. For
+both evaluations, formulation E and N were the mildest in this test while formulation A was seen as the
+harshest.
+
+40
+
+Increasing Mildness
+
+Treatment
+
+A
+J
+I
+K
+C
+H
+L
+D
+O
+B
+F
+G
+E
+N
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+1.2
+
+1.4
+
+1.6
+
+1.8
+
+Mean Change From Baseline
+
+Figure B.2 Skin hydration levels as determined from visual dryness assessments. The lower the value the less
+irritating the surfactant system is determined. Green arrow points to milder formulations.
+
+B.2 14C-SDS deposition results
+Figure B.3 demonstrates the deposition pattern of 14C-SDS (% of applied material) in human skin
+following a 2 minute exposure. Fisher LSD analysis was done to draw distinction between the test
+compositions. Formulation E and N were again the mildest in this test while formulation A was seen as
+the harshest.
+
+41
+
+Treatment Code
+
+g
+
+Q
+I
+J
+A
+D
+F
+P
+C
+O
+K
+M
+H
+L
+B
+E
+G
+N
+
+fg
+fg
+fg
+efg
+def
+def
+cde
+cde
+bcd
+bcd
+bcd
+abc
+abc
+a
+a
+a
+0
+
+0.05
+
+0.1
+
+0.15
+
+0.2
+
+0.25
+
+0.3
+
+0.35
+
+0.4
+
+0.45
+
+% of Applied Material
+14
+
+Figure B.3 Deposition pattern of C-SDS (% of applied material) in human skin following a 2 minute exposure.
+Results shown are the geometric means and the error bars reflect the SE. Fisher LSD groupings are shown in letter
+form.
+14
+
+C-SDS deposition is seen to significantly correlate with clinical assessments when fit
+
+individually. Figure B.4 shows the bivariate fits of the 14C-SDS deposition results with each of the clinical
+data.
+
+2
+
+2
+
+r = 0.498
+
+r = 0.631
+
+14
+
+Figure B.4 Correlation between corneometer and visual dryness CFB values and log10 C-SDS deposition results.
+
+42
+
+B.3 Zein Solubilization Results
+L
+O
+M
+K
+A
+
+Treatments
+
+D
+H
+P
+J
+I
+G
+F
+N
+B
+C
+E
+0
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+1.2
+
+1.4
+
+Mg/ml Zein Protein Solubilized
+Figure B.5 Mg/ml zein protein solubilized by each treatment. n = 3 for this study.
+
+Zein solubilization results were seen to significantly correlate with corneometer results when fit
+individually, but not with visual dryness results.
+
+2
+
+2
+
+r = 0.480
+
+r = 0.145
+
+Figure B.6 Correlation between corneometer and visual dryness CFB values and zein solubilized.
+
+43
+
+B.4 Stearic acid solubilization results
+Figure B.7 shows the stearic acid solubilization results. Here, formulation N was seen as the
+harshest formula, whereas this composition has been seen as one of the mildest in the clinical
+
+Treatment
+
+assessments.
+N
+K
+M
+L
+E
+H
+B
+O
+J
+A
+F
+P
+G
+D
+C
+Q
+I
+0%
+
+2%
+
+4%
+
+6%
+
+8%
+
+10%
+
+12%
+
+14%
+
+% Dissolved Stearic Acid
+Figure B.7 Percent of dissolved stearic acid by treatment used. n = 1 for this study, so no SE was calculated.
+
+Stearic acid solubilization results were not seen to significantly correlate with either of the
+clinical assessments.
+
+2
+
+2
+
+r = 0.165
+p = 0.149
+
+r = 0.244
+p=
+0.0615
+
+Figure B.8 Correlation between corneometer and visual dryness CFB values and % stearic acid solubilized.
+
+44
+
+B.5 CMC results
+CMC results were not seen to significantly correlate with either of the clinical assessments.
+
+2
+
+r = 0.0017
+
+2
+
+r = 0.009
+
+Figure B.9 Correlation between corneometer and visual dryness CFB values and the (log10) critical micelle
+concentration.
+
+B.6 DLS results
+Table B.1 Average micelle diameter size for coded treatments found by dynamic light scattering.
+
+Treatment
+Code
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+
+Average Micelle
+Diameter (nm)
+3.71
+5.59
+3.371
+4.308
+25.7
+4.922
+23.85
+6.409
+7.135
+10.21
+3.015
+3.589
+4.025
+146.3
+3.994
+3.986
+4.587
+
+45
+
+DLS micelle size measurements were seen to be significantly correlate with the clinical
+assessments.
+
+2
+
+2
+
+r = 0.551
+
+r = 0.445
+
+Figure B.10 Correlation between corneometer and visual dryness CFB values and average micelle diameter.
+
+B.7 Predicted results using one component PLS prediction formula
+Table B.2 Clinical results for FCAT mildness study conducted by P&G. Results reported as the mean change from
+baseline and have been standardized (µ=0, SD=1).
+
+Treatment
+Code
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+
+Corneometer
+-1.339
+0.577
+-0.324
+-0.435
+1.959
+0.409
+0.735
+-0.227
+-0.710
+-1.250
+-0.488
+-0.276
+1.839
+-0.469
+-
+
+Visual Dryness
+1.446
+-0.070
+0.474
+0.235
+-1.358
+-0.137
+-0.707
+0.384
+0.984
+0.991
+0.861
+0.250
+-2.018
+0.168
+-
+
+*Places with (-) indicated that test was not conducted for that treatment
+
+46
+
+Table B.3 Results for preclinical studies conducted at the University of Cincinnati and P&G. Results have been
+transformed appropriately in an attempt to reflect normal distributions and then standardized (µ=0, SD=1). The
+normalization transformations are shown below the table.
+
+Treatment
+Code
+
+Log10 14C-SDS
+Deposition
+
+CMC
+
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+
+1.071
+-0.687
+0.463
+0.730
+-1.300
+0.490
+-1.353
+-0.389
+1.369
+1.300
+-0.511
+-0.724
+0.032
+-1.609
+-0.479
+0.000
+1.598
+
+-0.254
+-0.663
+-1.307
+0.708
+-1.052
+0.991
+0.783
+0.159
+-0.193
+-0.254
+-0.254
+-0.286
+-0.428
+-0.713
+2.761
+
+Zein Test
+
+Stearic
+Acid
+
+Average Micelle
+Diameter
+
+0.478
+-0.800
+-1.082
+0.459
+-2.820
+-0.316
+-0.262
+0.367
+-0.115
+0.272
+0.839
+1.156
+0.944
+-0.514
+1.045
+0.349
+-
+
+0.204
+-0.248
+1.175
+0.834
+-0.687
+0.414
+0.645
+-0.535
+1.477
+0.138
+-1.528
+-0.939
+-1.417
+-1.626
+0.087
+0.565
+1.442
+
+-0.621
+-0.214
+-0.717
+-0.473
+1.302
+-0.340
+1.228
+-0.078
+0.029
+0.385
+-0.827
+-0.654
+-0.540
+3.030
+-0.548
+-0.550
+-0.410
+
+*Places with (-) indicated that test was not conducted specified treatment.
+Table B.4 Data transformations done to preclinical assays to reflect normal distribution.
+
+Assay
+
+Data Transformation
+
+Formula
+
+14
+
+C-SDS Deposition
+CMC
+Zein Solubility Test
+
+Log Base 10
+Log Base 10
+Inverse Reflection
+
+Log10 (x)
+Log10 (x)
+1/(xmax - x + 1)
+
+Stearic Acid Assay
+Average Micelle Diameter
+
+Inverse
+Log Base 10
+
+1/x
+Log10 (x)
+
+All results have been standardized so that the mean (µ) = 0 and the SD (𝜎) = 1. An example by
+scaling by standardization for the (log10) 14C-SDS deposition result for treatment A is shown:
+
+𝑥𝑛𝑒𝑤 =
+
+𝑥 − 𝜇 −0.61 − (−0.81) −0.61 + 0.81
+=
+=
+= 1.07
+𝜎
+0.186
+0.186
+
+Equation B.1 Example of scaling of results by standardization for (log10) SDS deposition for treatment A.
+
+47
+
+After examining several alternatives, the three leading variables 14C-SDS deposition, zein
+solubilization, and average micelle size -- were chosen to produce a predictive formula via PLS. Both
+clinical and preclinical results were scaled by standardization before multivariate analysis was
+conducted. PLS results were converted back to original values by using this formula: x = zσ + µ.
+Table B.5 Scaled observed and predicted clinical results based on standardized data from the three preclinical
+assays.
+
+Treatment
+Code
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+
+Observed Results (Standardized)
+
+Predicted Results (Standardized)
+
+Corneometer
+
+Visual Dryness
+
+Corneometer
+
+Visual Dryness
+
+-1.34
+0.58
+-0.32
+-0.44
+1.96
+0.41
+0.74
+-0.23
+-0.71
+-1.25
+-0.49
+-0.28
+1.84
+-0.47
+-
+
+1.45
+-0.07
+0.47
+0.24
+-1.36
+-0.14
+-0.71
+0.38
+0.98
+0.99
+0.86
+0.25
+-2.02
+0.17
+-
+
+-0.98
+0.35
+-0.25
+-0.77
+1.87
+-0.36
+1.02
+-0.11
+-0.66
+-0.61
+-0.50
+-0.45
+1.92
+-0.48
+-
+
+1.01
+-0.22
+0.34
+0.82
+-1.62
+0.44
+-0.84
+0.21
+0.72
+0.68
+0.57
+0.52
+-1.67
+0.55
+-
+
+*Places with (-) indicated that test was not conducted for that treatment
+
+48
+
+Table B.6 Observed and predicted clinical evaluation results shown as CFB in the original measurement units.
+
+Treatment
+Code
+
+Observed Results
+Predicted Results
+Corneometer Visual Dryness Corneometer
+Δ7
+Visual Dryness
+
+Δ
+
+A
+B
+
+-13.09
+-8.49
+
+1.49
+1.08
+
+-12.22
+-9.03
+
+0.61
+0.38
+
+1.37
+1.04
+
+0.08
+0.03
+
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+
+-10.65
+-10.92
+-5.16
+-8.89
+-8.10
+-10.42
+-11.58
+-12.87
+-11.04
+-10.53
+-5.45
+-11.00
+-
+
+1.23
+1.16
+0.74
+1.06
+0.91
+1.20
+1.37
+1.37
+1.33
+1.17
+0.56
+1.15
+-
+
+-10.46
+-11.72
+-5.39
+-10.74
+-7.42
+-10.13
+-11.45
+-11.35
+-11.08
+-10.95
+-5.26
+-11.01
+-
+
+0.13
+0.56
+0.16
+1.31
+0.48
+0.21
+0.09
+1.08
+0.03
+0.30
+0.14
+0.01
+-
+
+1.19
+1.32
+0.67
+1.22
+0.88
+1.16
+1.29
+1.28
+1.26
+1.24
+0.65
+1.25
+-
+
+0.03
+0.11
+0.05
+0.11
+0.02
+0.03
+0.05
+0.06
+0.05
+0.05
+0.07
+0.07
+-
+
+*Places with (-) indicated that test was not conducted for that treatment
+
+B.8 Determining the sample size for 14C-SDS deposition to get within 1 SEM unit
+The leading variable in this multivariate analysis was 14C-SDS Deposition, which had a sample
+size of 12-14 and a SEM of 0.075. Calculation of the SD of 14C-SDS Log Deposition is show in Figure B.6.
+𝑆𝐸𝑀 =
+
+𝑆𝐷
+√𝑛
+
+𝑆𝐷 = 𝑆𝐸𝑀 ∗ √𝑛 = 0.075 ∗ √14 = 0.281
+14
+
+Equation B.2 Equation to calculate the standard deviation for C-SDS deposition.
+
+7
+
+Observed result minus the predicted result
+
+49
+
+The predictive equations for unscaled results are shown in Figure B.7.
+Predicted Corneometer Formula
+= -5.752  (log10) C-SDS Deposition  3.141  (1/xmax-x+1) Zein Solubilized + 2.011 
+(log10) Ave. Micelle Diameter  13.22
+14
+
+Predicted Visual Dryness Formula
+= 0.695  (log10) C-SDS Deposition + 0.155  (1/xmax-x+1) Zein Solubilized  0.255 
+(log10) Ave. Micelle Diameter + 1.775
+14
+
+Equation B.3 Unscaled predictive equations for each the clinical variables based on the preclinical results.
+Coefficients are associated with normalized values of each independent variable; consequently the magnitude of
+the coefficient reveals the strength of the contribution of each variable.
+
+Calculation for the SEM for each individual variable is shown in Figure B.8.
+Predicted Corneometer or Visual Dryness CFB
+= A  (log10) C-SDS Deposition + B  (1/xmax-x+1) Zein Solubilized + C  (log10) Ave. Micelle Diameter
+14
+
+2
+2
+2
+2
+𝜎CFB
+= 𝐴2 ∗ 𝜎SDS
++ 𝐵2 ∗ 𝜎Zein
++ 𝐶 2 ∗ 𝜎Micelle
+2
+
+Equation B.4 Equation to calculate the accumulative σ CFB
+
+Calculation for the σCFB for one variable is shown in Figure B.9.
+
+𝜎𝐶𝐹𝐵 = 𝐴 ∗ 𝜎𝑆𝐷𝑆 = 𝐴 ∗ 𝑆𝐸𝑀𝑆𝐷𝑆
+14
+
+Equation B.5 Equation to calculate the σCFB for C-SDS deposition
+
+Therefore, to estimate the desired sample size for this study, we multiplied the coefficient 14CSDS deposition for each clinical variable by SEMSDS and compared this value to the SEM obtained for
+unscaled corneometer and visual dryness scores, which were 0.671 and 0.105 respectively.
+
+𝜎CFB = 𝐴Corneometer or Dryness ∗
+
+𝑆𝐷
+√𝑛
+
+Equation B.6 Equation to calculate the σCFB for unscaled corneometer and visual dryness scores.
+
+50
+
+Tables B.11 and B.12 show the σCFB of corneometer and visual dryness scores for sample size n
+compared with the SEM’s obtained. Therefore, with this information, we recommend n = 5-6 for 14C-SDS
+deposition in order to obtain corneometer CFB results with 1 SEM unit and n = 3-4 for 14C-SDS
+deposition to obtain visual dryness CFB results within 1 SEM unit.
+
+Table B.7 σCFB of Corneometer CFB with regards to n
+
+n
+
+σCFB of Corneometer CFB
+
+1
+2
+3
+
+1.614
+1.141
+0.932
+
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+0.807
+0.722
+0.659
+0.610
+0.571
+0.538
+0.510
+0.487
+0.466
+0.448
+0.431
+0.417
+0.404
+0.391
+0.380
+0.370
+0.361
+
+51
+
+One SEM, n = 5-6
+
+Table B.8 σCFB of Visual Dryness CFB with regards to n
+
+n
+
+σCFB of Visual Dryness CFB
+
+1
+2
+3
+
+0.195
+0.138
+0.113
+
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+0.098
+0.087
+0.080
+0.074
+0.069
+0.065
+0.062
+0.059
+0.056
+0.054
+0.052
+0.050
+0.049
+0.047
+0.046
+0.045
+0.044
+
+52
+
+One SEM, n = 3-4
+
+

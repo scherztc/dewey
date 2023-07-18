@@ -1,0 +1,1893 @@
+Human Subjects Testing of Sweat Stimulation Technologies
+
+A thesis submitted to the
+Graduate School
+of the University of Cincinnati
+in partial fulfillment of the
+requirements for the degree of
+
+Master of Science
+
+in the Division of Pharmaceutical Sciences
+of the James L. Winkle College of Pharmacy
+June 24th, 2016
+
+by
+
+Eliza C. S. Wilder
+
+B.S. Chemistry, University of Cincinnati
+June 2014
+
+Committee Chair: Gerald B. Kasting, Ph.D.
+
+Abstract
+Human eccrine sweat is a naturally occurring salty biofluid produced in the thermoregulation
+of the human body. Though most predominantly associated with cooling of the body eccrine
+sweat has also been used in the diagnosis of diseases such as cystic fibrosis. In cystic fibrosis
+diagnosis pilocarpine iontophoresis is used at hospitals and clinics nationwide as the goldstandard test to induce sweating on the forearm of infants. Detection of elevated levels of
+chloride ions in the sweat leads to a positive read for cystic fibrosis.
+Along with chloride and sodium ions, sweat has been found to contain numerous
+other electrolytes, small and large molecules, peptides and proteins which are shown to
+correlate to other body fluids such as blood, blood derivatives, saliva and tears in levels
+ranging from mM to pM concentrations. Examination of sweat analytes leads to the potential
+for noninvasive diagnostic techniques to be developed in the form of on-skin patches which
+may allow for biomonitoring for conditions other than cystic fibrosis.
+After building a database of numerous analytes, their concentrations in sweat and
+means of partitioning pathways into the sweat glands it was important to begin in vivo
+assessment of human sweat. The cystic fibrosis sweat test using two iontophoretic devices
+from Wescor Inc. was performed on 18 healthy subjects at the University of Cincinnati upon
+approval from the Institutional Review Board (IRB) to examine sweat rates, electrolyte
+concentrations and effects of multiple doses on the same site. Results indicated a statistically
+significant difference in sweat rates of men versus women, as well as notable differences in
+electrolyte concentrations between left arms and right arms of subjects. Subjects who were
+included in repeat tests on identical sites showed significant decreases in sweat rates.
+Novel sweat sensor patches are currently being tested as part of exploratory studies
+examining alternative methods of sweat stimulation and sensing. Based on the results gained
+from testing with the commercially available cystic fibrosis testing devices new sweat sensor
+i
+
+technologies can work towards alleviating the current limitations of sweat as a biofluid and
+allow for broadening the spectrum of sweat biomonitoring.
+
+ii
+
+iii
+
+Acknowledgements
+First and foremost I want to thank my graduate advisor, Dr. Jerry Kasting. His guidance,
+wisdom and patience throughout my entire graduate experience has been invaluable. I feel
+incredibly blessed to have been given the opportunity to become part of the cosmetic science
+program because he saw the potential in me. Throughout my entire graduate experience when
+I lacked inspiration, I did not know the answer to a question, needed advice on how to best
+handle a situation he could be counted on. And for this I am so grateful.
+I want to thank Dr. Trudy Gaillard for both serving on my committee and for acting as
+PI on the many human subjects testing studies. She was instrumental in beginning the clinical
+work for our team. I also would like to thank Dr. Kevin Li for serving on my committee, as
+well as providing countless valuable insights both in the classroom and outside it. I must also
+give my utmost appreciation and thanks to Dr. Jason Heikenfeld and all my engineering
+colleagues without whom this work would neither exist nor have reached its full potential.
+Dr. Heikenfeld consistently encouraged me to ask questions and constantly inspired me with
+his infectious enthusiasm.
+I am grateful to the Center for the Advanced Designed of Microfluidics and Integrated
+Materials (CADMIM) as well as the James L. Winkle College of Pharmacy for their financial
+sponsorship over the course of my graduate education.
+Finally I extend my infinite gratitude to my family for their unconditional love,
+support through the most trying of times and for never doubting me even when I doubted
+myself. This work is dedicated to them.
+
+iv
+
+Table of Contents
+ABSTRACT
+i
+ACKNOWLEDGEMENTS
+iv
+TABLE OF CONTENTS
+v
+LIST OF TABLES
+vi
+LIST OF FIGURES
+vi
+(1) INTRODUCTION
+1
+(1.1) ULTRASTRUCTURE OF THE ECCRINE SWEAT GLAND
+1
+(1.2) SWEAT SECRETION AND mM-pM SOLUTE PARTITIONING
+3
+(1.3) CURRENT SWEAT STIMULATION AND SENSING TECHNOLOGIES
+10
+(2) HYPOTHESIS AND SPECIFIC AIMS
+13
+(3) AN EXAMINATION OF INTRA- AND INTERSUBJECT SWEAT VARIATIONS
+USING COMMERCIALLY AVAILABLE SWEAT STIMULATION TECHNOLOGIES 14
+(3.1) INTRODUCTION
+14
+(3.2) MATERIALS AND METHODS
+15
+(3.2.1) PARTICIPANT DEMOGRAPHICS AND ELIGIBILITY
+15
+(3.2.2) NANODUCT® IONTOPHORESIS
+16
+(3.2.3) MACRODUCT® IONTOPHORESIS
+17
+(3.2.4) STATISTICAL ANALYSIS
+18
+(3.2.5) STUDY APPROVAL AND INFORMED CONSENT
+18
+(3.3) RESULTS
+18
+(3.3.1) NANODUCT®
+18
+(3.3.2) MACRODUCT®
+19
+(3.3.3) DUPLICATION TESTS
+20
+(3.4) DISCUSSION
+21
+(3.5) ETHICAL APPROVAL
+23
+(3.6) CONFLICT OF NTEREST
+23
+(4) EXPLORATORY STUDIES
+24
+(4.1) IONTOPHORETIC SUDOMOTOR AXON REFLEX PATCH
+24
+(4.2) EXERCISE PATCH
+26
+(5) CONCLUSIONS AND RECOMMENDATIONS
+28
+BIBLIOGRAPHY
+31
+APPENDIX A: TESTING THE MICROFLUIDICS OF ON-SKIN TECHNOLOGIES
+34
+APPENDIX B: TESTING OF A NOVEL IONTOPHORETIC SWEAT STIMULATION
+PATCH
+42
+APPENDIX C: TESTING OF NOVEL ON-SKIN SWEAT PATCH THROUGH
+METABOLIC SWEAT INDUCTION
+47
+
+v
+
+List of Tables
+Table 1 Dimensions and additional physical descriptors for eccrine sweat glands. .................. 3
+Table 2 Typical concentration ranges for common biomarkers in sweat versus blood, plasma
+and serum ................................................................................................................................... 9
+
+List of Figures
+Figure 1 Illustration of the secretory coil and dermal duct. ....................................................... 1
+Figure 2 Sweat analyte concentration compared to sweat rate. ............................................... 11
+Figure 3 Macroduct® Sweat Collection Spirals and Nanoduct® Neonatal Sweat Analysis
+System ...................................................................................................................................... 15
+Figure 4 Intra- and interpersonal Nanoduct® average values. ................................................ 19
+Figure 5 Intra- and interpersonal Macroduct® sweat rate values. ........................................... 20
+Figure 6 Duplication tests performed by the Macroduct® device. .......................................... 21
+Figure 7 Schematic of QSART iontophoretic patch. ............................................................... 25
+
+vi
+
+1 Introduction
+1.1 Ultrastructure of the Eccrine Sweat Gland 1
+The human eccrine sweat gland comprises several geometrically distinct portions, the
+secretory coil, the dermal duct, and the upper coiled duct, as shown in Figure 1. The upper
+coiled duct is also often referred to as the acrosyringium. In this region, the sweat duct
+expands in diameter slightly, until it emerges at the surface of the skin (1-3).
+
+Figure 1 Cross-sectional and top-down illustration of the (a) secretory coil and (b) dermal duct.
+
+Typical ranges for the physical dimensions of the human eccrine sweat gland are
+shown in Table 1. These dimensions also have the potential to vary due to differences in
+gender, age, and race (1, 2, 4). The largest portion of the eccrine sweat gland is the secretory
+
+Sections 1.1 and 1.2 are quotations from the published review paper “The microfluidics of
+the eccrine sweat gland, including biomarker partitioning, transport, and biosensing
+implications” by Sonner, Wilder et al (2015). A more comprehensive overview of the
+computational modeling and analyte partitioning can be found in the full manuscript which
+can be accessed online at
+http://scitation.aip.org/content/aip/journal/bmf/9/3/10.1063/1.4921039.
+1
+
+1
+
+coil, which can be upwards of 700 µm in diameter in its natural bundled state and with an
+extended length of several millimeters (2). The inner-diameters of the secretory coil and
+ductal regions are referred to as the lumen, ranging from 5µm to 10s of µm (2, 5, 6).
+Top-down cross-sectional illustrations of the secretory coil and dermal duct are shown in
+Figure 1. These cross-sections are important, as they are the interface through which
+biomarkers partition into new sweat. As shown in Figure 1(a), the secretory coil contains
+three primary cells: the clear (secretory), dark (mucoid), and myoepithelial (supportive) cells
+(3, 6, 7). In comparison, the dermal duct contains only a bilayer of basal and luminal cells (6,
+7) as shown in Figure 1(b). Clear cells are hypothesized to be the dominant source of sweat
+secretion due to the abundance of mitochondria present within the cell (7). Dark cells,
+however, are believed to be involved in membrane-cellular transport and may also have the
+ability to act as clear cells, themselves (7). Myoepithelial cells are thought to act as a
+supportive network between the basolateral membrane (7). Regarding the dermal duct, the
+luminal cells form a semi-cuticular border with many microvilli protruding into the lumen of
+the duct, which increases the effective surface area of the cells for absorption or secretion (7).
+The basal cells in the dermal duct are characterized with abundant mitochondria, also
+suggesting a highly active role in sodium reabsorption (3). Other physical descriptors of
+sweat glands and their densities across the body are listed in Table 1.
+
+2
+
+Table 1 Dimensions and additional physical descriptors for eccrine sweat glands (1, 2, 6, 8-11).
+Descriptor
+Value (µm)
+Secretory Coil
+Length
+
+2000-5000
+
+Outer diameter
+
+60-120
+
+Inner diameter
+
+5-40
+
+Descriptor (units)
+Sweat surface tension
+(mN/m)
+Composition of sweat
+(% water)
+Maximum hydrostatic
+pressure (kN/m2)
+Typical sweat rate
+range (nL/min/gland)
+
+Dermal (straight) duct
+Length
+2000
+Outer diameter
+50-80
+Inner diameter
+10-20
+Upper coiled duct
+(Acrosyringium)
+Length
+200-300
+Outer diameter
+120
+Inner diameter
+20-60
+
+Total bundled
+(coiled) diameter
+
+Value
+71.8
+99
+70
+<1-20
+
+Approximate eccrine sweat gland densities
+Location
+Gland density (cm2)
+Toe
+550
+Palm, finger
+250
+Forehead, forearm
+Abdomen, back, legs
+Number of
+glands/individual (106)
+
+150
+100
+1.6-5
+
+500-700
+
+1.2 Sweat secretion and mM-pM solute partitioning
+The partitioning of Na+ and Cl- ions, the most abundant solutes in sweat, is an active process
+which is also fundamental to the secretion of water (11, 12). Water and NaCl are partitioned
+from blood into the lumen of the secretory coil through seven general steps as outlined by
+several authors (11-13): (1) signals from the brain stimulate cholinergic nerve endings
+surrounding the sweat gland (due to stress, temperature, or other known stimuli (11, 14)), (2)
+stimulation causes Ca2+ influx into the surrounding cells, (3) Ca2+ stimulates K+/Cl- channels
+causing Cl- to enter the lumen and K+ to exit the luminal cells on the basolateral membrane,
+(4) this exiting of K+ and Cl- causes a chemical potential gradient permitting co-transport of
+Na+-K+-2Cl- into the cell, (5) K+ and Na+ recycle across the basolateral membrane permitting
+increased flux of Cl- into the lumen, (6) once electric field builds, Na+ enters the lumen via
+intracellular junctions to re-establish charge neutrality, and (7) the lumen then has greater
+
+3
+
+osmolality (NaCl) than the surrounding cells which causes an influx of water into the lumen
+to re-equilibrate. This preliminary fluid then “pumps” along the length of the duct.
+Through evolution the body has developed mechanisms to retain electrolytes which
+would be rapidly lost when large volumes of sweat are used for cooling the body. Once the
+preliminary sweat in the coil is formed, the osmotically generated pressure forces the fluid up
+from the coil into the ductal region (3). Sodium and chloride ions are then actively reabsorbed
+via two channels, the epithelial sodium channel (ENaC) and the CF transmembrane regulator
+(CFTR), respectively (12). Levels of both Na+ and Cl- are elevated at high sweat rates,
+indicating that the two channels that reabsorb sodium and chloride ions work at-or-near the
+same rates regardless of the sweat flow rate in the duct (12, 13). In most instances, chloride
+concentrations are 20–25 mM less than sodium concentrations due to the contribution of
+other anions (7) present in sweat such as bicarbonate (HCO3). Both sweat rates and Na+ and
+Cl- concentrations differ across the body due to regional differences in the glands themselves
+(15).
+Potassium partitioning is interesting to examine because although it is a small ion like
+sodium or chloride, its transport mechanism is vastly different. From an applied perspective,
+K+ in plasma predicts muscle activity (16) and a myriad of conditions related to hypo- or
+hyperkalemia (17). Further, K+ concentration in sweat is proportional to blood concentration
+and is independent of sweat rate (18). The precise method of K+ partitioning into sweat has
+not been fully confirmed but the concentration appearing at the surface of skin is likely
+influenced by K+ leak channels in the duct (11). Kenzo Sato conducted a very detailed
+analysis of measuring K+ exiting the secretory coil vs. K+ exciting the duct onto the surface of
+skin (3). The results for the preliminary sweat emerging from the secretory coil showed K+
+isotonic to blood (5 mM). However, sweat emerging from the duct was found to be several
+mM higher in concentration, possibly indicating that the active process of ductal reabsorption
+4
+
+of Na+ results in possible secretion of K+ into sweat in the duct. Sato’s experiment was
+conducted on glands extracted from the palm (not in the body).
+Ammonia is of interest in sweat because it has been shown to track with exercise
+intensity and blood levels (19-21). Ammonia is also of interest because it is a possible and
+needed substitute for lactate measurement of anaerobic condition. Ammonia (NH3) passes
+through the cells lining the secretory coil by means of a passive diffusive mechanism (3). In
+the lumen, most ammonia molecules that partition from blood will protonate to ammonium
+(NH4+) due to the relatively low pH of sweat which approaches a pH of 5 for low sweat rates
+and increases towards 7 at higher sweat rates (7). Assuming an ammonia pKa of 9.3, the
+Henderson-Hasselbalch equation then predicts that even at a pH of 7, the vast majority of
+ammonia (NH3) that is able to diffuse into the sweat gland lumen will be protonated in sweat
+into ammonium (NH4+) (22). Therefore, while NH3 has a high level of diffusivity through
+cellular membranes, NH4+ will not because of its electrical charge (7). This essentially causes
+“trapping” of ammonium in the lumen of the secretory coil and dermal duct. This supports
+the discovery that the concentration of ammonium (NH4+) in sweat is amplified (20–50 times
+higher) compared to the concentration of ammonium in plasma (3).
+Ethanol metabolism is well-studied in humans as it is the key molecule which causes
+intoxication via excessive consumption of alcohol. Several studies show a strong correlation
+between blood and sweat ethanol concentrations which could potentially enable continuous
+blood alcohol (BAC) analysis by sweat measurement (23-25). Gamella et al. presented a noninvasive electrochemical bio-sensing device which monitored ethanol concentrations in sweat
+whilst demonstrating higher sensitivity compared to breathalyzers commercially available at
+the time in 2014 (23). Furthermore, their device showed a response to sweat ethanol
+concentrations within only 5 minutes after ingestion of an alcoholic beverage, while also
+
+5
+
+demonstrating strong correlation to BAC (r=0.934) (23). Such capability is available
+commercially (e.g., a wearable bracelet by SCRAMVR Systems).
+Due to the hydrophilic-lipophilic balanced nature of ethanol, this molecule is watersoluble and has the ability to permeate through most membranes within the human body. In
+many studies on ethanol concentration, correlations between sweat and blood conclude that
+ethanol is found about 20% more concentrated in sweat compared to blood or plasma (23,
+25). However, when comparing the water contents of blood and sweat, one also finds that
+sweat has approximately 20% more water than that of blood (24). In fact, when comparing
+the concentration of ethanol in terms of millimoles per liter of water instead of liter of
+solution (more generalized), one finds that sweat and blood ethanol concentrations correlate
+one to one (24). This simple result further shows that numerous types of alcohols likely
+correlate well between sweat and blood. Furthermore, this reinforces that correlations with
+blood should always consider the fact that blood has a lesser percentage of water compared to
+sweat.
+Cortisol is a vital life hormone released in response to stress from the hypothalamopituitary-adrenal axis (26). Cortisol’s lipid-soluble nature allows for passive transport
+between the lipid-bilayer membrane of cells, allowing for cortisol’s presence to be detected in
+many bodily fluids including sweat (27, 28). However, there are two distinct structures of
+cortisol. Namely, unbound cortisol which is able to diffuse through membranes via
+intracellular passive transport, while cortisol bound to carrier proteins is unable to make this
+diffusion (28, 29). In saliva, free cortisol is carried by the bloodstream to acinar cells at the
+ends of the salivary glands where its lipid-soluble nature allows for passive transport into the
+salivary glands, causing salivary cortisol levels to be independent of salivary rates (27).
+Studies also show that saliva cortisol correlates with serum unbound cortisol levels (29).
+
+6
+
+This mechanism of unbound cortisol partitioning and salivary rate independence
+found in salivary gland function can be speculated to be true for sweat glands as well.
+Cortisol levels in sweat have been recorded as ranging from 2.21x10-5 to 3.86x10-4 mM, with
+the greatest concentration being found in the morning and correlating with salivary
+concentrations (26). Comparatively, blood cortisol concentrations typically range from
+1.24x10-4 to 4.0x10-4 mM (30). It should be noted that type 2 11-b-hydroxysteroiddehydrogenase (HSD), which is an enzyme capable of converting cortisol to cortisone, has
+also been detected in cells of the eccrine sweat gland duct (30).
+Urea is a nitrogen-containing metabolite typically excreted by the kidney but is found
+to be alternatively excreted through sweat glands. Urea from sweat is even visibly observable
+as a white skin crust in patients suffering from kidney failure (31, 32) (with urea levels up to
+50 times greater than in serum). Urea partitioning into sweat has not been fully confirmed but
+ideas of passive transport across glands from blood into sweat precursor fluid has been a
+common speculation (3, 7, 33) and emphasized by urea’s diffusibility through membranes as
+well as its ratio relationships to plasma (33). Another theory of urea partitioning is possible
+metabolism by the sweat glands or other means such as Urea Transporter-B (UT-B) (31, 32,
+34). Regardless, urea concentrations in sweat for healthy males are typically in the range
+from 2 to 6mM (7, 33), with serum urea concentrations ranging from 5 to 7 mM (34). At low
+sweat rates, the sweat to plasma urea concentration ratio reaches upper limits of 4 but
+approach 1 as sweat rates increase (3, 33). Other studies are less conclusive, perhaps due to
+use of significantly uncontrolled sweat generation and collection methods (34). Further study
+is clearly needed to determine if clinical data with higher urea concentration at low sweat
+rates is due to evaporation or other causes.
+Lactate is a small molecule metabolite produced by the body as a result of anaerobic
+activity (high exertion exercise, critically ill patients, etc.) (35). Lactate is used to sustain the
+7
+
+purine nucleotide cycle (PNC) and tricarboxylic acid cycle (TCA cycle) which allows energy
+production in the absence of adequate oxygen (35). The transport of lactate from plasma to
+sweat remains not fully understood and inherently complex. Lactate has two likely origins:
+(1) a flux of the metabolite due to the metabolism of a “hard-working” sweat gland itself and
+(2) any active or passive transport mechanism which transports the metabolite between
+plasma and sweat.
+What is clear at this point is that sweat lactate is at least an indirect indicator of body
+exertion (36) and is likely more directly related exertion of the sweat gland itself in response
+to whole body exertion. Several studies (19, 37, 38) have experimentally investigated the
+relationship between plasma and sweat lactate levels after exercise, with widely ranging
+sweat concentrations as low as 6 mM (19) and as high as 100 mM (39).
+Various peptides and small proteins have been detected in eccrine sweat and have
+been shown to correlate with plasma levels. Polypeptides are long linear chains of multiple
+amino acids found throughout the body (40). Proteins are also chains of amino acids and
+therefore can be classified as polypeptides, but are typically seen as three-dimensional
+structures rather than in linear form (40). These structures are much larger than small
+molecules and their partitioning into sweat is unexpected at first glance. Exact partitioning
+models remain unknown, but the initial work on sweat correlations with blood is promising.
+Cytokines are reduced regulatory proteins synthesized and released by immune
+system cells as well as a variety of other cells including those in eccrine sweat glands (41). In
+previous sweat patch studies, interleukin-6 (IL-6), IL-1a, IL-1b, IL-8, tumor necrosis factor-a
+(TNF-a), and transforming growth factor-b (TGF-b) have been detected directly in eccrine
+sweat and have been shown to have a direct correlation with plasma levels (41). However,
+cytokines can also be reproduced systemically or locally (41) at the sweat gland. Many
+cytokine responses are systemic in cytokine production, such that cytokine production by or
+8
+
+near the sweat gland would mirror cytokine production in the body, such that sweat gland
+produced cytokines could still correlate with concentrations in blood. Therefore, in some
+cases, the “source” of the cytokine generation may be less important.
+Peptides such as neuropeptide Y (NPY) also display correlation between sweat and
+blood. NPY is a linear polypeptide found in dermal nerve fibers, sweat glands, and hair
+follicles (42). NPY is found to exhibit anti-stress activities when receptors are activated,
+along with numerous other effects such as anti-depressive properties (43). In a study of
+women with major depressive disorder (MDD) in remission, levels of cytokine and
+neuropeptide concentrations were measured via sweat patch and plasma comparisons (44). It
+was displayed that levels of sympathetic NPY increased from 4.45x10-10 mM in sweat of
+healthy patients to 1.19x10-10 mM in sweat of MDD patients, with levels comparable to
+plasma concentrations in both groups (44). This is presumably due to an elevation in stress
+response due to MDD.
+Table 2 Typical concentration ranges for common biomarkers in sweat versus blood, plasma,
+and/or serum with subscripts indicating particular fluid (b-blood; p-plasma; s-serum) (3, 7, 15, 24,
+26, 30, 34, 38, 41, 44-47).
+Biomarker
+
+Partitioning and sweat rate
+dependent (SWD) or mainly
+independent (SWI)
+
+Sodium (Na+)
+Chloride (Cl-)
+Potassium (K+)
+
+Active—SWD
+Active—SWD
+Passive—SWI
+
+Concentration
+range
+(mM) in sweat at
+surface
+10–100
+10–100
+4–24
+
+Ammonium (NH4+)
+
+Passive (amplified)—SWI
+
+0.5–8
+
+Ethanol
+
+Passive—SWI
+
+2.5–22.5
+
+Cortisol
+
+Passive—likely SWI
+
+2.21x10-5–3.86x10-4
+
+Urea
+Lactate
+Neuropeptide Y
+(NPY)
+
+Various, not confirmed
+Generated by gland—SWD
+
+2–6
+5–60
+
+Various, not confirmed
+
+1.19x10-10–6.82x10-10
+
+Interleukin 6 (IL-6)
+
+Various, not confirmed
+
+2.91x10-10–6.54x10-10
+
+9
+
+Concentration
+range
+(mM) in blood,
+plasma, serum
+135–150p
+96–106s
+5–6
+20–50< sweat
+concentrationp
+2.5–22.5b
+1.24x10-4–
+4.0x10-4b
+5–7s
+1–7b
+1.41x10-10–
+6.11x10-10p
+2.15x10-10–
+5.69x10-10p
+
+As shown in Table 2 many of the molecules in sweat have concentrations which are sweat
+rate dependent. The beauty of measuring molecules which do exhibit sweat rate dependency
+is the ability to predict concentration levels in sweat at given sweat rates and vice versa. This
+trend is critical in the development of novel sweat technologies given that concentrations and
+sweat rates can be indicative of each other. In current technologies sodium and chloride ions
+are measured after sweat stimulation to diagnose patients with cystic fibrosis.
+1.3 Current Sweat Stimulation and Sensing Technologies
+The most widely recognized sweat technology is the Wescor Macroduct® Sweat Collection
+System which stimulates small volumes of sweat followed by sweat collection for laboratory
+analysis of chloride concentrations. Sweat chloride testing is widely considered the goldstandard for infantile cystic fibrosis diagnosis (45). Cystic fibrosis is a genetic disease which
+causes a malfunction in the cystic fibrosis transmembrane regulator channel, found on the
+sweat duct, and prevents Cl- reabsorption This leads to thick mucus that coats many of the
+vital organs in the body, predominantly the lungs, which can result in fatality (48). Because
+the body is unable to reabsorb chloride ions heightened Cl- levels in sweat are indicative of
+cystic fibrosis (12) (Figure 2). Sweat chloride values in infants less than 40 mmol/L are
+negative for cystic fibrosis while those values greater than 60 mmol/L are considered cystic
+fibrosis positive (49). Healthy adults can exhibit sweat chloride values of great than 60
+mmol/L (49).
+In order for hospitals to be able to test sweat chloride levels, sweat must be chemically
+stimulated. In naturally occurring sweat an increase in temperature causes hypothalamic
+release of acetylcholine to begin the secretion process. However a technique called
+“iontophoresis” can also aid in the stimulation of sweat secretion.
+
+10
+
+Figure 2 Sweat analyte concentrations compared to sweat rate (45). In the absence of cystic
+fibrosis sweat chloride and sodium levels are expected to increase with sweat rate. However
+patients who test positive for cystic fibrosis have heightened levels of chloride in sweat across all
+sweat rates.
+
+Medically speaking, iontophoresis is the process by which charged drugs are delivered
+through tissues via electric current (50). A drug of choice is placed on two electrodes, one
+being of the same charge as the drug (stimulation electrode) and one being of opposite charge
+(return electrode) (50). Typically the positively charged electrode is the anode which will
+repel a positively charged drug into the skin (51). Alternatively the negatively charged
+electrode is the cathode which will repel a negatively charged drug into the skin (51). The
+electrodes are then placed on neutral areas of the body, and are attached to a power source
+which delivers a predetermined direct (Galvanic) current to the electrodes for a set amount of
+time (50). The flow of current between the electrodes drives the drug into the site of choice
+through the tissue (50).
+Historically iontophoretic drug delivery has been used in the delivery of drugs ranging
+from antibiotics, to steroids and local anesthetics (50). One of the more common uses of
+iontophoretic drug delivery, however, is that of pilocarpine to activate the sweat glands.
+11
+
+Pilocarpine is a drug employed in the stimulation of sweat glands, but is furthermore
+used in the treatment of glaucoma in the eyes, and also dry mouth by means of stimulating
+the salivary glands (52). In natural sweat response the brain receives a signal from an increase
+in localized heat which causes a release of acetylcholine from the brain. This chemical travels
+the length of the spinal cord, then attaches to muscarinic action sites at the base of the sweat
+glands to begin secretion (12). Pilocarpine has the same ability to bind to the noted action
+sites at the base of the sweat glands, yielding a sweat response (52) once it has been driven
+through the skin with iontophoresis. Acetylcholine is metabolized rapidly by
+acetylcholinerase; however pilocarpine is not as susceptible to acetylcholinerases allowing
+for a longer sweat response to occur (52). Other cholinergic agonists can produce sweat
+responses through the described mechanism including methacholine and carbachol though
+through demonstration of nicotinic affinity (52).
+The previously mentioned Wescor Macroduct® device as well as the Wescor
+Nanoduct® utilizes pilocarpine iontophoresis for sweat stimulation and analysis in hospitals
+and clinics nationwide. These devices offer the best starting point through which novel sweat
+stimulation and sensing technologies can stem. Typically the Wescor devices are used solely
+on patients who are being screened for, or who have previously tested positive for, cystic
+fibrosis. A study was therefore created and performed to test healthy, non-cystic fibrosis
+adults to examine sweat variations intra- and interpersonally and to serve as guidance in
+novel sweat device design.
+
+12
+
+2 Hypothesis and Specific Aims
+It is hypothesized that useful guidance for novel sweat sensor development will be obtained
+from moderate scale testing of commercial sweat stimulation and sensing devices on healthy
+subjects. This will be accomplished through three specific aims:
+
+
+Using the FDA approved Wescor Macroduct® and Nanoduct® devices recreate the
+standard cystic fibrosis testing procedure. Analyze the collected sweat through
+examination of sweat rate, electrolyte concentration, and volume of sweat produced
+from each subject.
+
+
+
+Evaluate the relationship between sweat electrolyte concentration and sweat rate via
+sequential application of the two test methods. Compare the relationship to that found
+in the literature for simultaneous measurements.
+
+
+
+Build a database of intra- and intersubject variation of sweat rates and NaCl
+concentrations in order to guide sensor development.
+The intention of this work is to offer such a tool for researchers to combat the
+
+aforementioned sweat limitations and advance the developments of sweat sensing devices for
+consumer use.
+
+13
+
+3 An Examination of Intra- and Intersubject Sweat Variations Using
+Commercially Available Sweat Stimulation Technologies
+3.1 Introduction
+Human eccrine sweat is a biofluid produced to aid thermoregulation of the body (12) and is
+found to contain numerous biomarkers (11, 45). Biomarkers in sweat include vital
+electrolytes such as sodium and chloride, small molecules and a number of peptides (45).
+Examination of these biomarkers can lead to diagnosis of certain diseases; most commonly,
+cystic fibrosis as evaluated via sweat chloride concentration. Cystic fibrosis is caused by a
+malfunction in the cystic fibrosis transmembrane regulator (CFTR) which transports chloride
+ion across cellular membranes throughout the body (48). Without the resorption of vital
+chloride ions by the CFTR in the ductal region of the sweat gland, heightened levels of
+chloride ions can be detected in sweat, thus leading to the diagnosis of cystic fibrosis (45).
+Testing for cystic fibrosis is performed through iontophoretic delivery of a drug called
+pilocarpine, which begins the sweat secretion process (49). A chloride concentration of >60
+mM provides indication of cystic fibrosis in infants, however, adults can show levels of
+chloride ions >60 mM and be CF negative (49). Though sweat testing is considered the goldstandard for cystic fibrosis screening, the potential for sweat to be used in other diagnostic
+arenas is highly desirable (45). Sweat sensor development is becoming increasingly popular;
+however, more information about intrapersonal and interpersonal sweating variations needs
+to be studied. Using the commercially available cystic fibrosis sweat testing devices, Wescor
+Macroduct® and Nanoduct®, the investigators set out to examine intrapersonal and
+interpersonal variations of Na+/Cl- concentration and sweat rates for several subjects via
+pilocarpine iontophoresis. Images of these devices are shown in Figure 3. Analysis included
+variation between left and right arms, gender, and sweat rates after multiple dosages applied
+on the same site several weeks apart.
+14
+
+Figure 3 (a) Macroduct® Sweat Collection Spirals and (b) Nanoduct® Neonatal Sweat Analysis
+System.
+
+3.2 Materials and Methods
+Each subject was asked to schedule two one-hour appointments, at minimum 24 hours apart.
+During the first appointment the Nanoduct® procedure was performed; subsequently the
+Macroduct® test procedure was performed at the second appointment. Upon arrival, subjects
+were equilibrated to the testing room for at least 20 minutes. The rooms in which testing
+occurred were maintained at an average temperature of 22.7°C and 45% relative humidity to
+ensure subject sweating was purely from iontophoresis rather than an environmental factor.
+3.2.1 Participant Demographics and Eligibility
+A total of 18 healthy adults volunteered to participate in this study, n=7 women
+and n=11 men. Three subjects underwent an additional round of testing for
+examination of sweat rate variances using the Macroduct®, while a fourth subject
+was tested four times for sweat rate variance examination. All subjects were deidentified to ensure full anonymity of participants. Ages ranged from 20 to 62
+years old. Two subjects indicated a left-handed dominance, while the other 16
+indicated a right-handed dominance. Subjects were asked to estimate their average
+physical activity level, rating themselves in four categories from sedentary (no
+15
+
+physical activity) to very active (>5 workouts per week). Each subject was asked a
+series of questions to determine eligibility based on predetermined inclusion and
+exclusion criteria. Exclusion criteria included the subject possessing any of the
+following: known metal allergies, diabetes, epilepsy, cystic fibrosis, pregnancy,
+tattoos and/or visible skin irritations on the testing site including eczema, and
+cardiac or heart problems. Exclusion criteria were determined for the consistency
+of subject pool.
+3.2.2 Nanoduct® Iontophoresis
+After the acclimation period, a procedure similar to the recommended procedure
+provided via Wescor Inc. was utilized for sweat stimulation and electrolyte
+analysis, including an alcohol-based cleaning procedure at the site of stimulation
+to remove natural oils. During iontophoresis, a separation of stimulation (red) and
+return electrode (black) at 1 inch was utilized with the stimulation electrode 3
+inches above the subject’s wrist. The pilocarpine-infused hydrogel used for
+iontophoresis was PILOGEL® (0.5% pilocarpine nitrate) which is also
+commercially available via Wescor®. For iontophoresis, the Nanoduct® provides
+a steady current of 0.5 mA, roughly 0.25 mA/cm2 for 2.5 minutes. After the end
+of iontophoresis, the stimulation electrode and PILOGEL® disc were exchanged
+for a conductivity sensor which estimates the NaCl equivalent concentration
+(mmol/L) within sweat. Further, the Nanoduct® reports an average NaCl
+equivalent value after 8 minutes of measurement that represents the average Na+
+and Cl- concentrations shortly after stimulation, herein reported as the
+‘Nanoduct® average’. Upon completion of measurements, all components were
+removed and the subjects arm thoroughly cleaned.
+
+16
+
+3.2.3 Macroduct® Iontophoresis
+After the acclimation period, a procedure similar to the recommended procedure
+provided via Wescor® was utilized for sweat stimulation and electrolyte analysis,
+including an alcohol-based cleaning procedure at the site of stimulation to remove
+natural oils. During iontophoresis, a separation of stimulation (red) and return
+electrode (black) at 1 inch was utilized with the stimulation electrode 3 inches
+above the subject’s wrist. The pilocarpine-infused hydrogel used for
+iontophoresis was PILOGEL® (0.5% pilocarpine nitrate) which is also
+commercially available via Wescor®. For iontophoresis, the Macroduct®
+provides a steady current of 1.5 mA, roughly 0.25 mA/cm2 for 5 minutes. After
+the end of iontophoresis, all electrodes were removed and a collection spiral
+placed over the stimulation region. This collection spiral relies on the hydrostatic
+pressure of the sweat glands to fill a spiral tube with a total volume of 85 µL.
+Further, this collection spiral contains less than 10 nanomoles of water-soluble
+dye at the entrance to allow visualization of the collection spiral as it fills with
+sweat. During the collection period, marks were made at regularly scheduled
+intervals on the spiral to indicate the cumulative amount of sweat generated at
+each respective time point. Since each centimeter of the spiral corresponds to 2.7
+µL of sweat, one can make an accurate estimation of sweat rate. Upon completion
+of measurements, all components were removed and the subjects arm thoroughly
+cleaned.
+Duplication tests followed an identical procedure, with electrodes being placed on
+the same sites of the forearms as in the initial Macroduct® test.
+
+17
+
+3.2.4 Statistical Analysis
+Statistical analysis was performed utilizing JMP® statistical discovery software.
+Tests performed for comparing sweat rates between men versus women and left
+arm and right arm variations were two-way (factorial) ANOVA for parametric
+data sets. Maximum sweat rate values are reported as the maximum data set value
+at the noted time point for each data group ± standard error. Each time point
+represents the mean of all individual values in that data set. Statistical analyses of
+the duplication tests for intrapersonal sweat rate comparisons were conducted
+using one-way ANOVAs for each test of each noted identifier.
+3.2.5 Study Approval and Informed Consent
+Approval for this study was granted by University of Cincinnati Institutional
+Review Board (UC IRB). Subjects were thoroughly explained the test procedure
+and were required to sign an informed consent document before beginning their
+first appointment test. Subjects who volunteered for a duplication of the
+Macroduct® test were required to sign an additional informed consent document
+as if the participant was a new identifier.
+3.3 Results
+3.3.1 Nanoduct®
+As mentioned previously, after 8 minutes of measurement of sweat conductivity
+the Nanoduct® device reports an average value in mmol/L NaCl equivalents,
+referred to here as the ‘Nanoduct® average’. Histograms of these data as reported
+by the device for men vs. women and right vs. left arm are provided in Figure 4.
+Due to the limited sample pool, statistical significance and normality of these
+histograms are difficult to interpret. Specifically, in Figure 4(a) the Nanoduct®
+average for men and women appears to be centered at 35-55 mM NaCl
+18
+
+equivalents. In Figure 4(b) the Nanoduct® average for the left arm indicates a
+right skewed distribution with a peak around 35-45 mM NaCl equivalents.
+
+(a)
+
+(b)
+
+Figure 4 Binned histogram of the Nanoduct® average values, reported 8 minutes after sweat
+conductivity measurements commenced. (a) Interpersonal men versus women’s estimated NaCl
+concentrations are displayed. In this data set, n=9 men and n=7 women are displayed. (b)
+Intrapersonal variations of right arm versus left arm NaCl concentrations are displayed. In this
+data set, n=16 with 2 subjects excluded as outlying data.
+
+3.3.2 Macroduct®
+The first four minutes of all sweat rate measurements display a delay in which the
+sweat collected in the concave portion of the spiral base in order to begin pushing
+up through the spiral tubing. The peak sweat rate occurred between 8 and 10
+minutes for all subjects. Men’s sweat rates peaked at 9 minutes at a rate of
+approximately 5.2±0.3 µL/minute with a consistent decreasing trend thereafter,
+where women’s average sweat rates showed a relative plateau from 7-17 minutes
+at around 2.8±0.2 µL/minute, with the first significant decrease at 20 minutes
+(p<0.05 for men versus women) (Figure 5(a)). Intrapersonal examinations of
+sweat rates (right arm versus left arm) displayed a nearly identical overlap of
+values, peaking at 9 minutes with a continuous decrease in sweat rates (Figure
+5(b)). In both comparative groups not all identifiers are present in values after 25
+minutes due to a complete filling of sweat rate spiral, which may be related to the
+final increase in sweat rates.
+19
+
+Figure 5 Macroduct® sweat rate tests. (a) Sweat rates are shown for men versus women with
+men’s sweat rates peaking at 5.1±0.2 µL/min at 9 minutes, while women’s sweat rates remained
+statistically constant at 2.8±0.2 µL/min from 5-20 minutes. (b) Sweat rates are shown for right
+versus left arm. Both right and left arms display nearly identical values for the duration of the
+test.
+
+3.3.3 Duplication Tests
+Four identifiers took place in duplication tests using the same Macroduct®
+procedure in order to examine variations in sweat rates after multiple dosings. For
+each identifier, the 8 minute time point was used as a comparative mean value of
+sweat rate. Identifier 11 showed a week 0 sweat rate of 4.3±0.2 µL/minute and 12
+weeks later saw a rate of 3.0±0.4 µL/minute (p<0.05) (Figure 6(a)). Identifier 14
+showed a week 0 sweat rate of 3.7±0.2 µL/minute sweat rate and at week 7
+displayed a sweat rate of 2.1±0.2 µL/minute (p<0.05) (Figure 6(b)). Identifier 15
+showed a week 0 sweat rate of 1.7±0.2 µL/minute and week 12 displayed 1.0±0.2
+µL/minute (p<0.05) (Figure 6(c)). Identifier 6 had a total of 4 duplication tests
+performed at various times to see if a recovery period could be determined. Tests
+were performed at week 0, 6, and 8, with a final recovery test at week 33. Sweat
+rates for weeks 0, 6, and 8 displayed values of 2.7±0.3 µL/minute, 2.0±0.2
+µL/minute and 1.3±0.1 µL/minute, respectively (p<0.05) (Figure 6(d)). Week 33
+shows a near full recovery to a week 0 sweat rate trend; though it should be noted
+20
+
+the sweat rate tapers off more quickly than previous tests and ends closer in the
+range of the week 6 test.
+
+Figure 6 Duplication tests performed by the Macroduct® device. Values noted are at 8 minutes for
+each identifier due to this time point being most representative of the entirety of the sweat test
+values. (a) Week 1 test shows a sweat rate of 4.3±0.2 µL/minute and a week 12 sweat rate of
+3.0±0.4 µL/minute (p<0.05). (b) Week 0 displays a sweat rate of 3.7±0.2 µL/minute sweat rate and
+week 7 displays a sweat rate of 2.1±0.2 µL/minute (p<0.05). (c) Week 0 shows a sweat rate of
+1.7±0.2 µL/minute and week 12 displayed 1.0±0.2 µL/minute (p<0.05). (d) Four duplication tests
+were performed at Week 0, 6, 8 and 33. Sweat rates displayed values of 2.7±0.3 µL/minute,
+2.0±0.2 µL/minute, 1.3±0.1 µL/minute, and 2.7±0.3 µL/minute respectively (p<0.05). Week 33
+shows a near full recovery to a week 0 sweat rate trend with decline towards the end of test.
+
+3.4 Discussion
+Male and female sweat rates as a result of the Macroduct® protocol showed obvious
+differences, but male and female electrolyte concentration variations as a result of the
+Nanoduct® protocol did not display a noticeable difference (Figure 4(a)). This result was
+unexpected as it has been well-documented that Na+ and Cl- levels are strongly dependent
+21
+
+upon sweat rate (3, 45). Conversely, left and right arm sweat rates showed little to no
+difference, but differences in left and right arm electrolyte concentrations could be noted
+(Figure 4(b)). Asymmetry in sweat response in left-handed and right-handed individuals has
+been previously reported, as well as quantities of sweat differing per dominant arm (12).
+Logically a larger quantity of sweat should indicate higher sweat rates, thereby leading to
+differing electrolyte concentrations on opposing limbs. Intrapersonal variances of electrolyte
+concentrations should be noted, and we predict they will become statistically significant upon
+testing of a larger subject pool. Larger subject pools will also offer greater quantities of left
+handed subjects, subsequently offering better evidence towards differences of electrolyte
+concentrations based on dominant handedness.
+Along with the differences noted in electrolyte concentrations, it can be seen that
+sweat rates vary interpersonally between men and women (Figure 5(a)). Humans have an
+estimated total eccrine sweat gland count ranging from 2-5 million glands (3, 11, 45). Though
+men are known to produce higher amounts of sweat, it is not because their sweat gland count
+is higher. Rather, men and women typically have the same number of sweat glands across
+their bodies (11). In fact women have a higher sweat gland density, presumably due to having
+smaller body frames (11). Thus our data and others show that men produce larger volumes of
+sweat than women due to significantly higher sweat rates per gland.
+As can be seen with the duplication tests (Figure 6), repeated iontophoresis treatments
+lead to lowered sweat rates. This phenomenon is not unseen in the iontophoretic treatments of
+hyperhidrosis. Hyperhidrosis is classified as a sweating disorder where the individual
+produces physiologically excessive amounts of eccrine sweat, primarily on the hands, face
+and feet (53). Iontophoretic treatments to the afflicted area using tap water combined with the
+electric current have been proven to show significant reduction in sweating (53, 54).
+Hyperhidrosis iontophoretic treatments have examined currents ranging from 15-30 mA, or
+22
+
+whatever is tolerable to the individual (53, 54). Current density of hyperhidrosis iontophoretic
+treatments are therefore around 0.20 mA/cm2, (assuming a 100 cm2 surface area; lower
+current density if the area is larger such as on the feet), which is notably lower than the
+current density of the two studied Wescor devices (both 0.25 mA/cm2). The physiological
+mechanism of action to reduce sweating is unknown. One theory behind the phenomenon
+includes the “plug-theory” where the lumen becomes obstructed through a naturally produced
+plug due to damaged or released cellular matter and prevents sweat from reaching the surface
+(55). Noting the sweat rate reductions using commercially available cystic fibrosis tests, we
+speculate that electric current is causing a disturbance in the sweat gland such as plug
+formation or damage to the receptors that initiate sweating. It is unclear at this time if
+pilocarpine itself is contributing to the observed sweat rate reduction.
+3.5 Ethical Approval
+This study was approved by University of Cincinnati Institutional Review Board (UC IRB).
+3.6 Conflict of Interest
+The authors declare no conflict of interest. None of the research team members have
+affiliations with or financial interests in the Wescor company, the manufacturer of the devices
+tested in this study. Research team member, Jason Heikenfeld, does have a financial interest
+in Eccrine Systems, Inc. ® which is involved in development of sweat sensors but has no
+affiliation with Wescor Inc.
+
+23
+
+4 Exploratory Studies
+4.1 Iontophoretic Sudomotor Axon Reflex Patch
+Another form of iontophoretic testing is the Quantitative Sudomotor Axon Reflex Test
+(QSART). This test is designed to evaluate autonomic nerves which control sweating and are
+connected via a neural network underneath the surface of the skin (56). It is typically used to
+diagnose nervous system disorders and some pain disorders (56). Stimulation is done with a
+natural chemical, acetylcholine, placed on the iontophoresis electrodes (56). Upon
+commencement of iontophoresis sweat glands are activated both directly under the delivery
+site and also nearby, because of the sudomotor neural network connections. Sweat secretion
+can then occur up to millimeter distances away from the directly stimulated iontophoretic
+site.
+Currently a patch developed at the University of Cincinnati’s College of Engineering
+and Applied Sciences is being tested using the QSART test. In the newly developed patch,
+sudomotor axon reflexes are activated through iontophoretic stimulation using the
+ActivaDose iontophoresis device at currents similar to or lower than commercially available
+Wescor Macroduct and Nanoduct devices.
+The ActivaDose can provide a current level of as little as 0.1 mA. The ActivaDose
+automatically calculates the amount of time to run based on the researchers’ inputs of current
+and desired dose of electrical charge. For example, a current on the ActivaDose set to 0.2 mA
+for a duration of 2.5 minutes yields a total dose delivered of 30 mC. The total current density
+in all studies is set to remain at or below 0.25 mA/cm2, which is comparable to the
+commercial neonatal Nanoduct current density of 0.26 mA/cm2.
+The drug presently under consideration for induction of sweat is carbachol within a
+gel. The gel composition is similar to those used in cystic fibrosis testing. Methacholine (yet
+another muscarinic agonist) will also be considered as a stimulating agent. These muscarinic
+24
+
+agonists (methacholine and carbachol) possess varying levels of nicotinic activity, a
+requirement for the activation of sudomotor axon reflexes (52). Sweat glands are difficult to
+observe with the naked eye but their detection is desired for physiological response studies.
+For visual detection this patch has an open viewing window containing bromophenol blue
+along with a thinner of OS-20 produced by Dow Corning cosmetic-grade silicone (PDMS),
+such as those provided by Clearco Products Inc., to display activated sweat glands.
+All components of the patch are constructed with nonhazardous materials replicating
+components of standard iontophoretic stimulation devices (Figure 6). The full UC IRB
+approved protocol can be found in Appendix B.
+
+Figure 7 Schematic of QSART iontophoretic patch developed at University of Cincinnati.
+Displayed are five sensing electrodes surrounded by a stimulation electrode which provides the
+chemical, sweat stimulant.
+
+25
+
+The work outlined here will confirm the efficacy of this novel on-skin patch for sweat
+stimulation and sensing of electrolytes. This study will also validate the efficiency of
+sudomotor axon reflex sweating for future sweat sensing technologies, with the aim of
+eliminating one or more of the limitations associated with sweat sensing.
+One limitation potentially overcome by this patch is contamination of the sweat
+sample by sweat stimulation drugs. The sudomotor axon reflex response allows for the sweat
+stimulating drug to be delivered directly in one location, but allows for nearby sweat glands
+to activate up to a few millimeters away. The activated sweat glands distant from the
+stimulation site will not have contact with the sweat stimulation drug, and therefore will
+produce virgin sweat.
+A second limitation overcome is the evaporation of the sweat sample leading to
+imprecise measurements of sweat analyte concentrations. The design of this patch provides
+protecting plastic covering over the stimulated sudomotor activated sweat glands. The plastic
+additionally covers the sensing electrodes, allowing for the true concentrations of sweat at
+non-skewed volumes to be detected. Simultaneous sweat response and sensing of electrolyte
+values allows for trends in active sweat to be determined, leading to confirmation of sweat
+rate and concentration comparisons.
+The testing of this patch is on-going. Results will be available for public disclosure
+upon completion of recruitment and de-identification of all consenting identifiers.
+4.2 Exercise Patch
+A second patch, also developed at University of Cincinnati’s College of Engineering and
+Applied Sciences, moves away from the standard iontophoretic stimulation of sweat glands
+and focuses on the body’s natural sweat response through exercise. This patch is designed as
+a Band-Aid-like adhesive that incorporates Bluetooth technology for transmission of sweat
+response. Sweat responses detectable are sweat rate, sweat electrolyte concentrations
+26
+
+including Na+, K+, and Cl-, and skin surface temperature. The full UC IRB approved protocol
+can be found in Appendix C. Testing of this sweat patch has yet to commence although
+protocol approval has been obtained.
+
+27
+
+5 Conclusions and Recommendations
+Sweat is growing in popularity in the biomedical community as a potential alternative to
+current invasive diagnostic techniques due to its ease of access and analyte concentration
+correlations to other body fluids such as blood, urine and saliva. Sweat sampling, however,
+has numerous limitations which include: lack of proper sampling devices and limited analyte
+detection capabilities; sample evaporation; difficulty in producing and collecting adequate
+sample sizes for analysis; contamination of samples from epithelial matter and/or sweat
+stimulation drugs; and large variability in sweat analyte concentrations from person to person
+as well as regionally on a body (57-59).
+Commercially available devices give researchers a starting ground from which to
+build. Novel sweat sensing patches implementing components of commercially available
+technologies are currently under development to further increase sweat’s value as a biofluid.
+However for these technologies to be developed into consumer-friendly, efficient, wearable
+devices a few critical weaknesses of current commercially available sweat stimulation and
+sensing devices must be overcome.
+First, future sensor development must include stimulation and sensing into one
+simultaneous step. Though the Nanoduct® device’s digital screen displays an initial sweat
+rate, sweat rate changes post stimulation cannot be detected with the Nanoduct® device.
+Conversely the Macroduct® sweat test does not offer immediate electrolyte concentrations,
+and also does not provide a continuous read out of sweat rate. At present sweat rate values
+must be obtained manually using volumetric estimation at specified time points as described
+in the human subjects study in Chapter 3. Correlations between sweat rate and certain analyte
+concentrations may be found in many literature sources (45). However, development of a
+sensor which can offer instantaneous feedback of the analyte concentrations and
+corresponding sweat rate is highly attractive.
+28
+
+Second, future device design must incorporate a lowered iontophoretic current in
+order to prevent the decrease of sweat rates after multiple tests on the same site as
+demonstrated in Chapter 3. Future technologies pose the potential for continuous
+biomonitoring, but in order to do so must not cause depletion in sweat rate of the consumer.
+At best, such a situation would require increased drug dosages to maintain an appropriate
+sweat rate. Lower current may also prevent discomfort and promote compliance for use.
+Finally, sensor development should incorporate additional analyte sensing
+capabilities. The Nanoduct® device outputs a value for mM NaCl equivalents, and the
+Macroduct® stimulated sweat is analyzed via laboratory methods for chloride ion
+concentrations. In order for future sensors to provide means of detection for conditions other
+than cystic fibrosis, human performance and other biomonitoring sensors with increased
+analyte capacity must be developed.
+At no point during sweat sensor development should human subjects testing be
+overlooked. The certainty of intra- and interpersonal variations of sweat rates and
+concentrations dictates that any development should and must be tested on human subjects in
+order to confirm efficacy. Intra- and interpersonal variabilities in the numerous biomarkers in
+sweat precludes requires a thorough study of these factors that should not be postponed.
+While human subjects testing is viewed as tedious it must be remembered that the safety of
+human subjects is the number one most important priority. A priority requirement for
+effective sensors and sweat stimulation devices is a minimal irritation during and after
+stimulation. This will lead to higher participant compliance as well as lower risk, making
+human subjects study approvals and execution that much simpler.
+Devices currently under development address many of the previously mentioned
+shortcomings dealing with sweat as a diagnostic biofluid. These shortcomings lead to a level
+of skepticism in some circles. However through additional human subjects testing and
+29
+
+mindful elimination of device limitations sweat sensing may achieve a position of strength in
+the world of minimally invasive biomarker analysis.
+
+30
+
+Bibliography
+1. Sato, K., Sato, F. Individual variations in structure and function of human eccrine sweat
+gland. American Journal of Physiology - Regulatory, Integrative and Comparative
+Physiology. 1983;245(2):R203-R8.
+2. Wilke, K., Martin, A., Terstegen, L., Biel, S.S. A short history of sweat gland biology.
+International Journal of Cosmetic Science. 2007;29(3):169-79.
+3. Sato, K. The physiology, pharmacology, and biochemistry of the eccrine sweat gland.
+Reviews of Physiology, Biochemistry and Pharmacology: Springer; 1977. p. 51-131.
+4. Giacomoni, P.U., Mammone, T., Teri, M. Gender-linked differences in human skin.
+Journal of Dermatological Science. 2009;55(3):144-9.
+5. Sato, F., Burgers, M., Sato, K. Some characteristics of adrenergic human eccrine sweating.
+Experientia. 1974;30(1):40-1.
+6. Saga, K. Structure and function of human sweat glands studied with histochemistry and
+cytochemistry. Progress in Histochemistry and Cytochemistry. 2002;37(4):323-86.
+7. Sato, K., Kang, W.H., Saga, K., Sato, K.T. Biology of sweat glands and their disorders. I.
+Normal sweat gland function. Journal of the American Academy of Dermatology.
+1989;20(4):537-63.
+8. Hibbs, R.G. The fine structure of human eccrine sweat glands. American Journal of
+Anatomy. 1958;103(2):201-17.
+9. Randall, W.C., Calman, C.. The surface tension of human sweat; its determination and its
+significance. Journal of Investigative Dermatology. 1954;23:113-8.
+10. Sato K, Nishiyama A, Kobayashi M. Mechanical properties and functions of the
+myoepithelium in the eccrine sweat gland. American Journal of Physiology - Cell
+Physiology. 1979;237(3):C177-C84.
+11. Sato, K. The Mechanism of Eccrine Sweat Secretion. Perspectives in exercise science and
+sports medicine.1993. p. 85-118.
+12. Boron, W.F., Boulpaep, E.L. Medical Physiology: A Cellular and Molecular Approach. 2
+ed: Elsevier Health Sciences; 2011. 1350 p.
+13. Freedberg, I.M., Eisen, A.Z., Katz, S.I., Wolff, K., Goldsmith, L.A., Austen, K.F.,
+Fitzpatrick, T.B. Fitzpatrick's Dermatology in General Medicine. 5 ed: McGraw-Hill, Health
+Professions Division; 1999. 3002 p.
+14. Sato, K., Sato, F. Pharmacologic responsiveness of isolated single eccrine sweat glands.
+American Journal of Physiology - Regulatory, Integrative and Comparative Physiology.
+1981;240(1):R44-R51.
+15. Patterson, M.J., Galloway, S.D.R., Nimmo, M.A. Variations in regional sweat
+composition in normal human males. Experimental Physiology. 2000;85(6):869-75.
+16. Medbø, J.I., Sejersted, O.M.. Plasma potassium changes with high intensity exercise. The
+Journal of Physiology. 1990;421(1):105-22.
+17. Newmark, S.R., Dluhy, R.G. Hyperkalemia and hypokalemia. JAMA. 1975;231(6):631-3.
+18. Schwartz, I.L., Thaysen, J.H. Excretion of sodium and potassium in human sweat. Journal
+of Clinical Investigation. 1956;35(1):114-20.
+19. Alvear-Ordenes, I., García-López, D., De Paz, J.A., González-Gallego, J. Sweat lactate,
+ammonia, and urea in rugby players. International Journal of Sports Medicine.
+2005;26(08):632-7.
+20. Czarnowski, D., Górski, J. Sweat ammonia excretion during submaximal cycling
+exercise. Journal of Applied Physiology. 1991;70(1):371-4.
+
+31
+
+21. Czarnowski, D., Górski, J., Jóźwiuk, J., Boroń-Kaczmarska, A. Plasma ammonia is the
+principal source of ammonia in sweat. European Journal of Applied Physiology and
+Occupational Physiology. 1992;65(2):135-7.
+22. Adeva, M.M., Souto, G., Blanco, N., Donapetry, C. Ammonium metabolism in humans.
+Metabolism. 2012;61(11):1495-511.
+23. Gamella, M., Campuzano, S., Manso, J., Rivera, G., López-Colino, F., Reviejo, A.J.,
+Pingarrón, J.M. A novel non-invasive electrochemical biosensing device for in situ
+determination of the alcohol content in blood by monitoring ethanol in sweat. Analytica
+Chimica Acta. 2014;806:1-7.
+24. Buono, M.J. Sweat ethanol concentrations are highly correlated with co-existing blood
+values in humans. Experimental Physiology. 1999;84(2):401-4.
+25. Nyman, E., Palmlöv, A. The elimination of ethyl alcohol in sweat. Skandinavisches
+Archiv Für Physiologie. 1936;74(2):155-9.
+26. Russell, E., Koren, G., Rieder, M., Van Uum, S.H.M. The detection of cortisol in human
+sweat: implications for measurement of cortisol in hair. Therapeutic Drug Monitoring.
+2014;36(1):30-4.
+27. Kirschbaum, C., Hellhammer, D.H. Salivary cortisol in psychobiological research: an
+overview. Neuropsychobiology. 1989;22(3):150-69.
+28. Kirschbaum, C., Hellhammer, D.H. Salivary cortisol. Encyclopedia of Stress.
+2000;3:379-83.
+29. Umeda, T., Hiramatsu, R., Iwaoka, T., Shimada, T., Miura, F., Sato, T. Use of saliva for
+monitoring unbound free cortisol levels in serum. Clinica Chimica Acta. 1981;110(2):245-53.
+30. Raul, J-S., Cirimele, V., Ludes, B., Kintz, P. Detection of physiological concentrations of
+cortisol and cortisone in human hair. Clinical Biochemistry. 2004;37(12):1105-11.
+31. Keller, R., Sands, J. Localization of urea transporters UT-A1 and UT-B in human eccrine
+clear cell (LB719). The FASEB Journal. 2014;28(1 Supplement):LB719.
+32. Al-Tamer, Y.Y., Hadi, E.A., Al-Badrani, I.I. Sweat urea, uric acid and creatinine
+concentrations in uraemic patients. Urological Research. 1997;25(5):337-40.
+33. Komives, G.K., Robinson, S., Roberts, J.T. Urea transfer across the sweat glands. Journal
+of Applied Physiology. 1966;21(6):1681-4.
+34. Huang, C-T., Chen, M-L., Huang, L-L., Mao, I.F. Uric acid and urea in human sweat.
+Chinese Journal of Physiology. 2002;45(3):109-15.
+35. Mitsubayashi, K., Suzuki, M., Tamiya, E., Karube, I. Analysis of metabolites in sweat as
+a measure of physical condition. Analytica Chimica Acta. 1994;289(1):27-34.
+36. Jia, W., Bandodkar, A.J., Valdes-Ramirez, G., Windmiller, J.R., Yang, Z., Ramirez, J.,
+Chan, G., Wang, J. Electrochemical tattoo biosensors for real-time noninvasive lactate
+monitoring in human perspiration. Analytical Chemistry. 2013;85(14):6553-60.
+37. Green, J.M., Bishop, P.A., Muir, I.H., McLester Jr., J.R., Heath, H.E. Effects of high and
+low blood lactate concentrations on sweat lactate response. International Journal of Sports
+Medicine. 2000;21(08):556-60.
+38. Sakharov, D.A., Shkurnikov, M.U., Vagin, M.Y., Yashina, E.I., Karyakin, A.A.,
+Tonevitsky, A.G. Relationship between lactate concentrations in active muscle sweat and
+whole blood. Bulletin of Experimental Biology and Medicine. 2010;150(1):83-5.
+39. Lamont, L.S. Sweat lactate secretion during exercise in relation to women’s aerobic
+capacity. Journal of Applied Physiology. 1987;62(1):194-8.
+40. Ratnaparkhi, M.P., Chaudhari, S.P., Pandya, V.A. Peptides and proteins in
+pharmaceuticals. International Journal of Current Pharmaceutical Research. 2011;3(2):1-9.
+41. Marques-Deak, A., Cizza, G., Eskandari, F., Torvik, S., Christie, I.C., Sternberg, E.M.,
+Phillips, T.M. Measurement of cytokines in sweat patches and plasma in healthy women:
+validation in a controlled study. Journal of Immunological Methods. 2006;315(1):99-109.
+32
+
+42. Lee, E., Granstein, R.D. Neuroimmunology. In: Gaspari AA, Tyring SK, editors. Clinical
+and Basic Immunodermatology: Springer London; 2008. p. 31-44.
+43. Tatemoto, K. Neuropeptide Y: History and Overview. In: Michel MC, editor.
+Neuropeptide Y and Related Peptides: Springer-Verlag Berlin Heidelberg; 2004. p. 1-21.
+44. Cizza, G., Marques, A.H., Eskandari, F., Christie, I.C., Torvik, S., Silverman, M.N.,
+Phillips, T.M., Sternberg, E.M. Elevated neuroimmune biomarkers in sweat patches and
+plasma of premenopausal women with major depressive disorder in remission: the POWER
+study. Biological Psychiatry. 2008;64(10):907-11.
+45. Sonner, Z., Wilder, E., Heikenfeld, J., Kasting, G., Beyette, F., Swaile, D., Sherman, F.,
+Joyce, J., Hagen, J., Kelley-Loughnane, N. The microfluidics of the eccrine sweat gland,
+including biomarker partitioning, transport, and biosensing implications. Biomicrofluidics.
+2015;9(3):031301.
+46. Green, J.M., Pritchett, R.C., Crews, T.R., McLester Jr., J.R., Tucker, D.C. Sweat lactate
+response between males with high and low aerobic fitness. European Journal of Applied
+Physiology. 2004;91(1):1-6.
+47. Derbyshire, P.J., Barr, H., Davis, F., Higson, S.P.J. Lactate in human sweat: a critical
+review of research to the present day. The Journal of Physiological Sciences. 2012;62(6):42940.
+48. Mall, M.A., Hartl, D. CFTR: cystic fibrosis and beyond. European Respiratory Journal;
+2014. p. 1042-54.
+49. LeGrys, V.A. Sweat testing for the diagnosis of cystic fibrosis: Practical considerations.
+The Journal of Pediatrics; 1996.
+50. Sloan, J.B., Soltani, K. Iontophoresis in dermatology: A review. Journal of the American
+Academy of Dermatology; 1986. p. 671-84.
+51. Watson, T. Iontophoresis Web: Electrotherapy on the Web; 2016. Available from:
+http://www.electrotherapy.org/modality/iontophoresis.
+52. Brown, J.H., Taylor, P. The Pharmacological Basis of Therapeutics. Tenth ed: McGrawHill; 2001.
+53. Bouman, H.D., Lentzer, E. The treatment of hyperhidrosis of hands and feet with constant
+current. American Journal of Physical Medicine; 1952. p. 158-69.
+54. Levit, F. Simple Device for Treatment of Hyperhidrosis by Iontophoresis. JAMA
+Dermatology; 1968. p. 505-7.
+55. Stolman, L.P. Treatment of Excess Sweating of the Palms by Iontophoresis. JAMA
+Dermatology; 1987. p. 893-6.
+56. Clinic C. QSART Web. 2016. Available from:
+http://my.clevelandclinic.org/services/neurological_institute/neuromuscularcenter/diagnostics-testing/qsart.
+57. Gao, W., Emaminejad, S., Nyein, H.Y.Y., Challa, S., Chen, K., Peck, A., Fahad, H.M.,
+Ota, H., Shiraki, H., Kiriya, D. Fully integrated wearable sensor arrays for multiplexed in situ
+perspiration analysis. Nature. 2016;529(7587):509-14.
+58.Rose, D.P., Ratterman, M., Griffin, D.K., Hou, L., Kelley-Loughnane, N., Naik, R.R.,
+Hagen, J.A., Papautsky, I., Heikenfeld, J. Adhesive RFID sensor patch for monitoring of
+sweat electrolytes. IEEE Transactions on Biomedical Engineering. 2014;PP(99). Epub 11
+November 2014.
+59. Heikenfeld, J. Non‐invasive Analyte Access and Sensing through Eccrine Sweat:
+Challenges and Outlook circa 2016. Electroanalysis. 2016.
+
+33
+
+Appendix A: Testing the Microfluidics of On-Skin Technologies
+UNIVERSITY OF CINCINNATI
+INSTITUTIONAL REVIEW BOARD – SOCIAL AND BEHAVIORAL SCIENCES (IRB-S)
+PROTOCOL
+
+TITLE:
+Testing the Microfluidics of On-Skin Technologies
+Trudy Gaillard (gaillaty@ucmail.uc.edu)
+Gerald Kasting (kastingb@ucmail.uc.edu)
+Jason Heikenfeld (heikenjc@ucmail.uc.edu)
+Eliza Wilder (wilderec@mail.uc.edu)
+Terri LaCount (lacounj@aol.com)
+Zachary Sonner (sonnerzc@mail.uc.edu)
+PURPOSE of the research project AND GENERAL INFORMATION:
+PURPOSE
+The purpose of this research study is to recreate the Food and Drug Administration (FDA)
+approved Cystic Fibrosis test using the Wescor Nanoduct device and the Wescor Macroduct
+device. Both devices stimulate sweat by a passing a drug known as pilocarpine through skin
+through a small electrical current. These tests will allow us to measure sweat electrolyte
+concentrations versus sweat rate in individuals as well as visibly monitoring sweat secretion.
+BACKGROUND
+Prior research
+Wescor Nanoduct and Macroduct units have been used in diagnosis of infantile Cystic
+Fibrosis for many years through induction of sweat and simultaneous detection of electrolyte
+levels. The both devices stimulate sweat through low current iontophoresis of pilocarpine
+drug through skin. The Nanoduct unit determines sweat electrolyte concentrations in NaCl
+equivalents, whereas the Macroduct unit requires sweat to be collected in coiled spirals and
+analyzed manually. Cystic Fibrosis patients have been shown to display high levels of
+chloride ions in their sweat due to a malfunctioning Cystic Fibrosis Transmembrane
+Regulator in the gland walls. The both devices have small electrodes for neonatal patient
+testing and low amperage. These devices are FDA approved and are standard procedures used
+to diagnose infants with Cystic Fibrosis.
+Significance
+This project will be part of a validation study for an on-going research project involving
+members of the University of Cincinnati (College of Engineering and Applied Sciences,
+College of Pharmacy, and College of Nursing). The project goal is to detect levels of various
+molecules in sweat and compare them to sweat rate. The trials will confirm that certain
+electrolyte concentrations should be found versus varying sweat rates in healthy adults. The
+Nanoduct unit will provide an automated calculation of sweat rate, where the Macroduct unit
+will allow for manual calculation of sweat rate.
+FUNDING
+Sponsor's name and type
+The sponsor of this research study is G.B. Kasting who has generously offered intial start-up
+funding from his personal faculty account for the purposes of this project.
+34
+
+Sponsor's role
+G.B. Kasting is a Co-PI on this research study.
+Location of funds
+University of Cincinnati College of Pharmacy
+Status of funding
+Funds are currently available to use at his discretion. We will be seeking funding for future
+clinical aspects of this project through Cincinnati Center for Clinical and Translational
+Science and Training (CCTST).
+FACILITIES
+Research will be conducted at the University of Cincinnati in a lab within the James L.
+Winkle College of Pharmacy.
+DURATION OF STUDY
+This research study will be completed within 4 months of IRB approval.
+RESEARCH TEAM
+Research team and time commitment
+Job Title / Responsibility
+PI / Monitor on-going tests, store data, assist with
+analysis
+Co-PI (Faculty Advisor) / Assist PI with any
+supplemental information or testing
+Co-PI (Faculty Advisor) / Assist PI with an
+supplemental information or testing
+Co-Investigator / Conduct tests, record results,
+analyze data
+Co-Investigator / Conduct tests, record results,
+analyze data
+Co-Investigator / Conduct tests, record results,
+analyze data
+
+Time Commitment
+4 months
+4 months
+4 months
+4 months
+4 months
+4 months
+
+Training team members in research ethics
+All researchers have completed the CITI training in ethics of human research.
+Training team members in research activities
+Training
+A step-by-step detailed set of instructions will be given to each researcher. Each researcher
+will then need to have thorough understanding of the procedure. The PI and Co-Investigators
+will run mock trials of the protocol to ensure a definitive understand of the protocol.
+Verification
+Research team members will be required to have a copy of the protocol with them at all times
+during testing. The PI and Co-PIs will be responsible for ensuring all compliance with the
+testing procedures by Co-Investigators.
+35
+
+PARTICIPANTS:
+RECRUITMENT
+Study participants will be recruited via word-of-mouth and flyers located around campus.
+Number of participants
+Minimum and maximum number of participants
+A minimum of 10 participants will be sufficient for analysis. Conversely a maximum of 25
+participants will participate. The 25 subjects will be the same for both sets of testing.
+Rationale
+Based on a pre-study power calculation assuming 15% coefficient of variation, 15 subjects
+will allow the detection of a 25% difference in the means with an 80% power assuming
+normal distribution at a two-sided 5% nominal significance level. This is a validation study
+so we are allotting a sufficient amount of subjects to participate.
+Inclusion and exclusion criteria
+Subjects are included in this study if they are above the age of 18 years old and are able to
+give consent. Subjects will be excluded if they possess eczema or additional conditions on
+forearm(s), have known metal allergies, have tattoo(s) on forearm(s), have preexisting
+cardiac/heart conditions, have epilepsy, have Cystic Fibrosis, and/or are currently pregnant.
+Conditions such as pregnancy will not cause any harm on the mother or the child if the
+woman is pregnant. Indicated previously in a study by Jack Lieberman, “it is know that
+estrogens and progesterone may cause sodium, chloride, and water retention…” Women
+involved in this study will be asked the date of their last menstrual cycle to confirm they are
+not pregnant. The inclusion and exclusion criteria are selected by our research team in order
+to perform tests on as consistent of a subject pool as possible with no physiologically
+elevated levels of electrolytes.
+Vulnerable participants
+Vulnerable participants will be excluded from the study.
+Vulnerability
+No vulnerable subject is involved.
+Rationale
+Not applicable.
+Confirmation
+Driver’s License or other form of identification will be used to confirm a participant is 18
+years of age or older. The area of testing (forearms) will be thoroughly examined before
+application of device. Verbal confirmation will be given by the subject to validate the subject
+does not possess one of the above mentioned conditions which would exclude him/her from
+the study.
+
+36
+
+Risks and discomforts from participating
+Type and level of risk or discomfort
+Risk or Discomfort
+Redness (erythema) or irritation associated with
+chemical stimulus after removal of electrodes
+Redness (erythema) or irritation associated with
+electrical stimulus after removal of electrodes
+Tingling or prickling sensation during
+iontophoretic delivery
+
+Level
+Minimal
+Minimal
+Minimal
+
+Safety monitoring plan
+Research participants will be constantly monitored during testing. If any irritation above
+minimal occurs the test will be terminated immediately. Research staff will review data and
+efficacy of data.
+Reporting
+Notification of PI
+The research staff will be present at time of testing and will be notified via the research team
+immediately upon indication of adverse irritation.
+Notification of IRB
+The IRB will be notified immediately upon termination of test via explanatory email or phone
+call.
+Other notification
+Not applicable.
+Available resources
+After sweat collection has reached completion patients will be given a topical dosage of
+hydrocortisone cream or warm compresses if irritation occurs.
+Direct benefits to the participant
+There are no direct benefits to the participant.
+Recruitment activities
+Recruitment materials
+List: Flyer, Word-of-mouth
+Personnel
+The research staff will be responsible for posting flyers and speaking with potential subjects.
+Recruitment activities
+The research staff will hang flyers across the east and west campuses of the University of
+Cincinnati.
+Participant response
+Participants will contact a member of the research staff by email to arrange a time for the
+testing to take place.
+37
+
+CONSENT PROCESS
+Presenting information to potential participants
+All potential participants will be expected to understand and comprehend sufficient English if
+registered in University of Cincinnati classes.
+A consistent email template will be used for each member of the research staff to send to
+potential participants when they contact a member of the research team.
+Answering questions from potential participants
+Participants will be given the opportunity to ask questions via email or before the test begins.
+Indicating consent
+Participants will be required to sign and date an Informed Consent Document (ICD) given at
+the time of testing.
+Legally authorized representative (LAR) for minors or cognitively impaired participants
+Not applicable.
+Verification of LAR for cognitively impaired participants
+Not applicable.
+Avoiding coercion
+Not applicable.
+Recruitment incentives
+A $10 gift card to a local restaurant will be distributed at time of completion of each test. If
+test is terminated early the participant will be equally compensated.
+CONSENT DOCUMENTS (ICDs)
+List: Testing the Microfluidics of On-Skin Technologies ICD
+RESEARCH-RELATED ACTIVITY:
+SECONDARY ANALYSIS of an EXISTING DATASET
+Not applicable.
+REVIEW OF RECORDS that were collected for NON-RESEARCH PURPOSES
+Not applicable
+RESEARCH ACTIVITIES
+Privacy of participation
+All data is de-identified and used for validation purposes only.
+Confidentiality of data
+Names will not be correlated with any other identifiers or data results. Data collected will
+consist of age, gender, physical activity, sweat electrolyte concentrations, and sweat rates. All
+pieces of information regarding the participant and data collected during the test will be
+confidentially kept in the office of the research staff on a password-protected computer.
+
+38
+
+Activities and duration
+Nanoduct
+The device will be calibrated prior to experimentation. All jewelry will be removed. The
+following procedure will be performed on both arms to ensure consistency in results per
+subject. The left arm will be recorded first; after completion of the test on the left arm, the
+right arm will have the same procedure performed on it.
+-Acclimate subject at 20 deg. C and ~20% relative humidity (RH) for 30 minutes prior to test.
+-Remove Pilogel disks from refrigerator 15 minutes prior to use.
+-Swab a large area of skin on inside forearm with alcohol. Follow that with deionized (DI)
+water and KimWipes.
+-Place the black holder on portion of arm closer to face (i.e., about 2/3 way up arm from
+wrist), and secure with band; then place red holder on the arm in a similar manner
+approximately 1.5-2” away and nearer to the wrist. Do not place on wrist or tendon area.
+-Place 1 drop of DI water into each electrode surface (disk holder), then place Pilogel disk
+onto each by touching the sides of disks but not flat surfaces; do not use disk if cracked or
+edges are chipped/cracked.
+-Add 1 drop of DI water in middle of holder directly onto skin.
+-Place electrodes containing disks into appropriate holders and twist lightly downwards to
+lock into place. Arrow indicator should be aligned (counterclockwise) and electrode should
+lock into place.
+After placement into holders, ensure electrode wires are securely attached to patient’s arm.
+-Turn device on.
+-Connect cable to socket of inducer analyzer.
+-“Iontophoresis” should be selected. Press enter. Display will show increase in current. Once
+current has reached full 0.5 mA, this will be maintained for 2 minutes. Patient should remain
+relatively still during the 2 minute process. Current will then decrease to 0 and the analyzer
+will beep.
+-After the device has concluded induction, the display will show “Iontophoresis Complete”.
+Press enter to return to main menu.
+-After completion of iontophoresis, remove red electrode by twisting, but leave both holders
+and black cathodic electrode in place for ground contact for sweat rate determination.
+
+39
+
+Macroduct
+All jewelry will be removed. The following procedure will be performed on both arms to
+ensure consistency in results per subject. The left arm will be recorded first; after completion
+of the test on the left arm, the right arm will have the same procedure performed on it
+-Remove Pilogel disks from refrigerator 15 minutes prior to use.
+-Swab a large area of skin on inside forearm with alcohol, following with deionized (DI)
+water.
+-Place 1 drop of DI water into each electrode surface, then place Pilogel disk onto each
+electrode. Disks will not be used if cracked or chipped around edges.
+-Place 1 drop of DI water onto each disk after insertion into electrodes.
+Place the black electrode onto upper forearm, disk side down (approximately 2/3 way up arm
+from wrist). Secure with black electrode Velcro-band.
+-Place the red electrode on mid-lower forearm, disk side down (approximately 2” from wrist).
+Secure with red electrode Velcro-band.
+-Turn device on. Timer will automatically start to for induction. Device will beep and
+automatically shut off after 5 minute sweat stimulation. Subject should remain moderately
+still.
+-During stimulation interval remove Macroduct collection spirals from packaging, making
+sure not to touch back of spiral. Slide securing straps (soft side up) through side slots.
+-Remove electrodes at the end of 5 minute induction interval.
+-Clean sweat area with DI water and KimWipes. Discard used disks in trash.
+-Slide the Macroduct collection spiral onto arm and secure with bands in the location of the
+red electrode. Firmly pull straps into place. Note to subject that he/she should not clench fist
+during collection. Collect sweat for ~30 minutes or until no sweat is visibly moving into
+spiral.
+-Once sweat is finished being collected, the collection spiral can be removed from arm.
+Collection spiral can be sealed off to prevent seat leakage.
+-Wipe arm with DI water and KimWipe.
+Data collection tools
+List: Testing the Microfluidics of On-Skin Technologies Data Sheet
+Payments to participants: reimbursement of expenses or payment for time and effort
+A $10 gift card to a restaurant will be given to participants after each test.
+
+40
+
+DATA ANALYSIS:
+Nanoduct
+-Analysis of sweat is recorded in the Nanoduct device’s internal computer.
+-Remove conductivity sensor from bag, being careful not to touch conical surface of sensor.
+-Attach sensor to sensor connector on cable.
+-Wash stimulated skin area in red area with gauze pads soaked in DI water, and dry with dry
+gauze pads, being careful not to disturb red holder.
+-Confirm induction analysis module is on. Immediately after sensor is in holder, select
+“Sweat Test” and choose to either display reading during test or read printout later.
+-With sensor in place display will indicate sweat contact with electrode within minutes. Initial
+rate is shown in g/m2/min and can range from 0.5 units to 10 units. After another 2-6 minutes,
+conductivity display shows continuous data, and after 3 minutes average begins to be taken.
+The mean conductivity is displayed after 5 minutes.
+-Once test is complete the analyzer beeps 3 times. Ensure no errors are present. Record mean
+conductivity result.
+-Press enter to return to main menu.
+-Begin disassembly of device:
+-Disconnect cable from sensor.
+-Remove sensor from holder.
+-Discard used sensor.
+-Disconnect cable plug from the socket of sweat analysis module.
+-Turn off power.
+-Remove black electrode from holder.
+-Black and red holder gel discs may then be removed and discarded.
+-Remove holders from patient.
+-Gently wash and dry skin with DI water and gauze pads.
+-Wash and dry electrodes with alcohol wipes. Clean straps and holders with gauze pads
+damped with bleach.
+*Mean sweat conductivity results is in mmol/L; normal expected results are 0-60mmol/L (eq.
+in NaCl).
+Macroduct
+As sweat is being collected through the collection spirals, small tick marks will be made on
+collection spiral at predetermined time intervals for later calculation of sweat rate versus the
+volume at the given times.
+
+41
+
+Appendix B: Testing of a Novel Iontophoretic Sweat Stimulation
+Patch
+Principle Investigator: Trudy Gaillard
+Title: Testing of a Novel Iontophoretic Sweat Stimulation Patch
+Specific Aims
+The purpose of this research study is to validate the efficacy of a novel on-skin patch
+through iontophoretic stimulation. The patch will then show a real-time activation of
+sudomotor nerves by causing nearby sweat glands to activate. The validation of activation of
+sudomotor nerves in sweat’s physiological response will give way to future sweat sensing
+technologies. Sweat gland innervation will be monitored via visual and electrical methods.
+Background and Significance
+Sweat is a biofluid which can easily be accessed through non-invasive techniques.
+Sweat possesses many biomarkers that can be used for monitoring stress levels and also
+contains certain electrolytes which are used for diagnostic purposes. The Cystic Fibrosis (CF)
+sweat test is the gold standard, routine procedure performed on infants and young children to
+determine levels of chloride ions in sweat. Sweat is generated with FDA approved devices,
+Wescor Macroduct and Wescor Nanoduct, via iontophoretic delivery of a sweat stimulant
+called pilocarpine in gel form. These devices drive a small current from one electrode to
+another across the skin while simultaneously delivering a small dose of a sweat gland
+stimulating drug called pilocarpine. Increased levels of chloride ions in the patient’s collected
+sweat indicate a mutation in the Cystic Fibrosis Transmembrane Regulator (CFTR) and,
+inevitably, Cystic Fibrosis. Another form of iontophoretic testing is the Quantitative
+Sudomotor Axon Reflex Test (QSART). This test is designed to evaluate autonomic nerves
+which control sweating and are connected via a neural network underneath the surface of the
+skin. This test is typically used to diagnose nervous system disorders and some pain
+disorders. Typical stimulation is done with a natural chemical, acetylcholine.
+The work proposed here will confirm the efficacy of this novel on-skin patch for
+sweat stimulation and sensing of electrolytes. This study will also validate the efficiency of
+sudomotor axon reflex sweating for future sweat sensing technologies. Iontophoretic
+stimulation of sweat will allow monitoring of skin impedance and sweat sodium levels
+thereby helping guide future developments of similar sweat patches for biomedical and
+consumer applications.
+Preliminary Studies
+A current IRB approved study entitled Testing the Microfluidics of On-Skin
+Technologies, led by Principle Investigator Trudy Gaillard, is working towards recreation of
+the Wescor Cystic Fibrosis test. The PI and her research team are performing both the
+Wescor Macroduct test and the Wescor Nanoduct test for validation of sweat rates and
+electrolyte concentrations using pilocarpine iontophoresis.
+Investigator Experience
+Trudy Gaillard currently works at the University of Cincinnati’s College of Nursing
+as an Assistant Professor. She most recently previously worked at The Ohio State University
+in the Division of Endocrinology, Diabetes, and Metabolism as an Assistant Professor of
+42
+
+Medicine. Dr. Gaillard has been involved with many studies and projects working towards
+the management and research of diabetes and diabetic patients.
+Experimental Design and Methods
+Methods and Procedures
+In the newly developed patch sudomotor axon reflexes will be activated through
+iontophoretic stimulation using the ActivaDose iontophoresis device at currents similar to or
+lower than commercially available Wescor Macroduct and Nanoduct devices. ActivaDose is
+used in cranial iontophoresis. The ActivaDose can provide a current level of as little as 0.1
+mA. The device will never be set to higher than 0.5 mA. The ActivaDose automatically
+detects the amount of time to run based off the researchers’ inputs of current and desired
+dosage. For example, a current on the ActivaDose set to 0.2 mA for a duration of 2.5 minutes
+offering a total dosage delivered to be 30 mC. The total current density in all studies will
+remain at or below 0.25 mA/cm2, which is comparable to the commercial neonatal Nanoduct
+current density of 0.26 mA/cm2. This the setting selected for the initial patient; however if the
+patient exudes sweating at a current level of 0.2 mA, the following patient may be selected to
+have a current of 0.1 mA delivered from the ActivaDose for measuring sweat response at
+extremely low levels of stimulation. If the patient does not exude a sweat response, the
+following patient may be selected to have a current of 0.3, 0.4, or 0.5 mA delivered. The
+ActivaDose will never be set higher than 0.5 mA (or exceed 0.25 mA/cm2), being that is the
+current produced by the commercially available Nanoduct. Members of the research team
+will be specially trained in the use of the ActivaDose and its controls. The device does not
+store previous inputs in a centralized computer.
+The drug to be delivered for induction of sweat will be carbachol within a gel, similar
+to the gels used in the previously mentioned Cystic Fibrosis testing. Carbachol is typically
+used in eye drops to treat glaucoma. Additionally a previous study has shown to use
+carbachol in iontophoretic stimulation of sweat mimicking the QSART test where the
+carbachol was used in replacement of acetylcholine (Reidl 2001). The use of methacholine
+(yet another muscarinic agonist) will be available for use in comparison purposes of efficacy
+of chemical stimulus for the patches. Both mentioned muscarinic agonists (methacholine, and
+carbachol) possess varying levels of nicotinic activity which is a requirement for the
+activation of sudomotor axon reflexes. Sweat gland detection is difficult for the naked eye to
+visual but is desired for physiological response studies. Bromophenol blue (BMP BLUE) has
+been previously used in sweat gland visual detection in a solution of silicone oil (PDMS
+base) (Tashiro, 1960). For visual detection our patch will have an open viewing window
+containing BMP and a cosmetic-grade silicone (PDMS), such as those provided by Clearco,
+to display activated sweat glands.
+For reader familiarity a general description and pictures of the patch is attached in
+document SAR Device Prototype. All components of the patch are constructed with
+nonhazardous materials replicating components of standard iontophoretic stimulation
+devices. Final device design is subject to alteration to reduce subject risk and/or improve data
+quality. Carbachol will be the initial drug used in iontophoresis, however if carbachol proves
+to be ineffective as a stimulus methacholine will be available for a replacement stimulus.
+
+43
+
+Procedure:
+1) Clean patch testing area (randomized selection of forearm) with rubbing alcohol followed
+by deionized water to rid the skin of excess epithelial matter and allowed to air dry.
+2) Current on the ActivaDose will be set to 0.2 mA for a duration of 2.5 minutes offering a
+total dosage delivered to be 30 mC. The total current density will be at or less than 0.25
+mA/cm2, which is comparable to the commercial neonatal Nanoduct current density of 0.26
+mA/cm2. Drug-containing gel will be previously cast or formulated and placed above the
+open stimulation/return electrode regions to create a secure skin contact surface.
+3) Ensure strong adhesive contact between the patch and the skin while simultaneously
+providing slight compression force to ensure strong gel-skin contact.
+4) Device will be turned on and iontophoresis of drug stimulation will commence.
+5) A small drop of pre-made silicone solution will be placed on skin in a small open viewing
+window of the patch.
+6) During and after iontophoresis, the subject will remain sitting still while pictures of the
+viewing window are taken every minute for 20 minutes. Similarly, the sensing electrodes will
+be monitored and data recorded during this time.
+7) After a 20 minute time interval of sweating the patch will be removed from the subject’s
+arm. Area will be initially wiped with a dry towel to remove oil and BMP BLUE mixture.
+Then the area will be washed with soap and water to remove any remaining residue and
+staining. Hydrocortisone cream will be given to the subject for application if any irritation
+occurs.
+Data Analysis and Data Monitoring
+Data will be de-identifiable and reported in aggregate form at the completion of all
+tests. Data will be reported in the form of charts, graphs, or tables once all tests are
+completed. Photographs of patch viewing windows will also be analyzed and de-identified.
+Data Storage and Confidentiality
+Names will not be correlated with any other identifiers or data results. All subjects
+will be de-identified. Data collected for the study will consist of age, gender, physical
+activity, and sweat patch results which include skin impedance through sweat rate and sweat
+sodium concentration that will be detected through sodium ionophore sensors. Some of this
+data will be stored electronically in table format. Additionally photographs of the open
+window of the patch will be taken during sweating to show live action of the autonomic
+nerves producing sweat. Any photographs taken will be strictly of the test site on the subject
+to ensure there is complete anonymity of the participant. All pieces of information regarding
+the participant and data collected during the test will be confidentially kept in the office of the
+research staff on a password-protected computer and hard copies kept in a locked filing
+cabinet. The computer password will only be given to the research staff as well as the key to
+the locked filing cabinet.
+Setting
+The iontophoretic stimulation will be conducted at the University of Cincinnati’s College of
+Engineering and Applied Sciences.
+Laboratory methods and facilities
+Not applicable.
+
+44
+
+Estimated Period of Time to Complete the Study
+Each test will take approximately one hour of the subject’s time. The full duration of
+the study will take 6 months from initial subject testing to final analysis and write-ups of
+sweat patch efficacy.
+Human Subjects
+Research team members will recruit age and sex match males and females above the
+age of 18 years old who are able to give informed consent. Study participants will be
+excluded if they are currently pregnant, have preexisting cardiac/heart conditions, have
+epilepsy, have Cystic Fibrosis, possess tattoos, eczema or additional skin conditions on patch
+application site (forearm). In addition we will exclude subjects with hypertension, diabetes,
+or known metal allergies. There are no gender biases in this study, however, as close to an
+equal amount of men and women are desired for this study. A valid driver’s license or other
+form of identification that clearly displays the subject’s date of birth will be used to confirm
+age requirements before participation in the study. The area of patch application will be
+thoroughly examined before adherence of device. Verbal confirmation will be given by the
+subject to validate the subject does not possess one of the above mentioned conditions, to the
+best of his or her knowledge, which would exclude him/her from the study. No vulnerable
+subjects will be included in this study. Up to 20 patients will be enrolled in this study at this
+site. Approximately 20 patients at 1 site in the U.S. will be enrolled in the study. The
+subjects will predominantly be recruited from the student population of the University of
+Cincinnati. No students of the PI or the research staff will be involved in this study. The
+research team will be responsible for conveying the research study information to potential
+subjects via word of mouth. The potential subjects will then be given the research staff’s email in order to schedule a testing time if the subject does decide to become a participant.
+Risk/Benefit Assessment
+Risk or Discomfort
+Redness (erythema) or irritation associated with
+chemical stimulus after removal of electrodes
+Redness (erythema) or irritation associated with
+electrical stimulus after removal of electrodes
+Tingling or prickling sensation during iontophoretic
+delivery
+Irritation or skin staining associated with silicone
+solution used in visual detection of sweat
+
+Level
+Minimal
+Minimal
+Minimal
+Minimal
+
+Subjects will be monitored at all times during the testing procedure. If any irritation occurs
+above minimal at any point during the testing procedure or the subject is uncomfortable and
+does not feel he/she would like to continue the test, the test will be terminated immediately
+without question. A warm compress and hydrocortisone cream will be applied to the skin to
+prevent further irritation. The site will be monitored for an additional 15 minutes after
+indication of irritation to assure it does not spread. To minimize any adverse effect associated
+with the application of the sweat sensor the research team will carefully examine the skin of
+the application site and thoroughly clean the skin with a topical cleanser.
+The PI will be present or on-call at all times during testing. If a subject begins to
+experience discomfort the PI will be immediately notified and the study team will document
+the site of irritation and terminate the study.
+45
+
+Payment
+The subjects will be awarded with a $10 gift card to a local restaurant at the time of
+each test. If the subject decides to terminate the test early for any reason he/she will still be
+awarded the gift card.
+Subject Costs
+There are no costs to the subjects.
+Consent Form
+Testing of a Novel Iontophoretic Sweat Stimulation Patch_ICD
+
+46
+
+Appendix C: Testing of Novel On-Skin Sweat Patch through
+Metabolic Sweat Induction
+Principle Investigator: Trudy Gaillard
+Title: Testing of Novel On-Skin Sweat Patch Through Metabolic Sweat Induction
+Specific Aims
+The purpose of this research study is to validate the efficacy of a novel on-skin patch
+which will be able to wirelessly transmit skin surface temperature, impedance of skin, and
+concentrations of electrolytes found in sweat such as sodium, potassium, and chloride.
+Background and Significance
+Industry has seen attempts made at wearable devices that make electrical or
+electrochemical measurements for performance monitoring, physiological event detection,
+and medical condition testing. Most of these devices are either some type of jewelry
+accessory (i.e. watch, bracelet, etc.) that must be held in contact with the body through
+clothing or other obtrusive means (i.e. compression bandages/wraps). Few of these devices
+have been adopted by users because they are too bulky, uncomfortable, noticeable, or hard to
+use. Even fewer actively use sweat as the source of the target to be measured. Current sweat
+analyte measurement methods typically require laboratory conditions, expensive and nonportable equipment, and/or are time-consuming and expensive. The innovations presented
+here combine the novel science of sweat sensing with cutting-edge, low-profile, unobtrusive,
+wearable electronics to provide a truly mobile platform that enables advances in
+understanding the roles and applications of biomarkers in sweat.
+Previously, we reported an adhesive RFID sensor bandage (patch), which can be made
+completely intimate with human skin, and therefore minimize dead volumes of sweat for
+improved chronological monitoring. A commercial RFID chip was adapted with minimum
+components to allow potentiometric sensing of electrolytes in sweat, and also a reading of
+surface temperature. Together, electrolytes and temperature could be of use for hydration and
+heat-stress monitoring.
+Sweat is one example of a non-invasively accessed biofluid with potential advantages
+in measurement of inflammatory biomarkers compared to saliva and potentially superior
+time-resolved readings of biomarker concentrations compared to saliva and urine. The
+mineral based elements of sweat have been documented as a product of heat stress from
+prolonged exertion, and electrolyte concentrations in sweat have found diagnostic use. The
+gold standard of sweat testing is the diagnosis of cystic fibrosis (CF) by pediatricians to
+confirm a clinical presentation. Despite advancements in understanding the genetics of this
+disease, the sweat test remains the predominant confirmation method due to high cost of
+genetic testing and the proliferation of mutations in the CFTR gene. The sweat test for CF
+analyzes electrolyte concentration, conductivity, and/or osmolality of a sweat sample
+collected using absorption-based methods such as the Wescor, Inc. Macroduct sweat testing
+system. Sweat testing and analysis is also deployed as a method of drug abuse detection,
+deodorant evaluation, and in the study of dehydration in athletes. Rapid detection of
+biomarkers in a flexible electronic patch requires label-free and real-time transduction. A
+common approach is to use an ion-selective electrode (ISE) or other ion-sensitive transducer
+such as those used in chloride measurements of sweat tests for CF. An equally common, but
+more exotic, technique is to engineer a bio-recognition element (BRE) bonded to a
+sensor/transducer, capable of sensitively and selectively binding or releasing the biomarker as
+47
+
+concentration changes in solution. Another viable approach is to sense with arrays of semispecific, but distinct, transducers and then statistically determine physiological condition.
+Biorecognition elements can be based on nucleotides, amino acids or antibodies.
+However, many of the analytes of interest are simple measurements of pH, inorganic ion
+concentration, or metabolites such as lactate, phosphate, etc. These are typically much higher
+in concentration (μM to mM) than traditional ‘biomarkers’ and require neither sample
+preparation nor added solutes. As such, these measurements can be made with simple ISE
+arrays and thereby reduce complexity.
+The work proposed here is significant to the understanding and characterization of
+sweat biomarkers as they pertain to both human performance and physiological events, as
+well the sampling methods and measurement techniques used to acquire these biomarkers. Insitu measurement of sweat biomarkers via wearable and wireless electronic sensing platforms
+would provide significant advantages to understanding in near real-time the changes in the
+physio-chemistry of human sweat during activities that preclude more traditional test
+methods for the same biomarkers. Such advantages allow for significant advances in
+individual health monitoring, emergency medicine, and preventative measures for athletic
+and occupational injury.
+Preliminary Studies
+A current IRB approved study entitled Testing the Microfluidics of On-Skin
+Technologies, led by Principle Investigator Trudy Gaillard, is working towards recreation of
+the Wescor Cystic Fibrosis test. The PI and her research team are performing both the
+Wescor Macroduct test and the Wescor Nanoduct test for validation of sweat rates and
+electrolyte concentrations using pilocarpine iontophoresis.
+Investigator Experience
+Trudy Gaillard currently works at the University of Cincinnati’s College of Nursing as an
+Assistant Professor. She most recently previously worked at The Ohio State University in the
+Division of Endocrinology, Diabetes, and Metabolism as an Assistant Professor of Medicine.
+Dr. Gaillard has been involved with many studies and projects working towards the
+management and research of diabetes and diabetic patients. Research team member, Jason
+Heikenfeld, has a fiduciary stake in Eccrine Systems LLC. Eccrine Systems does not have a
+financial or personal role in this study, however they do license the UC technology, a part of
+which may or may not be tested on human subjects for this study. Full funding does not exist
+for this study, but Eccrine Systems LLC has indicated a potential interest in future financial
+backings. However the research team has made sure there is no compromise of study data for
+this conflict.
+Experimental Design and Methods
+Methods and Procedures
+The test performed will consist of the patient biking on a stationary bike for a period
+of 20-30 minutes to induce sweating for measurement of the efficacy of novel on-skin
+patches. The bike is a Monarch Leg Ergometer. It has a Polar Monitor for heart rate
+interference. Heart rate will be recorded every 5 minutes. Though the subjects will be asked
+to increase resistance and/or peddling rate in order to simultaneously increase sweat rate, the
+subject can choose whether or not to do so with no consequence. Increasing sweat flow will
+allow for optimal detection of patch efficacy, but will not de-validate the results. The active
+portion’s purpose is to cause the patient to begin sweating and maintain a flow of sweat for a
+period of time to get a sweat rate profile at low rates and higher rates. Heart rate (bpm) and
+resistance (workload) will be displayed by the bike’s digital screen. Subjects will be
+48
+
+responsible for adjusting resistance during the test and will be free to increase or decrease
+resistance whenever desired by subject if discomfort occurs. Based on the participant’s age, if
+the participant’s heart rate reaches the correlating value on the chart below the test will be
+immediately aborted.
+
+Vitals of the participant will be taken before and after the test and include pulse
+oximetry, blood pressure, heart rate and body temperature. Trained paramedics will be on
+standby to assist with vitals and monitoring patient health.
+-Clean patch testing area (forearm of preference) with rubbing alcohol followed by deionized
+water to rid the skin of excess epithelial matter and allowed to air dry.
+-Secure adhesive patch to forearm.
+-Establish wireless connection between patch and external device during which the device
+will automatically calibrate.
+-Subject will mount bike and adjust seat to a comfortable position and height.
+-Subject will begin to peddle at a workload they select as a so-called “flat road” for 5
+minutes.
+-After 5 minutes the subject will be asked to increase their resistance to a slightly higher
+work-load and/or peddle at a faster rate. The subject will continue peddling at this pace for 15
+minutes. If the subject does not wish to increase their work-load they are under no obligation
+to do so.
+-After the 15 minute work period, the subject will decrease the workload back to their flatroad for a cool-down period from 5-10 minutes as deemed necessary by the subject.
+-Subject will dismount the bike, stretch, and patch will be removed from arm. Subject will be
+given a cold towel, water, or other post-exercise materials he or she needs.
+-Bike will be thoroughly cleaned.
+Data Analysis and Data Monitoring
+Data will be de-identifiable and reported in aggregate form at the completion of all
+tests. Data will be reported in the form of charts, graphs, or tables once all tests are
+completed.
+Data Storage and Confidentiality
+Each participant will be given a de-identifiable study number. Names will not be
+correlated with any other identifiers or data results. Data collected for the study will consist
+of age, gender, physical activity, heart rates during test, resistance of bike, vitals of the
+49
+
+participant before and after the test, and sweat patch results which include Na+ levels and
+other such sweat biomarkers, skin impedance (sweat rate), and skin surface temperature. All
+pieces of information regarding the participant and data collected during the test will be
+confidentially kept in the office of the research staff on a password-protected computer in
+which the research staff will be the only ones given the password.
+Setting
+The exercise stimulation and patch analysis will be conducted at the University of
+Cincinnati’s College of Education, Human Services, and Criminal Justice (CECH) in the
+Rashig Human Performance Laboratory with given permission of the lab director.
+Estimated Period of Time to Complete the Study
+Each test should only take one hour for the subject to complete. The study will last 6
+months from initial subject testing to final analysis and write-ups of sweat patch efficacy.
+Human Subjects
+Subjects are included in this study if they are healthy, between the ages of 18-55 years
+old and able to give written informed consent. Study participants will be excluded if they are
+currently pregnant, have preexisting cardiac/heart conditions, have epilepsy, have Cystic
+Fibrosis, possess eczema or additional skin conditions on patch application site, have
+diabetes, have known metal allergies, or have skeletomuscular pain/dysfunction. No
+vulnerable participants will be included in this study. These criteria have been chosen on the
+basis that this is a study which will require physical exertion to induce sweating. There are no
+gender biases in this study, however, as close to an equal amount of men and women are
+desired for this study. The inclusion and exclusion criteria have been chosen for the safety of
+participants. A valid driver’s license or other form of identification that clearly displays the
+subject’s date of birth will be used to confirm age requirements before participation in the
+study. The area of patch applications will be thoroughly examined before application of
+device. Verbal confirmation will be given by the subject to the best of his or her knowledge
+to validate the subject does not possess one of the above mentioned conditions which would
+exclude him/her from the study.
+Up to 20 patients will be enrolled in this study at this site. Approximately 20 patients
+at 1 site in the U.S. will be enrolled in the study.
+Subjects will be recruited from the student population at the University of Cincinnati
+via word of mouth. Upon confirmation by the participant that they would like to participate in
+this study, the participant will receive and e-mail indicating their testing time and location.
+They will also be instructed to come in on an empty stomach (no food for at least 1 hour
+before the test) and will be asked to not have consumed caffeine prior to the test. No
+participant will be the student of the PI.
+
+50
+
+Risk/Benefit Assessment
+This study is not in any way meant to be more of a risk than a typical exercise session a
+subject would undergo on his or her own time.
+Risk or Discomfort
+Exercise induced fatigue/muscle tension, soreness,
+or fatigue associated with 20-30 minute active
+period with resistance selected by subject
+Raised heart rate/cardiac irregularities associated
+with 20-30 minute active period
+Shortness of breath/respiratory discomfort
+Patch adhesive irritation
+Battery short out due to sweat interference
+
+Level
+Minimal to moderate
+Minimal to moderate
+Minimal to moderate
+Minimal
+Minimal
+
+Exercise Testing
+Subjects will be monitored every 5 minutes during the testing procedure. During the
+exercise portion subjects will be asked every 5 minutes to confirm they are not excessively
+short of breath, they do not feel skeletomuscular pains, and/or are able to continue with
+confidence of performance. Validation of subject’s physical confirmation will be recorded at
+each question time. The stationary bikes used for this study have built-in heart rate monitors
+that will constantly display the subject’s heart rate throughout the test. The bike is a Monarch
+Leg Ergometer. It has a Polar Monitor for heart rate interference. Heart rate will be recorded
+every 5 minutes. Though the subjects will be asked to increase resistance and/or peddling rate
+in order to simultaneously increase sweat rate, the subject can choose whether or not to do so
+with no consequence. Increasing sweat flow will allow for optimal detection of patch
+efficacy, but will not de-validate the results.
+Sensor
+The research team will also monitor the site of the patch every 5 minutes for irritation
+and record these results. If any irritation occurs above minimal at any point during the testing
+procedure, the test will be terminated immediately without question. If any issues with
+battery pack occur patch will immediately shut off. The battery used in this patch to power
+the wireless communication is the same type of battery found in most cellular phones. No
+direct contact with the subject to the battery exists, but excessive sweat may cause
+interference with current and will cause the patch to automatically cease working for
+preventative measures.
+Payment
+Subjects will receive a $10 gift card to a local restaurant. If the subject opts to, at any
+point, terminate the test he/she will still be issued their gift card.
+Subject Costs
+There are no costs to the subjects.
+Consent Form
+Testing of Novel On-Skin Sweat Patch Through Metabolic Sweat Induction_ICD
+
+51
+
+

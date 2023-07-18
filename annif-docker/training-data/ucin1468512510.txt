@@ -1,0 +1,1447 @@
+Optimizing Request Routing in Heterogeneous Web
+Computation Environments
+A thesis submitted to the
+Division of Graduate Studies and Research
+of the University of Cincinnati
+in partial fulfillment of the
+requirements for the degree of
+MASTER OF SCIENCE
+in the Department of Electrical Engineering and Computing Systems
+of the College of Engineering and Applied Science
+April 27, 2016
+by
+Prudhvi Rao Shedimbi
+Thesis Advisors: Dr. Paul Talaga and Dr. Michal Kouril
+
+Abstract
+
+With the increase in popularity of web applications, load balancers have become a vital
+instrument in the day to day operations of almost every web application. ​
+They become more
+critical when underlying servers have heterogeneous capabilities. This thesis focuses on
+developing an effective load balancing algorithm for a system with heterogeneous server
+capabilities. We develop an algorithm, Prum, that balances requests based on the servers’
+latest response time. We then compare the performance of this algorithm with Round Robin,
+which is the default load balancing function for various load balancers. Detailed analysis of
+response time and request routing of both the algorithms show that Prum outperforms Round
+Robin when underlying servers have diverse configurations.
+
+1
+
+2
+
+Acknowledgement
+
+I would like to express my gratitude and appreciation to all those who helped me
+complete this thesis. I would like to thank Dr. Paul Talaga and Dr. Michal Kouril for their
+guidance, supervision and support which immensely helped my with this thesis. I would
+also like to thank Dr. Raj Bhatnagar for taking time out of his busy schedule to be a part
+of my thesis committee. Finally, I would like to thank my family and friends for their
+support.
+
+3
+
+Table of Contents
+1.
+
+2.
+
+3.
+
+Introduction ………………………………………………………………………………………. 8
+a.
+
+General Research Objective …………………………………………………………... 8
+
+b.
+
+Research Methodology …………...……………………………………………………. 8
+
+c.
+
+Overview of chapters …………………………………………………………………… 9
+
+Background Information …………………………………………………………………………10
+a.
+
+Load Balancing Algorithms ……………………………………………………………..10
+
+b.
+
+Nginx ………………………………………………………………………………………10
+
+c.
+
+Apache Jmeter …………………………………………………………………………...11
+
+Algorithm: Prum…………………………………………………………………………………... 12
+a. Implementation of Nginx …………………………………………………………………. 14
+
+4.
+
+Related Work …………………………………………………………………………………….. 18
+
+5.
+
+Test Environment ………………………………………………………………………………… 19
+a. Test Architecture …………………………………………………………………………. 19
+b. Configuration ……………………………………………………………………………... 22
+
+6.
+
+Experimental Procedure, Results and Observations ………………………………………… 25
+a.
+
+Response time analysis ………………………………………………………………… 25
+i. Experimental Procedure ……………………………………………………….. 24
+ii. Results and Observations ……………………………………………………… 26
+
+b.
+
+Request Routing analysis ………………………………………………………………. 29
+i. Experimental Procedure ……………………………………………………….. 29
+ii. Results and Observations …………………...………………………………… 30
+
+7.
+
+Contributions and Future Work …………………………………………...……………………. 35
+a.
+
+Contributions ……………………………………………………………………...……... 35
+4
+
+b.
+
+Future Work …………………………………………………………………….………. 35
+
+8.
+
+Appendix A: R and OpenCPU ………………...…………………………………….……….... 37
+
+9.
+
+Appendix B:Instructions to Install Nginx with Prum Module for Ubuntu ………...………… 38
+
+10. Appendix C: Instructions to Install OpenCPU …..……………………………………….…… 40
+11. Appendix D: Instructions to host R apps on OpenCPU for Ubuntu …..……………….…… 41
+11. Appendix E: Nginx Code for Prum ……....…………………………………….………….…… 42
+
+5
+
+List of Figures
+
+1. Figure 2.1: ​
+Thread count vs Time​
+…………………...……………………………………… 12
+2. Figure 3.1: ​
+High level flowchart of Prum​
+....………………………………………………… 14
+3. Figure 3.2: ​
+Working of Prum​
+………....……………………………………………………… 15
+4. Figure 3.3: ​
+Flowchart of Prum’s implementation in Nginx​
+……………..……………….... 17
+5. Figure 5.1: ​
+Test Architecture​
+…………...………………………………………………….... 21
+6. Figure 6.1: ​
+Apache Jmeter generating requests for two threads​
+………...……………… 28
+7. Figure 6.2: ​
+Response time over number of threads​
+………………….…………………… 29
+8. Figure 6.3: ​
+Distribution of requests over time for Prum​
+…………....…..………………… 32
+9. Figure 6.4: ​
+Distribution of requests over time for Round Robin …
+​.……………………… 34
+
+6
+
+List of Tables
+
+1. Table 5.1: ​
+Specifications for server1​
+……....……………………………………………… 22
+2. Table 5.2: ​
+Specifications for server2​
+……………………………………….……………… 22
+3. Table 5.3: ​
+Specifications for server3​
+………………………………….…………………… 22
+4. Table 5.4: ​
+Specifications for server4​
+………………………………….…………………… 23
+5. Table 5.5: ​
+Specifications for server5​
+……………………….……………………………… 23
+6. Table 5.6: ​
+Specifications for lbx​
+………………………………….………………………… 23
+7. Table 5.7: ​
+Software versions​
+…..…………………………………………………………… 24
+8. Table 6.1: ​
+Response Time Analysis ­ Test scenario​
+…...………………………………… 26
+9. Table 6.2: ​
+Request Routing Analysis ­ Test Scenario​
+….………………………………… 30
+10. Table 6.3: ​
+Prum Results I​
+………………….…………………………………………...…… 30
+11. Table 6.4: ​
+Prum results II​
+………………….………………………………………………… 31
+12. Table 6.5: ​
+Distribution of requests for f​
+or the beginning part of the test for P
+​rum​
+..…… 31
+13. Table 6.6: ​
+Round Robin results I ​
+…………………………………….……………………… 33
+14. Table 6.6: ​
+Round Robin results II ​
+…………………………………...…………………...… 33
+
+7
+
+Chapter 1: Introduction
+
+Contemporary high traffic websites serve millions of requests simultaneously. Multiple servers
+are required to meet this high volume demand. Load balancers are used to distribute traffic
+among these servers. They provide a way to improve performance and scalability. It is not
+uncommon to witness systems where underlying servers have diverse capabilities. Many of
+currently available load balancing algorithms are not efficient in these situations. They tend to
+route requests statically irrespective of server’s speed and capacity. The aim of this thesis is to
+develop a load balancing algorithm that can efficiently balance requests in these scenarios.
+After developing the algorithm, we compare its performance with a traditional load balancing
+algorithm, Round Robin.
+
+1.1 General Research Objective
+The general research objective is to design a load balancing technique that routes requests in
+an efficient way taking server capabilities into account.
+
+1.2 Research Methodology
+In order to achieve our objective, the following activities are conducted.
+1. Survey literature of load balancing algorithms. Investigate working of currently available
+algorithms.
+2. Identify a scenario where currently available load balancing algorithms fail to efficiently
+balance requests.
+
+8
+
+3. Develop an algorithm that efficiently routes requests for the scenario identified in the
+previous step.
+4. Analyze performance of the algorithm developed in the previous step and compare its
+performance with a default load balancing algorithm available in the load balancer.
+
+1.3 Overview of Chapters
+In Chapter 2, we discuss background information on various load balancing algorithms, Nginx
+load balancer and Apache Jmeter. In Chapter 3, we talk about our algorithm Prum and explain
+how it functions. We also discuss on how it is implemented in Nginx. Chapter 4 discusses about
+research done in the field of load balancing algorithms. In Chapter 5, we describe the test
+environment. In Chapter 6, we discuss about response time analysis and request routing
+analysis. We explain the way testing was performed and discuss the results of analyses.
+Chapter 7 discusses about our contributions and future work that can be done in this area.
+
+9
+
+Chapter 2: Background Information
+​
+2.1 Load Balancing Functions
+A load balancer distributes incoming traffic across a group of servers, thereby helping in
+increasing performance and reliability. A number of scheduling algorithms are used by load
+balancers to decide a target backend server. We describe few of them here.
+
+Round Robin is a popular load balancing algorithm. It passes each new request to the next
+server in line, thereby dispersing requests over a group of servers. “It ​
+does not always result in
+the most accurate or efficient distribution of traffic, because it assumes that all servers have
+same capabilities” [NRGR]​
+.​
+It does not take into account the current load on a server or the
+server’s responsiveness.
+
+Least connections method is another method to balance HTTP requests over a group of
+servers. When least connection method is configured as load balancing method, it selects the
+server with the least number of active connections to ensure that web requests are balanced.
+This ensures that any server is not loaded with too many requests.
+
+A lot of web applications use sticky sessions to store client specific information on backend
+servers. In these situations, it is important for the load balancer to route a client’s request to the
+server that contains client information. IP­Hash is a load balancing method is used in these
+scenarios. This method generates a hashing key based on client’s IP address and uses this
+
+10
+
+hash to route a request to an underlying web server. This way, a client’s request is always
+routed to the same web server. This method is used when a web application requires sticky
+sessions and data related to client is stored on the server.
+
+We have implemented our load balancing algorithm as a module in Nginx. Round robin is the
+default load balancing algorithm in Nginx. In this thesis we compare results generated by Prum
+with that of Round Robin.
+
+2.2 Nginx
+“Nginx is a free, open­source, high­performance HTTP server and reverse proxy server” [NWP].
+It is based on an asynchronous event­driven approach to handle requests compared to
+conventional servers that rely on threads to handle requests. It is composed of modules, which
+can broadly be classified into three categories based on their roles [EMP07]: handlers, filters
+and load balancers. We implemented Prum as a load balancer.
+
+2.3 Apache Jmeter
+“Apache Jmeter ​
+is an Apache project that can be used as a load testing tool for analyzing and
+measuring the performance of a variety of web services” [JMWK]. We used Apache Jmeter to
+generate HTTP POST requests to call web APIs.
+Following are a few terms that can be used when talking about Jmeter in future sections.
+●
+
+Threads: A thread is an entity that will execute the test plan in its entirety and
+completely independently of other test threads. “Multiple threads are used to simulate
+concurrent connections to your server application” [JMUM].
+
+11
+
+●
+
+Ramp­up Period: ​
+The time taken by Jmeter to go to the full number of threads as
+chosen. If 10 threads are used, and the ramp­up period is 100 seconds, then JMeter will
+take 100 seconds to get all 10 threads up and running. Each thread will start 10 (100/10)
+seconds after the previous thread was begun. Figure 2.1 shows variation of thread count
+with time when ramp up period is specified.
+
+Figure 2.1: Thread count vs Time
+
+●
+
+Loop Count: ​
+Loop count tells number of times each thread should be executed.
+
+●
+
+Timer: “The timer will cause JMeter to delay a certain amount of time before each
+generating a request which is in its scope” [JMUM].
+
+Section 6.1.1 and Sections 6.2.1 describe how Jmeter was used in detail.
+
+12
+
+Chapter 3: Prum Algorithm
+
+Traditional load balancing algorithms like Round Robin work fine in a system where backend
+servers are similar in capabilities. In a system with heterogeneous server capabilities, they are
+not efficient [Ref 16]. In this scenario, it would be beneficial for a load balancer to consider the
+server’s capabilities to route requests. Our algorithm, Prum, takes a server’s capabilities, in
+terms of its previous response time, into consideration. This will ensure that more requests are
+routed to faster servers because response times of fast servers are relatively low. Round­Robin
+fails to achieve best results in these scenarios. It tends to route requests the next server on the
+list irrespective of server’s capabilities. So a server that is ten times faster receives same
+number of requests compared to its slower counterpart. Prum on the other hand, tends to route
+more requests to the faster server, as the response time of the last handled request would be
+low compared to the slower server. This would ensure in delivering a better performance
+compared to Round Robin.
+
+Prum maintains a list of the latest response times of all backend servers. Response time of a
+server is the total time taken by a server to send a response back to the load balancer. Prum
+identifies a server with the least response time and routes the request to that server. It then
+receives a response from the server and send that response to the user. It then updates the list
+with the latest response time of the server. Figure 3.1 shows a high level flowchart of Prum.
+Figure 3.2 shows working of Prum.
+
+13
+
+Figure 3.1: High level flowchart of Prum
+
+Implementation in Nginx:
+We implemented Prum as a separate module in Nginx. The following paragraph explains the
+way Prum was implemented in Nginx
+
+When Prum receives a request, it first checks for an init flag. This init flag indicates the status of
+the load balancer, whether it has just been turned on and has not balanced any request yet, or it
+has already handled requests. If this init flag is true, the load balancer reads a configuration file,
+and populates internal data structures used by the algorithm accordingly. The load­balancing
+
+14
+
+algorithm then identifies the best server, based on the previous response time of the server, and
+routes the request to the identified server. Once the server generates a response, the response
+is sent back to the user. Simultaneously the load­balancing algorithm updates the internal data
+structures with the new response time. The algorithm, while handling the next request,
+considers this newly updated response time.
+
+Figure 3.2: Working of Prum
+
+15
+
+Initially, when the init flag is true, the default response time values for all the servers are set as
+0. At this point of time, if there are multiple requests, all the requests would be routed to the first
+server in the configuration file. This creates a chaotic scenario where requests are not balanced
+in an optimal way. In order to avoid this issue, when a request is sent to a server, its response
+time value in the data structures is immediately increased by 10, so the next immediate request
+is routed to the next server. So for the first few requests, it behaves similar to round robin.
+Figure 3.3 shows implementation of Prum in Nginx.
+
+When new servers are added to the backend server setup, Prum initially assumes the latest
+response time of the newly added server to be zero. So it routes the next request to the newly
+added server and then updates the response time from zero to the actual response time of the
+server. From there on, Prum treats the newly added server in similar way to all other servers.
+Whenever a request fails to get a response, a high penalty time is added to the response time.
+Subsequent response failures would cumulatively add up high penalties to the response time of
+that server. After a few requests, the response time of the failed server becomes so high that no
+further requests are routed to the failed server due to the default algorithm of Prum.
+
+16
+
+Figure 3.3: Flowchart of Prum’s implementation in Nginx
+
+17
+
+Chapter 4: Related Work
+
+This section talks about research done in the field of load balancing.
+
+Agraj et al. [AS14] developed an algorithm with the intention to decrease response time of a
+web request and prevent imbalance of load among servers. Their algorithm predicts future
+response time of a request from a server. Our algorithm, Prum, does not predict future response
+time, rather uses the previous response time of a server. Their algorithm works with an
+assumption that load balancer knows in advance what services are running on any server at
+any time and response time of each service on the virtual machine. Further it assumes that all
+servers have similar system configurations in terms of RAM, processor, and I/O. Our algorithm
+is not intended for this kind of environment. It is intended for a system with heterogeneous
+server capabilities. They defined a parameter, threshold time. A server gets a new request if the
+combination of average response time and predicted average response time of the server is
+less than the threshold time of that server. Once a request is served, the next server to be
+considered, for routing the request, is done in a round robin fashion. Prum, on the other hand,
+directly selects the server with least previous response time.
+
+Cairong Yan et. al [CMY08] proposed a response time based load balancing algorithm for
+service composition. S​
+ervice composition is an aggregate of services collectively composed to
+automate a particular task or business process [SOAG]​
+. Although their algorithm is intended for
+service composition in a service oriented architecture system, they ultimately use response time
+based load balancing algorithm to compose services. Prum uses response time to distribute
+web requests in a system with diverse server capabilities Their algorithm consists of two parts:
+18
+
+service routing and weight adjusting. Each server maintains three tables: routing table (RT),
+load table (LT) and weight table (WT). Service routing algorithm picks a server based on load
+table and routes a service to that server. That server’s load is then updated in a load table with
+an increased value taken from weight table. Once the service is completed by the server, the
+server’s load is decreased in load table. The weights in the weight table are updated based on
+response times of the servers. Prum does not consider server load explicitly, rather it considers
+server load indirectly in terms in response times of servers. Their algorithm achieves better
+results in terms of quicker response times and better load distribution compared to other
+algorithms that do not consider response times of servers.
+
+Brad Fitzpatrick and his team at Danga Interactive developed a lowest latency based load
+balancer called Perlbal [PBWK]. Perlbal uses a configuration file where a user has to define the
+maximum number of connections a backend server can have. Typically this number is set to the
+number of requests a server can handle in parallel at once. Perlbal will then route requests to
+servers that it knows are real processes, rather than an operating system listen queue [PBRM].
+If all the processes in all the backend servers are busy, then Perlbal will internally queue the
+requests, without queueing them at backend servers. Our algorithm, Prum, does not check
+whether a request is given to an actual process or to the operating system listen queue. It just
+gives a request to the server with least response time irrespective of whether it is an actual
+process or a listen queue.
+
+19
+
+Chapter 5: Test Environment
+5.1 Test Architecture
+A cloud cluster provided by The Department of Electrical Engineering and Computing Systems
+at University of Cincinnati was used to test Prum. This cloud cluster is managed by OpenStack
+and is named as CSCloud. It consists of 16 nodes.
+
+The test architecture consists of five servers and an Nginx load balancer that balances HTTP
+requests to these servers. Four of these servers, namely, ‘server1’, ‘server2’, ‘server3’ and
+‘server4’, were Virtual Machines (VM) that were spawned in the cloud from OpenStack. An
+additional physical server was added to the cloud cluster as the fifth web server, ‘server5’. This
+server is faster compared to other servers. The reason for adding this server is to create a
+scenario where servers have heterogeneous capabilities. The total server count was kept at
+five. We did not go beyond five servers because that would make the system more
+homogeneous; our thesis is intended for heterogeneous scenarios. We did not have equal
+number of slower and faster servers because that situation would be unfavourable to round
+robin as it would underutilize all the faster servers. In our test setup, twenty percent of the
+servers were fast, which replicates a good heterogeneous environment. OpenCPU was installed
+in each of the servers along with a R function named ‘testfunction’. Appendix A explains
+OpenCPU briefly. This R function is exposed to the web via OpenCPU. An additional VM named
+‘lbx’ was spawned in the cloud via OpenStack. Our Nginx module, Prum, was installed in this
+VM. This VM acted as a load balancer to all the servers. Apache Jmeter ​
+It was installed on ‘lbx’
+VM. ​
+Figure 5.1 shows the test architecture.
+
+20
+
+Figure 5.1: Test Architecture
+
+21
+
+5.2 Configuration
+The configuration of the Virtual Machines and additional physical server are listed in the
+following tables.
+Table 5.1: Specifications for server1
+Machine Name
+
+Server1
+
+IP Address
+
+192.168.2.129
+
+RAM
+
+4GB
+
+VCPUs
+
+2 VCPU
+
+Disk
+
+40 GB
+
+Ephemeral Disk
+
+5 GB
+
+Table 5.2: Specifications for server2
+Machine Name
+
+Server2
+
+IP Address
+
+192.168.2.130
+
+RAM
+
+4GB
+
+VCPUs
+
+2 VCPU
+
+Disk
+
+40 GB
+
+Ephemeral Disk
+
+5 GB
+
+Table 5.3: Specifications for server3
+Machine Name
+
+Server3
+
+IP Address
+
+192.168.2.131
+
+RAM
+
+4GB
+
+VCPUs
+
+2 VCPU
+22
+
+Disk
+
+40 GB
+
+Ephemeral Disk
+
+5 GB
+
+Table 5.4: Specifications for server4
+Machine Name
+
+Server4
+
+IP Address
+
+192.168.2.132
+
+RAM
+
+4GB
+
+VCPUs
+
+2 VCPU
+
+Disk
+
+40 GB
+
+Ephemeral Disk
+
+5 GB
+
+Table 5.5: Specifications for server5
+Machine Name
+
+Server5
+
+IP Address
+
+192.168.2.254
+
+RAM
+
+4 GB
+
+Processors
+
+8
+
+Disk
+
+256 GB
+
+Table 5.6: Specifications for lbx
+Machine Name
+
+lbx
+
+IP Address
+
+192.168.2.127
+
+RAM
+
+4GB
+
+VCPUs
+
+2 VCPU
+
+Disk
+
+40 GB
+
+Ephemeral Disk
+
+5 GB
+
+23
+
+The versions of different softwares that were used are listed in the following table, Table 5.6
+
+Table 5.7: Software versions
+Operating System
+
+Ubuntu 14.04
+
+Nginx Version
+
+1.9.5
+
+Apache Jmeter Version
+
+2.13
+
+OpenCPU Version
+
+1.4.7
+
+24
+
+Chapter 6: Experimental Procedure, Results and
+Observations
+
+We performed response time analysis and request routing analysis to compare Prum with
+Round Robin, which is the default load balancing algorithm in Nginx. Response time analysis
+was done to compare performances of both algorithms in terms of average time taken to
+complete the service of a request. Request routing analysis was done to see how both the load
+balancing algorithms distribute the requests to underlying servers. This section shows how
+experiments were conducted along with their results and observations.
+
+6.1 Response Time Analysis
+6.1.1 Experimental Procedure
+As mentioned previously, Apache Jmeter was used to generate HTTP requests. Section 2.6
+explains the terms that are used in context of Jmeter. Thread count was varied from 1 to 50 with
+a ramp up period of 100 seconds. A higher thread count resulted in OpenCPU errors as it
+exceed the capacity of the backend servers. Loop count of each thread was 200. This loop
+count enabled the test to run long enough for us to capture sufficient data, when thread count
+was at maximum. A Gaussian random timer was used between each request in a loop, with
+deviation of 100 milliseconds and constant delay offset of 300 milliseconds. This timer
+realistically simulates think times of users [Ref14].
+
+Figure 6.1 shows how Apache Jmeter
+
+generates requests for two threads. Since both the load balancer and Apache Jmeter were
+installed on the same VM, the Jmeter was made to generate requests addressing to localhost.
+Table 6.1 shows the test scenario. Response times for all requests were recorded for analysis.
+
+25
+
+Table 6.1: Response Time Analysis ­ Test scenario
+URL
+
+localhost/ocpu/user/prudhvi/library/mktest2/R/
+testfunction
+
+Thread Count
+
+1 to 50
+
+Loop Count
+
+200
+
+Ramp­up Period
+
+100 seconds
+
+Gaussian Random Timer
+
+* Constant delay offset – 300 milliseconds
+* Deviation ­100 milliseconds
+
+6.1.2 Results and Observations
+Figure 6.2 depicts average response times plotted against number of threads. It shows that
+performance of Prum is better compared to Round Robin. Response times of Prum were
+consistently lower compared to Round Robin.
+
+Average response times of Round Robin are similar to their theoretical prediction. The test
+setup had 5 servers with a total of 16 processors between them. So average response time was
+going to linearly increase until thread count was 16, and then was going to exponentially
+increase. This can be observed in Figure 6.2.
+
+Average response times of Prum are more based on the order of servers written in the Prum
+configuration file. Faster server, server5 was third in the list of five servers. That is the reason
+for initial dip in average response times for Prum. Beyond five threads, it is hard to predict the
+
+26
+
+behavior of Prum as it completely depends on latest response times of the servers and when
+the response times are updated in the data structures
+
+27
+
+Figure 6.1: Apache Jmeter generating requests for two threads
+
+28
+
+Figure 6.2: Response time over number of threads
+
+6.2 Request Routing Analysis
+6.2.1 Experimental Procedure
+Request routing analysis was performed to analyse the distribution of requests by load balancer
+to underlying servers. In this procedure, thread count was set to 50. Loop count of each thread
+was 500. A Gaussian random timer was used between each request in a loop, with deviation of
+100 milliseconds and constant delay offset of 300 milliseconds to simulate think times of users
+[MLTS]. Table 6.2 shows the test scenario. Request distribution along with their response times
+were recorded.
+
+29
+
+Table 6.2: Request Routing Analysis ­ Test Scenario
+URL
+
+localhost/ocpu/user/prudhvi/library/mktest2/R/
+testfunction
+
+Thread Count
+
+50
+
+Loop Count
+
+500
+
+Ramp­up Period
+
+100 seconds
+
+Gaussian Random Timer
+
+* Constant delay offset – 300 milliseconds
+* Deviation ­100 milliseconds
+
+6.2.2 Results and Observations
+In case of Prum, the test took 506 seconds to complete, with a peak period of 306 seconds.
+Peak period is the time period when maximum number of threads are running concurrently. The
+average response time was 0.4897 seconds. A total of 25000 requests were handled altogether,
+of which ‘server5’ handled 13379 requests. Tables 6.3 and 6.4, summarize results for Prum.
+
+Table 6.3: Prum Results I
+Total Run Time
+
+506 seconds
+
+Peak Run Time
+
+306 seconds
+
+Average Response
+Time
+
+0.4897 seconds
+
+30
+
+Table 6.4: Prum results II
+Server Name
+
+Number of requests
+handled
+
+Server1
+
+2884
+
+Server2
+
+2891
+
+Server3
+
+2946
+
+Server4
+
+2900
+
+Server5
+
+13379
+
+Total
+
+25000
+
+As we can see in Table 6.4, ‘server5’ alone handles 13379 requests which is more than 50
+percent of the total requests. This is because Prum identified that ‘server5’ takes less time to
+serve the request and generate a response. As a result, it started routing more requests to
+server5 compared to other slower servers. Figure 6.3 shows distribution of requests to each
+server over time.
+
+Initially request distribution is based on the order of servers in Prum configuration file. Our
+configuration file has the ‘server4’ first followed by ‘server3’, ‘server5’, ‘server1’ and ‘server2’
+respectively. Table 6.5 shows distribution of requests for the beginning part of the test period.
+
+Table 6.5: Distribution of requests for ​
+​
+for the beginning part of the test period for P
+​rum
+Time
+
+Server1
+
+Server2
+
+Server3
+
+Server4
+
+Server5
+
+22:27:08
+
+0
+
+0
+
+0
+
+1
+
+0
+
+22:27:09
+
+0
+
+0
+
+1
+
+0
+
+1
+
+31
+
+22:27:10
+
+1
+
+1
+
+0
+
+0
+
+2
+
+22:27:11
+
+0
+
+0
+
+0
+
+0
+
+4
+
+22:27:12
+
+0
+
+0
+
+0
+
+0
+
+5
+
+22:27:13
+
+0
+
+0
+
+2
+
+0
+
+5
+
+We can see that initially ‘server4’ receives a request followed by ‘server3’ and ‘server5’
+receiving requests in the next second. Then ‘server1’ and ‘server2’ receive requests. At this
+point of time, ‘server5’ has already sent out a response to a previous request and has response
+time lesser than all other servers. So two requests are routed to ‘server5’. From there on
+requests are sent to the servers with the least previous response times. Towards the end of the
+test, we can see that all the requests are routes to ‘server5’. This is because towards the end,
+thread count started decreasing and ‘server5’ was able to handle all the requests by itself.‘
+
+Figure 6.3: Distribution of requests over time for Prum
+
+32
+
+In case of Round Robin, the test took 826 seconds to complete, with a peak period of 626
+seconds. The average response time was 1.07 seconds. A total of 25000 requests were
+handled altogether. Tables 6.3 and 6.6, summarize results for Prum.
+
+Table 6.6: Round Robin results I
+Total Run Time
+
+826 seconds
+
+Peak Run Time
+
+626 seconds
+
+Average Response
+Time
+
+1.07 seconds
+
+Table 6.7: Round Robin results II
+Server Name
+
+Number of requests
+handled
+
+Server1
+
+5000
+
+Server2
+
+5000
+
+Server3
+
+5000
+
+Server4
+
+5000
+
+Server5
+
+5000
+
+Total
+
+25000
+
+Figure 6.4 shows distribution of requests to each server over time. We can see that the request
+distribution is uniform. At any time, all the servers are handling the approximately the same
+number of requests. This is because in Round Robin, ​
+requests are distributed across the group
+of servers sequentially. It fails to identify a faster server, and as a result has higher average
+response time compared to Prum. Table 6.7 shows the total number of requests handled by
+33
+
+each server. From Tables 6.4 and 6.7, and Figures 6.3 and 6.4, we can verify that Prum sends
+more requests to the faster server, thereby decreasing the average response time, which is the
+way we intend it to work.
+
+Figure 6.4: Distribution of requests over time for Round Robin
+
+34
+
+Chapter 7: Contributions and Future Work
+In this chapter, we give a summary of contributions made to research and also suggest possible
+future work.
+
+7.1 Contributions
+In Chapter 2, we provided background information on load balancing algorithms, Nginx,
+OpenCPU and Apache Jmeter. We survey literature to identify research done in the field of load
+balancing algorithms. We identify an area where traditional load balancing algorithms fail to
+produce low response times. We develop a load balancing algorithm, Prum, that routes
+requests based on latest response times of servers. This algorithm works well in a system with
+heterogeneous server capabilities. We implement this algorithm in Nginx. We then explain our
+test environment and describe hardware and software configurations of the systems. We
+perform response time analysis and request routing analysis, and compare performance of
+Prum with that of Round Robin. Average response time is lower in Prum compared to Round
+Robin. Also Prum routes more requests to faster servers and less requests to slower servers
+while Round Robin routes equal requests to all the servers.
+
+7.2 Future Work
+The research work done in this thesis can be extended further by considering more factors in
+addition to recent response times of the servers. Following are few factors that the load
+balancer can consider to decide where to send a request.
+
+35
+
+●
+
+Average Response Time: ​
+Prum considers only the latest response time of a server. In
+many scenarios it might be useful, for a load balancing algorithm, to consider the
+average of all the response times of a server while making a decision on where to send
+a request. Response time analysis and request routing analysis can performed on this
+algorithm and can be compared to Prum.
+
+●
+
+Hybrid metric: ​
+A hybrid metric, developed from a server’s capabilities and connection
+count, can make a good criterion for a load balancer to consider. The algorithm based
+on this hybrid metric would be theoretically eliminate the disadvantages of least
+connections algorithm and Prum. Research can be performed on the development of this
+metric. Real time analysis can later be donw on this algorithm.
+
+36
+
+Appendix A: R and OpenCPU
+R
+R is a programming language and software environment for statistical computing and graphics
+supported by the R Foundation for Statistical Computing [Ref 5]. Its system consists of a
+language plus a run­time environment with graphics, a debugger, access to certain system
+functions, and the ability to run programs stored in script files. The R language is currently the
+most popular statistical software package and considered by many statisticians as the de facto
+standard of data analysis [JOTOS]. The advantage of R is enormity of its package ecosystem.
+There are over 2000 user­contributed packages in R.
+
+OpenCPU
+OpenCPU is a system for embedded scientific computing and reproducible research. It allows
+us to calls R functions over HTTP web requests. OpenCPU bonds R functions together into an
+R package and this R package is uploaded onto a cloud server. It uses Apache webserver to
+host the R package and Nginx as reverse proxy cache server.
+
+HTTP GET and POST methods are used to call R functions. GET is used to retrieve a resource
+and POST is used for Remote Procedure Call. The HTTP request arguments of the POST call
+are mapped to the R function call. POST calls the respective R function and returns a set of
+links pointing to the outputs of the function in various web­based formats. A GET request on
+these links can give an access to the result. There is an option of directly obtaining a JSON
+response from a POST call on the respective URL with an additional JSON keyword in the end.
+Web calls return HTTP status codes to validate the success of the call.
+37
+
+Appendix B: Instructions to Install Nginx with Prum Module for
+Ubuntu
+Prum is not completely an independent module in Nginx. Prum requires minor code changes in
+other default nginx modules. The complete nginx project consisting of all changes for Prum is
+available in my github account. Steps to download and install it are given below.
+1. Create a git account
+2. Install git on your system: sudo apt­get install git
+3. In terminal, type: git clone h
+​ttps://username@github.com/kunniprudhvi/NginxModule.git
+4. Go inside the directory nginx­1.9.5: cd N
+​ginxModule/nginx­1.9.5/
+5. In terminal, type​
+: ./configure ­­prefix=/home/​
+<username>​
+/nginx
+6. In terminal, type​
+: make, then, make install
+7. Make changes to nginx configuration file
+a. Open nginx configuration file: vi /home/username/nginx/conf/nginx.conf
+b. Add upstream servers: upstream ocpu{ server1 <ip>; server2 <ip>}
+c. Add prum keyword before server details: upstream ocpu{ prum; server1 <ip>;
+server2 <ip>}. Refer to figure below.
+d. Add access_log statement to add log functionality. Below figure shows how to do
+this.
+
+38
+
+e. Add location for ocpu: location / { proxy_pass http://ocpu; }. Refer to the figure
+below.
+
+8. Create Prum configuration file in home directory in prum.txt: vi /home/prum.txt
+9. Add R functions and server IP addresses: function1 <ip> /<new line>/ function2 <ip>.
+Rer to the figure below.
+
+10. Go to sbin directory: cd /home/username/nginx/sbin
+11. Run nginx: ./nginx, or, nginx ­g 'daemon off;' (if you want to turn off daemon mode)
+39
+
+Appendix C: Instructions to Install OpenCPU
+1. Do an update: sudo update
+2. Do an upgrade: sudo upgrade
+3. Add openCPU repository: sudo add­apt­repository ppa:opencpu/opencpu­1.4 ­y
+4. Do an update: sudo update
+5. Install OpenCPU: sudo apt­get install opencpu
+
+40
+
+Appendix D: Instructions to host R apps on OpenCPU for Ubuntu
+1. Install R Studio: sudo apt­get install rstudio­server
+2. Open R Studio: Open browser and type localhost/rstudio
+3. Login using Ubuntu username and password
+4. Create R project. Write R functions. Then click on Build and Reload button seen in the
+top right corner.
+5. Your R package is now hosted on OpenCPU
+6. Make a POST call to following URI to verify R function is working:
+localhost/ocpu/user/<username>/library/<R Project Name>/R/<R Function Name>
+
+41
+
+Appendix E: Nginx Code for Prum
+
+#include <ngx_config.h>
+#include <ngx_core.h>
+#include <ngx_http.h>
+#include <string.h>
+typedef struct {
+/* the round robin data must be first */
+ngx_http_upstream_rr_peer_data_t rrp;
+ngx_str_t
+uri;
+char**
+ip_val_list;
+// char**
+function_val_list;
+int
+ds_max_count;
+int
+index;
+} ngx_http_upstream_prum_peer_data_t;
+static ngx_int_t ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
+ngx_http_upstream_srv_conf_t *us);
+static ngx_int_t ngx_http_upstream_get_prum_peer(ngx_peer_connection_t *pc,
+void *data);
+static char *ngx_http_upstream_prum(ngx_conf_t *cf, ngx_command_t *cmd,
+void *conf);
+static ngx_command_t ngx_http_upstream_prum_commands[] = {
+{ ngx_string("prum"),
+NGX_HTTP_UPS_CONF|NGX_CONF_NOARGS,
+ngx_http_upstream_prum,
+0,
+0,
+NULL },
+ngx_null_command
+};
+int resp_time_arr[50];
+int resp_time_sum;
+int resp_time_count;
+static ngx_http_module_t ngx_http_upstream_prum_module_ctx = {
+NULL,
+/* preconfiguration */
+NULL,
+/* postconfiguration */
+NULL,
+NULL,
+
+/* create main configuration */
+/* init main configuration */
+
+42
+
+NULL,
+NULL,
+
+/* create server configuration */
+/* merge server configuration */
+
+NULL,
+NULL
+
+/* create location configuration */
+/* merge location configuration */
+
+};
+ngx_module_t ngx_http_upstream_prum_module = {
+NGX_MODULE_V1,
+&ngx_http_upstream_prum_module_ctx, /* module context */
+ngx_http_upstream_prum_commands,
+/* module directives */
+NGX_HTTP_MODULE,
+/* module type */
+NULL,
+/* init master */
+NULL,
+/* init module */
+NULL,
+/* init process */
+NULL,
+/* init thread */
+NULL,
+/* exit thread */
+NULL,
+/* exit process */
+NULL,
+/* exit master */
+NGX_MODULE_V1_PADDING
+};
+static ngx_int_t
+ngx_http_upstream_init_prum(ngx_conf_t *cf, ngx_http_upstream_srv_conf_t *us)
+{
+if (ngx_http_upstream_init_round_robin(cf, us) != NGX_OK) {
+return NGX_ERROR;
+}
+us­>peer.init = ngx_http_upstream_init_prum_peer;
+return NGX_OK;
+}
+static ngx_int_t
+ngx_http_upstream_init_prum_peer(ngx_http_request_t *r,
+ngx_http_upstream_srv_conf_t *us)
+{
+ngx_http_upstream_prum_peer_data_t *iphp;
+iphp = ngx_palloc(r­>pool, sizeof(ngx_http_upstream_prum_peer_data_t));
+if (iphp == NULL) {
+return NGX_ERROR;
+}
+r­>upstream­>peer.data = &iphp­>rrp;
+if (ngx_http_upstream_init_round_robin_peer(r, us) != NGX_OK) {
+return NGX_ERROR;
+}
+
+43
+
+iphp­>uri = r­>uri;
+FILE * fp;
+char * line = NULL;
+fp = fopen("/home/prudhvi/abc.txt", "r");
+size_t len = 0;
+ssize_t read;
+char parse_str[1000];
+char parse_str2[1000];
+char *parse;
+char *parse2;
+int count_ds = 0;
+int counter1 = 0;
+int min_time_peer = 1000000;
+int counter2 = 0;
+char str_uri[1000];
+int index_min_time = 0;
+printf("******************* \n");
+printf("Persistant DS check value ­> %d \n", (*us).check);
+if(((*us).check) == 0)
+{
+while ((read = getline(&line, &len, fp)) != ­1)
+{
+strcpy(parse_str, line);
+strcpy(parse_str2, line);
+parse = strtok (parse_str, " ");
+parse2 = strtok(parse_str2, " ");
+parse2 = strtok(NULL, " ");
+us­>function_name[count_ds] = malloc(50);
+us­>ip_val[count_ds] = malloc(50);
+strcpy((*us).function_name[count_ds],parse);
+strcpy((*us).ip_val[count_ds],parse2);
+count_ds++;
+}
+(*us).max_count = count_ds;
+for(counter1=0; counter1<50; counter1++)
+{
+resp_time_arr[counter1] = 0;
+}
+}
+fclose(fp);
+
+44
+
+/*
+code to parse uri for R function
+*/
+strcpy(str_uri, iphp­>uri.data);
+char *tmp_pointer = str_uri;
+char *pch;
+char *tmp_rfunc;
+pch = strtok (str_uri,"/");
+pch = strtok(NULL, "/");
+int function_match = 0;
+if(strcmp(pch, "user")==0)
+{
+int count =0;
+while (count < 5)
+{
+pch = strtok (NULL, "/");
+count++;
+}
+tmp_rfunc = strtok(pch, " ");
+}
+/*
+code to select a peer
+*/
+for(counter2 = 0; counter2<(*us).max_count; counter2++)
+{
+if(strcmp((*us).function_name[counter2], tmp_rfunc) == 0)
+{
+function_match = 1;
+printf("Function Match \n");
+if(min_time_peer > resp_time_arr[counter2])
+{
+min_time_peer = resp_time_arr[counter2];
+index_min_time = counter2;
+}
+}
+}
+if(function_match == 0)
+{
+printf("No Function Match. Sending it to default server. \n");
+(*iphp).index = 8;
+//Default server
+}
+else
+{
+printf("Min time is taken by server with index %d. It is %d
+milliseconds \n ", index_min_time, min_time_peer);
+
+45
+
+(*iphp).index = index_min_time;
+}
+(*us).check++;
+(*r).index = (*iphp).index;
+iphp­>ip_val_list = us­>ip_val;
+(*iphp).ds_max_count = (*us).max_count;
+r­>upstream­>peer.get = ngx_http_upstream_get_prum_peer;
+return NGX_OK;
+}
+static ngx_int_t
+ngx_http_upstream_get_prum_peer(ngx_peer_connection_t *pc, void *data)
+{
+ngx_http_upstream_prum_peer_data_t *iphp = data;
+ngx_http_upstream_rr_peer_t *peer;
+int loop_count = 0;
+int num_serv;
+struct sockaddr_in *sin;
+char *ip;
+int ip_index;
+peer = iphp­>rrp.peers­>peer;
+num_serv = iphp­>rrp.peers­>number;
+/*
+Finding the peer based on index
+*/
+ip_index = (*iphp).index;
+for(loop_count = 0; loop_count<num_serv; loop_count++)
+{
+sin = malloc(sizeof(struct sockaddr_in));
+sin = (struct sockaddr_in *) peer­>sockaddr;
+ip = malloc(150);
+ip = inet_ntoa(sin­>sin_addr);
+if(strncmp(ip, (*iphp).ip_val_list[ip_index], 13) == 0)
+{
+printf("IP Match \n");
+break;
+}
+if(loop_count < num_serv­1)
+peer = peer­>next;
+else
+break;
+
+46
+
+}
+if(loop_count == num_serv)
+{
+printf("No IP match between DS and Peer list. Sending to default
+server. \n");
+peer = iphp­>rrp.peers­>peer;
+peer = peer­>next;
+}
+printf("*********************** \n");
+iphp­>rrp.current = peer;
+pc­>sockaddr = peer­>sockaddr;
+pc­>socklen = peer­>socklen;
+pc­>name = &peer­>name;
+return NGX_OK;
+}
+static char *
+ngx_http_upstream_prum(ngx_conf_t *cf, ngx_command_t *cmd, void *conf)
+{
+ngx_http_upstream_srv_conf_t *uscf;
+uscf = ngx_http_conf_get_module_srv_conf(cf, ngx_http_upstream_module);
+if (uscf­>peer.init_upstream) {
+ngx_conf_log_error(NGX_LOG_WARN, cf, 0,
+"load balancing method redefined");
+}
+uscf­>peer.init_upstream = ngx_http_upstream_init_prum;
+uscf­>flags = NGX_HTTP_UPSTREAM_CREATE
+|NGX_HTTP_UPSTREAM_WEIGHT
+|NGX_HTTP_UPSTREAM_MAX_FAILS
+|NGX_HTTP_UPSTREAM_FAIL_TIMEOUT
+|NGX_HTTP_UPSTREAM_DOWN;
+return NGX_CONF_OK;
+}
+
+47
+
+References
+
+[NRGR]​
+Nginx Round Robin Load Balancing page. Taken on March 15, 2016. Available at:
+https://www.nginx.com/resources/glossary/round­robin­load­balancing/
+[NWP]​Nginx Wikipedia Page. Taken on March 15, 2016. Avaialble at:
+https://en.wikipedia.org/wiki/Nginx
+[EMP07]​Evan Miller website. Taken on March 15, 2016. Available at:
+http://www.evanmiller.org/nginx­modules­guide.html
+[JMWK]​Wikipedia page of Apache Jmeter. Taken on March 15, 2016. Available at:
+https://en.wikipedia.org/wiki/Apache_JMeter
+[JMUM]​Jmeter User Manual Page. Taken on March 15, 2016. Available at:
+http://jmeter.apache.org/usermanual/test_plan.html
+[AS14]​Agraj Sharma, Sateesh K. Peddoju. “Response Time Based Load Balancing in Cloud
+Computing.” In 2014 International Conference on Control, Instrumentation, Communication and
+Computational Technologies.
+[CMY08]​
+Cairong Yan, Ming Zhu, Youqun Shi. “A Response Time based Load Balancing
+Algorithm for Service Composition.” P
+​ervasive Computing and Applications, 2008. ICPCA 2008.
+[SOAG]​SOA Glossary Page. Taken on March 15, 2016. Available at:
+http://serviceorientation.com/soaglossary/service_composition
+[MLTS]​Microsoft Load Test Scenarios Page. Taken on March 15, 2016. Available at:
+https://msdn.microsoft.com/en­us/library/dd997697.aspx
+[JOTOS]​
+Jeroen Ooms, The OpenCPU System: Towards a Universal Interface for Scientific
+Computing through Separation of Concern
+[PBWK] ​
+Perlbal wikipedia page. Taken on April 14, 2016. Available at:
+https://en.wikipedia.org/wiki/Perlbal
+[PBRM] ​
+Perlbal reference manual. Taken on April 14, 2016. Available at:
+http://search.cpan.org/dist/Perlbal/lib/Perlbal/Manual/LoadBalancer.pod
+
+48
+
+

@@ -1,0 +1,2821 @@
+The Influence of Internet Information on the Knowledge, Attitudes, Behavioral Intentions and
+Past Behavior of Young Adults with regard to Electronic Cigarettes (E-cigarettes)
+
+A dissertation submitted to the
+Graduate School
+of the University of Cincinnati
+in partial fulfillment of the requirements for the degree of
+
+DOCTOR OF PHILOSOPHY
+
+In the Department of Health Promotion and Education
+of the College of Education, Criminal Justice, and Human Services
+
+July 2016
+By
+
+Teminijesu J. Ige
+M.P.H. University of Essex, 2014
+M.B.Ch.B. Obafemi Awolowo University, 2009
+
+Committee Chair: Laura A. Nabors, Ph.D., ABPP
+Committee Members: Brittany L. Rosen, Ph.D., CHES
+Bradley R. A. Wilson, Ph.D.
+
+Abstract
+AN ABSTRACT OF THE DISSERTATION FOR THE DOCTOR OF PHILOSOPHY
+DEGREE IN HEALTH PROMOTION AND EDUCATION, PRESENTED ON 28TH JUNE 2016
+AT THE UNIVERSITY OF CINCINNATI, CINCINNATI, OH
+TITLE: The Influence of Internet information on the Knowledge, Attitudes, Behavioral Intentions
+and Past Behavior of Young Adults with regard to Electronic Cigarettes (E-cigarettes)
+DOCTORAL COMMITTEE MEMBERS: Dr. Laura A. Nabors (Chair), Dr. Brittany L. Rosen,
+and Dr. Bradley R. Wilson
+This dissertation consists of two studies. Study one examined knowledge, attitudes,
+behavioral intentions and past behaviors of young adults with regard to e-cigarettes. Study two
+examined the influence of internet information on young adults’ perceptions about e-cigarettes.
+
+Study One Abstract
+Awareness and use of e-cigarettes (e-cigs) is growing among young adults in the United
+States, despite increasing evidence of health risks associated them. Thus, the purpose of this study
+was to assess young adults’ e-cig use, their knowledge of risks, their attitudes, their behavioral
+intentions regarding e-cig use and the relationship between these variables. A four-page, 42-item
+survey was developed to determine participants’ knowledge, attitudes, behavioral intentions and
+past behaviors with regard to e-cigs. Analyses revealed that about 39% of young adults had used
+e-cigs and use was more common in males than females. Furthermore, about 66% of respondents
+indicated a desire to try an e-cig within the next month. Positive attitudes towards e-cigs was found
+
+ii
+
+to be a significant predictor of e-cig use while knowledge was not a significant predictor. These
+findings should be considered in interventions to prevent e-cig use and its associated health risks
+among young adults. Public health researchers can utilize results of this study as a background
+information for future investigations of e-cig use by young adult college students.
+
+Study Two Abstract
+Young adults have the highest rate of internet use among the adult population. Thus, they
+are potentially exposed to online e-cig marketing information which may affect their knowledge
+of risks, attitudes and behavioral intentions related to e-cigs. Therefore, the purpose of this study
+was to examine exposure to e-cig advertisements among young adults and to assess the effect of
+exposure to e-cig advertisements on their knowledge, attitudes and behavioral intentions. Analyses
+revealed that about 44% of the participants had viewed e-cig advertisements on the internet.
+Analyses also revealed that males had more knowledge and more positive attitudes towards e-cigs
+than females. Nevertheless, exposure to e-cig advertisements did not significantly influence
+knowledge, attitudes or behavioral intentions. These findings should be considered in interventions
+to regulate information about e-cigs that are transmitted to young adults through the internet. Study
+results also contribute to existing knowledge about the influence of internet information on young
+adult e-cig perceptions and highlight the need for further research to increase understanding of the
+relationship between exposure to e-cig information on the internet and young adult e-cig
+perceptions.
+
+iii
+
+iv
+
+Acknowledgements
+I would like to express my sincere gratitude to Dr. Laura Nabors, who chaired the
+committee for this dissertation, for her abundant help and support throughout my program. I am
+also grateful to Dr. Bradley Wilson who was my academic advisor during the coursework phase
+of my study and Dr. Brittany Rosen who taught and mentored me. I am grateful to Dr. Janet Graden
+for her kind help at different periods of hardship and Dr. Kathy Maynard whose assistantship
+supported me immensely during my course of study. I would also like to thank many others who
+have contributed in one way or the other to my success and are too many to be named on this page
+– professors in the School of Human Services and the College of Medicine at the University of
+Cincinnati, professors across the campus who allowed me into their classes to collect data, staff of
+the university, and fellow students. My deep appreciation goes to my family – my dad, my mum
+and my brothers – who supported me emotionally, financially and in many other ways. My
+gratitude also goes to my best friend Ashley Goreski who transitioned from acquaintance to friend
+to girlfriend to fiancée during the course of my program, and who often was the reason I kept going
+on. Above all, I thank God my Creator who made everything that I have achieved possible.
+
+v
+
+Table of Contents
+Abstract…………………………………………………………………………............................ii
+Study One Abstract………….………………………………………….............................ii
+Study Two Abstract………………….…………………………………………………...iii
+Acknowledgements…......................................................................................................................v
+List of Tables……………………………………………………………………………………viii
+Study One: Knowledge, Attitudes, Behavioral Intentions and Past Behavior of Young Adults
+with Regard to E-cigarettes……..…………………………………………………………………1
+Introduction………………………………………………………………..........................2
+Methods……………………………………………………………………………………7
+Participants………………………………………………………...........................7
+Instrument…………………………………………………………………………8
+Procedures………………………………………………………..........................11
+Data Analysis…………………………………………………………………….12
+Results……………………………………………………………………………………13
+Discussion………………………………………………………………..........................15
+Limitations……………………………………………………………………….18
+Conclusions………………………………………………………………………18
+References………………………………………………………………………………..21
+vi
+
+Tables…………………………………………………………………………………….27
+Study Two: The Influence of Internet Information on Young Adults’ Perceptions about
+Electronic Cigarettes…………………………………………………………………………..…37
+Introduction ………………………………………….......................................................38
+Methods ………………………………………….............................................................42
+Participants …………………………………………............................................42
+Instrument ………………………………………….............................................42
+Procedures ………………………………………….............................................44
+Data Analysis …………………………………………........................................45
+Results…………………………………………................................................................46
+Discussion…………………………………………..........................................................49
+Limitations………………………………………….............................................52
+Conclusions …………………………………………...........................................52
+References ………………………………………………………….................................55
+Tables …………………………………………………………........................................59
+Appendix A – Institutional Review Board Approval Letter…..…………………………………69
+Appendix B – Survey………………….…………………………………………………………72
+Appendix C – Information Sheet for Main Study………………………………..........................76
+Appendix D – Information Sheet for Test-Retest Study…………………………………………78
+
+vii
+
+List of Tables
+Study One List of Tables: Knowledge, Attitudes, Behavioral Intentions and Past Behavior of
+Young Adults with Regard to E-cigarettes
+Table 1. Question 18 and Answer Options........................................................................27
+Table 2. Question 22 and Answer Options........................................................................28
+Table 3. Question 23 and Answer Options........................................................................29
+Table 4. Test-Retest Reliability.........................................................................................30
+Table 5. Demographic Characteristics of Participants .....................................................31
+Table 6. E-cig Use based on Age, Gender and Race/Ethnicity.........................................32
+Table 7. Extent of Knowledge and Attitudes about E-cigs……………………………...33
+Table 8. Correlation Coefficients for Questions assessing Knowledge…………………34
+Table 9. Correlation Coefficients for Questions assessing Attitudes……………………35
+Table 10. Regression Model Predicting E-cig Use………………………………………36
+
+Study Two List of Tables: Perceived Barriers and Benefits of Condom Use among College
+Students
+Table 1. Questions Assessing Knowledge About E-cigs...................................................59
+Table 2. Questions Assessing Attitudes to E-cigs.............................................................60
+
+viii
+
+Table 3. Questions Assessing Exposure to Advertisements about E-cigs........................61
+Table 4. Questions Assessing Demographic Information.................................................62
+Table 5. Test-Retest Reliability………………………………………………………….63
+Table 6. Exposure to Internet E-cig Advertisements based on Gender, Age and
+Ethnicity………………………………………………………………………….64
+Table 7. Summary of MANCOVA (Gender X Ethnicity [“White Non-Hispanic” versus
+“Other Ethnic Groups”] X Viewing E-Cig Advertisements) for Knowledge about
+E-cigs with Age as the Covariate…………………………………………….….65
+Table 8. Univariate Tests for Gender and Questions Assessing Knowledge……………66
+Table 9. Summary of MANCOVA (Gender X Ethnicity [“White Non-Hispanic” versus
+“Other Ethnic Groups”] X Viewing E-Cig Advertisements) for Attitudes about Ecigs with Age as the Covariate……………………..……………………………67
+Table 10. Univariate Tests for Gender and Questions Assessing Attitudes……………..68
+
+ix
+
+Study One: Knowledge, Attitudes, Behavioral Intentions and Past Behavior of Young Adults
+with Regard to Electronic Cigarettes
+
+1
+
+Introduction
+An electronic cigarette (e-cigarette or e-cig) is a battery-operated Electronic Nicotine
+Delivery System (ENDS) that delivers vaporized nicotine without combusting tobacco like a
+regular cigarette (World Health Organization, 2009). Since its development in 2004, the popularity
+and use of e-cigs have continued to increase among young adults. King, Patel, Nguyen, and Dube
+(2014) found that the percentage of adults who are aware of e-cigs nearly doubled, from 40.9% in
+2010 to 79.7% in 2013. During this period, the percentage of adults who smoked an e-cig more
+than doubled from 3.3% to 8.5%. By 2014, 12.6% of all adults in the United States had tried an ecig (Centers for Disease Control and Prevention [CDC], 2015). Among the adult population, young
+adults have the highest rate of e-cig use. According to the CDC (2015), 21.6% of U.S. young adults
+(18-24 years) have used an e-cig, compared to 16.6% for adults in mid-adulthood (25-44 years),
+10.2% for older adults (45-64 years), and 3.7% for the elderly (65 years and above).
+Research has found that socio-demographic factors play a significant role in e-cig use
+among young adults. Males were found to be more likely to use e-cigs than females, with use
+highest during young adulthood and declining gradually with increasing age (CDC, 2015;
+Chapman & Wu, 2014; Littlefield, Gottlieb, Cohen, & Trotter, 2015; Piñeiro et al., 2016; Suftin et
+al., 2013). This is similar to current research showing that males are more likely to use tobacco
+products than females (Cullen et al., 2011; King, Dube, & Tynan, 2012; Rath, Villanti, Abrams,
+& Vallone, 2012). Use of e-cigs was also found to vary based on ethnicity. The most current CDC
+(2015) data brief on e-cig use among US adults showed that adults who identified as American
+Indian or Alaska Native reported the highest rate of e-cig use, followed by white non-Hispanics,
+Hispanics, black non-Hispanics and Asians. Choi and Forster (2013) discovered that young adults
+
+2
+
+who had at least one close friend who smoked were more likely to know about and to have used
+e-cigarettes while Suftin et al. (2013) found a higher rate of e-cig use among college students who
+were members of sororities or fraternities.
+The exponential increase in the popularity and use of e-cigs is a source of concern because
+of the increasing evidence of several health issues associated with their use. One of these health
+issues is nicotine toxicity. Nicotine toxicity, also known as nicotine poisoning, occurs when human
+exposure to a high concentration of nicotine results in adverse health effects. Exposure to high
+concentrations of nicotine commonly occurs either through the oral route (accidental or deliberate
+ingestion) or the parenteral route (contact of liquid nicotine with the skin or by injection directly
+into a blood vessel). Symptoms of toxicity include nausea and vomiting, excess oral secretions,
+excessive sweating, diarrhea, abdominal cramping, confusion, convulsions, tachycardia (racing
+heartbeats) or bradycardia (slow heartbeats) and hypertension or hypotension (CDC, 2013). Death
+could also result from nicotine toxicity. Estimates of the lethal dose of nicotine range from 3060mg in adults and 10mg in children (Cameron et al., 2014). For reference, a regular cigarette
+contains 10-14mg of nicotine (Benowitz et al., 2009) while a 5ml vial of e-liquid at a concentration
+of 12mg/ml contains 60mg of nicotine.
+Nicotine toxicity has become more common because of the high concentrations of nicotine
+found in e-cigs and the inadequacy of regulations to protect people from nicotine poisoning. In
+fact, calls to poison centers for nicotine poisoning related to e-cig use increased from one per
+month in 2010 up to 215 per month in 2014 (CDC, 2014). Possible nicotine poisoning related to
+e-cig use in adults accounted for about half of the calls to poison centers in 2013 (Vakkalanka,
+Hardison, & Holstege, 2014). The Child Nicotine Poisoning Prevention Act of 2016 provides
+
+3
+
+protection for children (Consumer Federation of America, 2016). In addition, the recent United
+States Food and Drug Administration (FDA) rule on all ENDS, which was concluded on 10th May
+2016 and which becomes effective on the eighth of August 2016, prevents their sale to people
+under the age of 18 years (United States Food and Drug Administration, 2016; The Office of the
+Federal Register, 2016). However, these legislations do not address nicotine poisoning issues in
+adults.
+Additionally, several studies have shown that e-cigs contain substances which can cause
+lung diseases and cancer. Jensen et al. (2015) discovered that a long-term e-cig smoker could be
+exposed to up to 15 times more formaldehyde – which is known to be a toxin, allergen and
+carcinogen – than the exposure for a long-term cigarette smoker. Another laboratory analysis
+conducted by Allen et al. (2015) on e-liquid contents from 51 brands of e-cigs revealed that 47
+brands contained one or more of diacetyl, acetylpropionyl (2, 3 – pentanedione) and acetoin. All
+three chemicals can cause severe respiratory disease. Williams et al. (2013) conducted laboratory
+analyses of 22 e-cig cartomizers and found that e-cig smoke contained several substances (silicate,
+metal particles and metal nanoparticles) that can cause respiratory disease and cancer.
+Furthermore, nicotine in e-cigs can lead to addiction and serve as a “gateway” to the use
+of other tobacco products and other psychoactive substances. The gateway phenomenon, first
+developed by Kandel (1975), identified a developmental sequence of drug use starting from legal
+drugs and then moving on to illegal drugs. According to Kandel and Kandel (2014), the addictive
+effect of nicotine modifies the human brain to become more inclined to seeking and developing
+addiction to other psychoactive substances. Thus, Kandel and Kandel (2014) demonstrated that
+there was a physiological mechanism by which nicotine dependence develops, which could
+
+4
+
+predispose those using nicotine to be vulnerable to using other psychoactive substances. Similarly,
+there is a significant association between regular cigarette and e-cig use. For example, Littlefield
+et al. (2015) discovered that young adult college students who used e-cigs were more likely to be
+dual e-cig and regular cigarette users, and they were more likely to use both types of cigarettes
+more heavily compared to those who have never used an e-cig. These findings were corroborated
+by other authors (Choi & Forster, 2014; Giovenco, Lewis, & Delnevo, 2014; Primack et al., 2015).
+Knowledge and awareness about risks can play a great role in determining people’s
+attitudes towards a particular behavior. According to Ajzen (1991), people’s attitudes towards a
+particular behavior result from a combination of their beliefs about what will happen if they engage
+in the behavior and their assessment of whether the outcome of the behavior is beneficial or
+detrimental. The knowledge that a person possesses about a behavior, in turn, determines his or
+her belief and outcome assessment. With regard to e-cigs, Suftin et al. (2013) discovered that use
+was associated with less knowledge about harm potential. Also, Choi and Forster (2013) found
+that many young adults in their sample were aware of the existence of e-cigs (69.9%). Nonetheless,
+unsubstantiated information about e-cigs was rampant among the respondents – about 53% agreed
+that e-cigs are less harmful than regular cigarettes, about 44% agreed that e-cigs can help one to
+quit smoking, and about 26% agreed that cigarettes are less addictive than regular cigarettes. Also,
+Coleman et al. (2015) found that young adult attitudes were in support of e-cigs and Pokhrel et al.
+(2016) found that positive attitudes to e-cigs were predictive of e-cig use. These findings suggest
+that accurate knowledge about risks related to e-cig use is low and attitudes towards e-cig are
+positive among young adults, which may further explain why rates of e-cig use are rapidly rising
+among this population.
+
+5
+
+Due to the public health issues associated with e-cigs and the rapidly rising rate of use
+among young adults, it is important to study variables related to young adults’ e-cig use, including
+their knowledge, attitudes, behavioral intentions, and reasons for use. This is essential to gain an
+understanding of what is related to use in order to develop more comprehensive prevention
+messages. Also, understanding groups at risk for e-cig use can help health professionals target
+prevention messages to high risk groups. Therefore, the focus of this research is to assess young
+adults’ e-cig use as well as their knowledge of risks, their attitudes and their behavioral intentions
+regarding e-cig use as these are also key predictors of e-cig use (Choi & Forster, 2014; Suftin et
+al., 2013).
+A number of theories are consistent with the notion that individual level factors, such as
+knowledge, attitudes and behavioral intentions are linked to e-cig use. One of these theories is the
+Theory of Planned Behavior (TPB) by Ajzen (1991). Understanding the links between individual
+level factors, knowledge of e-cig use, attitudes, and intentions will provide important information
+for those designing prevention messages. Therefore, the following study had the following
+research aims and questions:
+
+The aims of this study are:
+1. To assess knowledge, attitudes, behavioral intentions and past behaviors of young adult
+college students with regard to e-cigs.
+2. To determine the relations among demographic variables, attitudes, behavioral intentions
+and e-cig smoking.
+
+6
+
+These research questions were examined:
+1. What is the rate of e-cig use among young adult college students based on demographic
+factors (age, gender and race/ethnicity)?
+2. What is the extent of knowledge, attitudes and behavioral intentions about e-cigs by young
+adult college students?
+3. What is the relationship between gender, knowledge, attitudes and e-cig use among young
+adult college students?
+Methods
+Participants
+Participants in this study were college students attending a large urban public research
+university in the Midwestern region of the United States. The total enrolment of students at the
+main campus of university during the fall 2015 semester when the data were collected was 36,067
+(University of Cincinnati, 2015). This number was large enough to produce a normal (binomial)
+distribution and therefore 95% of this distribution’s probability lay within two standard deviations
+of the mean (95% confidence level). Thus, the least representative sample size for this population
+using a sample size calculator (Raosoft, 2004) was 381. This sample size of 381 accounts for a
+confidence interval of 95% or a margin of error of five percent and is the minimum representative
+sample size required to provide enough power for the study. A sample of 420 participants provided
+data for this study in the fall semester of 2015. This study was approved by a university-based
+institutional review board and the approval letter is presented in Appendix A.
+
+7
+
+Instrument
+A four-page, 42-item survey was used to collect data for this study (see Appendix B). The
+survey was developed through a review of literature (Chapman & Wu, 2014; Choi & Forster, 2013;
+Choi & Forster, 2014; Littlefield et al., 2015), review of other standardized surveys used for
+assessing youth tobacco product use (Georgia Department of Public Health, 2013), consultation
+with professionals knowledgeable about tobacco control and substance abuse prevention, and
+discussion with college students. The survey was comprised of five sections – (1) Knowledge
+about e-cigs, (2) Attitudes and beliefs concerning e-cigs, (3) E-cig and regular cigarette use, (4)
+Online e-cig information, and (5) Demographic information.
+Section 1 (questions 1 to 7) assessed the level of knowledge and awareness about e-cigs.
+This section was presented in form of a table that assessed the respondents’ perceptions of their
+level of knowledge for seven questions. Students provided responses to the questions on 5-point
+Likert scales: 1 – “Strongly Agree”, 2 – “Agree”, 3 – “Neutral”, 4 – “Disagree”, and 5 – “Strongly
+Disagree”. Question 1 assessed whether respondents knew that an e-cigarette is an electronic
+version of a regular cigarette while question 2 assessed the students’ knowledge about whether ecigs contain the same substances as a regular cigarettes. Question 3 sought to determine whether
+respondents knew that e-cig vapor does not consist of only water vapor while question 4 assessed
+whether respondents were aware of the risk of nicotine addiction associated with e-cigs. Question
+5 asked if e-cigs are safe for anyone to use, question 6 asked if e-cigs produced second-hand smoke
+and 7 assessed participants’ knowledge about nicotine poisoning associated with e-cig use.
+Section 2 assessed participants’ attitudes about using e-cigs. Ten of the questions examined
+several constructs including: beliefs about using e-cigs, perceived benefits and risks of use, and
+
+8
+
+outcome expectations for e-cig use. Students again provided responses on 5-point scales from: 1 –
+“Strongly Agree”, 2 – “Agree”, 3 – “Neutral”, 4 – “Disagree”, and 5 – “Strongly Disagree”.
+Questions 8, 13, 14, and 17 dealt with beliefs about policies regarding e-cig purchase and use,
+while questions 9 and 11 addressed beliefs related to e-cig safety. Questions 10 and 12 sought to
+assess respondents’ beliefs about the social value or appeal of e-cigs while question 15 assessed
+respondents’ stance on whether e-cigs can be used to help people to quit smoking. Question 16
+assessed respondents’ beliefs about the relationship between the use of e-cigs and regular
+cigarettes. Question 18 gauged the respondents’ beliefs about several factors that could influence
+e-cig use, including safety, price, ease of purchase, flavors, appearance, variety of shapes and sizes,
+different levels of nicotine content, health benefits, and hygienic benefits. Question 18 had 9
+options (see Table 1) and participants checked a box to indicate “Yes” or left it unchecked to
+indicate “No” to each of the response options.
+Insert Table 1 here
+Section 3 (questions 19-26) assessed current and past use of e-cigs, intentions to use e-cigs,
+the effect of peer pressure (subjective norms) and the means by which respondents acquired ecigs. All the questions in this section were adapted from the 2013 Georgia Youth Tobacco Survey
+(Georgia Department of Public Health, 2013) and modified for e-cigs. Question 19 assessed
+whether the respondent had ever tried smoking an e-cig (“yes” or “no”). Question 20 sought to
+determine the age at which respondents first used an e-cig, if they had used it. For question 20,
+participants could only choose one of 5 answer options: 1 - “I have never smoked an e-cigarette,
+not even one or two puffs”, 2 – “8 years or younger”, 3 – “9 – 12 years old”, 4 – “13 – 17 years
+old”, and 5 – “18 years or older”. Question 21 assessed current (past 30 day) use of e-cigs and
+
+9
+
+participants had 7 options indicating how many days they had smoked e-cigs within the past 30
+days: 1 – “0 days”, 2 – “1 or 2 days”, 3 – “3 to 5 days”, 4 – “6 to 9 days”, 5 – “10 to 19 days”, 6 –
+“20 to 29 days” and 7 – “All 30 days”. Participants could only choose one of the 7 options on
+question 21. Questions 22 and 23 assessed methods and means of obtaining e-cigs and each
+question had multiple options from which respondents could choose one or more than one (see
+table 2 and table 3 below). Participants indicated whether their answer was true or false for each
+option and could provide additional explanatory information if they wished.
+Insert Tables 2 and 3 here
+Question 24 assessed intention to use an e-cig in the future, and had 3 options: 1 – “I have
+already tried smoking e-cigs”, 2 – “Yes”, and 3 – “No”. Question 25 assessed the extent of
+influence of peer pressure on e-cig use and had 4 options: 1 – “Definitely yes”, 2 – “Probably yes”,
+3 – “Probably not”, and 4 – “Definitely not”. The last question in this section (question 26) assessed
+current (within 30 days) or past regular cigarette smoking. It had 7 options: 1 – “I have never
+smoked regular cigarettes, not even one or two puffs”, 2 – “Earlier today”, 3 – “Not today but
+sometime during the past 7 days”, 4 – “Not during the past 7 days but sometime during the past
+30 days”, 5 – “Not during the past 30 days but sometime during the past 6 months”, 6 – “Not
+during the past 6 months but sometime during the past year”, and 7 – “1 or more years”.
+Section 4 (questions 27-32) assessed the extent of exposure of the respondents to online ecig information in order to determine the extent of influence of this information on e-cig use.
+Section 5 was designed to elicit demographic information. The 10 questions in this section assessed
+age (33), gender (34), ethnicity (35), academic level (36), enrollment status (37 – full or part time),
+
+10
+
+place of residence (39 and 40), Greek society affiliation (41), Grade Point Average (42), and
+employment status (38).
+Procedures
+Fifteen professors from different colleges at the university were contacted through e-mail
+and their permission was sought to recruit students from their classes. Once permission was
+granted, the principal investigator went to the classrooms and asked the students if they wanted to
+participate in the study. A total of 20 classrooms were visited. Students were given an Information
+Sheet (see Appendix C) to review study procedures, the voluntary nature of the study, and to
+provide contact information for the investigator and information about how to contact
+representatives of the Institutional Review Board. The Information Sheet also described the
+voluntary nature of participation in the study and specified that completing and returning the
+survey would indicate their consent to participate in the study. Surveys did not contain any names
+or identifying information. After reviewing the Information Sheet, participants completed the
+survey, which took five to ten minutes. Participants’ anonymity was preserved by instructing them
+not to put their names or any other identifying information on the survey.
+A test-retest reliability study was performed by having 30 participants complete the survey
+twice, one week apart. Prior to participating in this part of the study, students reviewed an
+Information Sheet for the Test-Retest Study (Appendix D) and this specified the purpose,
+procedures, and confidential nature of this study. The Information Sheet provided contact
+information for the investigator and representatives from the Institutional Review Board. This form
+also specified the voluntary nature of the study and that returning the surveys would indicate study
+participation. Students who participated in the test-retest study were each assigned an identification
+
+11
+
+number which they wrote on their surveys. The identification number was the same for each
+student for the first and second administration of the surveys.
+Data Analysis
+Data from the surveys were analyzed using the Statistical Package for the Social Sciences
+(SPSS) (Version 22.0). To examine the test-retest reliability of the survey instruments, percentage
+agreement between test and retest survey responses were calculated for questions with “yes” or
+“no” options, while bivariate correlations were used for questions with Likert scale-type options.
+Descriptive information about study participants were presented using frequencies and
+percentages to describe categorical variables (e.g., ethnic group and sex) and measures of central
+tendency (means, standard deviations) were used to describe numerical variables (e.g., age).
+Information about rate of e-cig use and knowledge, attitudes and behavioral intentions about ecigs were also presented using descriptive statistics (frequencies, percentages, and measures of
+central tendency).
+Bivariate correlations were used to explore the relationships among questions assessing
+knowledge and attitudes. Knowledge items were found to be correlated and thus were combined
+into a mean score. Attitude items were also found to be correlated and were also combined into a
+mean attitudes score. Also, the question assessing intention to use e-cig (question 24) was recoded
+into “yes” and “I have already tried smoking e-cigs” = 1 and “no” = 0 for the analysis.
+Furthermore, the relationship between gender, knowledge, attitudes, and use of e-cigs was
+determined by regression analyses. The best fit model is presented as the interaction terms were
+not significant and did not add to the predictive power of the model.
+
+12
+
+Results
+Test-Retest Reliability
+Percentage agreement and Pearson’s correlations (r) were used to assess the agreement
+between responses at both time periods for questions assessing variables used for analysis in this
+study. Results showed 100% agreement for questions assessing use of e-cigs (questions 19, 20 and
+21) and 96.7% agreement for intention to smoke an e-cig within the next month. Analyses also
+revealed statistically significant Pearson’s correlations (p < 0.05) between test and retest responses
+for Likert-type scale questions assessing knowledge (questions 1 – 7) and attitudes (questions 8 –
+17). Significant correlations are presented in Table 4.
+Insert Table 4 here
+Demographics
+Demographic characteristics of the study participants are presented in Table 5.
+Insert Table 5 here
+A total of 420 college students aged 17 to 24 years completed the survey. Mean age was about 20
+years (M = 19.79, SD = 1.59). The majority (83.5%) of the respondents were White non-Hispanic
+(n = 351) and about 51% were females (n = 213). About 58% lived off-campus (n = 244) and about
+77% did not live with parents or guardians (n = 322). About 40% (n = 169) were freshmen, 17%
+(n = 70) were sophomores, 20% (n = 82) were juniors, 23% (n = 96) were seniors and there was
+one graduate student. Almost all the students (99.0%) were enrolled full-time (n = 414) and 44%
+were unemployed (n = 186). About 18% (n = 74) were members of fraternities or sororities.
+
+13
+
+E-cig Use based on Age, Gender and Race/Ethnicity
+Results presented in Table 6 showed that about 39% (n = 166) had used e-cigs. Of
+participants who had ever tried e-cigs (n = 166), about 25% (n = 42) were current users (had used
+an e-cig sometime within the past 30 days). Males accounted for 62% (n = 103) of e-cig users and
+87.4% (n = 145) were White Non-Hispanic. The highest proportion of e-cig users (27.1%) were
+aged 18 years at their last birthday (n = 45) and about 34% of e-cig users (n = 56) reported first
+use before their 18th birthday.
+Insert Table 6 here
+Knowledge, Attitudes and Behavioral Intentions about E-Cigs
+Means and standard deviations for knowledge and attitudes questions are presented in
+Table 7. Correlations were used to analyze the relationship between questions assessing student
+knowledge and attitudes. Tables 8 and 9 present the correlation coefficients for the knowledge and
+attitudes questions. About 66% of the respondents (n = 276) indicated that they intended to use an
+e-cig within the next month.
+Insert Tables 7, 8 and 9 here
+Relationship between Gender, Knowledge, Attitudes, and E-Cig Use
+The best fit regression model for the relationship between demographic factors, knowledge,
+attitudes, and e-cig use is presented in Table 10.
+Insert Table 10 here
+The regression model for the relationship between knowledge, attitudes, gender and e-cig
+use was statistically significant (F = 24.467, df = 3, p < .001). The model accounted for about 16%
+
+14
+
+of the variance in e-cig use. Gender (B = .143, p = .002) and attitudes (B = .034, p < .001) were
+significant predictors of e-cig use, while knowledge was not a significant predictor. The interaction
+terms were not significant and were not included in the final model.
+Discussion
+This study examined the knowledge, attitudes, behavioral intentions and past behavior of
+young adults with regard to use of electronic cigarettes (e-cigs). Results indicated that e-cig use
+was common among young adults. Findings also indicated that, on average, young adults had
+moderate levels of knowledge about risks related to e-cigs and their attitudes were in support of ecigs. Findings from a regression analysis indicated that attitudes and gender predicted e-cig use
+while knowledge did not. These findings provide evidence for the need for interventions to prevent
+or reduce e-cig use in young adults due to the health risks associated with them. College students
+need to be educated about the potential harms of e-cigs such as nicotine poisoning, nicotine
+addiction and the potential for lung diseases and cancer (Allen et al., 2015; CDC, 2014; Jensen et
+al., 2015; Vakkalanka, Hardison, & Holstege, 2014; Williams et al., 2013).
+E-cig Use among Young Adults
+The present study found that about 39% of young adults (n = 166) had used e-cigs in the
+past, while about 13% of young adults (n = 42) were current (past 30-day) users. This is a high
+proportion relative to a recent national study which reported the rate of past and current e-cig use
+among young adults to be 21.6% and 5.1% respectively (CDC, 2015). Findings also showed that
+more males (62%) than females (38%) used e-cigs. These findings are congruent with recent
+studies showing that males are more likely to use e-cigs than females (Littlefield et al., 2015;
+
+15
+
+Piñeiro et al., 2016; Suftin et al., 2013). Rates of e-cig use were found to decrease with increasing
+age; this finding was similar to results of previous studies (CDC, 2015; Chapman & Wu, 2014).
+Furthermore, results of this study indicated that White, non-Hispanic students had the
+highest rates of e-cig use (87% of e-cig users). However, it should be noted that other ethnic groups
+accounted for a small proportion of the sample (16.5%). When adjusting for relative proportions
+of each ethnicity, Native Americans had the highest adjusted rate of e-cig use (100%, n = 1)
+followed by Biracial/Multiracial participants (73%, n = 11), White non-Hispanics (41%, n = 145),
+Black non-Hispanics (20%, n = 5) and Asian/ Pacific Islanders (15%, n = 3). None of the five
+Hispanic/Latino participants reported e-cig use. This is similar to CDC (2015) findings which
+showed the rates of use to be highest among American Indian or Alaska Natives (Native
+Americans), followed by White non-Hispanics, Hispanics (Latino), Black non-Hispanics and
+Asians.
+Extent of Knowledge, Attitudes and Behavioral Intentions of Young Adults about E-cigs
+In terms of knowledge about e-cig use, young adults’ responses indicated mixed levels of
+knowledge about e-cigs and their health effects. The mean scores for knowledge about e-cigs
+showed that the average young adult disagreed that e-cigs are safe for anyone to use. On the other
+hand, they agreed that people can get addicted to e-cigs. Average responses to other questions
+assessing knowledge were close to the middle of the scale, implying that young adults were unsure
+or did not know the answer to the questions. These findings contrast with those by Choi and Forster
+(2013) which revealed that, though a large proportion (69.9%) of young adults were aware of ecigs, level of accurate knowledge about them was low. The mixed levels of knowledge may be
+explained by the fact that many young adults lack accurate health information about e-cigs and
+
+16
+
+that they may be exposed to conflicting information from the media (visual and print) and at retail
+outlets which often tout enticing information directed at luring the viewer to use the product
+(Coleman et al., 2015).
+Attitudes of young adults in this study about e-cigs tended to be favorable. They perceived
+e-cigs to be less harmful to health than regular cigarettes and agreed that e-cigs can be used to help
+people to quit smoking. About 66% of the respondents indicated that they intended to use an e-cig
+within the next month. These findings are similar to studies (Coleman et al., 2015; Pokhrel et al.,
+2016) that showed that young adults possessed favorable attitudes towards e-cigs. The high rate of
+intentions to use e-cigs may be reflective of the favorable attitudes towards e-cigs. On the other
+hand, young adults also favored regulations to restrict e-cig use and disagreed that people should
+be allowed to smoke them inside public buildings or that people of any age should be able to buy
+or use e-cigs.
+Relationship between Gender, Knowledge, Attitudes and E-cig Use among Young Adults
+Findings revealed that gender and positive attitudes towards e-cigs were statistically
+significant predictors of e-cig use, which was consistent with findings from other studies
+(Littlefield et al., 2015; Piñeiro et al., 2016; Pokhrel et al., 2016; Suftin et al., 2013), but the effect
+sizes (Battitudes = .034, Bgender = .134) were small according to Cohen’s (1988) standards. Gender
+accounted for more (about 13%) of the explanation for the variation in e-cig use. Knowledge was
+not found to be a significant predictor of e-cig use. The insignificant role of knowledge in this
+study’s findings may have occurred because students did not have accurate knowledge about the
+dangers of e-cigs. False or unsubstantiated information which is currently rampant in media and
+retail outlet advertisements about e-cigs can reduce risk perception among young adults (Choi &
+
+17
+
+Forster, 2013). Examining the influence of accurate knowledge of risks of e-cig use on the
+intentions to smoke e-cigs remains an area for future educational intervention and further research.
+Limitations
+A number of limitations to this study should be noted. Data was obtained through selfreport and thus a social desirability bias may have impacted student report of use of e-cigs.
+Students may have thought of e-cigs as unhealthy and therefore responded in ways that suggested
+that they did not approve of or use them. In addition, this study was a cross-sectional one and
+therefore cannot establish causal relationships. Also, due to the cross-sectional nature of the study,
+there was no place for follow-up which could have provided more insight into the answers of the
+respondents. Moreover most of the respondents were White non-Hispanic, and 18-year olds (the
+youngest age group for this study), which limited the generalizability of findings by ethnicity and
+age.
+Conclusions
+This study found a high rate of e-cig smoking among young adults (39%) compared to the
+current national average (21%). Furthermore, more males than females smoked e-cigs, in line with
+current literature. Positive attitudes were found to be significant predictors of e-cig smoking.
+Further investigation could clarify which other factors nurture positive attitudes to e-cigs among
+young adults. In addition, a large proportion of young adults (66%) indicated their intention to
+smoke e-cigs within the next one month, possibly reflecting positive attitudes towards e-cigs. The
+findings of this study showed areas of misinformation about e-cigs among young adult college
+students and the predisposition of males to use e-cigs. Findings from this study can be used to
+assist public health stakeholders to better understand the nature of e-cig use among young adult
+
+18
+
+college students. Public health researchers can utilize results of this study as a background
+information for future investigations of e-cig use by young adult college students. Public health
+practitioners can use information from this study to create interventions that may help to improve
+the health of young adults. Interventions may be directed at educating college students about ecigs in order to cultivate accurate knowledge, and intervention programs may be targeted at male
+young adults.
+
+19
+
+20
+
+References
+Ajzen, I. (1991). The theory of planned behavior. Organizational Behavior and Human Decision
+Processes, 50(2), 179-211.
+Allen, J. G., Flanigan, S. S., LeBlanc, M., Vallarino, J., MacNaughton, P., Stewart, J. H., &
+Christiani, D. C. (2015). Flavoring chemicals in e-cigarettes: Diacetyl, 2, 3-pentanedione,
+and acetoin in a sample of 51 products, including fruit-, candy-, and cocktail-flavored ecigarettes. Environmental Health Perspectives. Retrieved on 06/10/16 from
+http://ehp.niehs.nih.gov/wp-content/uploads/advpub/2015/12/ehp.1510185.acco.pdf
+Benowitz, N. L., Hukkanen, J., & Jacob, P. (2009). Nicotine chemistry, metabolism, kinetics and
+biomarkers. Handbook of Experimental Pharmacology, 192, 29–60.
+http://doi.org/10.1007/978-3-540-69248-5_2
+Cameron, J. M., Howell, D. N., White, J. R., Andrenyak, D. M., Layton, M. E., & Roll, J. M.
+(2014). Variable and potentially fatal amounts of nicotine in e-cigarette nicotine
+solutions. Tobacco Control, 23(1), 77-78.
+Centers for Disease Control and Prevention (CDC). (2013). Case definition: Nicotine. Retrieved
+from http://emergency.cdc.gov/agent/nicotine/casedef.asp
+Centers for Disease Control and Prevention (CDC). (2014). New CDC study finds dramatic
+increase in e-cigarette-related calls to poison centers. Retrieved on 06/10/16 from
+http://www.cdc.gov/media/releases/2014/p0403-e-cigarette-poison.html
+
+21
+
+Centers for Disease Control and Prevention (CDC). (2015). Electronic cigarette use among
+adults: United States, 2014. Retrieved on 06/10/16 from
+http://www.cdc.gov/nchs/data/databriefs/db217.pdf
+Chapman, S. L. C., & Wu, L. T. (2014). E-cigarette prevalence and correlates of use among
+adolescents versus adults: a review and comparison. Journal of Psychiatric Research, 54,
+43-54.
+Choi, K., & Forster, J. (2013). Characteristics associated with awareness, perceptions, and use of
+electronic nicotine delivery systems among young US Midwestern adults. American
+Journal of Public Health, 103(3), 556-561.
+Choi, K., & Forster, J. L. (2014). Beliefs and experimentation with electronic cigarettes: a
+prospective analysis among young adults. American Journal of Preventive Medicine,
+46(2), 175-178.
+Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd Ed.). Hillside, NJ:
+Erlbaum.
+Coleman, B. N., Johnson, S. E., Tessman, G. K., Tworek, C., Alexander, J., Dickinson, D. M. ...
+& Green, K. M. (2015). “It's not smoke. It's not tar. It's not 4000 chemicals. Case closed”:
+Exploring attitudes, beliefs, and perceived social norms of e-cigarette use among adult
+users. Drug and Alcohol Dependence, 159, 80-85.
+Consumer Federation of America. (2016). President Obama signs law to protect kids from
+poisoning. Retrieved from: http://consumerfed.org/press_release/president-obama-signslaw-to-protect-kids-from-poisoning/
+
+22
+
+Cullen, J., Mowery, P., Delnevo, C., Allen, J. A., Sokol, N., Byron, M. J., & Thornton-Bullock,
+A. (2011). Seven-year patterns in US cigar use epidemiology among young adults aged
+18–25 years: a focus on race/ethnicity and brand. American Journal of Public Health,
+101(10), 1955-1962.
+Georgia Department of Public Health. (2013). Georgia Youth Tobacco Survey (GYTS) 2013.
+Retrieved on 06/10/16 from
+http://dph.georgia.gov/sites/dph.georgia.gov/files/2013YTS_Questionnaire.pdf
+Giovenco, D. P., Lewis, M. J., & Delnevo, C. D. (2014). Factors associated with e-cigarette use:
+a national population survey of current and former smokers. American Journal of
+Preventive Medicine, 47(4), 476-480.
+Jensen, R. P., Luo, W., Pankow, J. F., Strongin, R. M., & Peyton, D. H. (2015). Hidden
+formaldehyde in e-cigarette aerosols. New England Journal of Medicine, 372(4), 392394.
+Kandel, D. (1975). Stages in adolescent involvement in drug use. Science, 190(4217), 912-914.
+
+Kandel, E. R., & Kandel, D. B. (2014). A molecular basis for nicotine as a gateway drug. New
+England Journal of Medicine, 371(10), 932-943.
+King, B. A., Dube, S. R., & Tynan, M. A. (2012). Current tobacco use among adults in the
+United States: Findings from the National Adult Tobacco Survey. American Journal of
+Public Health, 102(11), e93-e100.
+
+23
+
+King, B. A., Patel, R., Nguyen, K., & Dube, S. R. (2014). Trends in awareness and use of
+electronic cigarettes among US adults, 2010-2013. Nicotine & Tobacco Research, 17(2),
+219-227.
+Littlefield, A. K., Gottlieb, J. C., Cohen, L. M., & Trotter, D. R. (2015). Electronic cigarette use
+among college students: Links to gender, race/ethnicity, smoking, and heavy drinking.
+Journal of American College Health, 63(8), 523-529.
+Piñeiro, B., Correa, J. B., Simmons, V. N., Harrell, P. T., Menzie, N. S., Unrod, M., ... &
+Brandon, T. H. (2016). Gender differences in use and expectancies of e-cigarettes: Online
+survey results. Addictive Behaviors, 52, 91-97.
+Pokhrel, P., Fagan, P., Herzog, T. A., Chen, Q., Muranaka, N., Kehl, L., & Unger, J. B. (2016).
+E-cigarette advertising exposure and implicit attitudes among young adult non-smokers.
+Drug and Alcohol Dependence, 163, 134-140.
+Primack, B. A., Soneji, S., Stoolmiller, M., Fine, M. J., & Sargent, J. D. (2015). Progression to
+traditional cigarette smoking after electronic cigarette use among US adolescents and
+young adults. JAMA Pediatrics, 169(11), 1018-1023.
+Raosoft. (2004). Sample size calculator. Retrieved from http://www.raosoft.com/samplesize.html
+Rath, J. M., Villanti, A. C., Abrams, D. B., & Vallone, D. M. (2012). Patterns of tobacco use and
+dual use in US young adults: The missing link between youth prevention and adult
+cessation. Journal of Environmental and Public Health, Vol. 2012, Article ID 679134, 9
+pages. doi:10.1155/2012/679134
+Suftin, E. L., McCoy, T. P., Morrell, H. E., Hoeppner, B. B., & Wolfson, M. (2013). Electronic
+cigarette use by college students. Drug and alcohol dependence, 131(3), 214-221.
+24
+
+The Office of the Federal Register. (2016). Deeming tobacco products to be subject to the
+Federal Food, Drug, and Cosmetic Act, as amended by the Family Smoking Prevention
+and Tobacco Control Act: Restrictions on the sale and distribution of tobacco products
+and required warning statements for tobacco products. Retrieved on 06/10/16 from
+https://www.federalregister.gov/articles/2016/05/10/2016-10685/deeming-tobaccoproducts-to-be-subject-to-the-federal-food-drug-and-cosmetic-act-as-amended-by-the
+United States Food and Drug Administration (FDA). 2016. Vaporizers, E-Cigarettes, and other
+Electronic Nicotine Delivery Systems (ENDS). Retrieved on 06/10/16 from
+http://www.fda.gov/TobaccoProducts/Labeling/ProductsIngredientsComponents/ucm456
+610.htm#regulation
+University of Cincinnati. (2015). UC Student Factbook Autumn 2014. Retrieved on 06/10/16
+from
+http://www.uc.edu/content/dam/uc/provost/docs/institutional_research/student_reports/st
+udent_fact_book/UC_Student_Factbook_Current.pdf
+Vakkalanka, J. P., Hardison Jr, L. S., & Holstege, C. P. (2014). Epidemiological trends in
+electronic cigarette exposures reported to US poison centers. Clinical Toxicology, 52(5),
+542-548.
+Williams, M., Villarreal, A., Bozhilov, K., Lin, S., & Talbot, P. (2013). Metal and silicate
+particles including nanoparticles are present in electronic cigarette cartomizer fluid and
+aerosol. PLoS ONE 8(3), e57987.
+World Health Organization. (2009). WHO Study Group on Tobacco Product Regulation: Report
+on the Scientific Basis of Tobacco Product Regulation: Third Report of a WHO Study
+
+25
+
+Group (No. 955). Geneva: World Health Organization. Retrieved on 06/10/16 from
+http://apps.who.int/iris/bitstream/10665/44213/1/9789241209557_eng.pdf
+
+26
+
+Table 1. Question 18 and Answer Options
+Which of the following do you think would influence a person’s choice to smoke an e-cigarette instead of a regular cigarette (You
+can CHOOSE ONE ANSWER or MORE THAN ONE ANSWER)?
+Option
+
+Response
+
+E-cigarettes are safer (little risk of fire, burns etc.)
+
+Checked = “Yes”
+
+E-cigarettes are cheaper than regular cigarettes
+
+Checked = “Yes”
+
+E-cigarettes are easier to obtain/purchase than regular cigarettes
+E-cigarettes offer more flavors than regular cigarettes
+
+Checked = “Yes”
+”
+Checked = “Yes”
+
+E-cigarettes look cooler than regular cigarettes
+
+Checked = “Yes”
+
+E-cigarettes come in different shapes and sizes
+
+Checked = “Yes”
+
+E-cigarettes offer different levels of nicotine content
+
+Checked = “Yes”
+
+E-cigarettes are healthier than regular cigarettes
+
+Checked = “Yes”
+
+E-cigarettes are cleaner than regular cigarettes (No ash, no odor etc.)
+
+Checked = “Yes”
+
+27
+
+Table 2. Question 22 and Answer Options
+In which of the following ways did you get an e-cigarette? (You can choose ONE ANSWER or MORE THAN ONE ANSWER)
+Option
+
+Response
+
+I have never had an e-cigarette
+
+Checked = “Yes”
+
+I bought it myself
+
+Checked = “Yes”
+
+I had someone else buy it for me
+
+Checked = “Yes”
+
+I borrowed it
+
+Checked = “Yes”
+
+Someone gave it to me without my asking
+
+Checked = “Yes”
+
+I took them from another person
+
+Checked = “Yes”
+
+I got them at a party
+
+Checked = “Yes”
+
+I got them some other way (Please specify)
+
+Checked = “Yes” (A space was provided for
+respondents to explain further if they answered “Yes”
+to this option)
+
+28
+
+Table 3. Question 23 and Answer Options
+Where did you buy an e-cigarette? (You can choose ONE ANSWER or MORE THAN ONE ANSWER)
+Option
+
+Response
+
+I have never bought an e-cigarette
+
+Checked = “Yes”
+
+A gas station
+
+Checked = “Yes”
+
+A convenience store
+
+Checked = “Yes”
+
+A grocery store
+
+Checked = “Yes”
+
+A drug store
+
+Checked = “Yes”
+
+A vending machine
+
+Checked = “Yes”
+
+Over the internet
+
+Checked = “Yes”
+
+Through the mail
+
+Checked = “Yes”
+
+Some other place not listed here (Please specify)
+
+Checked = “Yes”(A space was provided for respondents
+to explain further if they answered “Yes” to this option)
+
+29
+
+Table 4. Test-Retest Reliability
+Variable
+
+r
+
+p
+
+Knowledge
+An e-cigarette is an electronic version of a regular cigarette
+E-cigarettes contain the same substances as a regular cigarette
+E-cigarettes are safe for anyone to use
+E-cigarettes produce second-hand smoke
+Nicotine poisoning is a health risk of using e-cigarettes
+
+.664
+.639
+.785
+.429
+.697
+
+<.001
+<.001
+<.001
+.02
+<.001
+
+Attitudes
+People should be allowed to smoke e-cigarettes inside public buildings
+E-cigarettes are less harmful to health than regular cigarettes
+People using e-cigarettes look cool
+E-cigarettes are safer than regular cigarettes
+People of any age should be able to buy e-cigarettes
+People of any age should be able to use e-cigarettes
+E-cigarettes can be used to help people quit smoking regular cigarettes
+People who use e-cigarettes are likely to use regular cigarettes as well
+
+.592
+.458
+.468
+.492
+.626
+.726
+.759
+.667
+
+.001
+.01
+.009
+.006
+<.001
+<.001
+<.001
+<.001
+
+30
+
+Table 5. Demographic Characteristics of Participants
+Variable
+Sex
+Male
+Female
+Race/Ethnicity
+Asian/Pacific
+Islander
+Biracial/Multiracial
+Black Non-Hispanic
+Hispanic or Latino
+Native American
+White Non-Hispanic
+Other
+
+%
+49.3
+50.7
+
+n
+207
+213
+
+Variable
+Living Arrangements
+On-Campus
+Off-Campus
+
+%
+
+n
+
+41.6
+58.3
+
+174
+244
+
+Live with Parents/Guardians
+4.8
+
+20
+
+Yes
+
+23.2
+
+97
+
+3.6
+6.0
+1.2
+0.2
+83.5
+0.7
+
+15
+25
+5
+1
+351
+3
+
+No
+
+76.8
+
+322
+
+Fraternity or Sorority
+Yes
+No
+
+17.7
+82.3
+
+74
+343
+
+Employment Status
+Full-time
+Part-time
+Unemployed
+
+6.7
+48.9
+44.4
+
+28
+205
+186
+
+Academic Status
+Freshman
+Sophomore
+Junior
+Senior
+Graduate
+
+40.4
+16.7
+19.6
+23.0
+0.2
+
+169
+70
+82
+96
+1
+
+Age at Last Birthday
+17 Years Old
+18 Years Old
+19 Years Old
+20 Years Old
+21 Years Old
+22 Years Old
+23 Years Old
+24 Years Old
+
+<0.1
+28.3
+20.5
+17.3
+18.8
+9.6
+3.6
+1.9
+
+1
+119
+86
+72
+79
+40
+15
+8
+
+Enrollment Status
+Full-time
+Part-time
+
+99.0
+1.0
+
+414
+4
+
+Note. Data were missing for academic status and living arrangements; therefore percentages do not total 100
+
+31
+
+Table 6. E-cig Use based on Age, Gender and Race/Ethnicity
+Variable
+Past E-cig Use (n = 166)
+Past 30-day Use
+Yes
+No
+Age of Users
+17 Years Old
+18 Years Old
+19 Years Old
+20 Years Old
+21 Years Old
+22 Years Old
+23 Years Old
+24 Years Old
+Age at First Use
+13-17 years
+18 years or older
+Gender
+Male
+Female
+Race/Ethnicity
+Asian/Pacific Islander
+Biracial/Multiracial
+Black Non-Hispanic
+Hispanic or Latino
+Native American
+White Non-Hispanic
+Other
+
+32
+
+%
+
+(n)
+
+25.3
+74.7
+
+42
+124
+
+0.0
+27.1
+24.1
+14.5
+15.7
+13.8
+2.4
+2.4
+
+0
+45
+40
+24
+26
+23
+4
+4
+
+33.7
+66.3
+
+56
+110
+
+62.0
+38.0
+
+103
+63
+
+1.8
+6.6
+3.0
+0.0
+0.6
+87.4
+0.6
+
+3
+11
+5
+0
+1
+145
+1
+
+Table 7. Extent of Knowledge and Attitudes about E-cigs
+Variable
+
+M
+
+SD
+
+Knowledge
+An e-cigarette is an electronic version of a regular cigarette
+E-cigarettes contain the same substances as a regular cigarette
+E-cigarettes only produce water vapor
+A person can get addicted to e-cigarettes
+E-cigarettes are safe for anyone to use
+Nicotine poisoning is a health risk of using e-cigarettes
+
+2.37
+3.38
+3.48
+1.99
+3.99
+2.39
+
+1.03
+1.08
+.96
+.82
+.84
+.86
+
+Attitudes
+People should be allowed to smoke e-cigarettes inside public buildings
+E-cigarettes are less harmful to health than regular cigarettes
+People using e-cigarettes look cool
+E-cigarettes are safer than regular cigarettes
+People using e-cigarettes have more friends
+People of any age should be able to buy e-cigarettes
+People of any age should be able to use e-cigarettes
+E-cigarettes can be used to help people quit smoking regular cigarettes
+People who use e-cigarettes are likely to use regular cigarettes as well
+There should be government regulation of e-cigarettes, just like regular cigarettes
+
+3.94
+2.76
+4.29
+2.86
+4.30
+4.53
+4.45
+2.54
+2.60
+2.35
+
+1.01
+1.09
+.95
+1.06
+.80
+.64
+.73
+1.04
+.90
+.93
+
+33
+
+Table 8. Correlation Coefficients for Questions assessing Knowledge
+Questions
+1. An e-cigarette is an
+electronic version of a
+regular cigarette
+2. E-cigarettes contain the
+same substances as a
+regular cigarette
+
+1
+r
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+1
+
+p
+r
+
+.390
+
+1
+
+p
+
+<.001
+
+3. E-cigarettes only produce
+water vapor
+
+r
+p
+
+.099
+.043
+
+.003
+.950
+
+1
+
+4. A person can get addicted
+to e-cigarettes
+
+r
+p
+
+.124
+.011
+
+.052
+.287
+
+-.194
+<.001
+
+1
+
+5. E-cigarettes are safe for
+anyone to use
+
+r
+p
+
+-.065
+.187
+
+-.172
+<.001
+
+.327
+<.001
+
+-.222
+<.001
+
+1
+
+6. E-cigarettes produce
+second-hand smoke
+
+r
+p
+
+.171
+<.001
+
+.298
+<.001
+
+-.217
+<.001
+
+.170
+<.001
+
+-.223
+<.001
+
+1
+
+7. Nicotine poisoning is a
+health risk of using ecigarettes
+
+r
+
+.206
+
+.229
+
+-.209
+
+.341
+
+-.222
+
+.384
+
+p
+
+<.001
+
+<.001
+
+<.001
+
+<.001
+
+<.001
+
+<.001
+
+34
+
+1
+
+Table 9. Correlation Coefficients for Questions assessing Attitudes
+Questions
+8. People should be allowed to
+smoke e-cigarettes inside
+public buildings
+9. E-cigarettes are less harmful
+to health than regular
+cigarettes
+10. People using e-cigarettes
+look cool
+11. E-cigarettes are safer than
+regular cigarettes
+12. People using e-cigarettes
+have more friends
+13. People of any age should be
+able to buy e-cigarettes
+14. People of any age should be
+able to use e-cigarettes
+15. E-cigarettes can be used to
+help people quit smoking
+regular cigarettes
+16. People who use e-cigarettes
+are likely to use regular
+cigarettes as well
+17. There should be government
+regulation of e-cigarettes,
+just like regular cigarettes
+
+8
+1
+
+9
+
+r
+
+.435
+
+1
+
+p
+
+<.001
+
+r
+p
+r
+p
+r
+p
+r
+p
+r
+p
+r
+
+.350
+<.001
+.364
+<.001
+.278
+<.001
+.316
+<.001
+.264
+<.001
+.328
+
+.213
+<.001
+.751
+<.001
+.222
+<.001
+.204
+<.001
+.168
+.001
+.564
+
+.258
+<.001
+.421
+<.001
+.307
+<.001
+.273
+<.001
+.178
+
+.281
+<.001
+.248
+<.001
+.192
+<.001
+.572
+
+.349
+<.001
+.281
+<.001
+.219
+
+.774
+<.001
+.127
+
+.169
+
+p
+
+<.001
+
+<.001
+
+<.001
+
+<.001
+
+<.001
+
+.009
+
+.001
+
+r
+
+-.169
+
+-.196
+
+-.114
+
+-.233
+
+-.092
+
+-.189
+
+-.091
+
+-.216
+
+p
+
+.001
+
+<.001
+
+.020
+
+<.001
+
+.061
+
+<.001
+
+.064
+
+<.001
+
+r
+
+-.277
+
+-.221
+
+-.139
+
+-.214
+
+-.236
+
+-.335
+
+-.280
+
+-.216
+
+.234
+
+p
+
+<.001
+
+<.001
+
+.004
+
+<.001
+
+<.001
+
+<.001
+
+<.001
+
+<.001
+
+<.001
+
+r
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+p
+
+1
+
+35
+
+1
+1
+1
+1
+1
+
+1
+
+1
+
+Table 10. Regression Model Predicting E-cig Use
+Variable
+E-cig Use
+Knowledge
+Attitudes
+Gender
+
+B
+
+SE
+
+Beta
+
+t
+
+p
+
+-.015
+.034
+.143
+
+.009
+.005
+.046
+
+-.075
+.321
+.146
+
+-1.575
+6.650
+3.097
+
+.116
+<.001
+.002
+
+36
+
+Study Two: The Influence of Internet Information on Young Adults’ Perceptions about
+Electronic Cigarettes
+
+37
+
+Introduction
+Since the commercialization of the internet in 1995, its role in the media has vastly
+increased (Hilbert & Lopez, 2011). From carrying about one percent of information passing
+through two-way communication in the 1990s, the internet progressed to capture about 51% of all
+modern telecommunication in 2000 and more than 97% by 2007 (Hilbert & Lopez, 2011).
+Worldwide internet usage also increased rapidly during this period, from 400 million users in 2000
+to 3.2 billion in 2015 (International Telecommunication Union, 2016). This growth in internet
+exposure was also mirrored in the United States (US) - about 84% of adults in the US had access
+to the internet in 2015, up from about 9% in 1995 (Pew Research Center, 2016). Among the adult
+population in the US, people aged 18-29 years reported the highest rate of internet use – 96% in
+2015 (Pew Research Center, 2016).
+The popularity and growth of the internet has made it a key platform for advertising and
+marketing by businesses, including e-cig manufacturers and marketers. An analysis of online ecig marketing by Zhu et al. (2014) revealed that there were 466 e-cig brands in January 2014 and
+each had its own website. E-cig advertising efforts through the internet also include the use of
+social media. For instance, Huang, Kornfield, Szczypka, and Emery (2014) found that there were
+73,672 tweets related to e-cigs between May 1 and June 30, 2012, about 90% of which were
+commercial tweets which included links to websites that sell or promote e-cigs. Monitoring this
+large interchange of information is daunting. Moreover, regulatory laws are difficult to enforce for
+internet communications. Consequently, although cigarette advertisements were banned in the
+United States in 1970, the internet is still being used to advertise and market cigarettes and other
+tobacco products (Campaign for Tobacco-free Kids, 2015). Grana and Ling (2014) conducted an
+
+38
+
+analysis of e-cigarette retail websites to investigate advertising claims. They discovered that 95%
+of the websites made explicit or implicit health-related claims, 64% had a smoking cessationrelated claim, 22% featured doctors, 76% claimed that the product did not produce secondhand
+smoke, and 86% stated that the product could be smoked anywhere and evade clean air policies
+(71%). Adolescents and young adults are likely to be targeted by advertisers. Grana and Ling
+(2014) also reported that the advertising on the websites they reviewed was designed to attract
+young people, by featuring actors with social status and other types of celebrities.
+Furthermore, regular cigarette manufacturers have begun to invest in the e-cigarette
+industry (Zhu et al., 2014). Blu eCigs, the largest producer and marketer of e-cigs in the United
+States, was purchased by Lorillard, a large American tobacco company in 2013. Blu was later
+purchased by another tobacco company (Imperial Tobacco Group) in 2014. Altria, the largest
+tobacco company group in the US purchased Green Smoke, an e-cig company. Several regular
+cigarette manufacturers have introduced their own lines of e-cigs; for example, RJ Reynolds,
+which is a subsidiary of Reynolds American (the second largest tobacco company group in the
+US), introduced the e-cig brand called VUSE. This investment by the tobacco industry has rapidly
+transformed e-cig advertising messages, making them remarkably similar to pre-1970 regular
+cigarette advertisements (McKee, 2013). This may be another attempt to popularize smoking
+through the promotion of e-cig use.
+Since young adults have the highest rate of internet exposure among the adult population
+in the US (CDC, 2015), their potential for exposure to online e-cig information and subsequent
+use of e-cigs is high. In fact, Legacy Foundation (2014) found that about 58% of young adults
+between the ages of 18 and 21 years were exposed to e-cig advertisements on the internet while
+
+39
+
+Pokhrel, Fagan, Kehl, and Herzog (2015) also found that 59% of college students had seen e-cig
+advertisements on the internet. Studies have linked exposure to e-cig advertisements to changes in
+knowledge, attitudes and behavioral intentions. Sanders-Jackson et al. (2014) found a positive
+relationship between exposure to e-cig advertisements and awareness and knowledge about e-cigs.
+Pokhrel et al. (2016) discovered that exposure to e-cig advertisements resulted in attitudes that
+were in favor of e-cigarettes. Villanti et al. (2015) found exposure to e-cig advertisements to be
+associated with intentions to use e-cigs among young adults. Furthermore, Coleman et al. (2015)
+discovered that approval or endorsement of e-cigs by family and peers is an important factor that
+may affect how young adults process e-cig information. Thus, the influence of internet
+advertisements may be partly responsible for the high rate of e-cig use among young adults
+compared to other adult population groups (CDC, 2015).
+The increasing use of e-cigs by young adults is a source of concern because a number of
+public health risks are associated with their use. There is increasing evidence of nicotine poisoning
+associated with e-cig use (CDC, 2014; Vakkalanka, Hardison, & Holstege, 2014). There is also
+evidence of substances in e-cig smoke that can cause lung diseases and cancer (Allen et al., 2015;
+Jensen et al., 2015; Williams et al., 2013). Furthermore, studies have shown that the use of ecigarettes is associated with regular cigarette use (Choi & Forster, 2014; Giovenco, Lewis, &
+Delnevo, 2014; Littlefield, Gottlieb, Cohen, & Trotter, 2015) and may serve as a “gateway” to the
+use of other psychoactive substances such as cocaine (Kandel, 1975; Kandel & Kandel, 2014). In
+the context of these risks, it is important to understand how young adults engage with internet
+information about e-cigs, and how it affects their perceptions about these devices and their
+intention to smoke them.
+
+40
+
+Some theories of human behavior are applicable to explain the influence of internet
+information on e-cig use among young adults. Two applicable theories are the Communications
+Theory by Shannon and Weaver (1949) and the Diffusion of Innovations (DOI) theory by Rogers
+(1958, 2003). The Communication Theory and DOI both adopt a social approach to explain human
+behavior.
+Communications Theory is used to describe the process of communication, how it affects
+people’s perceptions and interpretation of messages and how the process may influence human
+behavior (Shannon & Weaver, 1949). The internet falls into the interactive form of communication,
+one of the three forms described by the Communications Theory, the others being mass
+communication/mass media such as radio or television and interpersonal communication. The
+influence of communication on human behavior can be described using constructs highlighted in
+Communications Theory, namely – sender (e-cig companies), message (e-cig information through
+advertising and marketing strategies), medium or channel (various forms of internet-based
+communication), receiver (young adults and other audiences) and feedback/reaction (behavior).
+Some constructs of the DOI (Rogers, 1958, 2003) overlap with those in Communications
+Theory. These constructs include the ideas of: innovation adoption (use of e-cigs) and how
+communications impact the adoption of innovation. The communication channel of interest is the
+internet. Examination of behavioral intentions to smoke allows the assessment of the construct of
+time (which is used to describe adoption of the innovation). The effect of the innovation on the
+social system can be captured by assessing the social use of e-cigs. Innovations in different social
+systems, such as advertisements on the internet, should impact people’s intentions about
+purchasing products (a key area assessed in this study). Thus, the focus on innovation adoption
+
+41
+
+may be considered roughly equivalent to the message construct of Communications Theory.
+Moreover, demographics such as gender of participants, age and ethnic group can determine who
+is likely to adopt the innovation. When examining key constructs in the aforementioned theories,
+the current study had four aims:
+
+1. To examine young adults exposure to internet advertising about e-cigs.
+2. To assess the association between intentions to use e-cigs and exposure to advertising about
+e-cigs.
+3. To examine the relationship between exposure to internet advertising, demographic factors
+(age and gender) and knowledge about e-cigs (with knowledge as the dependent variable).
+4. To examine the relationship between exposure to internet advertising, demographic factors
+(age and gender) and attitudes toward e-cig use (with attitudes as the dependent variable).
+Methods
+Participants
+Participants in this study were the college students who participated in Study 1. The
+approval from the university-based Institutional Review Board is presented in Appendix A.
+Instrument
+The same survey for Study 1 was used for analyses for this study (see Appendix B). As
+mentioned, the survey was comprised of five sections – (1) Knowledge about e-cigs, (2) Attitudes
+and beliefs concerning e-cigs, (3) E-cig and regular cigarette use, (4) Online e-cig information,
+
+42
+
+and (5) Demographic information. Section four, online e-cig information was a focus of analyses
+for the current study. The questions used for analysis in this paper include:
+
+
+Questions that assessed knowledge about e-cigs (questions 1-5 and question 7). The
+responses were measured on a Likert scale (see Table 1 below).
+Insert Table 1 here
+
+
+
+Questions that assessed attitudes to e-cigs (questions 8 to 17). The responses to these
+questions were also measured on a Likert scale (see Table 2 below).
+Insert Table 2 here
+
+
+
+Question 24 which assessed intention to use an e-cig within the next month (30 days). The
+question text read as follows: “Do you think that you will try an e-cigarette within the next
+one month?” and had 3 options: 1 – “I have already tried smoking e-cigarettes”, 2 – “Yes”,
+3 – “No”.
+
+
+
+Questions that assessed exposure of study participants to advertisements about e-cig
+information on the internet (questions 27 and 30 presented in Table 3 below).
+Insert Table 3 here
+
+
+
+Questions that assessed demographic information about study participants (Questions 33
+to 35, presented in Table 4 below).
+Insert Table 4 here
+
+43
+
+Procedures
+Procedures for this study were the same as those used in Study One. Professors from
+different colleges at the university were contacted through e-mail and they provided permission to
+recruit participants during their courses. The principal investigator went to the classrooms and
+reviewed information about the study. Students were given an Information Sheet to review study
+procedures, the voluntary nature of the study, and to provide contact information for the
+investigator and representatives of the Institutional Review Board. Returning the survey indicated
+a willingness to participate in the study. Surveys did not contain any identifying information. After
+reviewing the Information Sheet (see Appendix C), participants completed the survey. Participants
+were instructed not to put their names or any other identifying information on the survey.
+A test-retest reliability study was performed by having 30 participants complete the survey
+twice, one week apart. Prior to participating in this part of the study, students reviewed the
+Information Sheet for the Test-Retest Study (Appendix D). The Information Sheet for the TestRetest Study provided contact information for the investigator and representatives from the
+Institutional Review Board. The Information Form specified the voluntary nature of the study and
+that returning the surveys would indicate study participation. In order to pair the pre-test and posttest surveys, students were instructed to write a number on their surveys that was the same for the
+first and second administration of the surveys. No names or other identifying information were
+written on the surveys.
+
+44
+
+Data Analysis
+Data from the surveys were analyzed using the Statistical Package for the Social Sciences
+(SPSS) (Version 22.0). Bivariate correlations and Cohen’s kappa were used to examine test-retest
+reliability data. Descriptive information about study participants were presented using frequencies
+to describe categorical variables (sex and ethnic group). Frequencies were also used to describe
+the extent of exposure of young adults to advertisements about e-cig information on the internet.
+A chi-square analysis was used to examine the relationship between intentions to use ecigs in the next month (recoded into yes or no) and whether students had viewed advertisements
+for e-cigs on the internet (recoded into yes or no).
+A 2 X 2 X 4 (Gender X Ethnicity [“White Non-Hispanic” versus “Other Ethnic Groups”]
+X Viewing E-Cig Advertisements) MANCOVA was conducted to examine the influence of
+gender, ethnicity, and exposure to advertisements on the questions assessing knowledge about ecigs; age was the covariate. Viewing e-cig advertisement response categories were recoded into 4
+categories: 0 = never used internet, never seen any advertisements, 1 = 1-5 times viewing e-cig
+advertisements, 2 = 5-10 times; and 3 = more than 10 times. Gender was coded into 1 = Male, 2 =
+Female. Ethnicity was coded into 2 = White non-Hispanic and 1 = other ethnic groups. Another (2
+X 2 X 4) MANCOVA [with age as a covariate] was used to examine the influence of gender,
+ethnicity, and exposure to internet advertisements on survey questions assessing attitudes.
+
+45
+
+Results
+Reliability of Survey Items
+Pearson’s correlations (r) and Cohen’s kappa (k) were used to assess the agreement
+between responses for various survey questions. For example, Cohen’s kappa was used for the
+question assessing whether participants had viewed e-cig advertisements to assess agreement, k =
+.724, p < 0.001. Analysis also revealed statistically significant Pearson’s correlations (p < 0.05)
+between test and retest responses for questions assessing knowledge and attitudes (Table 5).
+Insert Table 5 here
+Demographic Characteristics
+A total of 420 college students aged 17 to 24 years of age completed the survey. Mean age
+was about 20 years (SD = 1.59). About half (50.7%) were female (n = 213) and about 83% of the
+respondents were White non-Hispanic (n = 351). Of the total sample of 320 college students, 44%
+(n = 183) reported that they had seen an internet advertisement containing information about ecigs within the past 30 days.
+Exposure to E-cig Information (by Gender, Age and Ethnicity)
+Exposure of participants to internet advertisements about e-cigs is shown in Table 6. About
+57% of participants who reported that they had viewed e-cig advertisements on the internet were
+female (n = 105). The largest proportion of students who had seen e-cig advertisements on the
+internet (24.6%) were aged 18 years (n = 44). About 79% of the students who had been exposed
+to internet e-cig advertisements were white non-Hispanic (n = 143).
+Insert Table 6 here
+
+46
+
+The Relationship between Intentions to Use E-cigs and Exposure to Internet Advertising
+about E-cigs
+A chi-square test of association was carried out to determine if there was a relationship
+between exposure to internet advertising and intention to use e-cigs. Exposure to internet
+advertising about e-cigs was not associated with intention to use e-cigs, Pearson chi-square =
+1.162, p = .281.
+The Influence of Demographic Characteristics (Gender, Age and Ethnicity) and Exposure
+to E-cig Advertisements on Knowledge about E-cigs
+Results from the MANCOVA (Gender X Ethnicity [“White Non-Hispanic” versus “Other
+Ethnic Groups”] X Viewing E-Cig Advertisements) for the knowledge questions, with age as the
+covariate revealed a statistically significant main effect for gender on knowledge about e-cigs,
+Wilks’ Λ = .962, F (6, 381) = 2.476, p = .023, ηp2 = .038. Ethnicity and exposure to e-cig
+advertisements were not statistically significant. Also, age was not statistically significant as the
+covariate. The MANCOVA summary table is provided in Table 7. The results for univariate tests,
+with means and standard deviations, for gender and questions assessing knowledge are presented
+in Table 8. The univariate test for question 2 (knowledge about whether e-cigs contain the same
+substances as regular cigarettes) was significant, F = 13.693, p < 0.001. On average, males more
+strongly agreed that e-cigs do not contain the same substances as regular cigarettes, compared to
+females.
+Insert Tables 7 and 8 here
+
+47
+
+The Influence of Demographic Characteristics (Gender, Age and Ethnicity) and Exposure
+to E-cig Advertisements on Attitudes about E-cigs
+Findings from the MANCOVA (Gender X Ethnicity [“White Non-Hispanic” versus “Other
+Ethnic Groups”] X Viewing E-Cig Advertisements) for the attitudes questions, with Age as the
+covariate showed a statistically significant main effect for gender, Wilks’ Λ = .926, F (10, 384) =
+3.088, p = .001, ηp2 = .074. Age was significant as a covariate for this model, Wilks’ Λ = .942, F
+(10, 384) = 2.363, p = .01, ηp2 = .058. Younger age was associated with more positive attitudes
+towards e-cigs than older age. Ethnicity and exposure to e-cig advertisements were not statistically
+significant. The MANCOVA summary table is provided in Table 9. The results for univariate tests,
+with means and standard deviations, for gender and questions assessing attitudes are presented in
+Table 10. Univariate tests for the following questions 8, 9, 11, 14 and 15 assessing gender
+differences in attitudes were statistically significant (p < 0.05): question 8 (people should be
+allowed to smoke e-cigs inside public buildings), 9 (e-cigs are less harmful to health than regular
+cigarettes), 11 (e-cigs are safer than regular cigarettes), 14 (people of any age should be able to
+use e-cigs) and 15 (e-cigs can be used to help people quit smoking regular cigarettes). On average,
+males had less negative views about people smoking inside public buildings compared to females.
+Furthermore, males more strongly believed that e-cigs are less harmful to health than regular
+cigarettes and that people of any age should be able to use e-cigs. Males more strongly believed
+that e-cigs can be used to help people quit smoking regular cigarettes. On average, males believed
+that e-cigs are safer than regular cigarettes.
+Insert Tables 9 and 10 here
+
+48
+
+Discussion
+This study examined the influence of internet information on young adults’ perceptions
+about e-cigs. Results indicated that a sizeable proportion (44%) of young adults had seen at least
+one advertisement on the internet about e-cigs, which indicated considerable exposure to e-cig
+advertisements as found by other studies (Legacy Foundation, 2014; Pokhrel et al., 2015). This
+finding shows that young adults are widely exposed to e-cig information through the internet.
+Nevertheless, exposure to internet information about e-cigs was not significantly correlated with
+intention to use e-cigs, suggesting that exposure to information about e-cigs through the internet
+alone may not be sufficient to induce attitude or behavior change. There was a main effect for
+gender on knowledge and attitudes about e-cigs – in general, males had a higher level of knowledge
+about e-cigs and more positive attitudes towards them than females. Also, age was significant as a
+covariate in the analysis of the effects of gender, ethnicity and exposure to e-cig advertisements
+on the attitudes of young adults towards e-cigs. Younger age was associated with more favorable
+attitudes towards e-cigs. These findings provide some evidence for gender-focused and agefocused interventions.
+Exposure of Young Adults to Internet Advertising about E-cigs
+Study results showed that about 44% of young adults were exposed to e-cig advertisements
+on the internet. This rate is less than findings from other studies – Legacy (2014) found the rate of
+exposure to be 58% while Pokhrel et al. (2015) found it to be 59%. Nevertheless, it shows that a
+considerable number of young adults are viewing online e-cig advertisements, in line with current
+literature. Of the young adults exposed to internet e-cig advertisements, about 57% were females.
+Legacy (2014) found that e-cig exposure was similar across ethnicities. Most of the respondents
+
+49
+
+in the present study who reported exposure to online e-cig information were White non-Hispanics
+(78%, n = 143) because they constituted a large proportion of the sample (83%, n = 351). The
+proportions of respondents exposed to e-cig advertisements in each ethnic group were about 49%
+for White non-Hispanics compared to 56% for other ethnicities.
+Intention to Use E-cigs and Exposure to Advertising about E-cigs
+This study showed no statistically significant association between intention to use e-cigs
+and exposure to online e-cig information among young adults. This may also be explained by the
+fact that other factors such as social influence (Coleman et al., 2015) and curiosity (Villanti et al.,
+2015) can influence e-cig use. According to Coleman et al. (2015), approval or endorsement of ecigs by family and friends is an important influencing factor that may affect how young adults
+process e-cig information. Villanti et al. (2016) found that curiosity mediated the relationship
+between exposure to e-cig advertisements and e-cig use among young adults. The aforementioned
+ideas are speculative and remain areas for future research.
+Exposure to Internet Advertising, Demographic Factors and Knowledge about E-cigs
+Contrary to the finding by Sanders-Jackson et al. (2014), showing there was a statistically
+significant positive relationship between exposure to e-cig advertisements and knowledge about
+e-cigs (knowledge increased with exposure), this study showed that there was no main effect for
+exposure to e-cig advertisements on knowledge about e-cigs. This may be due to the fact that many
+internet e-cig advertisements contain exaggerated or unsubstantiated information which do not
+increase accurate knowledge about e-cigs, such as those that claim e-cigs may be used for smoking
+cessation or those that claim they may be used for other health-related benefits (Grana & Ling,
+2014). Nonetheless, this study found a main effect for gender on knowledge about e-cigs. On
+
+50
+
+average, males had a higher level of knowledge about e-cigs than females, but yet had more
+positive attitudes towards e-cigs. This implies that males had the right ideas in their responses to
+the questions, but their opinions were more favorable towards e-cigs than females. This finding
+may suggest that the information about e-cigs to which young adults are exposed may be specially
+modified to attract them to use e-cigs (Grana & Ling, 2014).
+Exposure to Internet Advertising, Demographic Factors and Attitudes about E-cigs
+This study revealed a main effect for gender on attitudes towards e-cigs. On average males
+had more positive attitudes towards e-cigs than females. It may be, however, that males are more
+positive about smoking in general, and a survey assessing attitudes towards other types of tobacco
+use, along with attitudes toward e-cig use, may provide information to answer this question.
+Nevertheless, there was no main effect for exposure to e-cigs on attitudes. This finding diverges
+with that of Pokhrel et al. (2016) who discovered that e-cig advertisements may promote positive
+attitudes towards e-cigs by portraying them as reduced-harm cigarette alternatives or ways to
+enhance social life and self-image. E-cig advertisements on the internet may not be a main factor
+affecting young adults’ attitudes because contemporary young adults tend to respond more to
+messages passed through social media platforms such as Twitter than those seen on e-cig websites
+(Huang et al., 2014). Age was a significant covariate in this analysis, suggesting that the effect of
+e-cig advertisement exposure on young adults’ attitudes towards e-cigs varies by age. Further
+investigation is needed to determine the role of age on the attitudes on young adults.
+
+51
+
+Limitations
+This study had a number of limitations. Data was obtained through self-reported surveys
+which may diminish the reliability of findings. In addition, participants could have responded in
+socially desirable ways due to the fact that they completed the surveys in their classrooms in the
+presence of their peers. They may also have responded in socially desirable ways because they
+perceive e-cigs as unhealthy and do not want to be publicly associated with them. Moreover, crosssectional studies cannot be used to establish causal relationships. Furthermore, the effect sizes for
+the results were small according to Cohen’s (1988) standards and this may limit the
+generalizability of findings. Finally, most of the respondents (83%) were White non-Hispanic, and
+18-year olds who represent the lowest age of participants also formed the largest age group (28%)
+of the sample. Results may have been different if more young adults of color and young adults in
+a broader age range participated. Moreover, participants were enrolled in a college setting, and
+assessment of attitudes of adults in other settings may have yielded different results.
+Conclusions
+This study provides limited evidence for the effect of internet e-cig advertisements on the
+perceptions of young adults, mainly through knowledge change. Nonetheless, the survey used for
+this study did not directly evaluate the types of knowledge being shared in internet advertisements.
+It may be that the information in these advertisements indirectly changes the image projected by
+e-cigs, making them appear harmless or even beneficial. However, further research will be needed
+to explore this idea. If this idea is correct, then there may be a need for regulations to ensure that
+e-cig advertisements present accurate information about the health risks associated with smoking
+e-cigs. Perhaps qualitative studies assessing the content of advertisements on the internet and other
+
+52
+
+types of social media, and how college students interpret this information is an area for future
+research. In general, males may have more positive attitudes than females, suggesting the need to
+direct extra educational efforts towards males. Hence, study results contributed to existing
+knowledge about the influence of internet information on young adult e-cig perceptions and
+highlight the need for further research to increase understanding of the relationship between
+exposure to e-cig information on the internet and young adults’ e-cig perceptions.
+
+53
+
+54
+
+References
+Allen, J. G., Flanigan, S. S., LeBlanc, M., Vallarino, J., MacNaughton, P., Stewart, J. H., &
+Christiani, D. C. (2015). Flavoring chemicals in e-cigarettes: Diacetyl, 2, 3-pentanedione,
+and acetoin in a sample of 51 products, including fruit-, candy-, and cocktail-flavored ecigarettes. Environmental Health Perspectives. Retrieved on 06/10/16 from
+http://ehp.niehs.nih.gov/wp-content/uploads/advpub/2015/12/ehp.1510185.acco.pdf
+Campaign for Tobacco-free Kids. (2015). Tobacco product marketing on the internet. Retrieved
+on 06/10/16 from https://www.tobaccofreekids.org/research/factsheets/pdf/0081.pdf
+Centers for Disease Control and Prevention (CDC). (2014). New CDC study finds dramatic
+increase in e-cigarette-related calls to poison centers. Retrieved on 06/10/16 from
+http://www.cdc.gov/media/releases/2014/p0403-e-cigarette-poison.html
+Centers for Disease Control and Prevention (CDC). (2015). Electronic cigarette use among
+adults: United States, 2014. Retrieved on 06/10/16 from
+http://www.cdc.gov/nchs/data/databriefs/db217.pdf
+Choi, K., & Forster, J. L. (2014). Beliefs and experimentation with electronic cigarettes: A
+prospective analysis among young adults. American Journal of Preventive Medicine,
+46(2), 175-178.
+Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Hillside, NJ:
+Erlbaum
+Coleman, B. N., Johnson, S. E., Tessman, G. K., Tworek, C., Alexander, J., Dickinson, D. M. ...
+& Green, K. M. (2015). “It's not smoke. It's not tar. It's not 4000 chemicals. Case closed”:
+
+55
+
+Exploring attitudes, beliefs, and perceived social norms of e-cigarette use among adult
+users. Drug and Alcohol Dependence, 159, 80-85.
+Giovenco, D. P., Lewis, M. J., & Delnevo, C. D. (2014). Factors associated with e-cigarette use:
+a national population survey of current and former smokers. American Journal of
+Preventive Medicine, 47(4), 476-480.
+Grana, R. A., & Linq, P. M. (2014). ‘Smoking revolution’: A content analysis of electronic
+cigarette retail websites. American Journal of Preventive Medicine, 46, 395 – 403.
+Hilbert, M., & López, P. (2011). The world’s technological capacity to store, communicate, and
+compute information. Science, 332(6025), 60-65.
+Huang, J., Kornfield, R., Szczypka, G., & Emery, S. L. (2014). A cross-sectional examination of
+marketing of electronic cigarettes on Twitter. Tobacco Control, 23(3), 26-30.
+International Telecommunication Union. (2016). ICT facts and figures: The world in 2015.
+Retrieved on 06/10/16 from http://www.itu.int/en/ITUD/Statistics/Pages/facts/default.aspx
+Jensen, R. P., Luo, W., Pankow, J. F., Strongin, R. M., & Peyton, D. H. (2015). Hidden
+formaldehyde in e-cigarette aerosols. New England Journal of Medicine, 372(4), 392394.
+Kandel, D. (1975). Stages in adolescent involvement in drug use. Science, 190(4217), 912-914.
+Kandel, E. R., & Kandel, D. B. (2014). A molecular basis for nicotine as a gateway drug. New
+England Journal of Medicine, 371(10), 932-943.
+
+56
+
+Legacy Foundation. (2014). Vaporized: E-cigarettes, advertising, and youth. Washington, DC:
+UC San Franciso: Center for Tobacco Control Research and Education. Retrieved on
+06/10/16 from http://escholarship.org/uc/item/7cq84675
+Littlefield, A. K., Gottlieb, J. C., Cohen, L. M., & Trotter, D. R. (2015). Electronic cigarette use
+among college students: Links to gender, race/ethnicity, smoking, and heavy drinking.
+Journal of American College Health, 63(8), 523-529.
+McKee, M. (2013). E-cigarettes and the marketing push that surprised everyone. BMJ 347, f5780
+Pew Research Center. (2016). Americans’ Internet Access: 2000-2015. Retrieved on 06/10/16
+from http://www.pewinternet.org/2015/06/26/americans-internet-access-2000-2015/
+Pokhrel, P., Fagan, P., Herzog, T. A., Chen, Q., Muranaka, N., Kehl, L., & Unger, J. B. (2016).
+E-cigarette advertising exposure and implicit attitudes among young adult non-smokers.
+Drug and Alcohol Dependence, 163, 134-140.
+Pokhrel, P., Fagan, P., Kehl, L., & Herzog, T. A. (2015). Receptivity to e-cigarette marketing,
+harm perceptions, and e-cigarette use. American Journal of Health Behavior, 39, 121–
+131. http://dx.doi.org/10.5993/AJHB.39.1.13
+Rogers, E. M. (1958). Categorizing the adopters of agricultural practices. Rural Sociology, 23(4),
+345-354.
+Rogers, E. M. (2003). Diffusion of innovations (5th Ed.). New York: Free Press.
+Sanders-Jackson, A. N., Tan, A. S., Bigman, C. A., & Henriksen, L. (2014). Knowledge about ecigarette constituents and regulation: results from a national survey of US young adults.
+Nicotine & Tobacco Research, 17(10), 1247 – 1254.
+
+57
+
+Shannon, C. E., & Weaver, W. (1949). The mathematical theory of communication. Urbana, IL:
+University of Illinois Press.
+Vakkalanka, J. P., Hardison Jr, L. S., and Holstege, C. P. (2014). Epidemiological trends in
+electronic cigarette exposures reported to US poison centers. Clinical Toxicology, 52(5),
+542-548.
+Villanti, A. C., Rath, J. M., Williams, V. F., Pearson, J. L., Richardson, A., Abrams, D. B. ... &
+Vallone, D. M. (2015). Impact of Exposure to Electronic Cigarette Advertising on
+Susceptibility and Trial of Electronic Cigarettes and Cigarettes in US Young Adults: A
+Randomized Controlled Trial. Nicotine & Tobacco Research, 18(5), 1331-1339.
+Williams, M., Villarreal, A., Bozhilov, K., Lin, S., & Talbot, P. (2013). Metal and silicate
+particles including nanoparticles are present in electronic cigarette cartomizer fluid and
+aerosol. PLoS ONE 8(3), e57987.
+Zhu, S. H., Sun, J. Y., Bonnevie, E., Cummins, S. E., Gamst, A., Yin, L., & Lee, M. (2014). Four
+hundred and sixty brands of e-cigarettes and counting: implications for product
+regulation. Tobacco Control, 23(3), 3-9.
+
+58
+
+Table 1. Questions Assessing Knowledge about E-cigs
+No.
+
+Question Text
+
+Answer Options
+
+1
+
+An e-cigarette is an electronic version of a regular cigarette
+
+2
+
+E-cigarettes contain the same substances as a regular cigarette
+
+3
+
+E-cigarettes only produce water vapor
+
+4
+
+A person can get addicted to e-cigarettes
+
+5
+
+E-cigarettes are safe for anyone to use
+
+7
+
+Nicotine poisoning is a health risk of using e-cigarettes company name on it?
+
+59
+
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+
+Table 2. Questions Assessing Attitudes to E-cigs
+No.
+
+Question Text
+
+Answer Options
+
+8
+
+People should be allowed to smoke e-cigarettes inside public buildings
+
+9
+
+E-cigarettes are less harmful to health than regular cigarettes
+
+10
+
+People using e-cigarettes look cool
+
+11
+
+E-cigarettes are safer than regular cigarettes
+
+12
+
+People using e-cigarettes have more friends
+
+13
+
+People of any age should be able to buy e-cigarettes
+
+14
+
+People of any age should be able to use e-cigarettes
+
+15
+
+E-cigarettes can be used to help people quit smoking regular cigarettes
+
+16
+
+People who use e-cigarettes are likely to use regular cigarettes as well
+
+17
+
+There should be government regulation of e-cigarettes, just like regular
+cigarettes
+
+60
+
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+1=Strongly agree, 2=Agree,
+3=Neutral, 4=Disagree, 5=Strongly disagree
+
+Table 3. Questions Assessing Exposure to Advertisements about E-cigs
+No.
+
+Question Text
+
+Answer Options
+
+27
+
+During the past 30 days, how many times have you seen advertisements for
+e-cigarettes on the internet?
+
+1=I do not use the Internet, 2=Never,
+3=1-5 times, 4=5-10 times, 5=More than 10
+times
+
+30
+
+During the past 30 days, how many times have you seen an actor or an
+actress using an e-cigarette in an online video?
+
+1=I do not watch videos online,
+2=Never,
+3=1-2 times,
+4=3-4 times,
+5=More than 4 times
+
+61
+
+Table 4. Questions Assessing Demographic Information
+Q
+
+Question Text
+
+Answer Options
+
+33 What is your age?
+
+Participants filled their age in years at their last birthday
+
+34 What is your
+sex/gender?
+
+1=Male, 2= Female
+
+35 What is your
+race/ethnicity?
+
+1=Asian/Pacific Islander, 2=Biracial or multiracial, 3=Black Non-Hispanic,4=Hispanic/Latino,
+5=Native American, Alaskan Native, or Native Hawaiian, 6=White Non-Hispanic,7=Other
+
+62
+
+Table 5. Test-Retest Reliability
+Variable
+
+r
+
+p
+
+Knowledge
+An e-cigarette is an electronic version of a regular cigarette
+E-cigarettes contain the same substances as a regular cigarette
+E-cigarettes are safe for anyone to use
+E-cigarettes produce second-hand smoke
+Nicotine poisoning is a health risk of using e-cigarettes
+
+.664
+.639
+.785
+.429
+.697
+
+<.001
+<.001
+<.001
+.02
+<.001
+
+Attitudes
+People should be allowed to smoke e-cigarettes inside public buildings
+E-cigarettes are less harmful to health than regular cigarettes
+People using e-cigarettes look cool
+E-cigarettes are safer than regular cigarettes
+People of any age should be able to buy e-cigarettes
+People of any age should be able to use e-cigarettes
+E-cigarettes can be used to help people quit smoking regular cigarettes
+People who use e-cigarettes are likely to use regular cigarettes as well
+
+.592
+.458
+.468
+.492
+.626
+.726
+.759
+.667
+
+.001
+.01
+.009
+.006
+<.001
+<.001
+<.001
+<.001
+
+Note: This table was also presented in Study 1
+
+63
+
+Table 6. Exposure to Internet E-cig Advertisements based on Gender, Age and Ethnicity
+%
+
+n
+
+Gender of Exposed
+Male
+Female
+
+42.6
+57.4
+
+78
+105
+
+Age of Exposed
+17 Years Old
+18 Years Old
+19 Years Old
+20 Years Old
+21 Years Old
+22 Years Old
+23 Years Old
+24 Years Old
+
+0.6
+24.6
+21.8
+17.9
+17.9
+9.5
+5.0
+2.7
+
+1
+44
+39
+32
+32
+17
+9
+5
+
+Ethnicity of Exposed
+White Non-Hispanic
+Other Ethnic Groups
+
+78.6
+21.4
+
+143
+39
+
+Variable
+Past 30-day Exposure to E-cig Advertisements (n = 183)
+
+64
+
+Table 7. Summary of MANCOVA (Gender X Ethnicity [“White Non-Hispanic” versus “Other Ethnic Groups”] X Viewing ECig Advertisements) for Knowledge about E-cigs with Age as the Covariate
+Wilk’s Λ
+
+F
+
+p
+
+ηp2
+
+Age
+
+.994
+
+.368
+
+.899
+
+.006
+
+Ethnicity
+
+.992
+
+.537
+
+.780
+
+.008
+
+Exposure to e-cig advertisements
+
+.989
+
+.722
+
+.632
+
+.011
+
+Gender
+
+.962
+
+2.476
+
+.023
+
+.038
+
+Variable
+
+.
+
+65
+
+Table 8. Univariate Tests for Gender and Questions Assessing Knowledge
+Males
+
+Females
+
+Question
+F
+
+p
+
+ηp2
+
+M
+
+SD
+
+M
+
+SD
+
+1. An e-cigarette is an
+electronic version of a
+regular cigarette
+
+.653
+
+.419
+
+.002
+
+2.500
+
+1.102
+
+2.254
+
+.926
+
+2. E-cigarettes contain the
+same substances as a
+regular cigarette
+
+13.693
+
+<.001
+
+.034
+
+3.653
+
+1.037
+
+3.137
+
+1.085
+
+3. E-cigarettes only
+produce water vapor
+
+.357
+
+.550
+
+.001
+
+3.463
+
+1.011
+
+3.532
+
+.877
+
+4. A person can get
+addicted to e-cigarettes
+
+.062
+
+.803
+
+<.001
+
+1.926
+
+.870
+
+2.039
+
+.779
+
+5. E-cigarettes are safe for
+anyone to use
+
+.831
+
+.362
+
+.002
+
+3.916
+
+.922
+
+4.083
+
+.713
+
+7. Nicotine poisoning is a
+health risk of using ecigarettes
+
+.082
+
+.775
+
+<.001
+
+2.400
+
+.872
+
+2.415
+
+.816
+
+66
+
+Table 9. Summary of MANCOVA (Gender X Ethnicity [“White Non-Hispanic” versus “Other Ethnic Groups”] X Viewing ECig Advertisements) for Attitudes about E-cigs with Age as the Covariate
+Item
+
+Wilk’s Λ
+
+F
+
+p
+
+ηp2
+
+Age
+
+.942
+
+2.363
+
+.01
+
+.058
+
+Ethnicity
+
+.978
+
+.849
+
+.581
+
+.022
+
+Exposure to e-cig advertisements
+
+.967
+
+1.300
+
+.229
+
+.033
+
+Gender
+
+.926
+
+3.088
+
+.001
+
+.074
+
+67
+
+Table 10. Univariate Tests for Gender and Questions Assessing Attitudes
+Males
+
+Females
+
+Question
+F
+
+p
+
+ηp2
+
+M
+
+SD
+
+M
+
+SD
+
+8. People should be allowed to smoke e-cigarettes inside
+public buildings
+
+4.463
+
+.035
+
+.011
+
+3.810
+
+1.084
+
+4.068
+
+.917
+
+9. E-cigarettes are less harmful to health than regular
+cigarettes
+
+9.663
+
+.002
+
+.024
+
+2.579
+
+1.120
+
+2.937
+
+1.049
+
+10. People using e-cigarettes look cool
+
+.048
+
+.827
+
+<.001
+
+4.292
+
+.937
+
+4.304
+
+.980
+
+11. E-cigarettes are safer than regular cigarettes
+
+9.115
+
+.003
+
+.023
+
+2.697
+
+1.082
+
+3.019
+
+1.024
+
+12. People using e-cigarettes have more friends
+
+3.323
+
+.069
+
+.008
+
+4.231
+
+.827
+
+4.387
+
+.734
+
+13. People of any age should be able to buy e-cigarettes
+
+1.667
+
+.197
+
+.004
+
+4.456
+
+.675
+
+4.580
+
+.617
+
+14. People of any age should be able to use e-cigarettes
+
+6.857
+
+.009
+
+.017
+
+4.354
+
+.814
+
+4.541
+
+.651
+
+15. E-cigarettes can be used to help people quit smoking
+regular cigarettes
+
+19.445
+
+<.001
+
+.047
+
+2.328
+
+1.008
+
+2.749
+
+1.021
+
+16. People who use e-cigarettes are likely to use regular
+cigarettes as well
+
+.735
+
+.392
+
+.002
+
+2.662
+
+.962
+
+2.527
+
+.835
+
+17. There should be government regulation of e-cigarettes,
+just like regular cigarettes
+
+.162
+
+.668
+
+<.001
+
+2.487
+
+1.007
+
+2.208
+
+.842
+
+68
+
+Appendix A – Institutional Review Board Approval Letter
+
+69
+
+70
+
+71
+
+Appendix B - Survey
+
+72
+
+73
+
+74
+
+75
+
+Appendix C – Information Sheet for Main Study
+
+76
+
+77
+
+Appendix D – Information Sheet for Test-Retest Study
+
+78
+
+79
+
+

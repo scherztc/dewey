@@ -22,7 +22,10 @@ The real skill in Machine Learning is determining which questions can be answere
 ## Prerequisites
 -   SUBJECT_FILE (TSV SKOS/RDF)
 -   TRAINING_DATA
--   VOCAB_ID
+-   VOCAB_ID : 
+    -  https://skos.um.es/unescothes/
+    -  https://id.loc.gov/download/
+    -  https://github.com/NatLibFi/Annif/wiki/Subject-vocabulary-formats
 -   PROJECT_ID
 
 ## ANNIF Instructions
@@ -59,6 +62,10 @@ Other Models to consider MLLM, Hogwarts/Fast, Languages, NNEnsemble, Custom, DVC
 
 1. Start up the application:
 annif run
+
+1. Using Docker
+docker run -v /Users/scherztc/Workspaces/dewey/annif-docker:/annif-projects -u $(id -u):$(id -g) -it quay.io/natlibfi/annif bash
+
 
 1. Preprocessing allows us to clean unstructured text
   1.  Remove OCR noise (works that appear frequently, such as definite and indefinite articles.
@@ -233,6 +240,9 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 1.  Kaaros
 1.  Tensor Flow (Google)
 1.  IRIS : https://iris.ai/      
+1.  Claude https://www.anthropic.com/index/claude-2
+1.  https://marketplace.atlassian.com/apps/1224655/scrum-maister?hosting=cloud&tab=overview
+
 
 # References
 
@@ -246,6 +256,17 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 1.  Magellan's AI capabilities include speech and text analytics from contextual hypothesis and meaning deduction.
 1.  AWS Innovate: Data and AI/ML Edition
 
+$ Regulation
+
+MEPs substantially amended the list to include bans on intrusive and discriminatory uses of AI systems such as:
+
+
+1.  “Real-time” remote biometric identification systems in publicly accessible spaces;
+1.  “Post” remote biometric identification systems, with the only exception of law enforcement for the prosecution of serious crimes and only after judicial authorization;
+1.  Biometric categorisation systems using sensitive characteristics (e.g. gender, race, ethnicity, citizenship status, religion, political orientation);
+1.  Predictive policing systems (based on profiling, location or past criminal behaviour);
+1.  Emotion recognition systems in law enforcement, border management, workplace, and educational institutions; and
+1.  Indiscriminate scraping of biometric data from social media or CCTV footage to create facial recognition databases (violating human rights and right to privacy).
 
 # AI Feedback Loop
 

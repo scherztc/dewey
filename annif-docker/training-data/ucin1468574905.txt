@@ -1,0 +1,2804 @@
+A Study and Performance Guide to Selected Nori Compositions for Piano by Young Jo Lee
+
+A document submitted to the
+Graduate School
+of the University of Cincinnati
+in partial fulfillment of the
+requirements for the degree of
+
+Doctor of Musical Arts
+
+in the Keyboard Studies Division
+of the College-Conservatory of Music
+by
+
+Hyo Jung Song
+
+B.M., Yeungnam University, 2002
+M.M., Seoul National University, 2004
+M.M., The Peabody Institute of The Johns Hopkins University, 2007
+G.P.D., The Peabody Institute of The Johns Hopkins University, 2008
+
+Committee Chair: Jonathan Kregor, Ph.D.
+
+Abstract
+Young Jo Lee (b. 1943) is considered one of the leading contemporary composers in
+Korea. Throughout his prolific career, he has imbued his music with a distinctive cultural
+identity, absorbing new techniques from the West while maintaining his indigenous roots.
+This document focuses on Lee’s Doori Nori for Violin and Piano (1995), Sesi Nori for Violin,
+Cello, and Piano (2002), and Honza Nori for Piano (2010). I approach these works from the
+perspective of an interpretive performer, discussing how Lee merges the idioms of traditional
+Korean music with contemporary Western musical language, and considering several musical
+and technical issues arising in performance. This study will give the performer a guide to
+appreciating Lee’s stylistically integrated compositions.
+
+ii
+
+Copyright © 2016 by Hyo Jung Song
+All rights reserved.
+
+iii
+
+Acknowledgements
+I would like to express my deep appreciation and gratitude for my lecture recital and
+document advisor, Dr. Jonathan Kregor. His thoughtful advice and guidance on these two
+projects taught me how to develop and organize my ideas. Without him, this final document
+would not have been written.
+I heartily appreciate Professor Michael Chertock, who served as one of two
+committee members of this document. He has encouraged and supported me throughout my
+graduate studies at CCM. I owe enormous gratitude to him for helping me to grow as a
+stronger, more mature musician. I also thank Professor James Tocco, another committee
+member, for his invaluable encouragement. His great artistry and musicianship has inspired
+me very much.
+I owe a profound debt of gratitude to the composer Dr. Young Jo Lee. He has always
+been willing to help and supported me. I am grateful for his considerate responses to my calls
+and emails. I would also like to express my thanks to all my friends, pastors, and teachers,
+especially Brian Ganz at the Peabody Institute of the Johns Hopkins University, and Eun
+Sook You and Gye Hwa Kim in Korea, who have shown constant faith in my ability to study
+music. I thank Rebekka Gold, who read this document for English grammar.
+Heartfelt thanks to my parents, Won Bai Song and Myung Ja Kim, can hardly be
+expressed in words. Their unconditional, unwavering love, support, and prayers for me have
+encouraged and cheered me at all times. I would like to express my love to my sister, Yun
+Jung Song, and brother, Keun Ho Song, who have been rooting for me during my study
+abroad over ten years. I would not be able to complete this achievement without my family.
+Lastly, I give deepest thanks to God for having disciplined and helped me through
+the joyful and otherwise times of my life thus far.
+iv
+
+Table of Contents
+
+Abstract………………………………………………………………………………………..ii
+Acknowledgments…………………………………………………………………………….iv
+Copyright Permissions…………………………………………………………………….....vii
+List of Musical Examples……………………………………………………………………viii
+List of Figures…………………………………………………………………………………xi
+List of Tables…………………………………………………………………………………xii
+Introduction……………………………………………………………………………………1
+Purpose of the Study…………………………………………………………………..1
+Literature Review……………………………………………………………………..1
+Methodology………………………………………………………………………….4
+Chapter
+1. Young Jo Lee: Musical Influences and Journey…………………………………….6
+Young Jo Lee…………………………………………………………………6
+Career………………………………………………………………………...8
+Musical Identity (Syncretism): East meets West……………………………10
+2. Korean Musical Heritage………………………………………………………….12
+Three Generations of Korean Composers…………………………………...12
+Elements of Korean Traditional Music……………………………………...16
+Genres………………………………………………………………………16
+Modes………………………………………………………………………18
+Instruments………………………………………………………………....20
+Rhythmic Patterns…………………………………………………………..21
+Ornamentation……………………………………………………………...24
+3. Stylistic Features of Three Nori Compositions for Piano………………………….27
+Background of Nori…………………………………………………………27
+Honza Nori for Piano……………………………………………………….29
+Doori Nori for Violin and Piano…………………………………………….47
+Sesi Nori for Violin, Cello, and Piano……………………………………….65
+Piano Performance Issues…………………………………………………..83
+Conclusion……………………………………………………………………………………89
+Bibliography………………………………………………………………………………….91
+v
+
+Appendices…………………………………………………………………………………...97
+A. Selected Compositions by Young Jo Lee…………………………………………97
+B. Interview with Young Jo Lee…………………………………………………….101
+C. Letter of Permission……………………………………………………………..103
+
+vi
+
+Copyright Permissions
+Young Jo Lee, Honza Nori for Piano (Seoul: 20 Trillion Production, 2010). Used by
+permission.
+Young Jo Lee, Doori Nori for Violin and Piano (Seoul: 20 Trillion Production, 1995). Used
+by permission.
+Young Jo Lee, Sesi Nori for Violin, Cello, and Piano (Seoul: 20 Trillion Production, 2002).
+Used by permission.
+
+vii
+
+List of Musical Examples
+Example 2.1. Korean traditional modes………………………………………………………19
+Example 3.1. Young Jo Lee, Honza Nori for Piano, mm. 1-8………………………………....31
+Example 3.2a. Three types of jajinmori jangdan…………………………………………......31
+Example 3.2b. Young Jo Lee, Honza Nori for Piano, mm. 9-11………………………………32
+Example 3.3. Young Jo Lee, Honza Nori for Piano, mm. 14-19………………………………33
+Example 3.4a. Young Jo Lee, Honza Nori for Piano, m. 20…………………………………...33
+Example 3.4b. Second-mode octatonic scale…………………………………………………34
+Example 3.5. Young Jo Lee, Honza Nori for Piano, mm. 22-23………………………………34
+Example 3.6. Anonymous, Miryang Arirang, mm. 1-4……………………………………….35
+Example 3.7. Young Jo Lee, Honza Nori for Piano, mm. 24-25………………………………35
+Example 3.8. Young Jo Lee, Honza Nori for Piano, mm. 26-27………………………………36
+Example 3.9a. Three types of semachi jangdan………………………………………………36
+Example 3.9b. Young Jo Lee, Honza Nori for Piano, mm. 28-29……………………………..37
+Example 3.10. Young Jo Lee, Honza Nori for Piano, mm. 30-32……………………………..39
+Example 3.11. Young Jo Lee, Honza Nori for Piano, mm. 33-36……………………………..39
+Example 3.12. Young Jo Lee, Honza Nori for Piano, mm. 37-40……………………………..40
+Example 3.13. Young Jo Lee, Honza Nori for Piano, mm. 41-42……………………………..40
+Example 3.14. Young Jo Lee, Honza Nori for Piano, mm. 53-63……………………………..42
+Example 3.15. Young Jo Lee, Honza Nori for Piano, mm. 64-76……………………………..43
+Example 3.16a. Anonymous, Arirang, mm. 1-4……………………………………………...44
+Example 3.16b. Young Jo Lee, Honza Nori for Piano, mm. 77-82……………………………44
+Example 3.17. Young Jo Lee, Honza Nori for Piano, m. 94…………………………………...44
+Example 3.18. Young Jo Lee, Honza Nori for Piano, mm. 99-102……………………………45
+viii
+
+Example 3.19. Young Jo Lee, Honza Nori for Piano, mm. 103-107…………………………..46
+Example 3.20. Young Jo Lee, Doori Nori for Violin and Piano, mm. 1-2……………………..49
+Example 3.21. Young Jo Lee, Doori Nori for Violin and Piano, mm. 9-16……………………49
+Example 3.22. Young Jo Lee, Doori Nori for Violin and Piano, mm. 38-41…………………50
+Example 3.23. Young Jo Lee, Doori Nori for Violin and Piano, mm. 42-49…………………..51
+Example 3.24. Young Jo Lee, Doori Nori for Violin and Piano, mm. 50-61…………………..52
+Example 3.25a. Young Jo Lee, Doori Nori for Violin and Piano, mm. 70-71…………………53
+Example 3.25b. Young Jo Lee, Doori Nori for Violin and Piano, mm. 76-77…………………53
+Example 3.26. Young Jo Lee, Doori Nori for Violin and Piano, mm. 90-93…………………..54
+Example 3.27. Young Jo Lee, Doori Nori for Violin and Piano, mm. 96-102…………………55
+Example 3.28. Young Jo Lee, Doori Nori for Violin and Piano, mm. 115-118………………..56
+Example 3.29. Young Jo Lee, Doori Nori for Violin and Piano, mm.126-132………………..57
+Example 3.30. Young Jo Lee, Doori Nori for Violin and Piano, mm. 137-144………………..58
+Example 3.31. Young Jo Lee, Doori Nori for Violin and Piano, mm. 145-156…….……….....59
+Example 3.32. Young Jo Lee, Doori Nori for Violin and Piano, mm. 165-172………………..60
+Example 3.33. Young Jo Lee, Doori Nori for Violin and Piano, mm. 173-180………………..61
+Example 3.34. Young Jo Lee, Doori Nori for Violin and Piano, mm. 183-189………………..62
+Example 3.35. Young Jo Lee, Doori Nori for Violin and Piano, mm. 214-224………………..63
+Example 3.36. Young Jo Lee, Doori Nori for Violin and Piano, mm. 246-253………………..64
+Example 3.37. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 1-5……………….66
+Example 3.38. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 7-10……………...67
+Example 3.39. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 16-27…………….68
+Example 3.40. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 28-31…………….69
+Example 3.41. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 32-43…………….70
+ix
+
+Example 3.42. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 50-54…………….71
+Example 3.43. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 83-84…………….72
+Example 3.44. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 85-90…………….73
+Example 3.45. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 91-94…………….74
+Example 3.46. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 97-99…………….75
+Example 3.47. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 100-104………….76
+Example 3.48. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 120-136………….78
+Example 3.49. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 203-208………….80
+Example 3.50. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 209-210………….81
+Example 3.51. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 221-226………….81
+Example 3.52a. Young Jo Lee, Honza Nori for Piano, mm. 77-78……………………………85
+Example 3.52b. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 142-145………...85
+
+x
+
+List of Figures
+Figure 2.1. Korean traditional ornamentations………………………………………………..26
+Figure 3.1. Nongak group…………………………………………………………………….38
+Figure 3.2. Samulnori group………………………………………………………………….38
+
+xi
+
+List of Tables
+Table 2.1. Korean traditional folk music……………………………………………………...17
+Table 2.2. Korean traditional instruments…………………………………………………….21
+Table 2.3. Notations for janggu……………………………………………………………….23
+Table 2.4. Korean traditional rhythmic patterns……………………….……………………...24
+Table 3.1. Formal structure in Honza Nori for Piano……………………………………….....30
+Table 3.2. Korean traditional elements in Honza Nori for Piano………………………….......30
+Table 3.3. Formal structure in Doori Nori for Violin and Piano……………………………….48
+Table 3.4. Formal structure in Sesi Nori for Violin, Cello, and Piano…………………………65
+
+xii
+
+Introduction
+Young Jo Lee is one of the most influential composers adapting characteristics of
+Korean traditional music into contemporary musical languages. Although he studied Western
+music, he has always emphasized his national identity as a Korean composer. His synthesis of
+the two musical cultures is highly influential, encouraging Korean musicians to bring the
+Korean spirit to the world through appreciating and performing Korean music.1 Most of his
+numerous works for keyboard have been commissioned by well-known Korean pianists; they
+are frequently performed in concert, and have been well received by audiences.
+
+Purpose of the Study
+This document will examine the stylistic features of Lee’s piano works written in the
+past two decades from a specifically pianistic perspective, bringing them to the attention of
+today’s performers; I will focus on Doori Nori for Violin and Piano (1995), Sesi Nori for
+Violin, Cello, and Piano (2002), and Honza Nori for Piano (2010), as they exemplify Lee’s
+synthesis of Korean and Western musical styles.2 I will first identify the major elements of
+Korean traditional music found in these pieces; I will then determine how Lee develops these
+materials through Western compositional techniques and instruments. Finally, I will discuss
+issues in performing these works.
+
+Literature Review
+A variety of books, articles, and theses have been published about Young Jo Lee,
+
+1
+
+Young Jo Lee, interviewed by Hyo Jung Song, Seoul: Korea, October 23, 2015.
+
+2
+
+Nori means “playing”; Honza, Doori, and Sesi are “alone,” “two,” and “three,” respectively. Unless
+otherwise noted, all translations are my own.
+1
+
+including many collections of essays by the composer himself. There also exists a large body
+of literature on aspects of traditional and contemporary music in Korea.
+I draw on two books for the composer’s biographical background and musical
+characteristics. In his autobiography, Resume Written on a Music Sheet: Composer Young Jo
+Lee, Lee goes into detail about his musical family; education and career in Korea, Germany,
+and the United States; and compositional style.3 Jung Soo Hong, the first president of the
+Korean-German Musicology Society, and three of his students recently published The Music
+of Young Jo Lee. In this book, they consider Lee’s educational background and musical
+characteristics; they include a list of compositions and the composer’s discography as well.4
+Detailed research on Korean percussion music, samulnori, can be found in books by
+two renowned ethnomusicologists: Keith Howard, a professor of music at the University of
+London, and Nathan Hesselink, a professor of ethnomusicology at the University of British
+Columbia.5 In addition to describing the historical background and traditional and
+contemporary elements of Korean music, their particular interest in samulnori contribute to a
+deep understanding about the genre; this is useful in the present study as the three Nori works
+discussed here share many characteristics with samulnori.6
+
+3
+
+Young Jo Lee, Resume Written on a Music Sheet: Composer Young Jo Lee (Seoul: Jakeunwoori,
+
+4
+
+Jung Soo Hong et al., The Music of Lee Young Jo (Seoul: Taesung, 2012).
+
+2002).
+
+5
+
+Keith Howard, Creating Korean Music: Tradition, Innovation and the Discourse of Identity
+(Burlington, VT and Aldershot, England: Ashgate, 2006); Korean Musical Instruments (Hong Kong and New
+York: Oxford University Press, 1995); Preserving Korean Music: Intangible Cultural Properties as Icons of
+Identity (Burlington, VT and Aldershot, England: Ashgate, 2006); Nathan Hesselink, Contemporary Directions:
+Korean Folk Music Engaging the Twentieth Century and Beyond (Berkeley, CA: Institute of East Asian Studies,
+University of California, 2002).
+6
+
+Keith Howard, SamulNori: Korean Percussion for a Contemporary World (Burlington, VT and
+Aldershot, England: Ashgate, 2015); Nathan Hesselink, SamulNori: Contemporary Korean Drumming and the
+Rebirth of Itinerant Performance Culture (Chicago: University of Chicago Press, 2012).
+2
+
+Choon Mee Kim’s article, “A Study on the Structural Thinking in the Music of the
+Composer: Young-Jo Lee,” offers a thorough background on Lee’s music, and specifically
+addresses detailed interpretations of his major works.7 Here, Kim notes how Lee utilizes
+traditional Korean elements in the compositions, and emphasizes how to compose, perform,
+and respect Korean music in a globalized world.8 The program notes to the listed recordings
+of the Nori works, written by the composer himself, present the overall ideas and distinctive
+characteristics of the compositions.9 A review of the recordings by Jack Sullivan contains
+further commentary on the main features of the pieces, notably regarding the blending of
+musical aspects from the East and West.10
+A few documents have been written about Lee’s solo piano compositions; they
+mostly provide theoretical analyses and consider his stylistic features. Sung Bok Gu-Jang11
+and Kunwoo Kim12 each provide general discussion of Lee’s borrowings from Korean
+traditional and Western classical music and his attempts to integrate them. Likewise, in
+“Exploring Aspects of Korean Traditional Music in Young Jo Lee's Piano Honza Nori,” Jin
+
+7
+
+Choon Me Kim, “A Study on the Structural Thinking of Music of the Composer Young-Jo Lee,” The
+Journal of Musicology 14 (2007): 67-119; she is a professor of musicology at Korean National University of
+Arts.
+8
+
+“Young Jo Lee Website,” Young Jo Lee, accessed September 11, 2015,
+http://leeyoungjo.weebly.com.
+9
+
+Young Jo Lee, Honza Nori for Piano from Young-Jo Lee: Piano Music – II, Christopher Guzman
+(piano), ISMM Classics, 2012, compact disc; Sesi Nori for Violin, Cello, and Piano from Young Jo Lee: Four
+Songs for Death, Hee-Jung Huh (violin), Yun-Jung Huh (cello), and Seung-Yeun Huh (piano), ISMM Classics,
+2012, compact disc.
+10
+
+Jack Sullivan, “Lee: Dance Suite; 5 Korean Legends; Schubert Variations; Variations 3B,”
+American Record Guide 64, no. 1 (January-February, 2001): 150.
+11
+
+Sung Bok Gu-Jang, “Young Jo Lee: An Analysis of Stylistic Features of the Variations for Piano on
+the Theme Baugoge” (DMA thesis, University of Kentucky, 2006).
+12
+
+Kunwoo Kim, “Korean Dance Suite for Piano by Young Jo Lee: An Analysis” (DMA thesis, Ball
+
+State University, 2008).
+3
+
+Kim chiefly considers how the composer incorporates Korean traditional elements with
+Western musical ideas.13 While valuable for understanding Lee’s broad compositional
+principles, these studies do not provide practical suggestions for the pianist interested in
+performing this music.
+YeonJin Kim’s document, “The Musical Style and Compositional Technique of
+Young-Jo Lee, As Reflected in his Violin Compositions Honza Nori for Solo Violin and
+Doori Nori for Violin and Piano,” involves more consideration of performance matters,
+particularly referring to Korean traditional stringed instruments and techniques, such as
+gayageum, geomungo, and haegeum, that are used in those works to create a unique Korean
+sound with glissando or pizzicato on the violin.14
+Most of these studies are limited by their omission of the performance dimension.
+Furthermore, no studies exist that consider Lee’s Sesi Nori for Violin, Cello, and Piano. By
+evaluating these three Nori works for piano, my study will help to provide a comprehensive
+understanding of Lee’s musical language in reference to piano performance practices.
+
+Methodology
+This document examines the stylistic features of Young Jo Lee’s Honza Nori for
+Piano, Doori Nori for Violin and Piano, and Sesi Nori for Violin, Cello, and Piano. My
+methodology will blend a style study with discussion of performance practice. I will take a
+performance perspective on Lee’s use of traditional Korean musical materials through
+
+13
+
+Jin Kim, “Exploring Aspects of Korean Traditional Music in Young Jo Lee’s Piano Honza Nori”
+(DMA diss., University of North Texas, 2013).
+14
+
+YeonJin Kim, “The Musical Style and Compositional Technique of Young-Jo Lee, As Reflected in
+his Violin Compositions Honza Nori for Solo Violin and Doori Nori for Violin and Piano” (DMA thesis,
+University of Arizona, 2010).
+4
+
+Western compositional techniques and instruments, and indicate problems that pianists may
+face in performing these works.
+This document will have four chapters. Chapter 1 will include a biographical sketch
+of Lee’s life, career, and overall compositional style. Chapter 2 will trace the development of
+traditional and contemporary Korean music from a historical perspective by considering the
+three generations of composers and the elements of Korean traditional music. Chapter 3 will
+be devoted to the background of Lee’s Nori compositions for piano and detailed stylistic
+examination of each piece, with interpretative suggestions for their performance. Chapter 4
+will further consider how Lee infuses Korean traditional elements into Western compositional
+techniques to create his signature musical expressions. A list of Lee’s works, an interview
+with the composer, and the letter of copyright permissions will be included in the appendices.
+
+5
+
+Chapter 1
+Young Jo Lee: Musical Influences and Journey
+Young Jo Lee
+Young Jo Lee was born in Seoul, Korea on April 17, 1943, into a musical family. His
+father, Heung Ryul Lee (1909-1980), is considered one of the best composers of art song in
+Korea, writing over four hundred works for voice and piano.1 Lee’s brothers and sisters also
+studied music; his youngest brother, Young Soo Lee (b. 1951), whose musical talents he
+always admired, is currently a professor of composition at Yeungnam University.2 In his
+early years, Lee’s father encouraged him to enjoy music, teaching him piano and the history
+and theory of Western music. Lee then began to study composition and harmony with his
+father’s closest friend, Dong Jin Kim (1913-2009).3
+Lee entered Yonsei University in Seoul, where he earned a B.M. in 1968 and a M.M.
+in 1970; he studied composition with Un-Yung La (1922-1993), whose incorporation of
+Korean folk elements into twentieth-century Western harmonies raised possibilities of a new
+style; this approach had a decisive influence on Lee’s compositional language.4 During his
+college years, Lee also studied the piri (Korean double reed instrument) with Jae-guk Jeong
+
+1
+
+Lee, Resume Written on a Music Sheet, 27; later, Lee composed many pieces based on themes from
+his father’s art songs, such as Baugogae (Rock hill) Variations for Piano in the Composition Style of Bach,
+Beethoven, Chopin, Debussy, Bartok, Webern, Messiaen, and Young Jo Lee on a Theme by Heung Ryul Lee
+(1983); Mother’s Heart Variations for Piano on a Theme by Heung Ryul Lee (2011); and Sumjip Agie (Island
+Lullaby) Variations for Piano on a Theme by Heung Ryul Lee (2014). See Appendix A: Selected List of
+Compositions by Young Jo Lee.
+2
+
+Ibid., 283-290; in addition, Lee’s son, Charles Lee, is a composer, principal cellist of the Boulder
+Philharmonic Orchestra, and an instructor of cello at Metropolitan State University of Denver.
+3
+
+Ibid., 52; among the first generation of Korean composers, Kim is beloved by many Koreans for art
+songs expressing national sentiments, including his representative song, Gagopa (I wish to go).
+4
+
+Ibid., 63; Un-Yung La, a Korean composer, dedicated himself to the reformation of Korean musical
+language. He composed approximately 1,500 works, frequently lectured at universities, and published a series of
+textbooks on music theory in addition to collections of essays and criticism.
+6
+
+(b. 1942), inspiring his use of traditional Korean elements in his compositions.5 Lee had an
+opportunity to perform the piri with the Yonsei Concert Choir when they toured Japan in
+1968.6 Based on his learning and performing experiences with the piri, he wrote Concerto
+for Piri and Orchestra, which was dedicated to Jeong.7 Lee also became deeply interested in
+choral music during his time with Yonsei Concert Choir, and composed the Kyung (Monk’s
+Chorus) for the men’s chorus for his master’s degree recital in 1975. When Lee visited a
+Buddhist temple in his childhood, he was captivated by the sound of reading Buddhist
+scriptures and the timbre of temple gongs and blocks.8 Lee tried to combine Korean Buddhist
+and Western music in the Kyung, employing traditional Korean rhythms and folk tunes,
+imitating the sound of traditional Buddhist percussion, and using Western twentieth-century
+compositional techniques such as tone clusters, twelve-tone serialism, and pointillism.9
+Lee moved to Munich, Germany to study with Carl Orff (1895-1982) and Wilhelm
+Killmayer (b. 1927) at the Hochschule für Musik und Theater from 1977 to 1980. Orff was
+impressed with Kyung, and its use of Korean traditional elements.10 However, Lee was able
+to study with Carl Orff just for a year due to Orff’s health issues; Lee then continued his
+
+5
+Ibid., 66; Jae-guk Jeong is a holder of important intangible cultural property for piri as well as a
+director of the Court Music Orchestra at the National Centre for the Traditional Korean Arts (National Gugak
+Center) in Korea.
+6
+
+Kim, “The Musical Style and Compositional Technique of Young-Jo Lee,” 23.
+
+7
+
+Lee, Resume Written on a Music Sheet, 74; the Concerto for Piri and Orchestra consisted of only a
+single movement in 1998; in 2000, Lee added two movements to complete the concerto.
+8
+
+Gu-Jang, “Young Jo Lee,” 15; the temple block, moktak, is a wooden percussion instrument with a
+large slit, used to accompany chanting by Buddhist monk. The sound of temple blocks is similar to that of wood
+blocks, though temple blocks have a much darker timbre.
+9
+
+Lee, Resume Written on a Music Sheet, 87-91.
+
+10
+
+Ibid., 116-119.
+7
+
+studies under Killmayer, the chair of the department of composition.11 For his graduate
+recital in 1979, Lee composed Sori No. 3 for Clarinet, which was published by Otto Heinrich
+Noetzel Verlag in Wilhelmshaven, Germany in 1982.12 Kyung and Sori No. 3 for Clarinet are
+considered the most significant works leading up to his integrated compositional style.
+Lee continued his doctoral studies with Jack C. Goode (1921-2002), who was a
+student of Arnold Schoenberg, at the American Conservatory of Music in Chicago in 1986.13
+During this time, he paved the way toward his mature style, developing a complex,
+stylistically varied musical language. His first opera, Tcheo Yong, was commissioned by the
+Korea National Opera and premiered in 1987. Incorporating the Korean legend of the ancient
+god Tcheo Yong, traditional pentatonic modes, and unique Korean rhythmic patterns,14 this
+was the first successful opera to blend Korean tradition with the means of Western music. The
+opera was favorably reviewed in the United States and Korea.15
+
+Career
+Lee’s honors in composition include the Chicago New Music Award, Korean
+Composers Association Award, Korean Association of Art Critics Awards, and most recently,
+
+11
+
+Ibid., 119.
+
+12
+
+“Young Jo Lee Website,” Young Jo Lee, accessed September 11, 2015,
+http://leeyoungjo.weebly.com.
+13
+
+Kim, “A Study on the Structural Thinking of Music of the Composer Young-Jo Lee,” 73-77.
+
+14
+
+Kim, “Korean Dance Suite for Piano by Young Jo Lee,” 6; it was revised in 2013, including his
+previous work, Kyung for men’s chorus in the act 2.
+15
+
+Gu-Jang, “Young Jo Lee,” 18; his opera Whangjinie was also very successful, premiering in Seoul
+1999 and performed in Beijing, China (2000), Tokyo, Japan (2001), Los Angeles, United States (2002),
+Moscow, Russia (2003), Hanoi, Vietnam (2004), and Torre del Lago, Italy (2014).
+8
+
+the Nanpa Music Award in 2015.16 He has been invited to many international music festivals
+and concerts. Lee traveled to Budapest, Amsterdam, and Wurzburg to work for the New
+Music Festival of the International Society of Contemporary Music (ISCM) as a guest
+composer. He also served as a composer in residence at the Maastricht New Music Festival in
+the Netherlands and the 26th International Contemporary Music Festival in Moscow.17
+Lee’s large body of work is characterized by Korean traditional dance rhythms,
+instruments, folk tunes, and literary figures. Although Lee is best known for his choral works,
+he has written in many major genres, including orchestral works, concerti, chamber music,
+operas, art songs, unaccompanied work series for solo instruments, and numerous pieces for
+solo piano. Most of his works have been commissioned by well-known Korean choirs,
+ensembles, instrumentalists, singers, and orchestras. He himself has categorized his primary
+works within three periods: 1970s-80s, mainly vocal works including choral works; 1980s1990s, chamber music; 1990s-2000s, opera and orchestral music.18
+Lee has greatly contributed to the contemporary keyboard literature in Korea. His
+works for piano are ideally suited for the concert repertoire, taking advantage of the
+expressive range of the modern piano. They are diverse in compositional style, rhythm,
+meter, texture, and dynamics. Lee regards rhythm as one of the most prominent elements; his
+rhythmic devices include not only Korean traditional dance rhythms but also asymmetrical
+and varying meters and shifting accents, creating percussive effects and a variety of moods:
+drama, excitement, and tension.19 His major compositions for piano can be assigned to three
+
+16
+
+Ibid., 3.
+
+17
+
+Kim, “Korean Dance Suite for Piano by Young Jo Lee,” 5.
+
+18
+
+Young Jo Lee, interviewed by Hyo Jung Song, Seoul: Korea, October 23, 2015.
+
+19
+
+Gu-Jang, “Young Jo Lee,” 19.
+9
+
+categories: variations—Baugogae Variations for Piano, 3B Variations for Piano, and
+Schubert-Lee Variations for Piano; suites—Five Korean Legends, Korean Dance Suite, and
+Six Asian Folk Songs for Piano; other—Fantasy for Piano, Honza Nori for Piano, and
+Monologue for Piano.20
+Lee has extensive teaching experience as a professor of composition at Yonsei
+University (1980-86), American Conservatory of Music (1989-1994), and Korean National
+University of Arts (1994-2008).21 He has translated several books on music theory into
+Korean, including works by Max Reger (1873-1916), Zoltán Kodály (1882-1967), Leopold
+Spinner (1906-1980), Leon Stein (1910-2002), and Kent Kennan (1913-2003), introducing
+Western compositional styles and techniques to Korean students.22 Lee has served as the
+chairman of the board for the Korea Arts and Culture Education Service, a foundation
+dedicated to enhancing cultural literacy, creativity, and quality of education, since 2013.
+
+Musical Identity (Syncretism): East meets West
+Lee’s music is distinguished by its strong Korean roots mixed with German
+theoretical influences. While using Korean traditional melodies, rhythms, and instruments,
+Lee also embraces tonal music and twentieth-century harmonies,23 in what he describes as
+
+20
+
+See Appendix A for further information.
+
+21
+
+“Young Jo Lee Website,” Young Jo Lee, accessed September 11, 2015,
+http://leeyoungjo.weebly.com.
+22
+
+Lee, Resume Written on a Music Sheet, 94; Max Reger, On the Theory of Modulation (Melville:
+Belwin Mills, 1903); Zoltán Kodály, 333 Elementary Exercises in Sight Singing (London: Boosey and Hawkes,
+1963); Leopold Spinner, A Short Introduction to the Technique of Twelve-Tone Composition (London: Boosey
+and Hawkes, 1960); Leon Stein, Structure & Style: The Study and Analysis of Musical Forms (Evanston, IL:
+Summy-Birchard Music, 1962); Kent Kennan, The Technique of Orchestration (New York, Prentice-Hall, 1955);
+Counterpoint: Based on Eighteenth-Century Practice (New Jersey: Prentice-Hall, 1972).
+23
+
+Hong et al., The Music of Lee Young Jo, 12-15.
+10
+
+musical syncretism.24 Thus while Lee favors traditional pentatonic scales, he often develops
+melodies and harmonies chromatically. He frequently uses diminished sevenths with added
+seconds and augmented sixths, especially French sixths; their successive progressions
+without resolution create extreme tonal tension.25 Furthermore, Lee often juxtaposes two or
+more harmonic patterns, each tied to the character of a particular key, to create a unique
+blending of harmonies. Such techniques elevate the role of timbre in his music, rather than
+emphasizing the function of a given chord according to, for instance, a tonal center. In turn,
+his percussive use of tone clusters and fast repetitive rhythmic patterns suggest the sound of
+Korean traditional percussion: buk (barrel drum), kkwaenggwari (small gong), jing (large
+gong), and janggu (hourglass-shaped drum). This inventive approach keeps Lee’s works
+popular among both the public and Korean performers.
+
+24
+
+Young Jo Lee, interviewed by Hyo Jung Song, Seoul: Korea, October 23, 2015.
+
+25
+
+Kim, “Korean Dance Suite for Piano by Young Jo Lee,” 140-141; Korean traditional music is
+primarily monophonic in texture rather than a homophonic or polyphonic.
+11
+
+Chapter 2
+Korean Musical Heritage
+Three Generations of Korean Composers
+The Korean music community has passed through several periods of great changes,
+leading contemporary Korean composers to express their national identity through a number
+of musical experiments. Western music was introduced in Korea in the late nineteenthcentury by two Western missionaries: Henry Gerhard Appenzeller (1858-1902), a Methodist,
+and Horace Grant Underwood (1859-1916), a Presbyterian. During that time, they built
+modern educational institutions such as Pai Chai Hakdang (‘School’) and Joseon Christian
+College, and disseminated church music and Western tunes through worship services and
+music classes.1
+The spread of Western music had a profound impact on Korean traditional music.
+Moreover, as the nation experienced the turbulence of Japanese Colonial Rule (1910-1945),
+Liberation, Division, and the Korean War (1950-1953), Korean music likewise changed, was
+adapted, and sometimes abandoned. Notably, a distinction was created between yangak, new
+Western music, and gukak, Korean traditional music; emerging from this division, changga—
+a new type of song combining melodies from hymns, Western folksongs, and children’s songs
+with Korean texts—rapidly achieved popularity among the public.2 Korean composers began
+
+1
+
+Yoo-Sun Kang, “Toward the New Korean Musical Language: The Merging of Korean Traditional
+Music and Western Music in Piano Works by Contemporary Korean Composers” (DMA thesis, University of
+Cincinnati, 2002), 4-5; in 1885, Appenzeller founded Pai Chai Hakdang, the predecessor of Pai Chai University.
+It was officially established as a college in 1895, authorized as a four-year college in 1980, and obtained
+university status in 1992. In 1915, Underwood established Joseon Christian College, the predecessor of Yonhee
+College. Yonhee merged with Severance and became current Yonsei University in 1957.
+2
+
+Gyewon Byeon, “Contemporary Korean Music,” in Korean Musicology Series, 1, ed. Byong-Won
+Lee and Yong-Shik Lee (Seoul: The National Center for Korean Traditional Performing Arts, 2007), 171; chang
+literally means “to sing” and ga “a song.”
+12
+
+to meld Western and traditional composition techniques during the political and economic
+instability of the 1970s and the increasing socio-economic growth in the 1980s.
+Along with transitioning social conditions, the development of twentieth-century
+Korean art music can be traced through three generations of composers. The first generation,
+active during the first half of the 1900s, incorporated Western musical elements for the first
+time. They believed that Korean traditional music was primitive due to its monophonic
+texture and structure; thus, they strove to adopt the harmonized idioms of the West. The most
+prominent of these composers are Nanpa Hong (1898-1941), Dong Jin Kim (1913-2009), and
+Un-Yung La (1922-1993).3 Called the generation of gagok composers, they were devoted to
+the development of this lyrical art song, which is similar to the German lied.4 In 1920, Hong
+composed the first gagok, Bongseonhwa (“Garden balsam”), using Western tonal harmonies
+and heptatonic scales, rather than traditional pentatonic scales.5 With the gagok firmly
+established in the following decades, Kim was committed to expressing the spirit of Korean
+in his classical songs, such as Bomiomyeon (“When spring comes,” 1931), Gagopa (“I wish
+to go,”1933), and Suseonhwa (“Daffodil,” 1941). Contemporary trends in Western music took
+root in Korea in the 1950s; La founded the Korean Contemporary Music Society in 1952,6
+and Korea became a member of the International Society for Contemporary Music (ISCM) in
+1956.7 These developments played a significant role to promote and disseminate Korean
+
+3
+
+Dae-Sung Kim and Ok-Bae Moon, “The Third Generation of Composers,” Romantic Music (Winter
+
+1991): 65.
+4
+
+Bang-song Song, Korean Music: Historical and Other Aspects (Seoul: Jimoondang, 2000), 108.
+
+5
+
+In the language of flowers, Bongseonhwa means “touch me not.” This piece is considered one of the
+most valuable classic gagok, expressing love for the nation.
+6
+
+Joo Won Kim, “The Development of Contemporary Korean Music with Emphasis on Works of
+Isang Yun” (DMA thesis, Ohio State University, 2011), 6.
+7
+
+Keith Howard, Creating Korean Music: Tradition, Innovation and the Discourse of Identity
+13
+
+music worldwide.
+Korean society was even more heavily influenced by Western cultures following the
+Korean War, and composers became more interested in Western contemporary music. The
+second generation, during the 1960s and ‘70s, sought to overcome the limitations of their
+predecessors by focusing on instrumental music, rather than the gagok or other vocal works
+favored by the first-generation composers.8 Aspiring to internationalization, these young
+composers relied more on twentieth-century Western compositional techniques such as
+serialism, atonality, electronic idioms, and various avant-garde styles.9 This group is
+represented by Chung Gil Kim (1933-2012), Sukhi Kang (b. 1934), and Byung-Dong Paik (b.
+1936), all of whom studied with the prominent Korean composer Isang Yun (1917-1995) at
+the Hochschule für Musik, Theater und Medien Hannover in Germany and returned to live
+and build their musical careers in Korea.10 Sukhi Kang established the Pan Music Festival in
+1969 and became president of the Korean section of the ISCM in 1972.11 Both the Pan Music
+
+(Burlington, VT and Aldershot, England: Ashgate, 2006), 105.
+8
+
+Song, Korean Music, 108-109.
+
+9
+
+Suk-Rahn Kwon, “Young-Jo Lee’s Variations on the Theme of Baugogae: In Search of His Own
+language, a Lecture Recital, together with Three Recitals of Selected Works by Haydn, Rachmaninoff, Liszt,
+Schumann, Messiaen, and Others” (DMA thesis, University of North Texas, 2000), 8.
+10
+
+Howard, introduction to Creating Korean Music, xv; Isang Yun is a Korean-born composer who
+spent most of his professional career in Germany. He is one of the most admired world-class composers of
+Korean decent, yet his musical expertise is more Western. Although he might be said to belong to the first
+generation of Korean composers in terms of chronology, his life and career in Germany and experiences in
+Korea set him apart. He studied in West Germany in the 1950s, and began his career there; he aimed to
+synthesize East and West by developing Korean musical features through Western instruments and avant-garde
+techniques, rather than merely quoting traditional tunes or using traditional instruments. However, the Korean
+government kidnapped and imprisoned him for visiting North Korea in the 1960s, leading to political uproar and
+ideological conflicts in Korean society. After his release, he went back to West Germany, obtained German
+citizenship, and never returned to Korea.
+11
+
+Mun Soo Kim, “Use of National Folk Music in a Style Utilizing Original and Modern Procedures:
+A Case Study of Korean Contemporary Art Music 16 Arirang Variations for Piano Solo by Bahk Jun Sang”
+(DMA thesis, University of North Carolina at Greensboro, 2013), 15.
+14
+
+Festival and the ISCM Korea have taken the lead in providing and presenting of
+contemporary music around the world.12
+The third generation, active beginning in the 1980s, is most notable for their efforts
+to combine traditional Korean and Western musical elements, seeking out their musical
+identities from historical, nationalistic, and stylistic perspectives. On musical identity, Simon
+Frith remarks:
+Music constructs our sense of identity through the direct experiences it offers the
+body, time and sociability, experiences which enable us to place ourselves in
+imaginative cultural narratives.13
+During 1980s, composers in this group led a movement to develop Korean identity in their
+music. They rejected the previous generation’s compositions as mere imitations of Western
+music which had little appeal for audiences as well. Writing in new styles based on Korean
+materials, they strove for a national expression while creatively blending traditional and
+Western techniques.14 Young Jo Lee (b. 1943), Geonyong Lee (b. 1947), Kyu-Yung Chin (b.
+1948), and Byung Eun Yoo (b. 1952) are the best-known of this era.15 These third-generation
+composers are still active and teach at universities, while their compositions are frequently
+performed in numerous concerts and festivals.
+
+12
+
+Kang, “Toward the New Korean Musical Language,” 16-17.
+
+13
+
+Simon Frith, “Music and Identity,” in Questions of Cultural Identity, ed. Stuart Hall and Paul du
+Gay (London: Sage, 1996), 124; Frith is a British sociomusicologist and serves as Tovey Chair of Music at
+University of Edinburgh.
+14
+
+Hyun-kyung Chae, “Newly-Composed Korean Music: Westernization, Modernization, or
+Koreanization,” Toyang Umak/Journal of Asian Music Research Institute 22 (2000): 149.
+15
+
+Kim and Moon, “The Third Generation of Composers,” 67; Geonyong Lee is a founder of the third
+
+generation.
+15
+
+Elements of Korean Traditional Music
+Korea has developed its own musical culture through five thousand years of history,
+maintaining cultural exchange with its neighbors including China and Japan, and actively
+adopting Western civilization. From a historical perspective, Korean music can be
+categorized into seven distinct periods, based on its political changes: Proto-Three Kingdoms
+of Korea to Three Kingdoms Period, about 100 B.C.-660 A.D.; Unified Silla Period, 668-935;
+Goryeo Dynasty, 935-1392; Early Joseon Dynasty, 1392-1592; Late Joseon Dynasty, 15921894; Modern Period, 1894-1945; and Contemporary Period, 1945-present.16 An
+examination of the elements of Korean traditional music will help to understand how Lee
+manipulates them in the three Nori compositions for piano considered in this document.
+
+Genres
+Traditional Korean music is deeply related to religious cultures, such as Buddhism,
+Confucianism, Shamanism, and Taoism. This close connection between music and religion
+has affected the history of Korean music. Though there are various ways to classify the
+genres of Korean traditional music, according to its origin, usage, or instrumentation, it
+usually falls into two main categories: court music and folk music.17
+Current court music of Korea indicates the music which was performed in the court
+during the Joseon dynasty. It has been subdivided into three categories by origin: aak,
+dangak, and hyangak. Aak literally means “elegant music,” originally used by Confucius to
+
+16
+
+Bang-song Song, The World of Korean Music, (Seoul: Iljokak, 1998), 20-29.
+
+17
+
+Hye-Gu Lee, Essays on Korean Traditional Music, trans. and ed. Robert C. Provine (Seoul:
+Published for the Royal Asiatic Society, Korea Branch by Seoul Computer Press, 1981), 13.
+16
+
+distinguish good and beneficial music from bad and harmful.18 Dangak refers to the music
+which came from the Chinese Tang dynasty (618-907). Dangak is similar to aak in that both
+are barely played and have Chinese influences. On the contrary, hyangak, literally “local
+music,” is a native Korean court music, derived from Three Kingdoms Period. Like aak and
+dangak, hyangak combines the three elements of playing musical instruments, singing, and
+dancing for the ritual.19
+While court music is defined as refined and serene for the ruling class, folk music
+belongs to the common people, reflecting full of vigor.20 Based on folk tunes and
+instrumental works in various forms, folk music can be sorted into two groups, as illustrated
+in Table 2.1.21
+Table 2.1. Korean traditional folk music
+Instrumental music
+Sanjo, virtuosic solo music accompanied by
+percussion
+Sinawi, improvisational ensemble music
+Nongak, farmer’s band music
+Pungmul/Samulnori, percussion ensemble
+music
+Muak, Shamanistic ritual music
+
+Vocal music
+Minyo, folk song
+Pansori, musical storytelling by a singer
+and a drummer
+Japga, miscellaneous song
+Danga, short song before pansori
+Muga, Shamanistic song
+
+18
+
+Inhwa So, “Court Music,” in Korean Musicology Series, 1, ed. Byong-Won Lee and Yong-Shik Lee
+(Seoul: The National Center for Korean Traditional Performing Arts, 2007), 13-14.
+19
+
+Ibid., 15.
+
+20
+
+Lee, Essays on Korean Traditional Music, 13.
+
+21
+
+Robert C. Provine, “Brief Introduction to Traditional Korean Folk Music,” Korean Journal 15, no.
+1 (January 1975): 30.
+17
+
+Additionally, religious music can be characterized by two affiliations: Buddhism and
+Shamanism. Buddhist music consists of the ritual dance (jakbeop), the outdoor band (chwita),
+the ritual chants (the sutra, yeombul and the solemn chant, beompae), and the dance
+accompaniment ensemble (samhyeon yukgak).22 Korean shamanic music can largely be
+assigned to five geographical areas: Northwestern, Midwestern, Southwestern, Eastern, and
+Jeju shamanic music, including the gut (shaman ritual including songs and rhythmic
+movements) and sometimes the sinawi.23
+
+Modes
+Korean music involves two modes based on the pentatonic scale (G-A-C-D-E):
+pyeongjo (Eb-F-Ab-Bb-C), corresponding to the first, second, fourth, fifth and sixth degrees of
+the major scale in Western music, is characterized by peaceful and cheerful sounds;
+gyemyeonjo (Eb-Gb-Ab-Bb-Db), corresponds to the first, third, fourth, fifth, and seventh
+degrees of the minor scale, and thus is often used to convey a sad atmosphere.24
+As Korean traditional music does not have harmonic structure, some notes within a
+melody are frequently emphasized to create unique meanings or tone colors in accordance
+with specific performance techniques: yosung, toesung, choosung, and jeonsung. Yosung
+means “typical vibrato;” toesung “descending glissando;” choosung “ascending glissando;”
+
+22
+
+Byong-Won Lee, “Religious Music: Buddhism,” in Korean Musicology Series, 1, ed. Byong-Won
+Lee and Yong-Shik Lee (Seoul: The National Center for Korean Traditional Performing Arts, 2007), 150-157.
+23
+
+Yong-Shik Lee, “Religious Music: Shamanism,” in Korean Musicology Series, 1, ed. Byong-Won
+Lee and Yong-Shik Lee (Seoul: The National Center for Korean Traditional Performing Arts, 2007), 163-169.
+24
+
+Song, The World of Korean Music, 307-310; The National Center for Korean Traditional
+Performing Arts, ed., Pansori (Seoul: The National Center for Korean Traditional Performing Arts, 2004), 3335; the term jo is related to elements comparable to “mode” or “key” in Western music.
+18
+
+and jeonsung “appoggiatura.”25 Pyeongjo and gyemyeonjo both vibrate the tonic (yosung).
+However, pyeongjo bends the second and sixth degrees of the scale downwards (toesung)
+when they are in a descending motion, whereas gyemyeonjo does so only for the fifth degree.
+As the gyemyeonjo was passed down through generations, it was altered by omitting one or
+two notes (the third or seventh degrees of the scale); the resulting gyemyeonjo has four (the
+first, fourth, fifth, and seventh scale degrees) or three notes (the first, fourth, and fifth).
+Examples 2.1a-b show the modes.26
+Example 2.1. Korean traditional modes
+a. Pyeongjo
+
+b. Gyemyeonjo
+Five notes
+
+Four notes
+
+25
+
+“National Gugak Center,” National Gugak Center, accessed October 30, 2015,
+http://www.gugak.go.kr/site/main/index001.
+26
+
+Seongcheon Lee et al., Easy Introduction to Korean Traditional Music (Seoul: Poong Nam
+Publishing Co., 1997), 76-81.
+19
+
+Three notes
+
+Instruments
+Traditional Korean instruments—almost sixty are in regular use—can be organized
+according to their materials, origins, and uses. Korean instruments are grouped by eight
+instrument materials—metal, stone, silk, bamboo, gourd, clay, leather, and wood—and by
+where they originated; some traditional instruments appear to be indigenous to Korea, and
+others have been introduced from China, Central Asia, and other places.27 They are often
+discussed according to their usage: Chinese classical music, Chinese secular music, and
+native Korean music.28 Nowadays, Korean traditional instruments can be categorized into
+three groups as in Western classical instruments: string, wind, and percussion. These are
+briefly summarized in Table 2.2.29
+
+27
+
+Hye-Gu Lee, Korean Musical Instruments, trans. Alan C. Heyman (Seoul: National Classical Music
+Institute of Korea, 1982), 9-48.
+28
+
+Kang, “Toward the New Korean Musical Language,” 26.
+
+29
+
+Byong-Won Lee and Yong-Shik Lee, Korean Musicology Series 1, (Seoul: The National Center for
+Korean Traditional Performing Arts, 2007).
+20
+
+Table 2.2. Korean traditional instruments
+String
+
+Wind
+
+Gayageum, 12-string
+plucked zither
+Geomungo, 6-string plucked
+zither
+Haegum, 2-string vertical
+fiddle
+Ajaeng, bowed zither
+
+Daegeum, large flute
+
+Geum, 7-string plucked
+zither
+Daejaeng, 15-string plucked
+zither
+Seul, 25-string plucked
+zither
+Bipa, pear shaped lute with
+4 or 5 strings
+Gonghu, harp
+
+Jeok, small notched bamboo
+oboe
+Tungso, large notched
+bamboo oboe
+So, pan flute with 16 pipes
+
+Yanggeum, Western
+dulcimer
+
+Percussion
+
+Danso, medium-sized flute
+
+Janggu, hourglass-shaped
+drum
+Buk, barrel drum
+
+Taepyeongso, conical oboe
+
+Sogo, small hand drum
+
+Piri, Korean oboe
+
+Jwago, large barrel-shaped
+double-headed drum
+Kkwaenggwari, small gong
+
+Saenghwang, mouth organ
+with 17 bamboo pipes
+Nabal, long and straight
+bronze trumpet
+Nagak, seashell trumpet
+
+Jing, larger gong
+Bak, wooden clapper with
+six slabs
+Jegeum (Jabara),cymbals
+Pyeonjong, bell chime with
+sixteen bronze bells
+Pyeongyeong, stone chime
+with sixteen marbles
+
+Rhythmic Patterns
+The most important ingredient of Korean music is a rhythmic pattern, jangdan; jang
+means long, dan short. Most Korean musical genres are comprised of jangdan, including
+court music and folk music; court music utilizes much slower jangdan than folk music.30
+Each rhythmic cycle begins on a strong downbeat, sometimes places an accent on a weak
+beat, and has its own tempo and time signature as in Western music. The regular pattern is
+
+30
+
+Kang, “Toward the New Korean Musical Language,” 32.
+21
+
+improvised or varied by the performer, and repeated throughout the composition to provide
+the overall framework; this will be illustrated in the discussion of Lee’s use of several
+traditional rhythms to portray the dance-like moods in the three Nori works for piano.
+The most widely used instrument for jangdan is janggu. It is a double-headed
+hourglass drum; the higher-pitched right head is struck with a thin long stick, the lowerpitched left head played with a mallet or hand. The right head notes are notated with upstems, the left head with down-stems.31 Several essential elements in playing janggu are
+described in Table 2.3 in terms of symbols, oral sounds, and notations.32 Played with janggu,
+jangdan has three or four compound beats and spans from jinyangjo (slow), gutgeori
+(medium), jungmori, jungjungmori (medium-fast), semachi, jajinmori (fast), and hwimori
+(very fast) in accordance with tempo. The basic forms are presented in Table 2.4.33
+
+31
+
+Nathan Hesselink, P’ungmul: South Korean Drumming and Dance (Chicago: University of
+Chicago Press, 2006), 51-54; buk is played for the jangdan of pansori or danga.
+32
+
+“National Gugak Center,” National Gugak Center, accessed October 30, 2015,
+http://www.gugak.go.kr/site/main/index001.
+33
+
+Ibid.; The National Center for Korean Traditional Performing Arts, ed., Pansori, 39-46; Lee et al.,
+Easy Introduction to Korean Traditional Music, 97-99.
+
+22
+
+Table 2.3. Notations for janggu
+
+Korean Symbol
+notation
+
+Oral notation
+(Gueum)
+
+Deong
+
+Name
+
+Hapjangdan
+
+Kung
+
+Bukpyeon
+
+Deok
+
+Chaepyeon
+
+Gideok
+
+Deoreoreoreo
+
+Gyeopchae
+
+Gullimchae
+
+23
+
+Technique
+
+Strike both left
+and right sides
+at the same time
+
+Strike the left
+side with four
+fingers or a
+mallet
+
+Strike the right
+side with a stick
+
+Play like deok
+with a grace
+note
+
+Roll a stick on
+the right side
+
+Western
+notation
+
+Table 2.4. Korean traditional rhythmic patterns
+
+Name
+
+Tempo
+
+Rhythm
+
+Gutgeori
+
+Jungmori
+
+Jungjungmori
+
+Semachi
+
+Jajinmori
+
+Hwimori
+
+Ornamentation
+Ornamentation, or sigimsae, is one of the most distinct features of Korean music.
+Usually translated as “embellishment,” it consists of decorative notes before or after the
+24
+
+principal notes of the melody, and can be flexibly improvised in variant forms by
+performers.34 It must, however, be performed in the context of a melody; in doing so, it
+creates musical direction and structure. Sigimsae is an important mark of technical skill, and
+its subtlety gives expression to the performer’s feelings through the melody. Each performer’s
+discreet interpretation enhances the dramatic emotions in the music.35
+As mentioned earlier when describing the modes, there are four major styles of
+sigimsae: yosung (vibrato), jeonsung (grace notes like appoggiatura), choosung (ascending
+glissando), and toesung (descending glissando or portamento). In regard to the vibrato
+technique, the term nonghyun is used for the stringed instruments, such as gayageum,
+geomungo, or ajaeng; yosung is commonly applied to vocalists and wind instruments. The
+vibrato of nonghyun is slower, wider, and deeper, and tends to produce a much warmer sound
+compared to the Western musical style.36 The various figurations of sigimsae are shown in
+Figure 2.1.37
+
+34
+
+Hong et al., The Music of Lee Young Jo, 45-47.
+
+35
+
+Song, The World of Korean Music, 497; “National Gugak Center,” National Gugak Center,
+accessed October 30, 2015, http://www.gugak.go.kr/site/main/index001.
+36
+
+Sin Myung Min, “A Great Korean Music Pioneer Min-Chong Park: A Performance Guide of His
+Selected Violin Works” (DMA thesis, Louisiana State University, 2014), 14-15. Lee’s experiments with these
+ornamental techniques in Doori Nori for Violin and Piano and Sesi Nori for Violin, Cello, and Piano will be
+discussed in more detail in the next chapter. No sigimsae gestures appear in Lee’s Honza Nori for Piano.
+37
+
+Hye-Gu Lee, Essays on Korean Traditional Music, 163.
+25
+
+Figure 2.1. Korean traditional ornamentations
+
+Korean society has changed greatly over the past century, and the musical
+community constitutes no exception. The cultural prosperity of today’s Korea could not be
+possible without its traditional culture and arts. Consequently, although the three generations
+of composers have explored ways to respond to international trends and influences, they have
+nonetheless maintained elements of traditional Korean music that have been preserved and
+promoted throughout the country’s long history. In the next chapter, I will use this context to
+thoroughly address the background and stylistic peculiarities of Lee’s three Nori
+compositions for piano.
+26
+
+Chapter 3
+Stylistic Features of Three Nori Compositions for Piano
+As Lee has searched for his own musical language, he has both maintained his
+Korean traditional roots and absorbed modern Western techniques. Lee’s use of basic forms
+and Korean traditional and Western musical devices are demonstrated in several major
+features of the Nori compositions, where traditional Korean instruments, rhythms, and
+melodies and twentieth-century harmonies and compositional techniques are naturally
+combined.
+
+Background of Nori
+According to Lee, he began the Nori series with a desire to create a much freer
+structure than possible in conventional Western forms such as sonata, rondo, or variations.1
+Nori literally indicates “playing or performance.” Lee describes the term in a program note:
+Nori is a musical piece that reveals the function of instruments and skill of a
+performer through its free and impromptu element, not constrained by any specific
+form and structure … This piece is characterized by elements of samulnori, an
+ensemble made by four Korean traditional percussions … ornamental notes, Korean
+folk tunes, and dance rhythms.2
+Of the nine Nori compositions to date, four have been written for a solo instrument, and the
+rest for small chamber ensembles: Honza Nori for Violin (1994), Honza Nori for Percussion
+(2007), Honza Nori for Piano (2010), Honza Nori for Double Bass (2015); Doori Nori for
+
+1
+
+Young Jo Lee, interviewed by Hyo Jung Song, Seoul: Korea, October 23, 2015. Lee has written
+another series as well: “Sori,” 13 works for unaccompanied solo instruments. Sori refers to “sound” in Korean.
+See Appendix A for a complete list of the Sori series.
+2
+
+“Young Jo Lee-Seoul International Music Competition,” Young Jo Lee, accessed October 22, 2015.
+http://www.seoulcompetition.com/re/2011/LEE_Young_Jo-Piano_Honza_Nori.pdf; samulnori basically means
+“playing with four instruments” and is performed by four traditional percussion instruments, such as
+kkwaengwari, jing, janggu, and buk.
+27
+
+Violin and Piano (1995); Sesi Nori for Violin, Cello, and Piano (2002), Sesi Nori for Violin,
+Clarinet, and Piano (2009), Sesi Nori for Oboe, Cello and Piano (2010); and Nesi Nori for
+Percussions (1998).3 In this document, these works will be discussed not in chronological
+order, but according to the numbers of players involved: Honza means “alone or solo,” Doori
+“two or duet,” and Sesi “three or trio.” By using Korean titles instead of “solo,” “duo,” and
+“trio,” Lee presents the works as his reflections on Korean sentiments within Western musical
+structure.
+The three Nori compositions selected for this study were all commissioned: Doori
+Nori for Violin and Piano, for Nam Yun Kim (violin) and Kyung-Sook Lee (piano); Sesi Nori
+for Violin, Cello, and Piano, for the Huh Trio; and Honza Nori for Piano, for the seventh
+Seoul International Music Competition Semi-Final.4 They are all single-movement virtuosic
+works, sharing atonality and strong Korean traditional features in their dances, folk tunes,
+ornaments, rhythmic modes, and instrument imitations. Each piece is through-composed, but
+can be divided into several distinct parts according to tempi and other musical characteristics:
+a gentle A section; an exciting B section; a contemplative C section; and a final section that
+revisits the musical materials of the A and B sections. Both Honza Nori and Sesi Nori have
+introduction sections as well; Honza Nori also has a short codetta.
+
+3
+
+Nesi means “four” or “quartet.”
+
+4
+
+Lee also transcribed Sesi Nori for Violin, Clarinet, and Piano in 2009 and for Oboe, Cello, and Piano
+
+in 2010.
+28
+
+Honza Nori for Piano
+Honza Nori for Piano was written for the seventh Seoul International Music
+Competition Semi-Final round in November 2010. Conveying elements of traditional music
+in a Western fashion, it is the most recent and shortest—about five minutes duration—of the
+three Nori works for piano discussed in this document. As the title indicates, Lee attempts to
+encapsulate the wide-ranging expressiveness of the piano in a freer way in this work. As a
+competition piece, it requires the performer’s polished technique and a great depth of
+understanding of the music itself.5 Rhythmic energy is the most critical issue; other essential
+factors coloring Lee’s harmonic language include adding notes to chords, polytonality,
+chromaticism, pentatonic and octatonic scales, and frequent implications of a tonal center.6
+Although not written in a specific conventional form, the work is sectionalized, with
+an introduction, the A and B sections presenting the main musical materials, a meditative C
+section, and a shortened recapitulation of the A section, plus a brief codetta (Table 3.1). Each
+contrasting section is very compact and has distinct characteristics.
+
+5
+
+Young Jo Lee, interviewed by Hyo Jung Song, Seoul: Korea, October 23, 2015.
+
+6
+
+Young Jo Lee-Seoul International Music Competition,” Young Jo Lee, accessed October 22, 2015.
+http://www.seoulcompetition.com/re/2011/LEE_Young_Jo-Piano_Honza_Nori.pdf.
+29
+
+Table 3.1. Formal structure in Honza Nori for Piano
+Section
+
+Measure
+
+Tempo
+
+Meter
+
+Introduction
+
+1-13
+
+4/6, 5/4, 4/4
+
+A
+
+14-23
+
+3/4, 4/4
+
+B
+
+24-74
+
+3/4, 6/8, 4/4
+
+C
+
+75-96
+
+6/4, 5/4, 4/4, 3/4
+
+A´
+
+97-103
+
+3/4
+
+Codetta
+
+104-107
+
+4/4
+
+Lee indicates traditional instruments, dance rhythms, and tunes throughout the work;
+these help performers to better understand its characteristics and structure (Table 3.2).
+Table 3.2. Korean traditional elements in Honza Nori for Piano
+Instrumentation
+Gong
+Measure
+
+1-8
+
+Glass
+Drum
+15-23,
+98-103
+
+Source material
+
+Bamboo
+Instruments
+77-93
+
+Dance
+Rhythm
+9-13
+
+Folk Tune
+24-29,
+99-102
+
+Farmer’s
+Festival
+30-54
+
+Introduction (mm. 1-13)
+The 13-measure introduction clearly and concisely states the musical materials that
+will dominate the work; these include imitations of Korean instruments, rhythms, and
+harmonic devices. The sound of jing is invoked three times at mm. 1-3 by spacious perfect
+fifth chords with added minor seconds ringing in the lower part of the piano; these become
+the fundamental chords in the left hand at mm. 4-11, establishing D as a tonal center and
+creating subtle tension with meter changes and ties. The added seconds are crucial to Lee’s
+general harmonic practices; he employs them obsessively to make unique tone colors
+throughout the piece (Example 3.1).
+30
+
+Example 3.1. Young Jo Lee, Honza Nori for Piano, mm. 1-8
+
+The most significant Korean traditional music component involves the rhythmic
+mode, jangdan. Lee uses and frequently varies several rhythmic patterns including jajinmori,
+semachi, and hwimori to create musical vitality and excitement in the Nori works. In Honza
+Nori for Piano, beginning at mm. 9-10, Lee employs the second type of jajinmori jangdan in
+the right hand; this is the most extensively used rhythmic pattern in the piece (Examples 3.2a
+and 3.2b).7
+Example 3.2a. Three types of jajinmori jangdan
+
+7
+
+Kim, “Exploring Aspects of Korean Traditional Music in Young Jo Lee’s Piano Honza Nori,” 12.
+31
+
+Example 3.2b. Young Jo Lee, Honza Nori for Piano, mm. 9-11
+
+Jajinmori jangdan
+
+Section A (mm. 14-23)
+The A section starts with chromatic ascending motion and imitates the sounds of
+traditional samulnori percussion instruments. Fast repetitive ostinato-like triplet figures in the
+right hand recall the frequently-used technique of deoreoreoreo, rolling a stick on the right
+side of janggu. The two-measure motivic melody presented in the right hand at mm. 4-7 is
+now in the left hand with a changed rhythm (Example 3.3).
+
+32
+
+Example 3.3. Young Jo Lee, Honza Nori for Piano, mm. 14-19
+
+In m. 20, an ascending octatonic scale in the right hand is played over a resonant
+jing, a very gentle and lingering low tone based upon the open fifth chord with added second
+(Examples 3.4a and 3.4b).
+Example 3.4a. Young Jo Lee, Honza Nori for Piano, m. 20
+
+33
+
+Example 3.4b. Second-mode octatonic scale8
+
+At mm. 22-23, descending right-hand chromatic figures in octaves and successive
+left-hand diminished chords build up dramatic tension, preparing for the beginning of section
+B (Example 3.5).
+Example 3.5. Young Jo Lee, Honza Nori for Piano, mm. 22-23
+
+Section B (mm. 24-74)
+The longest and the most exhilarating area in the Honza Nori for Piano, the B
+section, thoroughly explores cheerful new melodies and rhythmic excitement. This section
+features melodies from two Korean folk tunes, Miryang Arirang and Arirang, which Lee
+adapts according to the “setting technique of musical borrowing,” whereby a pre-existing
+melody is given a new accompaniment.9 The borrowed materials appeal directly to Korean
+
+8
+
+An octatonic scale is any eight-note musical scale in which the notes alternate intervals of a whole
+step and a half step. It has only two modes. Mode 1 begins with a whole step, Mode 2 with a half step.
+9
+
+J. Peter Burkholder, All Made of Tunes: Charles Ives and the Uses of Musical Borrowing (New
+Haven, CT: Yale University Press, 1995), 3-4; Burkholder identified the fourteen types of musical borrowing in
+the music of Charles Ives: modeling, variations, paraphrasing, setting, cantus firmus, medley, quodlibet, stylistic
+allusion, transcription, programmatic quotation, cumulative setting, collage, patchwork, and extended
+paraphrase. Ives is one of the most well-known users of borrowed material in his compositions, incorporating
+34
+
+performers and audiences (Example 3.6).
+Example 3.6. Anonymous, Miryang Arirang, mm. 1-4
+
+In the beginning of the section, the first two measures of Miryang Arirang are used,
+with the addition of major second notes to accentuated chords in the right hand and tripletlike accompaniments in the left hand (Example 3.7).
+Example 3.7. Young Jo Lee, Honza Nori for Piano, mm. 24-25
+
+At mm. 26-27, three interesting figures are succinctly presented: ascending and
+descending octatonic scales in the right hand; the second altered type of jajinmori jangdan
+and chromatic scales in the left hand (Example 3.8).
+
+music by other composers or from his own earlier works.
+35
+
+Example 3.8. Young Jo Lee, Honza Nori for Piano, mm. 26-27
+
+Jajinmori jangdan
+
+There are three variant styles of semachi jangdan;10 Lee modifies the first two types
+in his quotation of Miryang Arirang (Examples 3.9a and 3.9b). At mm. 28-29, excitement
+increases as the chromatic line in the left hand begins to descend with accents and a
+crescendo. These chromatic motions and chords combined with perfect fifths and major
+seconds in Example 3.9b epitomize Lee’s melding of the traditional rhythms, folk melodies,
+and his contemporary harmonic techniques.
+Example 3.9a. Three types of semachi jangdan
+
+10
+
+Kim, “Exploring Aspects of Korean Traditional Music in Young Jo Lee’s Piano Honza Nori,” 16.
+36
+
+Example 3.9b. Young Jo Lee, Honza Nori for Piano, mm. 28-29
+
+Semachi jangdan
+
+Lee also includes gestures that recall percussion band music played by Korean
+farmers, nongak; in the score, this is titled “Farmer’s Festival.” A celebration of community
+spirit through music, nongak, also called pungmul, is a form of traditional Korean farmers’
+music and dance, combining a percussion ensemble and sometimes wind instruments,
+parading, dancing, drama, and acrobatic feats. The percussion bands are very common in
+Korea, playing at many rituals, for fund-raising, and entertainment (Figure 3.1).11
+
+11
+
+Nathan Hesselink, “Folk Music: Instrumental,” in Korean Musicology Series, 1, ed. Byong-Won
+Lee and Yong-Shik Lee (Seoul: The National Center for Korean Traditional Performing Arts, 2007), 98-99.
+37
+
+Figure 3.1. Nongak group
+
+In 1978, four percussionists—on jing, kkwaenggwari, janggu, and buk—adapted the sound
+and spirit of nongak for the concert-hall stage, performing what is now known as
+samulnori;12 in this form, it is performed solely for entertainment (Figure 3.2).13
+Figure 3.2. Samulnori group
+
+12
+
+Samulnori was created from pungmul for an indoor performance in 1978 by Duk Soo Kim, the
+group’s leader and master of the janggu. The performers (formally members of namsadang, the wandering
+artist-entertainers) were Young Bae Kim (deceased 1985) who played the kkwaenggwari, Tae Hyun Choi on the
+jing, Duck Soo Kim on the janggu, and Jong Dae Lee (now teaching at a university) on the buk. Soon after, Jong
+Sil Choi took over on the kkwaenggwari, and Kwang Soo Lee on the buk. The group sparked a renaissance in
+Korean music, touring as a quartet and garnering worldwide acclaim.
+13
+
+Ibid., 100-101.
+38
+
+The addition of seconds to the perfect fifth chords at mm. 30-32 creates a timbre
+reminiscent of the buk, jing, and kkwaenggwari (Example 3.10).
+Example 3.10. Young Jo Lee, Honza Nori for Piano, mm. 30-32
+
+Simultaneous use of several scales is frequent in Lee’s music. At mm. 33-36, the
+whole-tone and chromatic scales appear in both hands. At the same time, percussive rhythmic
+patterns move into sequential passages, adding intensification (Example 3.11).
+Example 3.11. Young Jo Lee, Honza Nori for Piano, mm. 33-36
+
+At mm. 37-40, the ostinato-like patterns in the left hand exemplify the jajinmori jangdan;
+there is also polytonal writing between the hands (Example 3.12).
+
+39
+
+Example 3.12. Young Jo Lee, Honza Nori for Piano, mm. 37-40
+
+Jajinmori jangdan
+
+The third jangdan used in the piece, at mm. 41-42, is hwimori jangdan, the fastest
+traditional Korean rhythm. This suggest the gesture in which nongak players whirl their
+sangmo (Korean traditional ribbon-hat) while dancing, as shown in Figure 3.1 (Example
+3.13).
+Example 3.13. Young Jo Lee, Honza Nori for Piano, mm. 41-42
+
+Hwimori jangdan
+
+40
+
+The long ascending sequences beginning at m. 37 are soon transformed into swirling
+sixteenth-note runs, through m. 54. A brilliant passage from mm. 55-63 is also dominated by
+driving sixteenth notes and rapidly moving accompaniments; the arpeggiated figures from
+three-note gyemyeonjo in the right hand continuously push forward (recall Example 2.1b),
+while dance-like rhythmic patterns—such as two or three eight notes in irregular groupings—
+in the left hand are shaped with accents and sforzando on the weak beat. Polytonality occurs
+again at a climactic point, mm. 62-63; a pentatonic scale appears for the first time, while
+Stravinsky is referenced through the “Petrushka” chord with inverted triads of C major and
+F# major (Example 3.14).14
+
+14
+
+Kim, “Korean Dance Suite for Piano by Young Jo Lee,” 75; the Petrushka chord is a recurring
+polytonal motif used in Stravinsky’s ballet Petrushka. It is famous not just because it is polytonal, but because it
+is maximally polytonal. The two major triads of C major and F # major are a tritone apart and as far away from
+each other as possible on the circle of fifths, creating the most dissonant tonal combination possible.
+41
+
+Example 3.14. Young Jo Lee, Honza Nori for Piano, mm. 53-63
+
+42
+
+Example 3.15 shows the transition from B to the C section, a recreation of the
+opening chords consisting of perfect fifths and minor seconds (see Example 3.1). Db and Ebb
+are added with a gradual diminuendo and ritardando over the obsessively repeating staccato
+Gb; this then connects to another chord in the same pattern at m. 75 as C begins.
+Example 3.15. Young Jo Lee, Honza Nori for Piano, mm. 64-76
+
+Section C (mm. 75-96)
+The C section starts with the sound of a gong played three times in a row, as in the
+introduction. Lee maps out this perfect fifth and minor second chord throughout the C section
+and also hints at a tonic center of E. In contrast to the A and B sections, it has very calm and
+dreamy quality, entirely within mp or pp. Mm. 77-82 invoke the sound of Korean wind
+instruments through ornamented melodies while quoting the most well-known Korean folk
+tune, Arirang in the middle voice (Examples 3.16a and 3.16b).
+43
+
+Example 3.16a. Anonymous, Arirang, mm. 1-4
+
+Example 3.16b. Young Jo Lee, Honza Nori for Piano, mm. 77-82
+
+Lee ends section C very quietly and mysteriously at m. 94, with the Petrushka chord
+(Example 3.17).
+Example 3.17. Young Jo Lee, Honza Nori for Piano, m. 94
+
+44
+
+Section A´ (mm. 97-103)
+The condensed A section returns in the same structure, but includes the tune of
+Arirang in the left hand at mm. 99-102 (Example 3.18).
+Example 3.18. Young Jo Lee, Honza Nori for Piano, mm. 99-102
+
+Codetta (mm. 104-107)
+A short four-bar codetta exhibits features similar to the final part of the B section;
+Lee exactly quotes mm. 60-61 (compare to Example 3.16), reuses the Petrushka chord, and
+concludes with authentic cadence gesture incorporating the triads of C major (V) to F major
+(I) but still with added minor seconds (Example 3.19).
+
+45
+
+Example 3.19. Young Jo Lee, Honza Nori for Piano, mm. 103-107
+
+The variety of Korean traditional elements and Western harmonic techniques
+presented in Honza Nori for Piano exemplify Lee’s interest in blending both musical cultures.
+The sounds of traditional Korean instruments, dance rhythms, and folk melodies combine
+well with contemporary atonal features—such as the perfect fifth and added second chords,
+augmented sixths, polytonal writings, and chromaticism—to create Lee’s distinctive
+character. In addition, Lee’s writing for the piano is highly idiomatic, ably exploiting the
+extended range of the instrument. These characteristics have secured Honza Nori’s place in
+the performance repertoire.
+
+46
+
+Doori Nori for Violin and Piano
+Doori Nori for Violin and Piano was written for two globally renowned performers
+in 1995. The violinist, Nam Yun Kim (b. 1949), was a professor of violin at Korea National
+University of Arts and now serves as a director at Korea National Institute for the Gifted in
+Arts; the pianist, Kyung-Sook Lee (b. 1944,) is an emeritus professor of piano at Yonsei
+University. This is the only work that Lee composed for two (Doori) instruments in the Nori
+series, and is regarded as one of the most virtuosic of his compositions due to its technical
+difficulties.15 Lee was inspired by the sound of Korean traditional stringed instruments,
+which he sought to reproduce on the modern violin.16
+Honza Nori for Piano and Doori Nori for Violin and Piano share many atonal
+characteristics and avoid establishing functional harmony in terms of key, although Lee still
+tends to suggest tonal implications by repeating specific notes or chords, and suggesting pitch
+centers usually in the bass.17 Lee also employs several contrapuntal techniques in this work,
+such as canon, augmentation, diminution, and stretto. The overall form is outlined below in
+Table 3.3.
+
+15
+
+Lee, Resume Written on a Music Sheet, 183.
+
+16
+
+Young Jo Lee, interviewed by Hyo Jung Song, Seoul: Korea, October 23, 2015.
+
+17
+
+Hong et al., The Music of Lee Young Jo, 12-15.
+47
+
+Table 3.3. Formal structure in Doori Nori for Violin and Piano
+Section
+
+Measure
+
+A
+
+1-41
+
+B
+
+42-95
+
+C
+
+96-133
+
+B´
+
+134-224
+
+A´
+
+225-253
+
+Tempo
+
+Meter
+4/4, 5/4, 3/4, 2/4
+
+Allegro
+Lento
+
+Tempo I
+
+3/4, 4/4
+2/4, 3/4
+2/4, 1/4, 3/4, 4/4,
+5/4, 6/8
+4/4, 5/4, 3/4, 2/4
+
+Section A (mm. 1-41)
+The first section opens with the melody in the piano part at a moderate tempo; the
+melodic figure at mm. 1-2 dominates the entire piece, often with rhythmic variations. I will
+call this two-bar main subject “motive A” as a matter of convenience. The intervals between
+notes are the primary musical material, alternating thirds and seconds; this melodic line
+reverses the five notes of gyemyeonjo.
+Gyemyeonjo
+
+The importance of motive A in Doori Nori cannot be emphasized enough; while Lee
+designates several melodies for each section in Honza Nori for Piano, motive A is
+manipulated almost like monothematic transformation, excepting in the C section. The
+thematic unity imparted to the work dominates its development (Example 3.20).
+
+48
+
+Example 3.20. Young Jo Lee, Doori Nori for Violin and Piano, mm. 1-2
+
+At mm. 9-16, motive A appears in the violin part, with each note value doubled in the
+manner of the fugal augmentation; the piano part arouses a meditative mood with lots of
+ornaments and adds diverse harmonic colors to the violin. In the same passage, E is suggested
+as a tonic center underneath the motive, bringing a sense of traditional tonality; the perfect
+fifth chords that contain E in the bass occur every two or four measures, while the melodic
+line in the right hand also hovers around an E tonal center.
+Example 3.21. Young Jo Lee, Doori Nori for Violin and Piano, mm. 9-16
+
+49
+
+Similarly, while the harmonic progressions from mm. 20-38 are governed by chromatic
+motion and consecutive French augmented sixth chords, reiterated syncopated E notes in the
+bass at mm. 39-41 return to the established tonal center (Example 3.22).
+Example 3.22. Young Jo Lee, Doori Nori for Violin and Piano, mm. 38-41
+
+Section B (mm. 42-95)
+Motive A is repeatedly subjected to changes in the B section. Lee adopts the minor
+thirds from motive A obsessively for the violin, and involves an arpeggiated motive A in the
+piano line. Consistent sixteenth-note figures in parallel motion between both hands create a
+more energetic mood and a polytonal texture as well, with the simultaneous occurrence of A
+major and G major at mm. 42-45; B minor and A major, Eb major and Db major, and B minor
+and A major at mm. 46-48. These dual tonalities are all established in a supertonic
+relationship, a major or minor second apart. The major second then joins the perfect fifth
+chords at m. 49 (Example 3.23).
+
+50
+
+Example 3.23. Young Jo Lee, Doori Nori for Violin and Piano, mm. 42-49
+
+Lee maintains a similar structure at mm. 50-61, but makes a variety of rhythmic changes to
+motive A. At mm. 52-55, the motive appears in the violin not as a single melody but with
+spacious perfect fifths; simultaneously, in the piano part the motive is presented in the left
+hand with the rolled chords, while a broken D minor chord is repeated in the right hand.
+From mm. 56-59, the perfect fifth material is given to the piano, and motive A to the violin
+with sixteenth notes. Motive A is syncopated and accentuated in the violin over the rolled
+chords in the piano, mm. 60-61. These motivic variations highlight the rhythmic diversity and
+vitality of the piece (Example 3.24).
+
+51
+
+Example 3.24. Young Jo Lee, Doori Nori for Violin and Piano, mm. 50-61
+
+In addition to the rhythmic matters, the B section involves much chromatic motion,
+alternating the chromatic scales between the two instruments. A variant of gutgeori jangdan
+in the piano is made up of perfect fifths and major seconds, and also creates greater rhythmic
+excitement (Examples 3.25a and 3.25b).
+52
+
+Example 3.25a. Young Jo Lee, Doori Nori for Violin and Piano, mm. 70-71
+
+Example 3.25b. Young Jo Lee, Doori Nori for Violin and Piano, mm. 76-77
+
+Gutgeori jangdan18
+
+The end of the B section is exuberantly energetic; three ascending octatonic scales, a
+long high D# in the violin, chromatic scales, augmented thirds, major sevenths, and perpetual
+sixteenth-note motions in the piano lead to the climactic point with an extremely atonal sound
+and maximum dramatic effect (Example 3.26).
+
+18
+
+Kim, “Korean Dance Suite for Piano by Young Jo Lee,” 51.
+53
+
+Example 3.26. Young Jo Lee, Doori Nori for Violin and Piano, mm. 90-93
+
+Section C (mm. 96-133)
+The C section is tranquil and slow. A great stillness is achieved through the unhurried
+flow of music; Lee prefers to hold the long notes or chords, often with ties and rests, and
+avoids ornamental notes. Harmonically, there is continued refinement and exploration: Lee’s
+favorite French sixths in the piano provide a mystical touch and subtle tension (Example
+3.27).
+
+54
+
+Example 3.27. Young Jo Lee, Doori Nori for Violin and Piano, mm. 96-102
+
+Lee applies the nonghyun technique for Korean stringed instruments to the violin.
+Nonghyun, a left-hand technique for Korean zither instruments that literally means “play with
+strings,” embellishes melodic lines by shaking, pushing down, and plucking strings.19
+Meanwhile, the ascending glissandi (choosung technique) with minor seconds in the violin
+capture the tone color of the gayageum. The entirety of the Lento section is built on the two
+variant types of semachi jangdan, moving slowly in three beats (Example 3.28).
+
+19
+
+Kim, “The Musical Style and Compositional Technique of Young-Jo Lee,” 45-47.
+55
+
+Example 3.28. Young Jo Lee, Doori Nori for Violin and Piano, mm. 115-118
+
+Semachi jangdan
+
+Lee’s expansive use of chromatic scales is apparent in Example 3.29. Both the violin
+and piano parts are involved in contrary motion; the two different textures, which remain
+single melodic lines in the violin and chains of open fourths and fifths in the piano, create
+heavy chromaticism and a fluid, misty tone quality. This extended chromatic motion leads to
+French sixth chords again, quietly closing the C section.
+
+56
+
+Example 3.29. Young Jo Lee, Doori Nori for Violin and Piano, mm.126-132
+
+Section B´ (mm. 134-224)
+The B´ section is the most intense and demanding technically. Although not an exact
+return of the B section—it is nearly doubled in length—B´ shares many of the earlier
+section’s features: sixteenth-note figural writings, dance-like rhythms, accents, and
+chromaticism. The pizzicati in the violin, mm. 135-158, provide exceedingly dynamic motion
+and high cheerfulness. From mm. 134-144, motive A reappears in the piano in many guises,
+including accentuated notes and syncopation. Lee also introduces another contrapuntal device
+in the B´ section, treating motive A to diminution of rhythmic values at mm. 134-156;
+eventually, each overlapping motive A between the violin and piano combines in a compact
+stretto, at various pitch and time intervals, mm. 138-144. These fugal techniques based on the
+motive provide structural solidity and unity (Example 3.30).
+
+57
+
+Example 3.30. Young Jo Lee, Doori Nori for Violin and Piano, mm. 137-144
+
+Mm. 145-156 contain many ongoing lines; a number of canonic imitations occurs
+between both instruments, accompanied by two octatonic scales in the piano. Motive A
+returns in a new rhythmic figure, creating a more dynamic and vibrant atmosphere with many
+rests at mm. 151-156 (Example 3.31).
+
+58
+
+Example 3.31. Young Jo Lee, Doori Nori for Violin and Piano, mm. 145-156
+
+Motive A continuously reappears in the piano with alterations to the rhythm at mm.
+165-168 and 170-172; in the violin, the syncopated motive enters over the pentatonic scale
+(G-A-C-D-E) in the right hand of the piano part at mm. 168-172 (Example 3.32).
+
+59
+
+Example 3.32. Young Jo Lee, Doori Nori for Violin and Piano, mm. 165-172
+
+Mm. 173-180 is extraordinarily passionate, and heavily atonal. Double and quadruple
+stops on the violin produce a variety of colors, textures, and harmonies. These stops are
+exclusively based on fifths and sevenths, and Lee also combines those chords; for instance,
+quintal harmonies are constructed from the two fifths chords at m. 174, and mixtures of the
+fifth and seventh follow at m. 180. In addition, two parallel sixteenth figurations in the piano
+form consecutive tritones between both hands, creating profound dissonance. Motive A
+appears at mm. 175-177 and m. 180. The structure of this passage is itself compelling, as
+each bar has a different time signature, establishing an arch:
+1/4→2/4→3/4→4/4→3/4→2/4→1/4. This ultimately results in an extremely tense, irregular
+rhythmic pulse (Example 3.33).
+60
+
+Example 3.33. Young Jo Lee, Doori Nori for Violin and Piano, mm. 173-180
+
+A new Allegro section starts in 6/8, leading to the climax (Example 3.34); it is
+extensively dependent on open fifths in the violin, and perfect fifths with added major
+seconds and dance rhythms derived from the third variant type of jajinmori jangdan in the
+piano (recall Example 3.2a). The repetitive patterns of chords and rhythms in both
+instruments reflect the sound of traditional percussion (kkwaenggwari and buk) and the
+rollicking mood of nongak or samulnori.
+
+61
+
+Example 3.34. Young Jo Lee, Doori Nori for Violin and Piano, mm. 183-189
+
+Jajinmori jangdan
+
+The climax at the conclusion of this fast section is a summation of the motivic,
+harmonic, and rhythmic vocabularies used in the piece: the repetitive minor third material
+from motive A in the violin, tone clusters from two open fifths in the piano, and syncopated
+rhythms at mm. 214-216, and descending chromatic movements and octatonic scales between
+the instruments at mm. 217-221; a parallel motion with two octatonic scales a tritone apart in
+the piano, mm. 222-224, raises a dissonant clash again (Example 3.35).
+62
+
+Example 3.35. Young Jo Lee, Doori Nori for Violin and Piano, mm. 214-224
+
+Section A´ (mm. 225-253)
+The A´ section is an abbreviated recapitulation of the A section; it finishes with a
+short codetta-like passage, which lingers around the suggested tonal center G (Example 3.36).
+
+63
+
+Example 3.36. Young Jo Lee, Doori Nori for Violin and Piano, mm. 246-253
+
+The most significant aspect of Doori Nori for Violin and Piano is Lee’s treatment of
+motive A throughout the work. The motive itself is distinctly made of Korean traditional
+elements, based on the five notes of the traditional gyemyeonjo; yet its development spans
+frequent and varied rhythmic changes based on Korean modes to multiple fugal devices
+including augmentations, diminutions, canons, and stretti. The forms of the motive exploit the
+capabilities of the instruments and atonal chordal techniques; it is described not only with a
+single melodic line but with intervals such as open fifths, added seconds, and tritones. Lee’s
+skillful use of the motive thus incorporates diverse Korean and Western musical elements in
+holding the music together and endowing it with organic unity.
+
+64
+
+Sesi Nori for Violin, Cello, and Piano
+Sesi Nori for Violin, Cello, and Piano was written in 2002 and first performed a year
+later by the Huh Trio, consisting of Hee-Jung Huh (violin), Yun-Jung Huh (cello), and SeungYeun Huh (piano).20 This work has also been arranged for two other ensembles: for Violin,
+Clarinet, and Piano (2009), commissioned by the well-known clarinetist, Rok-Hyun Kwon;
+and for Oboe, Cello, and Piano (2010), commissioned by the oboist, Suho Ha.21 All three
+Sesi Nori arrangements are based on the same theme and structure; they have a few
+differences due to the instrumentation and instrument registers.
+Many features of Sesi Nori for Violin, Cello, and Piano are analogous to those in
+Doori Nori for Violin and Piano; in addition to overall atonal qualities, both are cast in the
+arch form, develop monothematic material, often combine those with contrapuntal gestures,
+and contain persistent sixteenth-note figures in the second section. Table 3.4 outlines the
+form.
+Table 3.4. Formal structure in Sesi Nori for Violin, Cello, and Piano
+Section
+
+Measure
+
+Tempo
+
+Meter
+
+Introduction
+
+1-16
+
+4/4, 3/4, 5/4, 6/4
+
+A
+
+17-50
+
+4/4, 3/4
+
+B
+
+51-99
+
+Allegro
+
+4/4
+
+C
+
+100-155
+
+6/8, 2/4
+
+B´
+
+156-210
+
+Slow tempo, Korean
+traditional style
+Allegro
+
+A´
+
+211-226
+
+4/4
+4/4
+
+20
+
+Young Jo Lee, Sesi Nori for Violin, Cello, and Piano from Young Jo Lee: Four Songs for Death,
+Hee-Jung Huh (violin), Yun-Jung Huh (cello), and Seung-Yeun Huh (piano), ISMM Classics, 2012, compact
+disc.
+21
+
+Lee often arranges his own and others’ works; he has transcribed Arirang, the most famous Korean
+traditional song, for orchestra, string ensembles, solo piano, two pianos, singers, and choirs; Young Jo Lee,
+interviewed by Hyo Jung Song, Seoul: Korea, October 23, 2015.
+65
+
+The structure of Sesi Nori for Violin, Cello, and Piano is clearly symmetrical: A and A´ gently
+develop the main idea among the three instruments; B and B´ have exciting movement; C is
+meditative and central to the work. The sections are not repeated verbatim, but share thematic
+material.
+Introduction (mm. 1-16)
+Sesi Nori for Violin, Cello, and Piano begins with a five-bar introduction; it is mainly
+built on chromatic lines in the right hand of the piano and successive diminished seventh
+chords in the left hand. As in Doori Nori for Violin and Piano, development of this chromatic
+idea, which I call motive A, dominates the sections (Example 3.37).
+Example 3.37. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 1-5
+
+Lee’s obsessive chromaticism is evident at mm. 6-10. The violin and cello move
+apart chromatically, with the piano lines doubling them—the soprano line in the piano
+doubles the violin, the bass line the cello. These chromatic lines in the outer voices and
+French sixth and tritone harmonies create highly post-tonal sounds (Example 3.38).
+
+66
+
+Example 3.38. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 7-10
+
+Section A (mm. 17-50)
+In contrast, the first part of the A section tends towards the tonal. At mm. 17-25, each
+broken chord in the left hand of the piano implies noticeably tonal harmonies—G major, D
+minor, E minor, Eb major, D major, C major, F major, Bb major, and Ab major—over the
+repetition of B in the right hand. An overlapping of motive A between the violin and cello
+makes a short stretto at mm. 18-22; the violin doubles the original motive, while the cello
+slightly alters it (Example 3.39).
+
+67
+
+Example 3.39. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 16-27
+
+As the chromatic line begins ascending in the violin, motive A appears in the piano
+and cello in unison, mm. 28-29; these chromatic motions are accompanied by diminished
+seventh chords in the piano, bringing back the sense of atonality (Example 3.40).
+
+68
+
+Example 3.40. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 28-31
+
+Lee employs motive A at different times among the three instruments, forming the
+first long stretto at mm. 32-43 (Example 3.41). Chains of open fourths and fifths—
+sometimes containing thirds—appear in the piano, relying on extremely chromatic
+progressions (mm. 34-40); this is reminiscent of a similar passage in Doori Nori for Violin
+and Piano (Example 3. 29). The heavy chromaticism based on tritones and diminished
+sevenths establishes a subtle tension and dark atmosphere throughout the stretto.
+
+69
+
+Example 3.41. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 32-43
+
+By combining tonal, atonal, and chromatic gestures at a moderate tempo, the A
+section exudes a restrained ambience.
+
+70
+
+Section B (mm. 51-99)
+The lively and energetic B section has several similarities to that of Doori Nori for
+Violin and Piano, including the use of contrapuntal devices such as imitations and stretti,
+alternating motive A among the instruments, and sixteenth-note patterns in the piano which
+induce a polytonal relationship between both hands. For instance, the beginning of the B
+section in Sesi Nori, mm. 51-54, is very much akin to the same area in Doori Nori (compare
+to Example 3.23), presenting the motive in the violin and fast sixteenths and polytonalities in
+the piano (Example 3.42).
+Example 3.42. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 50-54
+
+71
+
+While motive A continues to appear in the cello, numerous seconds, open fifths,
+syncopated rhythms, and chromatic scales in the violin and piano build up dramatic tension at
+mm. 59-77. In the piano, mm. 83-84, motive A in octaves with major seconds enters in the
+right hand, producing a tone cluster-like sound effect, while chromatic and whole tone scales
+rise and fall in the left hand (Example 3.43).
+Example 3.43. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 83-84
+
+Eventually, the persistent sixteenth-note figurations produce a four-voice stretto at
+mm. 85-91, in the cello, piano right hand, violin, and piano left hand. The musical material in
+the stretto is derived from the sixteenths in the violin, mm. 57-63; Lee alternates this sevenbar passage among the three instruments at mm. 57-77 and creates a two-voice stretto
+between the cello and violin at mm. 78-84, which is then connected to the stretto for four
+voices from m. 85. The gradual crescendo throughout the stretto, starting from an already
+loud dynamic, increases the contrapuntal intensity and pushes towards a climactic point;
+meanwhile, motive A occurs in octaves in the violin, mm. 89-90 (Example 3.44).
+
+72
+
+Example 3.44. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 85-90
+
+From mm. 92-93, open fifths are linked to the octatonic scale in the violin, while
+three parallel chromatic lines are created between the cello and piano; the two ascending
+chromatic scales between both hands of the piano create intense tritones (Example 3.45).
+73
+
+Example 3.45. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 91-94
+
+After these chromatic progressions, long notes in the violin (D#) and cello (B) in their
+high registers and repetitive sixteenth-note patterns in the piano lead to an exceedingly atonal
+climax at mm. 94-98. This highest point is analogous to the end of the B section in Doori
+Nori for Violin and Piano (Examples 3.23 and 3.42); Lee exploits the same D# in the violin,
+while chromatic scales and perpetual sixteenth-note motions in the piano create severe
+dissonance (recall Example 3.26). The high D# in the violin is smoothly connected to the last
+statement of motive A, and the B section concludes with ritardando at mm. 97-100 (Example
+3.46). The fast sixteenths with stacatti, fugal devices, and syncopated rhythms all make the B
+section the most brilliant and virtuosic part of Sesi Nori.
+
+74
+
+Example 3.46. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 97-99
+
+Section C (mm. 100-155)
+The C section of Sesi Nori, as in Doori Nori, is characterized by a wave of
+ornamental notes recreating the sound of Korean wind instruments made of bamboo, such as
+danso, daegeum, and piri. The improvisatory melodies in the piano and pizzicati in the violin
+and cello amplify the meditative sound quality. The piano writing is polytonal: G major and
+Db major, and Eb major and A major at m. 102; B major and F major, and C major and F#
+major at m. 103; while the last two chords at m. 103 are Stravinsky’s Petrushka chord. As in
+his other compositions, Lee adopts Korean traditional rhythmic patterns, but here alters it
+rather than using the basic form of a given jangdan;22 the beginning of the C section suggests
+a variant of the gutgeori jangdan at a slow tempo (Example 3.47).
+
+22
+
+Kim, “Korean Dance Suite for Piano by Young Jo Lee,” 141.
+75
+
+Example 3.47. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 100-104
+
+Gutgeori jangdan
+
+A new theme appears in the piano at mm. 104-152; this is an exact quotation from
+the A section of Doori Nori for Violin at mm. 9-24 (compare to Example 3.21). This sixteenbar melody is repeated three times throughout the C section. The sixteen measures can be
+divided into two eight-bar phrases (e.g. mm.121-128 and mm. 129-136 in Example 3.48); the
+first four-bar melodies of each phrase (e.g. mm. 121-124 and mm. 129-132) are based on the
+76
+
+five-note gyemyeonjo.
+Gyemyeonjo
+
+The quoted melody remains in the piano over pedal point-like chords, implying the
+tonal center E; the violin and cello alternate playing motive A. This passage uses nonghyun
+techniques: choosung (ascending glissandi) and jeonsung (grace notes like appoggiatura) in
+the piano embellishments. Nonghyun is central to Korean traditional music, bringing the
+monophonic melodies alive and adding various color effects; the melodic lines can be
+elaborated according to the performer’s spirit and technique.23 The piano quietly plays the
+recurring open fifths to close the C section (Example 3.48).
+While the outer sections are weighted towards Western compositional devices
+including atonality, chromaticism, and contrapuntal techniques, the central C section is
+focused on more traditional aspects—woodwind-like sound, pentatonic scale, traditional
+rhythmic patterns, and many embellished notes. The result is a contemplative atmosphere as
+the turning point in a journey from the restraint of section A through the exuberance of
+section B.
+
+23
+
+Kim, “The Musical Style and Compositional Technique of Young-Jo Lee,” 46-47.
+77
+
+Example 3.48. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 120-136
+
+78
+
+Section B´ (mm. 156-210)
+Section B´ recapitulates section B from mm. 156-202, and continues with new
+material from mm. 203-210. The reiterated portion comes to a climax at mm. 199-203; the
+three instruments then descend together at mm. 204-208. Motive A appears in the violin and
+cello in unison for the last time in the B´ section, descending an octave. Chromatic scales in
+the piano, with hands also in unison, descend even further by three octaves (Example 3.49).
+
+79
+
+Example 3.49. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 203-208
+
+The dynamic, vigorous B´ section finishes with repetitive B notes at mm. 208-210,
+foreshadowing the tonic center B of the following A´ section (Example 3.50).
+
+80
+
+Example 3.50. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 209-210
+
+Section A´ (mm. 211-226)
+Like the other Nori works, the A´ section of Sesi Nori is a shortened repeat of the A
+section; here, Lee omits the second half of the A section (corresponding to mm. 28-50). B is
+finally reaffirmed as a tonal center through pp repetition of the pitch B in all three
+instruments (Example 3.51).
+Example 3.51. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 221-226
+
+81
+
+In Sesi Nori for Violin, Cello, and Piano, Lee continues to display his enthusiasm for
+musical syncretism; Korean traditional elements and Western compositional techniques are
+well balanced in the work. As in Doori Nori, Lee utilizes monothematicism (motive A)
+throughout Sesi Nori, bringing compositional unity. The motive is both combined with
+traditional Korean ornamentations and instrumental sounds, and developed through
+contrapuntal devices (augmentations, canons, and stretti), tonal and atonal qualities (pedal
+points, tritones, diminished sevenths, French sixths, and excessive chromaticism), and
+various rhythmic alterations. Additionally, Lee adeptly captures a unique timbre of each
+instrument and at the same time creates a harmonious balance between them. These features
+have made Sesi Nori warmly welcomed by numerous chamber music players and audiences.
+
+82
+
+Piano Performance Issues
+In performing these works, it is necessary to understand how Lee’s idiomatic pianism
+integrates Korean and contemporary Western musical language. In the three Nori works,
+Korean traditional instruments, jangdan, rapidly shifting meters, added seconds to the perfect
+fifth chords, augmented sixths, diminished sevenths, chromaticism, polytonal writing, and
+some tonal allusions are prominent; the performer must therefore be intimately familiar with
+these elements.
+The most critical matter is a solid awareness of the traditional instruments, required
+to accurately reproduce each distinct sound on the piano. For percussive effects, strong and
+detached finger touch as well as drier pedaling are essential. In Honza Nori for Piano, mm.
+15-19, the repeated B in the right hand must emulate the sound of janggu, but it is difficult to
+play these notes evenly and delicately; I suggest that the performer articulate each B with a
+light touch (recall Example 3.3). At mm. 30-32, the buk, jing, and kkwaenggwari are evoked
+in the open sonority created by accentuated fifths with added notes in both hands; the
+performer needs to listen to the resonance of the chords carefully, mimic a percussive quality
+by playing with the tips of the firm fingers, and establish an exciting, dancelike mood. Here,
+the cross hand technique requires controlling both the constant rhythmic figures in the right
+hand and the wide leap in the left hand in a fast tempo; the performer should prepare for the
+leaps while keeping the pulse throughout (Example 3.10).
+The structure of Doori Nori for Violin and Piano, mm. 184-189 (Example 3.34) is
+similar to Honza Nori for Piano (Example 3.10): incessant open fifths in the violin and dancelike rhythmic patterns based on the perfect fifth chords with added seconds in the piano
+evoke the sound of traditional Korean percussion. In addition to presenting this
+percussiveness, rhythmic control between the violin and piano is required; both players
+83
+
+should keep the steady pulse during the fast 6/8. In particular, when they have accentuations
+at different beats, both performers have to be very careful not to disturb each other’s part.
+Before playing at the original tempo, they must practice slowly together to feel the two-beat
+rhythmic base and enjoy the irregular accents on weak beats; this will allow them to facilitate
+greater coordination between the instruments and convey the cheerful and percussive
+characteristics.
+Example 3.16b shows the middle section of Honza Nori for Piano, mm. 77-82. This
+sections depicts the sound of Korean wind instruments, such as danso, daegeum, or piri,
+through ornamented melodies. It is written on three staves, quoting the most well-known
+Korean folk tune, Arirang in the middle voice. To balance the multi-layered voices, each part
+should be practiced separately, to perfect hearing and phrasing of the individual voices; the
+performer should then practice the voices together but without the ornamental notes, and in
+time can add them freely. This approach will help to clarify the main melodic structure.
+As discussed in the previous chapter, sigimsae is played according to each
+performer’s emotions and expressions.24 In spite of a strong improvisatory tendency, it
+should be performed in the context of a melodic progression. Several ornamentations
+(jeonsung) from Figure 2.1 are presented in Examples 3.52a and 3.52b. It is valuable to
+identify these embellishments in advance of practicing, and thereafter apply them properly to
+the music with the performer’s inner emotions. Lee utilizes the original or variant ornaments
+not only to imitate the sound of traditional wind instruments but also to emphasize the main
+melodic notes; these ornamental notes often gravitate toward the central tones, intimating a
+certain tonality. For instance, in the piano part of Sesi Nori for Violin, Cello, and Piano, mm.
+
+24
+
+Song, The World of Korean Music, 492.
+84
+
+142-145, most of the tunes with appoggiaturas revolve around “E,” indicating a tonal center;
+practicing without the decorative notes will be necessary to be aware of these pivotal tones
+and structural functions (Example 3.52b).
+Example 3.52a. Young Jo Lee, Honza Nori for Piano, mm. 77-78
+
+Sigimsae
+
+Example 3.52b. Young Jo Lee, Sesi Nori for Violin, Cello, and Piano, mm. 142-145
+
+Sigimsae
+
+85
+
+The performer needs to understand the types of jangdan and execute them
+recognizably; maintaining rhythmic clarity allows for the full expression of a variety of
+moods, such as excitement and emotional intensity.25 To better understand Lee’s use of
+traditional instruments or performance techniques (i.e. Korean ornamentation and
+improvisation), I suggest listening to Korean traditional music repeatedly to develop a feeling
+for its characteristics: vocal music—minyo (folk songs) and pansori (musical storytelling by a
+singer and a drummer); instrumental music—sanjo (virtuosic solo instrumental music
+accompanied by percussion) and samulnori. A comprehensive study of the genre’s features
+should come prior to any practicing.
+Lee gives detailed metronome markings in the three Nori compositions. The basic
+problem for each is to keep the metric pulse without either rushing the fast section or losing
+momentum in the slow section.
+In addition, the frequent meter changes require practice with a metronome to
+establish the basic tempo for each section. Example 3.33 in Doori Nori for Violin and Piano,
+mm. 173-180, is a cascade of shifting meters. Lee alters the time signatures every measure
+over twelve bars, leading to a more energetic mood. Characterized by syncopated rhythms in
+the violin and continuous sixteenth-note runs in the piano, this section is very challenging for
+both performers due to the driving but differing rhythmic patterns. They should practice
+separately first to become accustomed to their own parts. To play the sixteenths clearly and
+evenly, the pianist must be conscious of the repetitive and parallel motions, feel the tritone
+
+25
+
+Lee manipulates the four types of jangdan in the three Nori compositions: jajinmori, semachi,
+hwimori, and gutgeori jangdan. For further information, recall several examples for each rhythmic pattern:
+jajinmori jangdan—Examples 3.2b, 3.8, 3.12, and 3.34; semachi jangdan—Examples 3.9b and 3.28; hwimori
+jangdan—Example 3.13; gutgeori jangdan—Examples 3.25b and 3.47.
+86
+
+dissonance generated between both hands, and group them differently according to the
+kaleidoscopic meters. On the other hand, the violin player should prepare for the double and
+quadruple stops in time to maintain rhythmic intensity and enjoy syncopation that often
+emphasizes the off-beat. Practice with subdivided beats will be helpful for both performers to
+appreciate each other’s rhythmic pulse; they then can bring together the huge energy to create
+much more dramatic tension.
+Aside from the increased use of added seconds to the perfect fifth chords, Lee’s
+preeminent harmonic interest lies in the frequent adoption of augmented sixths (especially
+French sixths), diminished sevenths, polychords, and chromaticism, presenting diverse colors
+and atonal sound qualities. For exuberant harmonic practices, the performer needs to know
+each chord’s function in the context of musical structure. Example 3.29 in Doori Nori for
+Violin and Piano relates to the colors of chromaticism and French sixths; a contemplative
+ambience can be established by rich, sensitive, and sometimes flutter pedaling; since the final
+decision in pedaling comes from the pianist’s ear, careful listening is essential. The polytonal
+passages should first be played separately to hear each harmonic color and then can be
+presented simultaneously as tone clusters, which are mostly heard as dissonant (recall
+Examples 3. 17, 3.19, 3.23, and 3.42). In terms of tonal aspects, Lee employs pedal point-like
+chords in the bass and constantly repeats a specific note; the performer needs to play and
+listen to the central note or pedal tone, and secure each tonal implication (Examples 3.1,
+3.16b, 3.21, 3.36, and 3.48).
+As Lee highlights the equal relationships between the instruments, carefully
+balancing them will prove most demanding both in Doori Nori for Violin and Piano and Sesi
+Nori for Violin, Cello, and Piano; performers especially need to be very sensitive when
+playing all together f to ff, often with sfz. In Sesi Nori for Violin, Cello, and Piano, energetic
+87
+
+stretto provides counterpoint in fast sixteenth-note melodic motives with staccati, steadily
+building a dramatic intensity toward a climax. Performers are expected to produce rich
+orchestral sonorities through these thick polyphonic textures. Each of the themes in the three
+instruments not only should be presented independently within f, but must also have a crisp
+sound with the same articulation (Example 3.44).
+Lee has managed to crystallize how he tries to combine the musical features from the
+East and West in the three Nori compositions for piano. He has always worked on writing
+music idiomatically for the piano, evidencing both a thorough knowledge of technique and a
+deep understanding of the sonority of the piano and exploiting the instrument to its greatest
+expressive qualities. Hence, the performer has to be fully aware of Lee’s distinct musical
+language first, practice meticulously, and make the utmost use of the instrument itself.
+
+88
+
+Conclusion
+Lee aspires to musically assert his identity as a part of the third generation of Korean
+composers. While previous generations paid close attention to absorbing and imitating
+Western classical music, he has been looking for an ideal Korean music at all times. His
+constant efforts to combine the East and the West have borne fruit in diverse genres of music.
+Lee’s contributions to twentieth-century keyboard literature have received much
+recognition from numerous performers; as the harmony of traditional Korean and Western
+musical features is highly impressive and understandable, his works are mostly well received
+by audiences. Therefore, most of his compositions for piano have understandably been
+commissioned by prominent Korean pianists. These have allowed Lee’s keyboard works to
+appear frequently on the recital programs and the recording lists.
+By detailing how Lee integrates Korean traditional music into Western formats
+through the three Nori works for piano, this document has sought to help both performers and
+listeners to better appreciate his piano music. Honza Nori for Piano, Doori Nori for Violin
+and Piano, and Sesi Nori for Violin, Cello, and Piano share a variety of traditional musical
+elements: folk music—samulnori and farmer’s dance, nongak; modes—pentatonic scale (GA-C-D-E) and three- or five-note gyemyeonjo (alternating thirds and seconds); instruments—
+percussion (buk, kkwaenggwari, jing, and janggu), woodwinds (danso, daegeum, piri), and
+strings (gayageum, geomungo); rhythmic patterns (often modified)—jajinmori, semachi,
+hwimori, and gutgeori jangdan; ornamentations—choosung technique for the violin and cello
+and jeonsung for the piano. However, Lee aims not just to mimic Korean traditional music,
+but to experiment and discover a new timbre of the sound by incorporating Western musical
+components. Lee’s abundant use of Western compositional techniques used in the three Nori
+works can be summarized as follows: through-composed forms; atonal qualities—added
+89
+
+second to the perfect fifths, unresolved augmented sixths (French sixths) and diminished
+sevenths, quartal or quintal harmonies, polytonal writing (including references to Stravinsky’s
+Petrushka chord), tone clusters, and chromatic, whole-tone, and octatonic scales; tonal
+allusion—repeating specific central tones and chords (pedal points); setting technique of
+musical borrowing—Miryang Arirang and Arirang; monothematic/motivic development;
+contrapuntal devices—stretti, canonic imitations, augmentations, and diminutions; and
+shifting meters.
+From the perspective of an interpretive performer, this study has illuminated not only
+Lee’s stylistic uniqueness but also the musical and technical issues of these three
+compositions. The percussive, meditative effects, rhythmic liveliness and steadiness,
+multifarious harmonic colors, and balancing between the instruments can be accomplished
+through performers’ refined techniques and musicianship; deliberate articulation, touch,
+pedaling, phrasing, and voicing, and a wide range of dynamics should be decided and
+executed by performers’ incisive ears and fingers and emotional depth. Performers of these
+pieces will benefit from this study’s exploration of stylistic features, enhancing their
+performative interpretations and practices, and better positioning the pieces to gain wider
+attention beyond Korea.
+
+90
+
+Bibliography
+
+Books
+Axford, Elizabeth C. Traditional World Music Influences in Contemporary Solo Piano
+Literature: A Selected Bibliographic Survey and Review. Lanham, MD: The
+Scarecrow Press, Inc., 1997.
+Burge, David. Twentieth-Century Piano Music. Lanham, MD, Toronto and Oxford: The
+Scarecrow Press, Inc., 2004.
+Burkholder, James Peter. All Made of Tunes: Charles Ives and the Uses of Musical
+Borrowing. New Haven, CT: Yale University Press, 1995.
+Byeon, Gyewon. “Contemporary Korean Music.” In Korean Musicology Series, 1, edited by
+Byong-Won Lee and Yong-Shik Lee, 171-185. Seoul: The National Center for
+Korean Traditional Performing Arts, 2007.
+Cone, Edward T. Musical Form and Musical Performance. New York: W. W. Norton, 1968.
+Eckert, Carter, et al. Korea Old and New: A History. Seoul: Iljokak, 1990.
+Frith, Simon. “Music and Identity.” In Questions of Cultural Identity, edited by Stuart Hall
+and Paul du Gay, 108-127. London: Sage, 1996.
+Gillespie, John. Five Centuries of Keyboard Music: A Historical Survey of Music for
+Harpsichord and Piano. New York: Dover Publications, 1972.
+Gordon, Stewart. A History of Keyboard Literature: Music for the Piano and Its
+Forerunners. Belmont, CA: Schirmer, 1996.
+Hesselink, Nathan. Contemporary Directions: Korean Folk Music Engaging the Twentieth
+Century and Beyond. Berkeley, CA: the Institute of East Asian Studies, University of
+California, 2002.
+________. “Folk Music: Instrumental.” In Korean Musicology Series, 1, edited by
+Byong-Won Lee and Yong-Shik Lee, 93-104. Seoul: The National Center for Korean
+Traditional Performing Arts, 2007.
+________. P’ungmul: South Korean Drumming and Dance. Chicago: University of
+Chicago Press, 2006.
+________. SamulNori: Contemporary Korean Drumming and the Rebirth of Itinerant
+Performance Culture. Chicago: University of Chicago Press, 2012.
+91
+
+Hong, Jung Soo, et al. Lee Young Jo Eumak (The Music of Lee Young Jo). Seoul: Taesung,
+2012.
+Howard, Keith. Creating Korean Music: Tradition, Innovation and the Discourse of Identity.
+Burlington, VT and Aldershot, England: Ashgate, 2006.
+________. Korean Musical Instruments. Hong Kong and New York: Oxford University
+Press, 1995.
+________. Music and Ritual. The Hague: Semar Publishers, 2006.
+________. Preserving Korean Music: Intangible Cultural Properties as Icons of Identity.
+Burlington, VT and Aldershot, England: Ashgate, 2006.
+________. SamulNori: Korean Percussion for a Contemporary World. Burlington, VT and
+Aldershot, England: Ashgate, 2015.
+Kim, Choon Mee. Harmonia Koreana: A Short History of 20th-Century Korean Music.
+Seoul: Hollym International Corporation, 2011.
+Lee, Byong-Won. “Religious Music: Buddhism.” In Korean Musicology Series, 1, edited by
+Byong-Won Lee and Yong-Shik Lee, 145-157. Seoul: The National Center for
+Korean Traditional Performing Arts, 2007.
+________. Styles and Esthetics in Korean Traditional Music. Seoul: The National
+Center for Korean Traditional Performing Arts, 2006.
+Lee, Hye-Gu. Essays on Korean Traditional Music. Translated and edited by Robert C.
+Provine. Seoul: Published for the Royal Asiatic Society, Korea Branch by Seoul
+Computer Press, 1981.
+________. Korean Musical Instruments. Translated by Alan C. Heyman. Seoul: National
+Classical Music Institute of Korea, 1982.
+Lee, Kang-sook. “Certain Experiences in Korean Music.” In Musics of Many Cultures: An
+Introduction, edited by Elizabeth May, 32-47. Berkeley: University of California
+Press, 1980.
+Lee, Seongcheon et al. Algishiyoon Gukakgaeron (Easy Introduction to Korean Traditional
+Music). Seoul: Poong Nam Publishing Co., 1997.
+Lee, Soon Jung. Guide to the Piano Works of Contemporary Korean Composers. Seoul:
+Taerim Publishing Co., 2000.
+Lee, Yong-Shik. “Religious Music: Shamanism.” In Korean Musicology Series, 1, edited by
+Byong-Won Lee and Yong-Shik Lee, 159-169. Seoul: The National Center for
+Korean Traditional Performing Arts, 2007.
+92
+
+Lee, Young Jo. Resume Written on a Music Sheet: Composer Young Jo Lee. Seoul:
+Jakeunwoori, 2002.
+Leeuw, Ton De. Music of the Twentieth Century: A Study of Its Elements and Structure.
+Amsterdam: Amsterdam University Press, 2005.
+Pratt, Keith. Korean Music: Its History and Its Performance. Jung Eum Sa Publishing: Seoul
+and London: Faber Music, 1987.
+Rockwell, Coralie. Kagok: A Traditional Korean Vocal Form. Providence, RI: Asian Music
+Publications, 1972.
+So, Inhwa. “Court Music.” In Korean Musicology Series, 1, edited by Byong-Won Lee and
+Yong-Shik Lee, 13-29. Seoul: The National Center for Korean Traditional
+Performing Arts, 2007.
+________. Theoretical Perspectives on Korean Traditional Music: An Introduction. Seoul:
+The National Center for Korean Traditional Performing Arts, Ministry of Culture and
+Tourism, 2002.
+Song, Bang-song. An annotated bibliography of Korean music. Providence, RI: Asian Music
+Publications, Brown University, 1971.
+________. Hankuk Eumak Tongsa (The World of Korean Music). Seoul: Iljokak, 1998.
+________. Korean Music: Historical and Other Aspects. Seoul: Jimoondang, 2000.
+________. Source Readings in Korean Music. Seoul: Korean National Commission for
+UNESCO, 1980.
+Song, Hye-jin. A Stroll through Korean Music History. Seoul: The National Center for
+Korean Traditional Performing Arts, Ministry of Culture and Tourism, 2000.
+The National Center for Korean Traditional Performing Arts, ed. Pansori. Seoul: The
+National Center for Korean Traditional Performing Arts, 2004.
+Articles
+Babcock, David. “Korean Composers in Profile.” Tempo 192 (April 1995):15-21.
+Burkholder, James Peter. “The Uses of Existing Music: Musical Borrowing as a Field.”
+Notes: Quarterly Journal of the Music Library Association 50 (1994): 851–870.
+Chae, Hyun-kyung. “Newly-Composed Korean Music: Westernization, Modernization, or
+Koreanization.” Toyang Umak/Journal of Asian Music Research Institute 22 (2000):
+141-151.
+93
+
+Howard, Keith. “Book Review: SamulNori: Contemporary Korean Drumming and the
+Rebirth of Itinerant Performance Culture, by Nathan Hesselink.” The Journal of
+Asian Studies 72.1 (Feburuary 2013): 213-215.
+________. “Different Spheres: Perceptions of Traditional Music and Western Music in
+Korea.” The World of Music 39 (1997): 61-65.
+________. “Why Do It That Way? Rhythmic Models and Motifs in Korean Percussion
+Bands.” Asian Music 23, no. 1 (Fall 1991-Winter 1992): 1-59.
+Kim, Choon Mee. “A Study on the Structural Thinking of Music of the Composer Young-Jo
+Lee.” The Journal of Musicology 14 (2007): 67-119.
+Kim, Dae-Sung and Ok-Bae Moon. “The Third Generation of Composers.” Romantic Music
+(Winter 1991): 59-125.
+Lace, Ian. “Pianist My Kim: A Passion to Promote Korean Music” Fanfare 24:2 (2000):108110.
+Lee, Young Jo. “A Study on Creative Education in West-Germany: the Field of Music
+Composition.” Yonsei Journal 19, no. 1 (1982):235-262.
+________. “What we can learn from BBC Symphony Orchestra.” The Music Education
+News, October 16, 2013. Accessed October 25, 2015.
+http://www.musiced.co.kr/bbs/board.php?bo_table=total&wr_id=810.
+Provine, Robert C. “Korean Music: Percussion, Power, History, and Youth.” East European
+Meetings in Ethnomusicology 5 (1998): 61-71.
+________. “Korean Music in Historical Perspective.” The World of Music 27, no. 2 (1985):
+3-15.
+________. “Brief Introduction to Traditional Korean Folk Music” Korean Journal 15, no. 1
+(January 1975): 29-31.
+Sullivan, Jack. “Lee: Dance Suite; 5 Korean Legends; Schubert Variations; Variations 3B.”
+American Record Guide 64, no. 1 (January-February, 2001): 150.
+Sutton, R. Anderson. “Fusion and Questions of Korean Cultural Identity in Music.” Korean
+Studies 35, no.1 (2011), 4-24.
+________. “What’s That Sound? Korean Fusion Music and the Ascendancy of the
+Haegŭm.” Asian Music 39, no. 2 (Summer-Fall, 2008): 1-27.
+Yi, Sung-chun. “The Identity of Traditional Korean Music.” Korea Journal 37, no. 3 (1997):
+110-122.
+94
+
+Theses and Dissertations
+Gu-Jang, Sung Bok. “Young Jo Lee: An Analysis of Stylistic Features of the Variations for
+Piano on the Theme Baugoge.” DMA thesis, University of Kentucky, 2006.
+Kang, Yoo-Sun. “Toward the New Korean Musical Language: The Merging of Korean
+Traditional Music and Western Music in Piano Works by Contemporary Korean
+Composers.” DMA thesis, University of Cincinnati, 2002.
+Kim, Jin. “Exploring Aspects of Korean Traditional Music in Young Jo Lee's Piano Honza
+Nori.” DMA thesis, University of North Texas, 2013.
+Kim, Joo Won. “The Development of Contemporary Korea Music with Emphasis on Works
+of Isang Yun.” DMA thesis, Ohio State University, 2011.
+Kim, Kunwoo. “Korean Dance Suite for Piano by Young Jo Lee: An Analysis.” DMA thesis,
+Ball State University, 2008.
+Kim, Mun Soo. “Use of National Folk Music in a Style Utilizing Original and Modern
+Procedures: A Case Study of Korean Contemporary Art Music 16 Arirang Variations
+for Piano Solo by Bahk Jun Sang.” DMA thesis, University of North Carolina at
+Greensboro, 2013.
+Kim, Tae Hyun. “The Korean Traditional Elements in Young-Jo Lee’s Choral Works.” DMA
+thesis, Northern Colorado University, 2013.
+Kim, YeonJin. “The Musical Style and Compositional Technique of Young-Jo Lee, As
+Reflected in his Violin Compositions Honza Nori for Solo Violin and Doori Nori for
+Violin and Piano.” DMA thesis, University of Arizona, 2010.
+Kwon, Oh Hyang. “Cultural Identity through Music: A Socio-Aesthetic Analysis of
+Contemporary Music in South Korea.” PhD diss., University of California, Los
+Angeles, 1992.
+Kwon, Suk-Rahn. “Young-Jo Lee’s Variations on the Theme of Baugogae: In Search of His
+Own language, a Lecture Recital, together with Three Recitals of Selected Works by
+Haydn, Rachmaninoff, Liszt, Schumann, Messiaen, and Others.” DMA thesis,
+University of North Texas, 2000.
+Lee, Seunghee. “A brief analysis of Young Jo Lee's Korean Dance Suite.” DMA thesis,
+University of Kentucky, 2012.
+Lee, Soon Jung. “Nationalistic Traits in Solo Piano Works of Contemporary Korean
+Composers.” DMA thesis, University of Kansas, 2005.
+Min, Sin Myung. “A Great Korean Music Pioneer Min-Chong Park: A Performance Guide of
+His Selected Violin Works.” DMA thesis, Louisiana State University, 2014.
+95
+
+Sung, Hyun-Ju. “Contemporary Piano Solo Works Adapted from Korean Traditional Musical
+Elements.” DMA thesis, Arizona State University, 2009.
+Online Sources
+Lee, Young Jo. “Young Jo Lee Website.” Accessed September 11, 2015.
+http://leeyoungjo.weebly.com.
+________. “Young Jo Lee-Seoul International Music Competition.” Accessed October 22,
+2015. http://www.seoulcompetition.com/re/2011/LEE_Young_JoPiano_Honza_Nori.pdf.
+National Gugak Center. “National Gugak Center.” Accessed October 30, 2015,
+http://www.gugak.go.kr/site/main/index001.
+Scores
+Lee, Young Jo. Doori Nori for Violin and Piano. Seoul: 20 Trillion Production, 1995.
+________. Honza Nori for Piano. Seoul: 20 Trillion Production, 2010.
+________. Sesi Nori for Violin, Cello and Piano. Seoul: 20 Trillion Production, 2003.
+Recordings
+Kang, Clara-Jumi. Young Jo Lee’s Honza Nori for Violin from Modern Solo: Virtuoso Music
+for Solo Violin. Universal Music DD 8108, 2011, compact disc.
+Lee, Young Jo. Honza Nori for Piano from Young-Jo Lee: Piano Music – II. Christopher
+Guzman (piano). ISMM Classics, 2012, compact disc.
+________. Sesi Nori for Violin, Cello, and Piano from Young Jo Lee: Four Songs for Death.
+Hee-Jung Huh (violin), Yun-Jung Huh (cello), and Seung-Yeun Huh (piano). ISMM
+Classics, 2012, compact disc.
+________. Young Jo Lee: Korean Piano Music (Piano Music – I). My Kim (piano). ASV
+Ltd. CD DCA 1088, 2000, compact disc.
+Interview
+Lee, Young Jo. Interviewed by Hyo Jung Song. Seoul: Korea, October 23, 2015.
+
+96
+
+Appendix A
+Selected Compositions by Young Jo Lee
+(as of May 2016)
+
+Orchestral Music
+Symphony
+1979 Jeokbyuk [Red Cliff] for Orchestra
+1996 Goblin Dance for Orchestra from Tcheo Yong
+1997 Sori [Sound] for Symphonic Band
+2002
+Lover’s Dance from Whangjinie
+2007 Sumjip Agie [Island Lullaby] Fantasy for Orchestra
+2011 Buddhist Dance for Orchestra
+2012 Arirang Fantasy for Orchestra
+2013 Yeomyeong [Dawning] for Orchestra
+Concerto
+1982 Oriental Meditation for Flute, Daegeum [Korean large flute], and Orchestra
+1998
+Love Song for Pansori [traditional ensemble of singer and percussion] and Orchestra
+1998 Barcarolle for Cello and Orchestra
+1998 Concerto for Piri [Korean oboe] and Orchestra
+2006 Winter Tree for Chamber Orchestra
+Vocal Music
+Opera
+1987
+1999
+2003
+2005
+2014
+
+Tcheo Yong [son of the dragon king of the Eastern Sea]
+Whangjinie [a famous geisha of the Joseon Dynasty]
+Mokwha [Cotton Flower]
+Sontag Hotel
+Isabu [a general and politician of Silla]
+
+Choral
+Mixed Chorus
+1966 Credo
+1980 Buddhist Dance
+1985 Peasant Dance
+1994 Dear Mother and Sister
+2001 Three Love Songs
+2002 Song of Four Seasons
+2004 Four Songs for Death
+2013 Arirang Collage for Chorus
+2014 Magyar-Arirang, Bartok-Young Jo Lee
+97
+
+Men’s Chorus
+1975 Kyung [Monk's Chorus]
+1983 Full Moon
+2013 Four Arirangs
+2014 Sumjip Agie
+Women’s Chorus
+1983 Soyoyu
+1995 Stabat Mater
+2012 Three Psalms for Female Chorus
+2014 Four Children's Song
+Cantata
+1985 Cross on Desert
+1985 Jerusalem for Baritone Solo and Chorus
+1997 From Bethlehem to Calvary
+2001 Credo
+2004 Song of Prophet - Isaiah
+2007 Songs of the Tea Ceremony
+Song
+1962
+1985
+1989
+1998
+1999
+2013
+2015
+
+Dear Mother and Sister
+Four Songs Based on Dong Joo Yoon’s Poems
+Three Psalms for Mezzo Soprano and Horn
+Agnus Dei
+Six Songs Based on Whang-Jinie’s Poems
+Three Arirangs for Soprano
+Two Songs for Dokdo [Liancourt Rocks]
+
+Chamber Music
+1975
+1987
+1993
+1995
+1995
+1995
+1996
+1996
+1998
+1998
+2002
+2003
+2007
+2007
+
+Seorabeol [Capital of Silla, one of the Three Kingdoms of Korea] for Three Flutes,
+Piccolo, and Percussion
+Monologue and Dialogue for Cello and Piano
+Etude for Two Vibraphones
+Eroica for Horn Ensemble
+Dodri [Return of the theme] for Cello and Janggu
+Doori Nori for Violin and Piano
+Agah [Song of Songs] for Viola and Piano
+Dear Mother and Sister for Cello and Piano
+Sumjip Agie for Violin, Viola, Cello, and Piano
+Nesi Nori for Percussion
+Duo for Cello and Daegeum
+Sesi Nori for Violin, Cello, and Piano
+Winter Tree for Viola Ensemble
+Sound Design for Violin, Viola, Cello, and Piano
+98
+
+2009
+2013
+2014
+2014
+2016
+2016
+
+Arirang Fantasy for Viola Ensemble
+Sumjip Agie for Viola and Piano
+Mosaic for Violin, Cello, and Piano
+Mannam [Encounter] for Gayageum [Korean 12-string zither], Haegeum [2-string
+vertical fiddle], Violin, Cello, and Janggu [hourglass-shaped drum]
+Sumjip Agie for Flute, Clarinet, Cello, and Piano
+Sinawi for Flute, Oboe, and Strings
+
+Piano Music
+1971
+1983
+1983
+1984
+1984
+1998
+1998
+2005
+2006
+2010
+2011
+2013
+2014
+2014
+2014
+2014
+2014
+
+Three pieces for Piano, Prologue-Episode-Epilogue
+Baugogae [Rock Hill] Variations for Piano in the Composition Style of Bach,
+Beethoven, Chopin, Debussy, Bartok, Webern, Messiaen, and Young Jo Lee on a
+Theme by Heung Ryul Lee
+3B Variations for Piano, Bach-Beethoven-Brahms
+Schubert-Lee Variations for Piano
+Tchum [Dance] for Piano
+Five Korean Legends
+1. Dream 2. Once Upon a Time 3. Children Playing 4. Memories 5. Hide and Seek
+Korean Dance Suite
+1. Heaven 2. Children 3. Lover 4. Buddhist 5. Peasant
+Fantasy for Piano
+Six Asian Folk Songs for Piano
+1. China 2. Thailand 3. Indonesia 4. Macedonia 5. Japan 6. Korea
+Honza Nori for Piano
+Mother’s Heart Variations for Piano on a Theme by Heung Ryul Lee
+Arirang Collage for Two Pianos
+Sumjip Agie Variations for Piano on a Theme by Heung Ryul Lee
+Reunion of Korea Variations for Piano
+Monologue for Piano
+Arirang Fantasy for Piano
+Dreaming Fantasy for Piano
+
+Organ Music
+1983
+1997
+2006
+2008
+2011
+
+Cosmos for Organ
+Zen-I for Organ
+Credo for Organ
+Crucifix for Organ
+Zen-II for Organ
+
+Unaccompanied Sori Series
+1979
+
+Sori No. 1 for Flute
+99
+
+1979
+1979
+1981
+1981
+1981
+1982
+1983
+1981
+1999
+2000
+2007
+2011
+
+Sori No. 2 for Marimba
+Sori No. 3 for Clarinet
+Sori No. 4 for Timpani
+Sori No. 5 for Voice
+Sori No. 6 for Horn
+Sori No. 7 for Oboe
+Sori No. 8 for Organ
+Sori No. 9 for Cello
+Sori No. 10 for Alto Saxophone
+Sori No. 11 for Double Bass
+Sori No. 12 for Trombone
+Sori No. 13 for Trumpet
+
+Unaccompanied Solo Instrumental Music
+1994
+1996
+1998
+1998
+2007
+
+Honza Nori for Violin
+Sungbulsa [Korean Buddhist temple] Variations for Cello on a Theme by Nanpa
+Hong
+Bongseonhwa [Garden Balsam] Variations for Violin on a Theme by Nanpa Hong
+Ryu-II for Geomungo [Korean 6-string plucked zither]
+Honza Nori for Percussion
+
+Electronic Music
+1982
+1997
+1997
+
+Cosmos-II for Tape and Percussion
+To Calvary
+The Torn Curtain
+
+100
+
+Appendix B
+Interview with Young Jo Lee
+October 23, 2015, Seoul, Korea
+
+Hyo Jung Song: Can you tell me what motivated you to compose the Nori series?
+Young Jo Lee: I have been commissioned by many chamber groups, and wrote in the forms
+of Western style. However, to be free from this conventional structure of writing, I decided to
+create a new music which became the Nori series. I was inspired by the way children were
+playing. They have no set rule or form. Like that, the Nori works are in a free style. Nori
+means “playing.” The title Honza (alone), Doori (two), and Sesi (three) are another name for
+solo, duet, and trio. I like these Korean titles to show the beauty of Korean language.
+Song: Do the elements of the Nori come from the samulnori?
+Lee: Somehow, you can say that. The Nori works are characterized by the elements of
+samulnori. I wanted to imitate the sound for percussions from samulnori: kkwaenggwari,
+jing, janggu, and buk. Nesi Nori was composed for percussion but it is different from
+samulnori in that Nesi Nori has a lot more instruments, not just four. I divided the percussions
+into four groups, based on the materials: first, leather—timpani, snare drum, janggu, and buk;
+second, wood—wood block, temple block, sticks, and bak; third, iron—cymbals and chime;
+last, keyboard instrument—xylophone, vibraphone, and marimba. These instruments give
+more different sonorities.
+Song: How did you present Korean traditional elements through a Western instrument, piano,
+in the Nori pieces?
+Lee: I tried to highlight the traditional features and express them through contemporary
+instruments such as piano, violin, and cello. I reinvented the traditional string techniques in
+the gayageum, geomungo, and haegeum as pizzicato and glissando, etc., on the violin or
+cello. To better understand them, you should listen to diverse Korean traditional music
+including vocal music: pansori and Korean art songs.
+Song: You transcribed the Sesi Nori for Violin, Cello, and Piano for other instrumentations.
+What are they and is there special reason for [the transcription]?
+Lee: There are two more versions for Sesi Nori for now: for violin, clarinet, and piano and
+for oboe, cello, and piano. It was so spontaneous. The Sesi Nori for violin, cello, and piano
+was written for the Huh Trio in 2002. Then, a well-known clarinetist asked me to transcribe it
+for his ensemble after listening to the recording of Huh Trio. So I made that in 2009. And
+then the same for the other transcription, for the oboe, cello, and piano; I transcribed it again
+in 2010. All three [versions of] Sesi Nori are based on the same theme and structure, but have
+a bit different parts due to the instrumentation and registers of each instrument. Interestingly,
+I have been transcribing much music for different instrumentations. For Arirang, which is the
+most famous Korean traditional song, I transcribed it for orchestra, string ensembles, solo
+101
+
+piano, two pianos, [solo] singers, and choirs. It is always my pleasure to transcribe or write
+music for different genres and people.
+Song: Is there any relationship between the Nori series and the Sori series?
+Lee: Not really, but both of them have the titles in Korean. Sori means “sound.” I attempted
+to present the distinctive sound of each instrument and specific techniques in them: the multisound of the clarinet, overtones created with the mouthpiece in the brass instruments etc.
+Overall, I can say that the Nori and Sori series are all virtuosic works.
+Song: You learned to play the clarinet, French horn, and piri besides the piano. How did they
+help you in composing? How did you decide to learn the piri?
+Lee: Learning many instruments was absolutely helpful to compose the orchestral works. As
+you know, the composers are commissioned by so many performers from different genres at
+all times. The composer needs to know (or even play) as many instruments as possible so that
+he is able to produce the pieces that suit well each instrument with its particular techniques. I
+have a long story about how fond I am of Korean traditional music. That story can be found
+in my autobiography. Back to the question, I began to learn the piri with Jae-guk Jeong and
+took some classes about Korean traditional music when I went to Yonsei University. That
+experience had a strong influence on me to put traditional elements in my music.
+Song: Can your musical style be divided into specific periods? For example, before studying
+abroad, in Germany and the United States, and after returning to Korea?
+Lee: Sorry but no. I went to Germany at the age of thirty-four. Before I went abroad, I
+already had my own ideas and languages about musical style. I learned how to modernize my
+compositional techniques when I studied in Germany and America. I have been very
+interested in Korean traditional music since I was little, just as I like kimchi and some other
+Korean foods. I pursued anti-Western musical style when I lived abroad. You will realize how
+much I prefer using Korean titles if you look at my list of compositions.
+Song: What would you like to give your audience through your music? Is there any specific
+goal or philosophy?
+Lee: It is not easy to say in few words what the music means to me. Hmm, for me,
+composing is a free artistic way to express myself. It is so fundamental and the best means of
+communication between me and the outside world. I have grown up and developed through
+music as a person as well as a composer every day. In terms of my own musical styles and
+aims, I would like to integrate our Korean traditional elements into Western musical language
+naturally. I do wish that Korean musicians continue to perform, respect, and write (as
+composers) our Korean music in many different forms, so that we can present Korean spirit
+and identity to the world through music.
+
+102
+
+Appendix C
+Letter of Permission
+
+103
+
+
