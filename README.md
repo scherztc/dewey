@@ -7,7 +7,19 @@ The real skill in Machine Learning is determining which questions can be answere
 1. Are there different groups?  Which one does this belong to? Clustering - UnSupervised Learning
 1. Is this weird? Anomaly Detection - UnSupervised Learning
 1. Which option should I choose? Recommendation - UnSupervised Learning
-
+1. Translation
+1. Test Sentiment
+1. Summarization
+   - Analyze this Graph
+1. Parsing
+1. Keywords
+1. Conversation
+1. Text Generation
+   - Text Extraction
+1. Coding
+   - Co-pilot
+   - Visualiztions
+   - Imaginations
 
 # DEWEY can leverage ANNIF to classify subject terms from a FUll-TEXT document using ANNIF.
 
@@ -128,6 +140,7 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 1. Named-entity recognition : such as people, places, and things, and then classifying those entities into categories, such as “person” or “corporate body.” 
 
 1. Encoding : convert the text to structured data\
+   - Transfomers
 
 1. Feature selection : TF-IDF, or term frequency-inverse document frequency
     term frequency is calculated based on how often the word
@@ -175,7 +188,7 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
     -  MALLET uses an implementation of Latent
     -  Dirichlet Allocation (LDA)25
 
-# DEWEY can leverage Chat GPT as a spell checker, voice response, or Image Creator :
+# DEWEY can leverage Chat GPT (3.5, 3.5-turbo, 4.0, 4.0-=turbo) as a spell checker, voice response, or Image Creator :
 
 1.   Chat GPT (OpenAI) : https://openai.com/blog/chatgpt
    -  Github : https://github.com/openai
@@ -183,6 +196,8 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
    -  Uses the openai-client: https://github.com/itikhonenko/openai-client
       -  API KEY
       -  ORGANIZATION_ID
+   -  Dall-E (OpenAI) : https://openai.com/product/dall-e-2
+
    1.  Spell Checker
  
          request_body = {
@@ -226,14 +241,19 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
            response_format: 'url' # url or b64_json
         }
 
+    1. Playground interface : https://platform.openai.com/playground?mode=chat
+
+#  DEWEY can leverage Machine Learning and Large Language Models
+
+    1.  Repository : https://huggingface.co/
+
 #  Other AI Engines to Explore
   
-1.  Dall-E (OpenAI) : https://openai.com/product/dall-e-2
 1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/
 1.  Watson (IBM) : https://www.ibm.com/products/watson-explorer 
    1. Chess
    1. Content Hub. IBM Watson can propose relevant tags based on content.
-1.  Bard (Google)
+1.  Bard/Palm 2 (Google)
    1. Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
 1.  Aladin (BlackRock)
 1.  Mindjourney (MindJourney) : https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
@@ -242,7 +262,14 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 1.  IRIS : https://iris.ai/      
 1.  Claude https://www.anthropic.com/index/claude-2
 1.  https://marketplace.atlassian.com/apps/1224655/scrum-maister?hosting=cloud&tab=overview
-
+1.  Bing (free)
+1.  Claude 2 (free) by Anthropic
+1.  Grok by X (Twitter)
+1.  Open-source models (FREE) available on Huggingface https://huggingface.co/
+1.  Llama 2 by Meta
+1.  Flan, Falcon, Orca, Beluga, Mistral, Mixtral, Phi2
+1.  LMStudio (Windows, Mac, Linux) - install and run models
+1.  Pinokio.computer browser - install and run models
 
 # References
 
@@ -255,8 +282,10 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 1.  M-Files. Smart subjects provide tag suggestions based on document content
 1.  Magellan's AI capabilities include speech and text analytics from contextual hypothesis and meaning deduction.
 1.  AWS Innovate: Data and AI/ML Edition
+1.  Data Science : https://www.dataplusscience.com/GenerativeAI.html
+1.  AI Got Talent : https://dataplusscience.com/files/UCCBAGenAI20240206.pdf
 
-$ Regulation
+# Regulation
 
 MEPs substantially amended the list to include bans on intrusive and discriminatory uses of AI systems such as:
 
@@ -303,6 +332,14 @@ MEPs substantially amended the list to include bans on intrusive and discriminat
 # AI Terms
    - A Corpus : All text documents in Scholar
    - A Training Set :  is a subset of the corpus, which has been tagged in some way to identify the characteristic you are looking for
+        Common Crawl 
+        RefinedWeb
+        The Pile
+        C4
+        Starcoder
+        BookCorpus o ROOTS
+        Wikipedia o Red Pajama
+
    - A Test Set : collection of documents to be used for trialling the algorithm, to see how successfully it carries out the operation.
        - Example : Modified National Institute of Standards and Technology (MNIST) database of handwritten numbers,10
    - An Algorithm : The ‘algorithm’ is simply the tool that looks at each item in the corpus and enables a decision to be made. An algorithm may be as simple (and frequently is as simple) as matching a pattern. selecting and applying an algorithm or method
