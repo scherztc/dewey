@@ -246,10 +246,17 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 #  DEWEY can leverage Machine Learning and Large Language Models
 
     1.  Repository : https://huggingface.co/
+    1.  The Bloke : https://huggingface.co/TheBloke
+    1.  Lone Striker : https://huggingface.co/LoneStriker
+    1.  WebGUI : https://github.com/oobabooga/text-generation-webui
+    1.  Stable Diffusion : https://github.com/AUTOMATIC1111/stable-diffusion-webui
+    1.  Voice Changer : github.com/w-okada/voice-changer
+    1.  Real Time Voice : https://github.com/RVC-Project/Retrieval-based-VOice-Conversion-WebUI
+    1.  RVC : voice-models.com  and weighs.gg
 
 #  Other AI Engines to Explore
   
-1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/
+1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/  or civitai.com
 1.  Watson (IBM) : https://www.ibm.com/products/watson-explorer 
    1. Chess
    1. Content Hub. IBM Watson can propose relevant tags based on content.
