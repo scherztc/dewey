@@ -254,6 +254,17 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
     1.  Real Time Voice : https://github.com/RVC-Project/Retrieval-based-VOice-Conversion-WebUI
     1.  RVC : voice-models.com  and weighs.gg
 
+#   Amazon Sage Maker
+
+    1.  Canvas
+        1. Low Code.  Drag and Drop.
+    1.  Studio
+	1. Code and Models
+
+    Used for creating LLM in AWS.
+    AI to determine bank loans.
+
+
 #  Other AI Engines to Explore
   
 1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/  or civitai.com
