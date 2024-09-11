@@ -1,26 +1,3 @@
-# Theory : Other types of Machine Learning Cases :
-
-The real skill in Machine Learning is determining which questions can be answered by Machine Learning.
-
-1. How much / How many? - Regression - Supervised Learning
-1. Which class does this belong to? Classification - Supervised Learning
-1. Are there different groups?  Which one does this belong to? Clustering - UnSupervised Learning
-1. Is this weird? Anomaly Detection - UnSupervised Learning
-1. Which option should I choose? Recommendation - UnSupervised Learning
-1. Translation
-1. Test Sentiment
-1. Summarization
-   - Analyze this Graph
-1. Parsing
-1. Keywords
-1. Conversation
-1. Text Generation
-   - Text Extraction
-1. Coding
-   - Co-pilot
-   - Visualiztions
-   - Imaginations
-
 # DEWEY can leverage ANNIF to classify subject terms from a FUll-TEXT document using ANNIF.
 
 ## URLS
@@ -104,191 +81,10 @@ docker run -v /Users/scherztc/Workspaces/dewey/annif-docker:/annif-projects -u $
 1. Explore API
 The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 
+# Links
 
-# DEWEY can leverage PowerAutomation from Microsoft to determine the Title, Author, and Date of works submitted
-
-1. Power Automate (https://powerautomate.microsoft.com/)
-   1.  AI Builder
-     1.  Models
-     1.  Training Document
-     1.  Information to Extract
-   1. My Flows
-     1.  Cloud Flows
-         1.  Use form processing to extract data from documents triggered manually.
-         1.  Flow Checker Feedback Flows and Run
-
-   1. How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learning-and-managed-metadata
-
-# DEWEY can leverage Python, Sci-kit, and TF-IDF to build a model from scratch for determine the Genre (Type) of document is being submitted.
-
-1. Classification, 
-   -  Does it have a table of contents or introductions?
-   -  Proper Nouns 
-   -  genre and tries to identify geographic settings, characters, and topics.
-   -  Subject Guidelines
-   -  Subject Access
-   -  Are there external sources?
-       -  Dust jackets, 
-       -  prefaces, 
-       -  publisher
-       -  statements, 
-       -  author interviews, and 
-       -  reviews
-1. Keyword extraction, 
-   -  From the description field
-
-1. Named-entity recognition : such as people, places, and things, and then classifying those entities into categories, such as “person” or “corporate body.” 
-
-1. Encoding : convert the text to structured data\
-   - Transfomers
-
-1. Feature selection : TF-IDF, or term frequency-inverse document frequency
-    term frequency is calculated based on how often the word
-    appears in the text, expressed as a ratio of word occurrence over total number
-    of words, while inverse document frequency is represented as the ratio of documents that contain the word.
-
-1. Design a model : Text Mining Method  
-   -    Supervised : 
-   -    classification; 
-   -    information extraction, 
-        -   including keyword extraction and named-entity recognition; and 
-   -    UnSupervised : 
-        -  Clustering
-	-  Topic Modeling
-
-   -  Output : Type/Genre predictive accuracy of >70% is respectable, 
-        -  Keyword Extractions
-
-1.  Subject Terms (Keyword)
-
-    -  Rapid Automatic Keyword Extraction (RAKE)
-    -  Python using RAKE and the Natural Language Toolkit (NLTK)
-    module, with a character minimum of 5, a phrase maximum of 3 words,
-    and a minimum word frequency of 4 words. The SMART stop list was used instead, which contains 571
-    words. 
-    -  DBPedia Spotlight22 / Aho-Corasick algorithm
-
-1.  Clustering
-    -  Weka to test Simple k-Means, one of the
-    most popular clustering algorithms. k-Means partitions a set of documents
-    into k clusters where each document belongs to the cluster with the nearest
-    mean. 
-    -  To start, the algorithm will randomly choose “centroids” for
-    each cluster, then iteratively recalculate the position of those centroids
-    until either there is no change in position or some set number of iterations
-    has been reached. 
-    -  Identifying meaningful relationships is a matter of
-    trial and error, adjusting the value of k and then reviewing the composition
-    of each cluster.
-
-# DEWEY can leverage MALLET for classifying documents.
-    -  Machine Learning for LanguagE Toolkit, or MALLET, is a Java application
-    for classification, information extraction, and topic modeling, and like
-    Weka, is free and easy to use.24 
-    -  MALLET uses an implementation of Latent
-    -  Dirichlet Allocation (LDA)25
-
-# DEWEY can leverage Chat GPT (3.5, 3.5-turbo, 4.0, 4.0-=turbo) as a spell checker, voice response, or Image Creator :
-
-1.   Chat GPT (OpenAI) : https://openai.com/blog/chatgpt
-   -  Github : https://github.com/openai
-   -  Explore : https://github.com/openai/openai-cookbook
-   -  Uses the openai-client: https://github.com/itikhonenko/openai-client
-      -  API KEY
-      -  ORGANIZATION_ID
-   -  Dall-E (OpenAI) : https://openai.com/product/dall-e-2
-
-   1.  Spell Checker
- 
-         request_body = {
-            model: 'text-davinci-edit-001',
-            input: 'What day of the wek is it?',
-         instruction: 'Fix the spelling mistakes'
-         }
-         Openai::Client.edits.create(request_body)
-
-   1.  Image Creator
-
-         request_body = {
-            prompt: 'A cute baby sea otter',
-            n: 1,                  # between 1 and 10
-            size: '1024x1024',     # 256x256, 512x512, or 1024x1024
-            response_format: 'url' # url or b64_json
-         }
-      
-        response = Openai::Client.images.create(request_body)
-
-   1. Connect in Ruby
-
-        require 'openai-client'
-
-        Openai::Client.configure do |c|
-          c.access_token    = 'access_token'
-          c.organization_id = 'organization_id' # optional
-        end
-
-   1. Find Engine
-
-        Openai::Client.models.find(‘babbage’)
-        Openai::Client.models.find(‘davinci’)
-
-   1. Build Request Body
-
-        request_body = {
-           prompt: 'high swim banquet',
-           n: 1,                  # between 1 and 10
-           size: '1024x1024',     # 256x256, 512x512, or 1024x1024
-           response_format: 'url' # url or b64_json
-        }
-
-    1. Playground interface : https://platform.openai.com/playground?mode=chat
-
-#  DEWEY can leverage Machine Learning and Large Language Models
-
-    1.  Repository : https://huggingface.co/
-    1.  The Bloke : https://huggingface.co/TheBloke
-    1.  Lone Striker : https://huggingface.co/LoneStriker
-    1.  WebGUI : https://github.com/oobabooga/text-generation-webui
-    1.  Stable Diffusion : https://github.com/AUTOMATIC1111/stable-diffusion-webui
-    1.  Voice Changer : github.com/w-okada/voice-changer
-    1.  Real Time Voice : https://github.com/RVC-Project/Retrieval-based-VOice-Conversion-WebUI
-    1.  RVC : voice-models.com  and weighs.gg
-
-#   Amazon Sage Maker
-
-    1.  Canvas
-        1. Low Code.  Drag and Drop.
-    1.  Studio
-	1. Code and Models
-
-    Used for creating LLM in AWS.
-    AI to determine bank loans.
-
-
-#  Other AI Engines to Explore
-  
-1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/  or civitai.com
-1.  Watson (IBM) : https://www.ibm.com/products/watson-explorer 
-   1. Chess
-   1. Content Hub. IBM Watson can propose relevant tags based on content.
-1.  Bard/Palm 2 (Google)
-   1. Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
-1.  Aladin (BlackRock)
-1.  Mindjourney (MindJourney) : https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
-1.  Kaaros
-1.  Tensor Flow (Google)
-1.  IRIS : https://iris.ai/      
-1.  Claude https://www.anthropic.com/index/claude-2
-1.  https://marketplace.atlassian.com/apps/1224655/scrum-maister?hosting=cloud&tab=overview
-1.  Bing (free)
-1.  Claude 2 (free) by Anthropic
-1.  Grok by X (Twitter)
-1.  Open-source models (FREE) available on Huggingface https://huggingface.co/
-1.  Llama 2 by Meta
-1.  Flan, Falcon, Orca, Beluga, Mistral, Mixtral, Phi2
-1.  LMStudio (Windows, Mac, Linux) - install and run models
-1.  Pinokio.computer browser - install and run models
-1.  Atlassian Rovo - https://www.atlassian.com/blog/announcements/introducing-atlassian-rovo-ai
+1. https://annif.org/ 
+1. https://liberquarterly.eu/article/view/10732
 
 # References
 
@@ -303,6 +99,8 @@ The Swagger UI documentation for the REST API is at http://localhost:5000/v1/ui/
 1.  AWS Innovate: Data and AI/ML Edition
 1.  Data Science : https://www.dataplusscience.com/GenerativeAI.html
 1.  AI Got Talent : https://dataplusscience.com/files/UCCBAGenAI20240206.pdf
+1.  https://www.sciencedirect.com/science/article/pii/S0099133317304160?via%3Dihub
+1.  https://library.stanford.edu/blogs/stanford-libraries-blog/2022/07/working-students-library-collections-data
 
 # Regulation
 
