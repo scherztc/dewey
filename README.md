@@ -1,6 +1,13 @@
 
 ![wp11295363](https://github.com/user-attachments/assets/b1de13c1-7d62-433b-aab9-e1983b4e64aa)
 
+# Possible AI Applications
+1.  Co-Pilot for Developers
+1.  Designer
+1.  Vacation Planner
+1.  Cooking Assistant
+1.  Fitness Trainer
+   
 # Microsoft Power Automation
 
 1. Power Automate (https://powerautomate.microsoft.com/)
