@@ -119,6 +119,7 @@
     1.  Real Time Voice : https://github.com/RVC-Project/Retrieval-based-VOice-Conversion-WebUI
     1.  RVC : voice-models.com  and weighs.gg
     1.  Dify : https://dify.ai/#llms-app-stack
+    1.  Cognition : https://www.cognition.ai/blog/introducing-devin
 
 #   Amazon Sage Maker
 
