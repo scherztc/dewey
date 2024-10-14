@@ -101,8 +101,7 @@
 
     1. Playground interface : https://platform.openai.com/playground?mode=chat
 
-#  DEWEY can leverage Machine Learning and Large Language Models
-
+#  Other LLM Tools
     1.  Repository : https://huggingface.co/
     1.  The Bloke : https://huggingface.co/TheBloke
     1.  Lone Striker : https://huggingface.co/LoneStriker
