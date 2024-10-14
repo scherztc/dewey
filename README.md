@@ -118,6 +118,7 @@
     1.  Voice Changer : github.com/w-okada/voice-changer
     1.  Real Time Voice : https://github.com/RVC-Project/Retrieval-based-VOice-Conversion-WebUI
     1.  RVC : voice-models.com  and weighs.gg
+    1.  Dify : https://dify.ai/#llms-app-stack
 
 #   Amazon Sage Maker
 
