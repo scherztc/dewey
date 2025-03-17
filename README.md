@@ -123,6 +123,13 @@
     AI to determine bank loans.
 
 
+# Amazone BedRock RAG Application
+   1.  	Boto3 
+   1.	LangChain 
+   1.	PyPDFLoader 
+   1.	FAISS 
+   1.	Streamlit
+
 #  Other AI Engines to Explore
   
 1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/  or civitai.com
