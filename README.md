@@ -238,6 +238,36 @@ MEPs substantially amended the list to include bans on intrusive and discriminat
        1. Useful
    1. Feedback
 
+# AI Methodology
+   1.Evolutionary Algorithms (EAs)
+Evolutionary Algorithms are a subset of optimization algorithms inspired by the process of natural selection and genetics. They are used to solve complex optimization problems by evolving 
+solutions over generations. Key concepts and components include:
+
+Population: A set of candidate solutions.
+Selection: The process of choosing the fittest individuals based on a fitness function.
+Crossover: Combining parts of two or more solutions to create offspring.
+Mutation: Introducing random variations to solutions to maintain genetic diversity.
+Fitness Function: A measure of how well a solution solves the problem.
+EAs are particularly useful for problems where the search space is large, complex, or poorly understood. They have applications in areas such as engineering design, scheduling, and machine 
+learning model optimization.
+
+   1.Deep Reinforcement Learning (DRL)
+Deep Reinforcement Learning combines reinforcement learning with deep learning. It involves training agents to make decisions by interacting with an environment to maximize cumulative rewards. Key 
+components include:
+
+Agent: The entity making decisions.
+Environment: The world with which the agent interacts.
+State: A representation of the environment at any given time.
+Action: Choices available to the agent.
+Reward: Feedback from the environment based on the action taken.
+Policy: A strategy used by the agent to decide actions based on states.
+Value Function: Estimates the expected return of states or actions.
+DRL is particularly powerful for tasks involving sequential decision-making, where the environment is dynamic and complex. Applications include robotics, game playing (e.g., AlphaGo), autonomous 
+vehicles, and financial trading.
+
+Relationship and Differences
+Evolutionary Algorithms focus on optimization through population-based search and are often used for static optimization problems.
+Deep Reinforcement Learning emphasizes learning optimal policies through interaction with dynamic environments, leveraging neural networks to handle high-dimensional state spaces.   
 
 
 Resources
