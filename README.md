@@ -1,18 +1,8 @@
 
 
-# Microsoft Power Automation
+# [Microsoft](MICROSOFT/MICROSOFT.md)
 
-1. Power Automate (https://powerautomate.microsoft.com/)
-   1.  AI Builder
-     1.  Models
-     1.  Training Document
-     1.  Information to Extract
-   1. My Flows
-     1.  Cloud Flows
-         1.  Use form processing to extract data from documents triggered manually.
-         1.  Flow Checker Feedback Flows and Run
 
-   1. How to : https://learn.microsoft.com/en-us/microsoft-365/community/machine-learning-and-managed-metadata
 
 # Python and Sci-Kit
 
