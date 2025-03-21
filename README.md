@@ -2,94 +2,11 @@
 
 # [Microsoft](MICROSOFT/MICROSOFT.md)
 
+# [Python](PYTHON/PHYTHON.md)
 
+# [MALLET](MALLET/MALLET.md)
 
-# Python and Sci-Kit
-
-
-1.  Subject Terms (Keyword)
-
-    -  Rapid Automatic Keyword Extraction (RAKE)
-    -  Python using RAKE and the Natural Language Toolkit (NLTK)
-    module, with a character minimum of 5, a phrase maximum of 3 words,
-    and a minimum word frequency of 4 words. The SMART stop list was used instead, which contains 571
-    words. 
-    -  DBPedia Spotlight22 / Aho-Corasick algorithm
-
-1.  Clustering
-    -  Weka to test Simple k-Means, one of the
-    most popular clustering algorithms. k-Means partitions a set of documents
-    into k clusters where each document belongs to the cluster with the nearest
-    mean. 
-    -  To start, the algorithm will randomly choose “centroids” for
-    each cluster, then iteratively recalculate the position of those centroids
-    until either there is no change in position or some set number of iterations
-    has been reached. 
-    -  Identifying meaningful relationships is a matter of
-    trial and error, adjusting the value of k and then reviewing the composition
-    of each cluster.
-
-# MALLET for classifying documents.
-    -  Machine Learning for LanguagE Toolkit, or MALLET, is a Java application
-    for classification, information extraction, and topic modeling, and like
-    Weka, is free and easy to use.24 
-    -  MALLET uses an implementation of Latent
-    -  Dirichlet Allocation (LDA)25
-
-# Chat GPT (3.5, 3.5-turbo, 4.0, 4.0-=turbo) as a spell checker, voice response, or Image Creator :
-
-1.   Chat GPT (OpenAI) : https://openai.com/blog/chatgpt
-   -  Github : https://github.com/openai
-   -  Explore : https://github.com/openai/openai-cookbook
-   -  Uses the openai-client: https://github.com/itikhonenko/openai-client
-      -  API KEY
-      -  ORGANIZATION_ID
-   -  Dall-E (OpenAI) : https://openai.com/product/dall-e-2
-
-   1.  Spell Checker
- 
-         request_body = {
-            model: 'text-davinci-edit-001',
-            input: 'What day of the wek is it?',
-         instruction: 'Fix the spelling mistakes'
-         }
-         Openai::Client.edits.create(request_body)
-
-   1.  Image Creator
-
-         request_body = {
-            prompt: 'A cute baby sea otter',
-            n: 1,                  # between 1 and 10
-            size: '1024x1024',     # 256x256, 512x512, or 1024x1024
-            response_format: 'url' # url or b64_json
-         }
-      
-        response = Openai::Client.images.create(request_body)
-
-   1. Connect in Ruby
-
-        require 'openai-client'
-
-        Openai::Client.configure do |c|
-          c.access_token    = 'access_token'
-          c.organization_id = 'organization_id' # optional
-        end
-
-   1. Find Engine
-
-        Openai::Client.models.find(‘babbage’)
-        Openai::Client.models.find(‘davinci’)
-
-   1. Build Request Body
-
-        request_body = {
-           prompt: 'high swim banquet',
-           n: 1,                  # between 1 and 10
-           size: '1024x1024',     # 256x256, 512x512, or 1024x1024
-           response_format: 'url' # url or b64_json
-        }
-
-    1. Playground interface : https://platform.openai.com/playground?mode=chat
+# [Chat GPT](OPENAI/CHATGPT.md) 
 
 #  DEWEY can leverage Machine Learning and Large Language Models
 
