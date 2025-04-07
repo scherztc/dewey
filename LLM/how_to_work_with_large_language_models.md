@@ -150,3 +150,13 @@ In general, the input prompt is the best lever for improving model outputs. You 
 [Codex]: https://openai.com/blog/openai-codex/
 [GPT3 Apps Blog Post]: https://openai.com/blog/gpt-3-apps/
 [OpenAI Examples]: https://beta.openai.com/examples
+
+
+    1.  Repository : https://huggingface.co/
+    1.  The Bloke : https://huggingface.co/TheBloke
+    1.  Lone Striker : https://huggingface.co/LoneStriker
+    1.  WebGUI : https://github.com/oobabooga/text-generation-webui
+    1.  Stable Diffusion : https://github.com/AUTOMATIC1111/stable-diffusion-webui
+    1.  Voice Changer : github.com/w-okada/voice-changer
+    1.  Real Time Voice : https://github.com/RVC-Project/Retrieval-based-VOice-Conversion-WebUI
+    1.  RVC : voice-models.com  and weighs.gg

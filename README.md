@@ -1,4 +1,21 @@
+# DEWEY - My AI Bot
 
+Here are some of the AI things that DEWEY can do:
+
+## Text-Based Tasks
+- **Classification Task**
+- **Regression Tasks**
+- **Text Classification - Sentiment Tracker**
+- **Text Translation**
+
+## Inference for Prediction
+
+## Image-Based Analysis
+- **Object Detection Tasks - ResNet**
+
+## Data Analytics
+
+DEWEY leverages the following technology:
 
 # [Microsoft](MICROSOFT/MICROSOFT.md)
 
@@ -6,18 +23,11 @@
 
 # [MALLET](MALLET/MALLET.md)
 
-# [Chat GPT](OPENAI/CHATGPT.md) 
+# [OpenAI ChatGPT](OPENAI/CHATGPT.md) 
 
-#  DEWEY can leverage Machine Learning and Large Language Models
+# [LLM](LLM/how_to_work_with_large_language_models.md)
 
-    1.  Repository : https://huggingface.co/
-    1.  The Bloke : https://huggingface.co/TheBloke
-    1.  Lone Striker : https://huggingface.co/LoneStriker
-    1.  WebGUI : https://github.com/oobabooga/text-generation-webui
-    1.  Stable Diffusion : https://github.com/AUTOMATIC1111/stable-diffusion-webui
-    1.  Voice Changer : github.com/w-okada/voice-changer
-    1.  Real Time Voice : https://github.com/RVC-Project/Retrieval-based-VOice-Conversion-WebUI
-    1.  RVC : voice-models.com  and weighs.gg
+# [HuggingFace](LLM/HUGGINGFACE/demo.md)
 
 #   Amazon Sage Maker
 
