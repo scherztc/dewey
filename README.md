@@ -1,20 +1,7 @@
 # DEWEY - My AI Bot
 
-Here are some of the AI things that DEWEY can do:
-
-## Text-Based Tasks
-- **Classification Task**
-- **Regression Tasks**
-- **Text Classification - Sentiment Tracker**
-- **Text Translation**
-
-## Inference for Prediction
-
-## Image-Based Analysis
-- **Object Detection Tasks - ResNet**
-
-## Data Analytics
-
+[Catelog of Models:](MODELS/models.md)  
+ 
 DEWEY leverages the following technology:
 
 # [Microsoft](MICROSOFT/MICROSOFT.md)
@@ -31,36 +18,14 @@ DEWEY leverages the following technology:
 
 # [AWS Bedrock and Sage Maker](AWS_BEDROCK/aws.md)
 
-#  Other AI Engines to Explore
-  
-1.  Stable Diffusion (Stability) : https://stablediffusionweb.com/  or civitai.com
-1.  Watson (IBM) : https://www.ibm.com/products/watson-explorer 
-   1. Chess
-   1. Content Hub. IBM Watson can propose relevant tags based on content.
-1.  Bard/Palm 2 (Google)
-   1. Google blog post about BERT,18 an ML technique for NLP, the benefit shown was simply the ability to link a preposition with a noun. 
-1.  Aladin (BlackRock)
-1.  Mindjourney (MindJourney) : https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F
-1.  Kaaros
-1.  Tensor Flow (Google)
-1.  IRIS : https://iris.ai/      
-1.  Claude https://www.anthropic.com/index/claude-2
-1.  https://marketplace.atlassian.com/apps/1224655/scrum-maister?hosting=cloud&tab=overview
-1.  Bing (free)
-1.  Claude 2 (free) by Anthropic
-1.  Grok by X (Twitter)
-1.  Open-source models (FREE) available on Huggingface https://huggingface.co/
-1.  Llama 2 by Meta
-1.  Flan, Falcon, Orca, Beluga, Mistral, Mixtral, Phi2
-1.  LMStudio (Windows, Mac, Linux) - install and run models
-1.  Pinokio.computer browser - install and run models
-1.  Atlassian Rovo - https://www.atlassian.com/blog/announcements/introducing-atlassian-rovo-ai
+# [Open Source](OPEN_SOURCE/open.md)
 
-# References
+# [Google](GOOGLE/google.md)
 
-1.  PubMED : https://pubmed.ncbi.nlm.nih.gov/30153250/
-1.  Other :https://www.aiforlibrarians.com/ai-cases/
-1.  Science Direct : Weed Collections : https://www.sciencedirect.com/science/article/pii/S0099133317304160?via%3Dihub
+# [BlackRock](BLACKROCK/aladdin.md)
+
+# [Odd Platforms](PLATFORMS/platform.md)
+
 1.  Apache Mahout : https://mahout.apache.org//
 1.  Spark MLlib Apache : https://spark.apache.org/mllib/
 1.  Stanford : https://library.stanford.edu/blogs/stanford-libraries-blog/2022/07/working-students-library-collections-data
